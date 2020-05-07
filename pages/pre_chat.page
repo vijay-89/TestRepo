@@ -1,0 +1,29 @@
+<apex:page >
+ <form method="post" action="#">
+<label>First Name: </label> <input type='text' name='liveagent.prechat:ContactFirstName'
+/><br />
+<label>Last Name: </label> <input type='text' name='liveagent.prechat:ContactLastName'
+/><br />
+<label>Subject: </label> <input type='text' name='liveagent.prechat:CaseSubject' /><br />
+<input type="hidden" name="liveagent.prechat:CaseStatus" value="New" /><br />
+<input type="hidden" name="liveagent.prechat.findorcreate.map:Contact"
+value="FirstName,ContactFirstName;LastName,ContactLastName" />
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Contact"
+value="FirstName,true;LastName,true" />
+<input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Contact"
+value="FirstName,true;LastName,true" />
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Contact"
+value="FirstName,true;LastName,true" />
+<input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Contact"
+value="ContactId" />
+<input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Contact" value="true"
+/>
+<input type="hidden" name="liveagent.prechat.findorcreate.linkToEntity:Contact"
+value="Case,ContactId" />
+<input type="hidden" name="liveagent.prechat.findorcreate.map:Case"
+value="Subject,CaseSubject;Status,CaseStatus" />
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Case"
+value="Subject,true;Status,true" />
+<input type="submit" value="Submit" />
+</form>
+</apex:page>

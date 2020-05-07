@@ -1,0 +1,29 @@
+<apex:page controller="AddAccountListController">
+<apex:form >
+      <apex:pageblock >
+          <apex:pageblockButtons >
+              <apex:commandButton value="Save" action="{!SaveAccount}" rerender="PBTable"/>
+              <apex:commandButton value="Set" action="{!SetRecord}" rerender="accData2"/>
+          </apex:pageblockButtons>
+         
+          
+          <apex:pageblockSection Id="accData2">
+        
+              <apex:inputField value="{!acc.Name}"/> 
+              <apex:inputField value="{!acc.AccountNumber}"/>
+
+              
+          </apex:pageblockSection>
+          
+           <apex:pageblockSection id="PBTable" title="Account Records">
+              <apex:pageBlockTable value="{!accList}" var="obj" title="Account Records"  >
+                  <apex:column value="{!obj.Name}"/>
+                   <apex:column value="{!obj.AccountNumber }"/> 
+              </apex:pageBlockTable>
+              
+          </apex:pageblockSection>
+          
+      </apex:pageblock>
+  </apex:form>
+ 
+</apex:page>

@@ -1,0 +1,24 @@
+<apex:page controller="sample3">
+    <apex:form >
+        <apex:pageBlock >
+           <!-- <apex:actionFunction name="test" action="{!mth}"/> -->
+            <apex:pageBlockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Name</apex:outputLabel>
+                    <apex:inputText value="{!name}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >City</apex:outputLabel>
+                    <apex:inputText value="{!city}">
+                     <!--   <apex:actionSupport event="OnChange" action="{!mth}" rerender="pbsi"/> -->
+                    </apex:inputText>
+                </apex:pageBlockSectionItem>
+                <apex:commandButton value="Submit" action="{!mth}"/>
+                <apex:pageBlockSectionItem id="pbsi">
+                    <apex:outputLabel >Description</apex:outputLabel>
+                    <apex:outputText value="{!description}"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

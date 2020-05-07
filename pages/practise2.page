@@ -1,0 +1,24 @@
+<apex:page controller="practise2">
+  <apex:form >
+     <apex:pageBlock >
+  <apex:pageBlockButtons >
+      <apex:commandButton value="save" action="{!save}"/>
+      
+  </apex:pageBlockButtons>
+  
+      <apex:pageBlockSection id="Block1" title="AccountInsert">
+          <apex:inputField value="{!ac.Name}"/>
+          <apex:inputField value="{!ac.AccountNumber}"/>
+          <apex:inputField value="{!ac.AnnualRevenue}"/>
+      </apex:pageBlockSection>
+  
+      <apex:pageBlockSection id="Block2" title="AccountRecords">
+          <apex:pageBlockTable value="{!acc1}" id="ac1" var="add" title="AccountRecords">
+          <apex:column value="{!add.Name}"/>
+        <!-- <apex:column value="{!add.AccountNumber}"/>
+     <apex:column value="{!add.AnnualRevenue}"/>-->
+          </apex:pageBlockTable> 
+      </apex:pageBlockSection>
+  </apex:pageBlock>
+  </apex:form>
+</apex:page>
