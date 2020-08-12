@@ -23,18 +23,12 @@
         <field>AMOUNT</field>
     </columns>
     <filter>
-        <criteriaItems>
-            <column>OPPORTUNITY_NAME</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value></value>
-        </criteriaItems>
+        <booleanFilter>1 OR 2</booleanFilter>
         <criteriaItems>
             <column>ACCOUNT_RECORDTYPE</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
+            <operator>equals</operator>
             <value></value>
         </criteriaItems>
         <criteriaItems>
