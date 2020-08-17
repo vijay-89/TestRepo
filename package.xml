@@ -2024,6 +2024,8 @@
         <name>RemoteSiteSetting</name>
     </types>
     <types>
+        <members>DB_Adoption/Active_User_Logins</members>
+        <members>DB_Adoption/Active_Users</members>
         <members>unfiled$public/Test_Report</members>
         <name>Report</name>
     </types>
