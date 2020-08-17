@@ -2026,6 +2026,7 @@
     <types>
         <members>DB_Adoption/Active_User_Logins</members>
         <members>DB_Adoption/Active_Users</members>
+        <members>DB_Adoption/test_report1</members>
         <members>unfiled$public/Test_Report</members>
         <name>Report</name>
     </types>
