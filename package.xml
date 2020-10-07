@@ -27,6 +27,8 @@
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
         <members>ChildClass1</members>
+        <members>CodeCReport__CodeCoverageReportController</members>
+        <members>CodeCReport__CodeCoverageReportControllerTest</members>
         <members>Constructor</members>
         <members>Constructor1</members>
         <members>ContactAndLeadSearch</members>

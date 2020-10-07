@@ -18,8 +18,4 @@ public static Account insertNewAccount()
 //Modified by vijay
 //Modified by vijay
 //Modified 13th Aug
-//Modified by vijay
-//Modified by vijay
-//Modified by vijay
-//Modified 13th Aug
 }
