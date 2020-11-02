@@ -14,8 +14,6 @@ public static Account insertNewAccount()
                            }
     return act;
 }
-//Modified by vijay
-//Modified by vijay
-//Modified by vijay
-//Modified 13th Aug
+
+//Modified 2nd Nov Aug
 }
