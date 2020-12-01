@@ -5,6 +5,7 @@ public class AccountList {
     
     public void Method1(){
         acc= new Account();
+        //testing 123
     accList =   [select Name,Id,AccountNumber from Account order by LastModifiedDate desc limit 10];
     }
     }
