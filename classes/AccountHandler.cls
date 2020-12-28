@@ -1,4 +1,5 @@
 //Modified by Vijay-013th March 2019.
+//Modified by Vijay-013th March Modified by Vijay.
 public class AccountHandler {
 public static Account insertNewAccount()
 {
@@ -15,7 +16,4 @@ public static Account insertNewAccount()
     return act;
 }
 //Modified by vijay
-//Modified by vijay
-//Modified by vijay
-//Modified 13th Aug
 }
