@@ -27,6 +27,8 @@
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
         <members>ChildClass1</members>
+        <members>CodeCReport__CodeCoverageReportController</members>
+        <members>CodeCReport__CodeCoverageReportControllerTest</members>
         <members>Constructor</members>
         <members>Constructor1</members>
         <members>ContactAndLeadSearch</members>
@@ -2022,6 +2024,17 @@
         <members>animals_http</members>
         <members>animals_soap</members>
         <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>DB_Adoption/Active_User_Logins</members>
+        <members>DB_Adoption/Active_Users</members>
+        <members>DB_Adoption/test_report1</members>
+        <members>Vijay_Test/Test12</members>
+        <members>Vijay_Test/test</members>
+        <members>unfiled$public/Cases_by_Status</members>
+        <members>unfiled$public/Test_Report</members>
+        <members>unfiled$public/test123</members>
+        <name>Report</name>
     </types>
     <types>
         <members>Accounts_with_Entitlements_with_Contacts</members>
