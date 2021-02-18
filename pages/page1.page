@@ -1,8 +1,0 @@
-<apex:page controller="vvv">
-
-<apex:form >
-<apex:pageBlock title="{!v1.Project_Owner__c }">
-
-</apex:pageBlock>
-</apex:form>
-</apex:page>
