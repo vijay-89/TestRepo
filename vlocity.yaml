@@ -1,7 +1,8 @@
 projectPath: ./autorabit_alldefault_vlocity_build
 manifest:
 - Product2/684784f9-112f-13a5-af35-fb0e4bf8c142
+- CalculationMatrix/AttributePricingMatrix
 maxDepth: 0
 autoUpdateSettings: true
 separateMatrixVersions: true
-CompileOnBuild: true
+CompileOnBuild: false
