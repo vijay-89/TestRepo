@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compensation Estimator Goal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compensation Estimator Goals</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Persistency % --></label>
+        <name>Actual_Persistency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter anticipated annual Cancellations --></help>
+        <label><!-- Annual Cancellations --></label>
+        <name>Annual_Cancellations__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter anticipated annual Renewals --></help>
+        <label><!-- Annual Renewals --></label>
+        <name>Annual_Renewals__c</name>
+    </fields>
+    <fields>
+        <label><!-- CEG Last Viewed --></label>
+        <name>CEG_Last_Viewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compensation Estimation Summary --></label>
+        <name>Estimation_Summary__c</name>
+        <relationshipLabel><!-- Goals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Goal Entry Status --></label>
+        <name>Goal_Entry_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays the annual goal for a particular line of business.  Does NOT account for different goals across individual products, but instead is one aggregate for a LOB (e.g. Medical, Dental, Life, etc) --></help>
+        <label><!-- Annual Goal --></label>
+        <name>Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Included? --></label>
+        <name>Included__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line of Business --></label>
+        <name>Line_of_Business__c</name>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life</masterLabel>
+            <translation><!-- Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplemental</masterLabel>
+            <translation><!-- Supplemental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year-End Persistency</masterLabel>
+            <translation><!-- Year-End Persistency --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Renewal Target Bonus --></label>
+        <name>Medical_Renewal_Target_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- OwnerId --></label>
+        <name>OwnerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- % of Annual Goal YTD --></label>
+        <name>Percentage_of_Goal_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Target Payout --></label>
+        <name>Percentage_of_Target_Payout__c</name>
+    </fields>
+    <fields>
+        <label><!-- zzz DELETE Persistency Bonus Payment --></label>
+        <name>Persistency_Bonus_Payment1_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persistency Bonus Payment --></label>
+        <name>Persistency_Bonus_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persistency Goal Status --></label>
+        <name>Persistency_Goal_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persistency Goal --></label>
+        <name>Persistency_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persistency Renewal Medical Comm Changed --></label>
+        <name>Persistency_Renewal_Medical_Comm_Changed__c</name>
+    </fields>
+    <fields>
+        <label><!-- zzz DELETE Prorated YTD Goal Formula --></label>
+        <name>Prorated_YTD_Goal_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prorated YTD Goal --></label>
+        <name>Prorated_YTD_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Set --></label>
+        <name>Record_Type_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresh YTD Sold And Prorated Goal --></label>
+        <name>Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>Unit_of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>%</masterLabel>
+            <translation><!-- % --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Members</masterLabel>
+            <translation><!-- Members --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Displays the year-to-date member count for related Opportunities --></help>
+        <label><!-- YTD Members Sold --></label>
+        <name>YTD_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Premiums Sold --></label>
+        <name>YTD_Premiums__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the percent of goal attained used to calculate how much of the target bonus to pay.  View the table above for the ranges --></help>
+        <label><!-- % Above / Below Goal --></label>
+        <name>above_or_below_goal_del_del__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Compensation Goal --></label>
+        <name>Compensation_Goal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Compensation Persistency --></label>
+        <name>Compensation_Persistency</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

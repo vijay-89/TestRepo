@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Commissions Estimator Persistency</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Commissions Estimator Persistency</value>
+    </caseValues>
+    <fields>
+        <label><!-- Goal Attained Max --></label>
+        <name>Goal_Attained_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal Attained Min --></label>
+        <name>Goal_Attained_Min__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Payout --></label>
+        <name>Target_Payout__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

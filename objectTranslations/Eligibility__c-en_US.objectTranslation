@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Eligibility</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Eligibility</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- STAT = Statutory Without DP COBRA ;STAC = Statutory With DP COBRA ;STP = Statutory PLUS Without DP COBRA; STPC = Statutory PLUS With DP COBRA ;STD = Standard Without DP COBRA ;STDC Or SF/LA = Standard With DP COBRA(Option Is Also For L.A./ San Francisco) --></help>
+        <label><!-- Addtl Dom Partner Detail (West Only) --></label>
+        <name>Addtl_Dom_Partner_Detail_West_Only__c</name>
+        <picklistValues>
+            <masterLabel>STAC</masterLabel>
+            <translation><!-- STAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STAT</masterLabel>
+            <translation><!-- STAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STD</masterLabel>
+            <translation><!-- STD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STDC or SF/LA</masterLabel>
+            <translation><!-- STDC or SF/LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STP</masterLabel>
+            <translation><!-- STP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STPC</masterLabel>
+            <translation><!-- STPC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age and Rule Details --></label>
+        <name>Age_and_Rule_DetailsStudent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please identify the age/rules by package/suffixes --></help>
+        <label><!-- Age and Rule Details --></label>
+        <name>Age_and_Rule_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apply To All Packages/Suffixes --></label>
+        <name>Apply_to_All_Packages_SuffixesStudent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Apply To All Packages/Suffixes --></label>
+        <name>Apply_to_All_Packages_Suffixes__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- At What Level Will ID Cards Be Generated --></label>
+        <name>At_what_level_will_ID_cards_be_generated__c</name>
+        <picklistValues>
+            <masterLabel>000 - None</masterLabel>
+            <translation><!-- 000 - None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>001-Sub Level (1 card for indiv contract type/2 for all other types)</masterLabel>
+            <translation><!-- 001-Sub Level (1 card for indiv contract type/2 for all other types) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>002 - PCP/Digital</masterLabel>
+            <translation><!-- 002 - PCP/Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>144-Member Level (1 card for each member of the family)</masterLabel>
+            <translation><!-- 144-Member Level (1 card for each member of the family) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help><!-- A yes/no indicator denoting whether Unicare is providing COBRA Admin Services. This includes the direct billing of cobra subscribers and the tracking of COBRA notification days. This field was added for the WGS system and the Group Load functionality. --></help>
+        <label><!-- COBRA Administration Services Provided --></label>
+        <name>COBRA_Administration_Services_Provided__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- COBRA Applies To Domestic Partner --></label>
+        <name>COBRA_Applies_to_Domestic_Partner__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Do You Have Any CAL-COBRA Eligible Participants --></help>
+        <label><!-- Cal-Cobra Eligible Participants --></label>
+        <name>Cal_Cobra_Eligible_Participants__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If Ages And Rules Differ Between Plans/Populations, This Must Be Specified. --></help>
+        <label><!-- Child Max Age Limit --></label>
+        <name>Child_Max_Age_Limit__c</name>
+        <picklistValues>
+            <masterLabel>Birthday</masterLabel>
+            <translation><!-- Birthday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of Birthday Month</masterLabel>
+            <translation><!-- End of Birthday Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of Birthday Year</masterLabel>
+            <translation><!-- End of Birthday Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (explain below)</masterLabel>
+            <translation><!-- Other (explain below) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Will The Client Allow For Domestic (Opposite Sex) Partners To Be Covered --></help>
+        <label><!-- Client Allows Domestic Partners Covered --></label>
+        <name>Client_Allows_Domestic_Partners_Covered__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client Allows Samesex Spouses Covered --></label>
+        <name>Client_Allows_Samesex_Spouses_Covered__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Define Age And Rule Per Package/Suffix --></label>
+        <name>Define_Age_and_Rule_per_Package_SuffixSt__c</name>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Define Age And Rule Per Package/Suffix --></label>
+        <name>Define_Age_and_Rule_per_Package_Suffix__c</name>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field identifies the criteria for allowing dependents to remain on their parents&apos; contract. --></help>
+        <label><!-- Delete Dependent Code --></label>
+        <name>Delete_Dependent_Code__c</name>
+        <picklistValues>
+            <masterLabel>(13) Dependents remain CHD and termed 1st of the month following (FOMF) 23rd birthday.</masterLabel>
+            <translation><!-- (13) Dependents remain CHD and termed 1st of the month following (FOMF) 23rd birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(14) Dependents remain CHD and termed 1st of the month following (FOMF) 25th birthday.</masterLabel>
+            <translation><!-- (14) Dependents remain CHD and termed 1st of the month following (FOMF) 25th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(15) Dependents remain CHD until 1st of the month following (FOMF) the 19th birthday and if eligible; STU from age 19 and termed 1st of the month (FOMF) the 23rd birthday.</masterLabel>
+            <translation><!-- (15) Dependents remain CHD until 1st of the month following (FOMF) the 19th birthday and if eligible; STU from age 19 and termed 1st of the month (FOMF) the 23rd birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(18) Dependents remain CHD until 1st of the month (FOMF) 19th birthday and if eligible; STU from age 19 and termed 1st of the month (FOMF) 25th birthday.</masterLabel>
+            <translation><!-- (18) Dependents remain CHD until 1st of the month (FOMF) 19th birthday and if eligible; STU from age 19 and termed 1st of the month (FOMF) 25th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(1N) Dependents remain CHD and termed 1st of the month following (FOMF) 26th birthday.</masterLabel>
+            <translation><!-- (1N) Dependents remain CHD and termed 1st of the month following (FOMF) 26th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(1U) Dependents remain CHD until FOMF 19th birthday and if eligible; STU from age 19 and termed 1st of the month following (FOMF) 30th birthday.</masterLabel>
+            <translation><!-- (1U) Dependents remain CHD until FOMF 19th birthday and if eligible; STU from age 19 and termed 1st of the month following (FOMF) 30th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(1X) Dependents remain CHD and termed 1st of the month following (FOMF) 30th birthday.</masterLabel>
+            <translation><!-- (1X) Dependents remain CHD and termed 1st of the month following (FOMF) 30th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(31) Dependents remain CHD and termed 1st of the year following (FOYF) 19th birthday.</masterLabel>
+            <translation><!-- (31) Dependents remain CHD and termed 1st of the year following (FOYF) 19th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(35) Dependents remain CHD until 1st of the Year Following (FOYF) 19th birthday and if eligible; STU from age 19 and termed 1st of the Year Following (FOYF) 23rd birthday.</masterLabel>
+            <translation><!-- (35) Dependents remain CHD until 1st of the Year Following (FOYF) 19th birthday and if eligible; STU from age 19 and termed 1st of the Year Following (FOYF) 23rd birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(3O) Dependents remain CHD and termed 1st of the year (FOYF) following 27th birthday.</masterLabel>
+            <translation><!-- (3O) Dependents remain CHD and termed 1st of the year (FOYF) following 27th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(3U) Dependents remain CHD until 1st of the Year Following (FOYF) the 19th birthday and if eligible; STU from age 19 and termed 1st of the year following (FOYF) the 30th birthday.</masterLabel>
+            <translation><!-- (3U) Dependents remain CHD until 1st of the Year Following (FOYF) the 19th birthday and if eligible; STU from age 19 and termed 1st of the year following (FOYF) the 30th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(3X) Dependents remain CHD and termed 1st of the year following (FOYF) the 30th birthday.</masterLabel>
+            <translation><!-- (3X) Dependents remain CHD and termed 1st of the year following (FOYF) the 30th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(4H) Dependents remain CHD until 1st of the month following the 26th birthday and if eligible; STU from age 26 and termed 1st of the month following 30th birthday.</masterLabel>
+            <translation><!-- (4H) Dependents remain CHD until 1st of the month following the 26th birthday and if eligible; STU from age 26 and termed 1st of the month following 30th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(6H) Dependents remain CHD until 1st of the Year Following (FOYF) the 26th birthday and if eligible; STU from age 26 and termed 1st of the Year Following (FOYF) the 30th birthday.</masterLabel>
+            <translation><!-- (6H) Dependents remain CHD until 1st of the Year Following (FOYF) the 26th birthday and if eligible; STU from age 26 and termed 1st of the Year Following (FOYF) the 30th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(7A) Dependents remain CHD and termed 1 month greater than 1st of the month following 26th birthday Example: Birthdate: Dependent turns 26 on March 10 should be termed May 1.</masterLabel>
+            <translation><!-- (7A) Dependents remain CHD and termed 1 month greater than 1st of the month following 26th birthday Example: Birthdate: Dependent turns 26 on March 10 should be termed May 1. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(7C) Dep remain CHD &amp; term 1st of mo. after 26 bday. Gen. custom max age 26 ltr; Per NY Rider groups that OPT IN &amp; request reinstatement for elig. dep under PARENT contract, remains STU from 26 &amp; termed 1st of mo. after 30 bday. Gen. custom max age 30 ltr</masterLabel>
+            <translation><!-- (7C) Dep remain CHD &amp; term 1st of mo. after 26 bday. Gen. custom max age 26 ltr; Per NY Rider groups that OPT IN &amp; request reinstatement for elig. dep under PARENT contract, remains STU from 26 &amp; termed 1st of mo. after 30 bday. Gen. custom max age 30 ltr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(7D) Dependents remain CHD and deleted 1st of the month following 26th birthday; if NY Right of Election is invoked beyond age 26 please see 7E. Custom Max Age 26 letter should be generated 1st of the month following 26th birthday.</masterLabel>
+            <translation><!-- (7D) Dependents remain CHD and deleted 1st of the month following 26th birthday; if NY Right of Election is invoked beyond age 26 please see 7E. Custom Max Age 26 letter should be generated 1st of the month following 26th birthday. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(7E) If &quot;Over Age Dependent&quot; group is later added once an Age 26 Adult Dependent has invoked their right under NY Right of Election, dependent is eligible from age 26 and termed 1st of the month following 30th birthday. Generate Custom Max Age 30 letter.</masterLabel>
+            <translation><!-- (7E) If &quot;Over Age Dependent&quot; group is later added once an Age 26 Adult Dependent has invoked their right under NY Right of Election, dependent is eligible from age 26 and termed 1st of the month following 30th birthday. Generate Custom Max Age 30 letter. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(7F) Dependents remain CHD and termed 1st of the year following (FOYF) 25th birthday and if eligible; remain STU from age 25 and termed until 1st of the month following (FOMF) 26th birthday.</masterLabel>
+            <translation><!-- (7F) Dependents remain CHD and termed 1st of the year following (FOYF) 25th birthday and if eligible; remain STU from age 25 and termed until 1st of the month following (FOMF) 26th birthday. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- e.g. COBRA, Retiree --></help>
+        <label><!-- Does Information Apply To All Groups --></label>
+        <name>Does_this_information_apply_to_all_group__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Domestic Partner Indicator (a) Same For Entire Case (b) Different by QLI/Product (c) Different by Suffix/Member --></help>
+        <label><!-- Dom Part Ind Same For All QLI And Suffix --></label>
+        <name>Dom_Part_Ind_Same_For_All_QLI_And_Suffix__c</name>
+        <picklistValues>
+            <masterLabel>No (Different by QLI/Product)</masterLabel>
+            <translation><!-- No (Different by QLI/Product) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No (Different by Suffix/Member)</masterLabel>
+            <translation><!-- No (Different by Suffix/Member) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Does Domestic (Opposite Sex) Partner Information Apply To All Groups --></help>
+        <label><!-- Domestic Partner Apply To All Groups --></label>
+        <name>Domestic_Partner_Apply_To_All_Groups__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Domestic Partner Indicator --></label>
+        <name>Domestic_Partner_Indicator__c</name>
+        <picklistValues>
+            <masterLabel>A (Any Sex Domestic Partner)</masterLabel>
+            <translation><!-- A (Any Sex Domestic Partner) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N (No Domestic Partner)</masterLabel>
+            <translation><!-- N (No Domestic Partner) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O (Opposite Sex Domestic Partner)</masterLabel>
+            <translation><!-- O (Opposite Sex Domestic Partner) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S (Same Sex Domestic Partner)</masterLabel>
+            <translation><!-- S (Same Sex Domestic Partner) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The ELIGIBILITY TERM RULE CODE field defines eligibility rules for contract cancellations. --></help>
+        <label><!-- Eligibility Change Ind.–Add Preferences --></label>
+        <name>Eligibility_Change_Indicator_Dependent__c</name>
+        <picklistValues>
+            <masterLabel>01 = ALL DEPENDENT (DEP) ADDS &amp; TERMS EFF FOMF DT OF LIFE EVENT</masterLabel>
+            <translation><!-- 01 = ALL DEPENDENT (DEP) ADDS &amp; TERMS EFF FOMF DT OF LIFE EVENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 = NEWBORNS EFF DOB, ALL OTR DEP ADDS &amp; TERMS FOMF DT OF LIFE EVENT</masterLabel>
+            <translation><!-- 02 = NEWBORNS EFF DOB, ALL OTR DEP ADDS &amp; TERMS FOMF DT OF LIFE EVENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 = DEP ADDS EFF DT OF LIFE EVENT, DEP TERMS FOMF DT OF LIFE EVENT</masterLabel>
+            <translation><!-- 03 = DEP ADDS EFF DT OF LIFE EVENT, DEP TERMS FOMF DT OF LIFE EVENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 = DEP ADDS EFF DT OF LIFE EVENT, DEP TERMS 1 DAY &gt; THAN LIFE EVENT DT</masterLabel>
+            <translation><!-- 04 = DEP ADDS EFF DT OF LIFE EVENT, DEP TERMS 1 DAY &gt; THAN LIFE EVENT DT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The ELIGIBILITY/CONTRACT TYPE CHANGE CODE field defines eligibility rules for contract type changes, for dependent additions and terminations. --></help>
+        <label><!-- Eligibility Term Ind.-TermLetPreferences --></label>
+        <name>Eligibility_Term_Indicator_Dependent_E__c</name>
+        <picklistValues>
+            <masterLabel>01 = 1ST OF MONTH FOLLOWING LAST DAY WORKED</masterLabel>
+            <translation><!-- 01 = 1ST OF MONTH FOLLOWING LAST DAY WORKED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 = 1 DAY GREATER THAN LAST DAY WORKED</masterLabel>
+            <translation><!-- 02 = 1 DAY GREATER THAN LAST DAY WORKED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 = LAST DAY OF THE CALENDER MONTH FOLLOWING LAST DAY WORKED</masterLabel>
+            <translation><!-- 03 = LAST DAY OF THE CALENDER MONTH FOLLOWING LAST DAY WORKED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- A 2 digit number identifying the class of employees that are excluded from group coverage under the contract. Most common is 16 - Part Time &amp; Temporary (are excluded from coverage). This field was added for the WGS system and the Group Load functionality. --></help>
+        <label><!-- Employee Excluded Code --></label>
+        <name>Employee_Excluded_Code__c</name>
+        <picklistValues>
+            <masterLabel>00 (CO – EAP benefits)</masterLabel>
+            <translation><!-- 00 (CO – EAP benefits) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>00 (GA)</masterLabel>
+            <translation><!-- 00 (GA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>00 (NV – EAP benefits)</masterLabel>
+            <translation><!-- 00 (NV – EAP benefits) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>00 (VA COVA/TLC/LODA/VA Tech/inmate)</masterLabel>
+            <translation><!-- 00 (VA COVA/TLC/LODA/VA Tech/inmate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 (All other VA)</masterLabel>
+            <translation><!-- 16 (All other VA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 (CA)</masterLabel>
+            <translation><!-- 16 (CA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 (CO – non EAP benefits)</masterLabel>
+            <translation><!-- 16 (CO – non EAP benefits) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 (Central)</masterLabel>
+            <translation><!-- 16 (Central) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 (NE)</masterLabel>
+            <translation><!-- 16 (NE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 (NV – non EAP benefits)</masterLabel>
+            <translation><!-- 16 (NV – non EAP benefits) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 (NY)</masterLabel>
+            <translation><!-- 16 (NY) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Combined Eligibility Values Cannot Exceed 90 Days Probation Per Aca Mandates --></help>
+        <label><!-- Employee Reinstatement Date Eligibility --></label>
+        <name>Employee_Reinstatement_Date_Eligibility__c</name>
+        <picklistValues>
+            <masterLabel>First Day After Probation</masterLabel>
+            <translation><!-- First Day After Probation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First of the Month Following Date of Hire</masterLabel>
+            <translation><!-- First of the Month Following Date of Hire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First of the Month after Probationary Period</masterLabel>
+            <translation><!-- First of the Month after Probationary Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First of the Second Month after Probationary Period</masterLabel>
+            <translation><!-- First of the Second Month after Probationary Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hire Date</masterLabel>
+            <translation><!-- Hire Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Combined Eligibility Values Cannot Exceed 90 Days Probation Per Aca Mandates --></help>
+        <label><!-- Employee Reinstatement Probationary Pd --></label>
+        <name>Employee_Reinstatement_Probationary_Pd__c</name>
+        <picklistValues>
+            <masterLabel>1 Day</masterLabel>
+            <translation><!-- 1 Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Month</masterLabel>
+            <translation><!-- 1 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 Days</masterLabel>
+            <translation><!-- 15 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Months</masterLabel>
+            <translation><!-- 2 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28 Days</masterLabel>
+            <translation><!-- 28 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Months</masterLabel>
+            <translation><!-- 3 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Days</masterLabel>
+            <translation><!-- 30 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Days</masterLabel>
+            <translation><!-- 40 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42 Days</masterLabel>
+            <translation><!-- 42 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45 Days</masterLabel>
+            <translation><!-- 45 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>56 Days</masterLabel>
+            <translation><!-- 56 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 Days</masterLabel>
+            <translation><!-- 60 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>84 Days</masterLabel>
+            <translation><!-- 84 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90 Days</masterLabel>
+            <translation><!-- 90 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enrollment And Billing Impacted --></label>
+        <name>Enrollment_Billing_Impacted__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exclusions Apply --></label>
+        <name>Exclusions_Apply__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <relationshipLabel><!-- Eligibility --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If Dependent Reaches Max Age, Is The Expectation For Anthem To Automatically Terminate --></help>
+        <label><!-- If Dep Reaches Max Age, Auto Terminate --></label>
+        <name>If_Dep_reaches_max_age_auto_terminate__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If No, Please Specify Groups For Domestic (Opposite Sex) Partner Coverage --></help>
+        <label><!-- If No, Specify Groups For Domestic Part --></label>
+        <name>If_No_Specify_Groups_For_Domestic_Part__c</name>
+    </fields>
+    <fields>
+        <label><!-- If No, Please Specify --></label>
+        <name>If_No_please_specify__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Yes, Indicate Probationary Period --></label>
+        <name>If_yes_indicate_probationary_period__c</name>
+        <picklistValues>
+            <masterLabel>11 = First of Month following 1 Month</masterLabel>
+            <translation><!-- 11 = First of Month following 1 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 = First of Month following 2 Months</masterLabel>
+            <translation><!-- 12 = First of Month following 2 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 = First of Month following 3 Months</masterLabel>
+            <translation><!-- 13 = First of Month following 3 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 = First of Month following 4 Months</masterLabel>
+            <translation><!-- 14 = First of Month following 4 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 = First of Month following 6 Months</masterLabel>
+            <translation><!-- 15 = First of Month following 6 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 = First of Month following 9 Months</masterLabel>
+            <translation><!-- 16 = First of Month following 9 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17 = First of Month following 1 Year</masterLabel>
+            <translation><!-- 17 = First of Month following 1 Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1A = DOH (w/Term - Date of Term) - Washout Code 16</masterLabel>
+            <translation><!-- 1A = DOH (w/Term - Date of Term) - Washout Code 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1B = DOH (w/Term- First of Month following Term) - Washout Code 16</masterLabel>
+            <translation><!-- 1B = DOH (w/Term- First of Month following Term) - Washout Code 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1C = Other - See Notes</masterLabel>
+            <translation><!-- 1C = Other - See Notes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1H = First of Month following DOH</masterLabel>
+            <translation><!-- 1H = First of Month following DOH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DH=DateHired</masterLabel>
+            <translation><!-- DH=DateHired --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Name --></label>
+        <name>Implementation_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Record ID --></label>
+        <name>Implementation_Record_ID__c</name>
+        <relationshipLabel><!-- Eligibility --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is There A Waiting Period For New Hires --></label>
+        <name>Is_there_a_Waiting_Period_for_New_Hires__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Mental (Behavioral) Health/Substance Abuse Service Level Indicator --></help>
+        <label><!-- MHSA Service Level Indicator --></label>
+        <name>MHSA_Service_Level_Indicator__c</name>
+        <picklistValues>
+            <masterLabel>0000</masterLabel>
+            <translation><!-- 0000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2000</masterLabel>
+            <translation><!-- 2000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3000</masterLabel>
+            <translation><!-- 3000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3001</masterLabel>
+            <translation><!-- 3001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3002</masterLabel>
+            <translation><!-- 3002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3004</masterLabel>
+            <translation><!-- 3004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3005</masterLabel>
+            <translation><!-- 3005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation><!-- 4000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4001</masterLabel>
+            <translation><!-- 4001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4008</masterLabel>
+            <translation><!-- 4008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4009</masterLabel>
+            <translation><!-- 4009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5000</masterLabel>
+            <translation><!-- 5000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5008</masterLabel>
+            <translation><!-- 5008 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Membership Comments --></label>
+        <name>Membership_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- New Hire Probationary Period (a) Same For Entire Case (b) Different by QLI/Product (c) Different by Suffix/Member --></help>
+        <label><!-- NH Prob Pd Same For All QLI And Suffix --></label>
+        <name>NH_Prob_Pd_Same_For_All_QLI_And_Suffix__c</name>
+        <picklistValues>
+            <masterLabel>No (Different by QLI/Product)</masterLabel>
+            <translation><!-- No (Different by QLI/Product) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No (Different by Suffix/Member)</masterLabel>
+            <translation><!-- No (Different by Suffix/Member) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Combined Eligibility Values Cannot Exceed 90 Days Probation Per Aca Mandates --></help>
+        <label><!-- New Hire Coverage Eff Date Eligibility --></label>
+        <name>New_Hire_Coverage_Eff_Date_Eligibility__c</name>
+        <picklistValues>
+            <masterLabel>First Day After Probation</masterLabel>
+            <translation><!-- First Day After Probation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First of the Month Following Date of Hire</masterLabel>
+            <translation><!-- First of the Month Following Date of Hire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First of the Month after Probationary Period</masterLabel>
+            <translation><!-- First of the Month after Probationary Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First of the Second Month after Probationary Period</masterLabel>
+            <translation><!-- First of the Second Month after Probationary Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hire Date</masterLabel>
+            <translation><!-- Hire Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Combined Eligibility Values Cannot Exceed 90 Days Probation Per Aca Mandates --></help>
+        <label><!-- New Hire Probationary Period --></label>
+        <name>New_Hire_Probationary_Period__c</name>
+        <picklistValues>
+            <masterLabel>1 Day</masterLabel>
+            <translation><!-- 1 Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Month</masterLabel>
+            <translation><!-- 1 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 Days</masterLabel>
+            <translation><!-- 15 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Months</masterLabel>
+            <translation><!-- 2 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28 Days</masterLabel>
+            <translation><!-- 28 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Months</masterLabel>
+            <translation><!-- 3 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Days</masterLabel>
+            <translation><!-- 30 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Days</masterLabel>
+            <translation><!-- 40 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42 Days</masterLabel>
+            <translation><!-- 42 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45 Days</masterLabel>
+            <translation><!-- 45 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>56 Days</masterLabel>
+            <translation><!-- 56 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 Days</masterLabel>
+            <translation><!-- 60 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>84 Days</masterLabel>
+            <translation><!-- 84 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90 Days</masterLabel>
+            <translation><!-- 90 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Over 65 code allows members over 65 to be within the insurance --></help>
+        <label><!-- Over 65 Code --></label>
+        <name>Over_65_Code__c</name>
+        <picklistValues>
+            <masterLabel>Member in Group is Over 65</masterLabel>
+            <translation><!-- Member in Group is Over 65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Over 65 Remain Group</masterLabel>
+            <translation><!-- Over 65 Remain Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Over 65 Transfer Group</masterLabel>
+            <translation><!-- Over 65 Transfer Group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Should Overage Dependent Termination Letters Be Mailed To Subscriber --></help>
+        <label><!-- Overage Dep Term Letters Mailed to --></label>
+        <name>Overage_dep_term_Itrs_be_mailed_to_sub__c</name>
+        <picklistValues>
+            <masterLabel>G - Mail to Group</masterLabel>
+            <translation><!-- G - Mail to Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H - Hold LTRS Only</masterLabel>
+            <translation><!-- H - Hold LTRS Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N - No OAD Process</masterLabel>
+            <translation><!-- N - No OAD Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P - Pull OAD LTTRS</masterLabel>
+            <translation><!-- P - Pull OAD LTTRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S - Mail to Subr</masterLabel>
+            <translation><!-- S - Mail to Subr --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- % Of Premium Paid For Each Subscriber Dependent Per Month (a) Same For Entire Case (b) Different by QLI/Product (c) Different by Suffix/Member --></help>
+        <label><!-- % Prem Dep Same For All QLI And Suffix --></label>
+        <name>Prem_Dep_Same_For_All_QLI_And_Suffix__c</name>
+        <picklistValues>
+            <masterLabel>No (Different by QLI/Product)</masterLabel>
+            <translation><!-- No (Different by QLI/Product) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No (Different by Suffix/Member)</masterLabel>
+            <translation><!-- No (Different by Suffix/Member) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Percentage Of Premiums That The Employer Pays For Each Subscriber&apos;s Dependent Per Month --></help>
+        <label><!-- % Prem Paid For Each Sub Dep Per Month --></label>
+        <name>Prem_Paid_for_Each_Sub_Dep_per_Month__c</name>
+    </fields>
+    <fields>
+        <help><!-- Percentage Of Premiums That The Employer Pays For Each Subscriber Per Month --></help>
+        <label><!-- % Of Prem Paid For Each Sub Per Month --></label>
+        <name>Prem_Paid_for_Each_Sub_per_Month__c</name>
+    </fields>
+    <fields>
+        <help><!-- % Of Premium Paid For Each Subscriber Per Month (a) Same For Entire Case (b) Different by QLI/Product (c) Different by Suffix/Member --></help>
+        <label><!-- % Prem Sub Same For All QLI And Suffix --></label>
+        <name>Prem_Sub_Same_For_All_QLI_And_Suffix__c</name>
+        <picklistValues>
+            <masterLabel>No (Different by QLI/Product)</masterLabel>
+            <translation><!-- No (Different by QLI/Product) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No (Different by Suffix/Member)</masterLabel>
+            <translation><!-- No (Different by Suffix/Member) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Responses Received By --></label>
+        <name>Responses_Received_by__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem</masterLabel>
+            <translation><!-- Anthem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Responsible For Disabled Verification --></label>
+        <name>Responsible_for_Disabled_Verification__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem</masterLabel>
+            <translation><!-- Anthem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem - Letters go to the Account</masterLabel>
+            <translation><!-- Anthem - Letters go to the Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem - Letters go to the Subscriber</masterLabel>
+            <translation><!-- Anthem - Letters go to the Subscriber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Responsible For Student Certification --></label>
+        <name>Responsible_for_Student_Certification__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem</masterLabel>
+            <translation><!-- Anthem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem - Letters go to the Account</masterLabel>
+            <translation><!-- Anthem - Letters go to the Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem - Letters go to the Subscriber</masterLabel>
+            <translation><!-- Anthem - Letters go to the Subscriber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Student Max Age Limit --></label>
+        <name>Student_Max_Age_Limit__c</name>
+        <picklistValues>
+            <masterLabel>Birthday</masterLabel>
+            <translation><!-- Birthday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of Birthday Month</masterLabel>
+            <translation><!-- End of Birthday Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of Birthday Year</masterLabel>
+            <translation><!-- End of Birthday Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (explain below)</masterLabel>
+            <translation><!-- Other (explain below) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If You Have A Specific Requirement To Vary The Method By Package, Please Specify Here: (This Must Be Approved By The ID Card Team). --></help>
+        <label><!-- Variances By Package, Specify Here --></label>
+        <name>Variances_by_package_specify_here__c</name>
+    </fields>
+    <fields>
+        <label><!-- Who Will Handle Cal COBRA Billing --></label>
+        <name>Who_will_handle_Cal_COBRA_billing__c</name>
+        <picklistValues>
+            <masterLabel>Anthem</masterLabel>
+            <translation><!-- Anthem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Non-grandfathered Employers Are Allowed to Exempt Women’s Contraceptives Benefits. If Yes Then We Will Exclude This Benefit From Coverage And Exempt Type Must Be Filled Out. This Field Was Added for the Wgs System and the Group Load Functionality. --></help>
+        <label><!-- Women&apos;s Contraceptive Exemption Ind. --></label>
+        <name>Women_s_Contraceptive_Exemption_Ind__c</name>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Religious Affiliated Group</masterLabel>
+            <translation><!-- Yes - Religious Affiliated Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Religious Employer Group</masterLabel>
+            <translation><!-- Yes - Religious Employer Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Religious Partial Exemption</masterLabel>
+            <translation><!-- Yes - Religious Partial Exemption --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Only Applicable If Women&apos;s Contraceptive Exemption Indicator = Yes. Determines What Type of Employer Is Excluding These Benefits.This Field Was Added for the Wgs System and the Group Load Functionality. --></help>
+        <label><!-- Women&apos;s Contraceptive Exemption Type --></label>
+        <name>Women_s_Contraceptive_Exemption_Type__c</name>
+        <picklistValues>
+            <masterLabel>Religious Affiliated Group</masterLabel>
+            <translation><!-- Religious Affiliated Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religious Employer Group</masterLabel>
+            <translation><!-- Religious Employer Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religious Partial Exemption</masterLabel>
+            <translation><!-- Religious Partial Exemption --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- EligibilityCustomerMaster --></label>
+        <name>EligibilityCustomerMaster</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EligibilityNASCO --></label>
+        <name>EligibilityNASCO</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EligibilityWGS --></label>
+        <name>EligibilityWGS</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Age and Rule Details should be provided if Define Age and Rule per Package/Suffix is selected as ‘Other ’. --></errorMessage>
+        <name>ChildMax_Age_and_Rule_Details_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please do not create another Eligibility record when already one exists --></errorMessage>
+        <name>Eligibiity_VR01_Do_Not_Create_More</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please specify if this information does not apply to all groups. --></errorMessage>
+        <name>Information_not_for_all_groupsValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Age and Rule Details should be provided if Define Age and Rule per Package/Suffix is selected as ‘Other ’. --></errorMessage>
+        <name>Student_Age_and_Rule_Details_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

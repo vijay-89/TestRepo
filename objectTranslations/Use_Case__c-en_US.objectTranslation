@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Use Case</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Use Cases</value>
+    </caseValues>
+    <fields>
+        <help><!-- Name the actor that will be initiating this use case (primary) and any other actors who will participate in completing the use case (secondary). --></help>
+        <label><!-- Actor (User Group) --></label>
+        <name>Actor_User_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document branches from the main flow to handle special conditions --></help>
+        <label><!-- Alternative Flows --></label>
+        <name>Alternative_Flows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assumptions --></label>
+        <name>Assumptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capability --></label>
+        <name>Capability__c</name>
+        <relationshipLabel><!-- Use Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- How often will this Use Case be executed? --></help>
+        <label><!-- Frequency of Use --></label>
+        <name>Frequency_of_Use__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide a detailed description of the user actions and system responses that will take place during execution of the use case under normal conditions --></help>
+        <label><!-- Normal Flow --></label>
+        <name>Normal_Flow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide a brief description of the reason for and outcome of this use case --></help>
+        <label><!-- Overview --></label>
+        <name>Overview__c</name>
+    </fields>
+    <fields>
+        <help><!-- Describe the state of the system at the conclusion of the use case execution --></help>
+        <label><!-- Post Conditions --></label>
+        <name>Post_Conditions__c</name>
+    </fields>
+    <fields>
+        <help><!-- List any activities that must take place, or any conditions that must be true, before the use case can be started. Number each pre-condition --></help>
+        <label><!-- Preconditions --></label>
+        <name>Preconditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>Release__c</name>
+        <relationshipLabel><!-- Use Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Short Name for the Use Case --></help>
+        <label><!-- Use Case Name --></label>
+        <name>Use_Case_Name__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

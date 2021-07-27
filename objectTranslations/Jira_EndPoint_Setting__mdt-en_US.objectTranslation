@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Jira EndPoint Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Jira EndPoint Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccessToken --></label>
+        <name>AccessToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApiKey --></label>
+        <name>ApiKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Password --></label>
+        <name>Application_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Username --></label>
+        <name>Application_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- ClientID --></label>
+        <name>ClientID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ClientSecret --></label>
+        <name>ClientSecret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Issue --></label>
+        <name>Create_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete Issue --></label>
+        <name>Delete_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- HealthCheck --></label>
+        <name>HealthCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Host --></label>
+        <name>Host__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsSandbox --></label>
+        <name>IsSandbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jira-Generic --></label>
+        <name>Jira_Generic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modify Issue --></label>
+        <name>Modify_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search(GET) --></label>
+        <name>Search_GET__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search(POST) --></label>
+        <name>Search_POST__c</name>
+    </fields>
+    <fields>
+        <label><!-- TokenRefreshTime --></label>
+        <name>TokenRefreshTime__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

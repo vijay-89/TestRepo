@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAutoProcUser>false</caseAutoProcUser>
+    <caseFeedItemSettings>
+        <characterLimit>400</characterLimit>
+        <displayFormat>Default</displayFormat>
+        <feedItemType>EmailMessageEvent</feedItemType>
+    </caseFeedItemSettings>
+    <caseFeedReadUnreadLtng>false</caseFeedReadUnreadLtng>
+    <caseMergeInLightning>true</caseMergeInLightning>
+    <closeCaseThroughStatusChange>true</closeCaseThroughStatusChange>
+    <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
+    <defaultCaseOwner>admin-nvynreb2e6df@example.com</defaultCaseOwner>
+    <defaultCaseOwnerType>User</defaultCaseOwnerType>
+    <defaultCaseUser>admin-nvynreb2e6df@example.com</defaultCaseUser>
+    <emailToCase>
+        <enableE2CAttachmentAsFile>true</enableE2CAttachmentAsFile>
+        <enableE2CSourceTracking>true</enableE2CSourceTracking>
+        <enableEmailToCase>true</enableEmailToCase>
+        <enableHtmlEmail>true</enableHtmlEmail>
+        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
+        <enableThreadIDInBody>true</enableThreadIDInBody>
+        <enableThreadIDInSubject>true</enableThreadIDInSubject>
+        <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
+        <overEmailLimitAction>Bounce</overEmailLimitAction>
+        <preQuoteSignature>true</preQuoteSignature>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Actwise Broker Support</caseOrigin>
+            <caseOwner>LGSG_Broker_Services_Barrett_Actwise</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>actwisebrokersupport@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Actwise Broker Support</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Admin Team</caseOrigin>
+            <caseOwner>Admin_Team_L_D_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>administrative.team@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Administrative.Team@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Amendment UW</caseOrigin>
+            <caseOwner>Amendment_UW_L_D_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>amendment.uw@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Amendment.UW@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Audits West</caseOrigin>
+            <caseOwner>Audits_West</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>auditswest@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>AuditsWest@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Central Region</caseOrigin>
+            <caseOwner>Central_Region_Life_Disability_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>centralregion@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Central Region L&amp;D E&amp;B</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - East Region</caseOrigin>
+            <caseOwner>East_Region_Life_Disability_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>eastregion@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>East Region L&amp;D E&amp;B</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Greater Georgia</caseOrigin>
+            <caseOwner>Greater_Georgia_Life_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>greatergeorgialife@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Greater Georgia Life E&amp;B</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - L&amp;D VSH UW Central West</caseOrigin>
+            <caseOwner>L_D_VSH_UW_Central_West</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>anthemlduw_centralwest@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>L&amp;D VSH UW Central West</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - L&amp;D VSH UW LG East</caseOrigin>
+            <caseOwner>L_D_VSH_UW_LG_East</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>anthemlduw_lgeast@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>L&amp;D VSH UW LG East</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - L&amp;D VSH UW LG West</caseOrigin>
+            <caseOwner>L_D_VSH_UW_LG_West</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>anthemlduw_lgwest@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>L&amp;D VSH UW LG West</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - L&amp;D VSH UW Life Rate Match</caseOrigin>
+            <caseOwner>L_D_VSH_UW_Life_Rate_Match</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>liferatematch@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>L&amp;D VSH UW Life Rate Match</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - L&amp;D VSH UW Mercer</caseOrigin>
+            <caseOwner>L_D_VSH_UW_Mercer</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>anthemlduw_mercer@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>L&amp;D VSH UW Mercer</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - L&amp;D VSH UW Quick Connect East</caseOrigin>
+            <caseOwner>L_D_VSH_UW_Quick_Connect_East</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>quickconnecteast@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>L&amp;D VSH UW Quick Connect East</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - L&amp;D VSH UW Quick Connect West</caseOrigin>
+            <caseOwner>L_D_VSH_UW_Quick_Connect_West</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>quickconnectwest@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>L&amp;D VSH UW Quick Connect West</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - L&amp;D VSH UW Renewals</caseOrigin>
+            <caseOwner>L_D_VSH_UW_Renewals</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>anthemlife&amp;disuw_renewals@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>L&amp;D VSH UW Renewals</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - LGEB Inquiries</caseOrigin>
+            <caseOwner>LGSG_Broker_Services_Collier</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lge&amp;bserviceinquiries@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>LG E&amp;B Service Inquiries</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Anthem Acct Inquiries</caseOrigin>
+            <caseOwner>Broker_Services_Account_Inquiries</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>anthem.accountinquiries@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>LGSG Broker Services Account Inquiries Queue- Barrett</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - CO SM BUS</caseOrigin>
+            <caseOwner>Broker_Services_CO_SM_BUS</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>cosmallgroupbus@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>LGSG Broker Services CO SM BUS Queue- Borgan</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - NY Concierge Services</caseOrigin>
+            <caseOwner>Broker_Services_NY_Concierge_Serv</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>newyorkconciergeservices@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>LGSG Broker Services NY Concierge Serv Queue- Mclaurin</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - NY LG Broker Services</caseOrigin>
+            <caseOwner>Broker_Services_NY_LG</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>nylgbrokerservices@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>LGSG Broker Services NY LG Queue- Deweever</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - MEWA</caseOrigin>
+            <caseOwner>LGSG_Broker_Services_Collier</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>mewa@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>MEWA</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>CA_Queue_RFP_Intake</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rfpintake_ca@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - CA</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>CO_Queue_RFP_Intake</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rfpintake_co@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - CO</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>RFP_Intake_Catch_All_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rfpsupport@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - Catch-All</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>GA_Queue_RFP_Intake</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rfpintake_ga@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - GA</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>RFP_Intake_IN_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rfpintake_in@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - IN</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>RFP_Intake_KY_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rfpintake_ky@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - KY</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>RFP_Intake_ME_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rfpintake_me@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - ME</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>RFP_Intake_OH_100_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rfpintake_oh@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - OH 100+</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>RFP_Intake_OH_51_99_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>anthemkeyquotes@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - OH 51-99</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>RFP_Intake_VA_100_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rfpintake_va@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - VA 100+</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <caseOwner>RFP_Intake_VA_51_99_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>anthemkeyquotesva@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>RFP Intake - VA 51-99</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - SMB Compass Audits</caseOrigin>
+            <caseOwner>Compass_Audits</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>smbcompassaudits@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>SMBCompassAudits@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention CAGLA</caseOrigin>
+            <caseOwner>Sales_Support_CAGLA</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentioncagla@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Sales Support CAGLA</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention CAGN</caseOrigin>
+            <caseOwner>Sales_Support_CAGN</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionca@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Sales Support CAGN</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention CAGS</caseOrigin>
+            <caseOwner>Sales_Support_CAGS</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentioncags@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Sales Support CAGS</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention OH</caseOrigin>
+            <caseOwner>Sales_Support_OH</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionoh@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Sales Support OH</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention VA</caseOrigin>
+            <caseOwner>Sales_Support_VA</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionva@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Sales Support VA</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Service Assist</caseOrigin>
+            <caseOwner>Service_Assist_Life_Disability_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>serviceassist@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Service Assist L&amp;D E&amp;B</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Specialty Audit</caseOrigin>
+            <caseOwner>Specialty_Audit</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>specialtyaudit@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>SpecialtyAudit@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - True Blue</caseOrigin>
+            <caseOwner>LGSG_Broker_Services_Deweever</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>trueblue@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>True Blue</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Indiv Member Unicare</caseOrigin>
+            <caseOwner>Unicare_Individual_Membership</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>individual.membership@unicare.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Unicare Individual Membership</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - LG Eastern Unicare</caseOrigin>
+            <caseOwner>Unicare_LG_Eastern_Region</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>largegroup.easternregion@unicare.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Unicare LG Eastern Region</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - LG Membership Unicare</caseOrigin>
+            <caseOwner>Unicare_LG_Membership</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>largegroup.membership@unicare.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Unicare LG Membership</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - LG Midwest Unicare</caseOrigin>
+            <caseOwner>Unicare_LG_Midwestern_Region</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>largegroup.midwesternregion@unicare.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Unicare LG Midwestern Region</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - LG Southwest Unicare</caseOrigin>
+            <caseOwner>Unicare_LG_Southwestern_Regiion</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>largegroup.southwesternregion@unicare.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Unicare LG Southwestern Region</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - New Case Unicare</caseOrigin>
+            <caseOwner>Unicare_New_Case</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>newcase@unicare.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Unicare New Case</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Small Group Member Unicare</caseOrigin>
+            <caseOwner>Unicare_Small_Group_Membership</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>smallgroup.membership@unicare.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>Unicare Small Group Membership</routingName>
+            <saveEmailHeaders>true</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Audits West</caseOrigin>
+            <caseOwner>West_Region_Queue_L_D_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>westregion@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>West Region</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Compass I</caseOrigin>
+            <caseOwner>Compass_iCustomer_L_D_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>compassicustomersupport@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>compassicustomersupport@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention NY</caseOrigin>
+            <caseOwner>Sales_Support_Empire</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>empirelgretention@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>empirelgretention@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Extras</caseOrigin>
+            <caseOwner>Extras</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>extras@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>extras@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention GA</caseOrigin>
+            <caseOwner>Sales_Support_GA</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>galgretention@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>galgretention@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - GA Local Large ID</caseOrigin>
+            <caseOwner>GA_Local_Large_ID_Cards</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>galocallargeidcardinquiries@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>galocallargeidcardinquiries@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - LD Contract Inquiries</caseOrigin>
+            <caseOwner>Contract_Inquiries_L_D_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>l&amp;dcontractinquiries@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>l&amp;dcontractinquiries@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - LD Conversion</caseOrigin>
+            <caseOwner>Conversion_L_D_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>l&amp;dconversion@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>l&amp;dconversion@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention CT</caseOrigin>
+            <caseOwner>Sales_Support_CT</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretention@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretention@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention CO</caseOrigin>
+            <caseOwner>Sales_Support_CO</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionco@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretentionCO@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention IN</caseOrigin>
+            <caseOwner>Sales_Support_IN</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionin@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretentionIN@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention KY</caseOrigin>
+            <caseOwner>Sales_Support_KY</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionky@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretentionKY@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention ME</caseOrigin>
+            <caseOwner>Sales_Support_ME</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionme@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretentionME@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention MO</caseOrigin>
+            <caseOwner>Sales_Support_MO</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionmo@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretentionMO@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention NH</caseOrigin>
+            <caseOwner>Sales_Support_NH</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionnh@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretentionNH@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention NV</caseOrigin>
+            <caseOwner>Sales_Support_NV</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionnv@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretentionNV@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention WI</caseOrigin>
+            <caseOwner>Sales_Support_WI</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionwi@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretentionWI@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - Retention ANA</caseOrigin>
+            <caseOwner>Sales_Support_ANA</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>lgretentionana@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>lgretentionana@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - My Payment</caseOrigin>
+            <caseOwner>My_Payment_L_D_E_B</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>mypayment@anthem.com</emailAddress>
+            <isVerified>true</isVerified>
+            <routingName>mypayment@anthem.com</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+    </emailToCase>
+    <enableCaseFeed>true</enableCaseFeed>
+    <enableCollapseEmailThread>true</enableCollapseEmailThread>
+    <enableDraftEmails>false</enableDraftEmails>
+    <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
+    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
+    <enableEscalateQfiToCaseInternal>true</enableEscalateQfiToCaseInternal>
+    <enableEscalateQfiToCaseNetworks>false</enableEscalateQfiToCaseNetworks>
+    <enableExtNetworksCaseFeedEnabled>false</enableExtNetworksCaseFeedEnabled>
+    <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
+    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
+    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
+    <enableSuggestedSolutions>false</enableSuggestedSolutions>
+    <escalateCaseBefore>false</escalateCaseBefore>
+    <keepCaseMergeRecords>true</keepCaseMergeRecords>
+    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
+    <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
+    <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
+    <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
+    <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
+    <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
+    <showFewerCloseActions>false</showFewerCloseActions>
+    <systemUserEmail>automatedcase@00d41000002iuoxeaa.ext</systemUserEmail>
+    <useSystemEmailAddress>false</useSystemEmailAddress>
+    <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
+    <visibleInCssCheckbox>false</visibleInCssCheckbox>
+    <webToCase>
+        <caseOrigin>Community</caseOrigin>
+        <enableWebToCase>true</enableWebToCase>
+    </webToCase>
+</CaseSettings>

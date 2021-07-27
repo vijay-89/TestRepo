@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CIPIntegration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CIPIntegration</value>
+    </caseValues>
+    <fields>
+        <label><!-- CIP SF Org URL --></label>
+        <name>CIP_SF_Org_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Key For Old Org --></label>
+        <name>Consumer_Key_For_Old_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Secret For Old Org --></label>
+        <name>Consumer_Secret_For_Old_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password For Old Org --></label>
+        <name>Password_For_Old_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- SessionURL --></label>
+        <name>SessionURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Name For Old Org --></label>
+        <name>User_Name_For_Old_Org__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Field Mappings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Field Mappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Default Value --></label>
+        <name>Default_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- JIRA Field Label --></label>
+        <name>JIRA_Field_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jira Field API Name --></label>
+        <name>Jira_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- RequestTemplate - CREATE --></label>
+        <name>RequestTemplate_CREATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Field API --></label>
+        <name>SFDC_Field_API__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Field Label --></label>
+        <name>SFDC_Field_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Object API Name --></label>
+        <name>SFDC_Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Jira To SFDC</masterLabel>
+            <translation><!-- Jira To SFDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC To Jira</masterLabel>
+            <translation><!-- SFDC To Jira --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Commission Paid People</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Commission Paid People</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+        <relationshipLabel><!-- Commission Paid People --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Internal Commission --></label>
+        <name>Internal_Commission__c</name>
+        <relationshipLabel><!-- Commission Paid People --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LoggedinUser --></label>
+        <name>LoggedinUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiplier Percentage --></label>
+        <name>Multiplier_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- NameCompare --></label>
+        <name>NameCompare__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Effective Date --></label>
+        <name>Opportunity_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Name --></label>
+        <name>Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reports To --></label>
+        <name>Reports_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Comp Amount For Person --></label>
+        <name>Total_Comp_Amount_For_Person__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Owner Change not Permitted. --></errorMessage>
+        <name>Commission_Paid_People</name>
+    </validationRules>
+</CustomObjectTranslation>

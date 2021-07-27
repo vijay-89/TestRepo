@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Facilitator Performance History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Facilitator Performance History</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exceptional --></label>
+        <name>Exceptional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facilitator Name --></label>
+        <name>Facilitator_Name__c</name>
+        <relationshipLabel><!-- Facilitator Performance History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Feedback Date --></label>
+        <name>Feedback_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback Source --></label>
+        <name>Feedback_Source__c</name>
+        <picklistValues>
+            <masterLabel>Account Executive</masterLabel>
+            <translation><!-- Account Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Manager</masterLabel>
+            <translation><!-- Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAR</masterLabel>
+            <translation><!-- SAR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Feedback Type --></label>
+        <name>Feedback_Type__c</name>
+        <picklistValues>
+            <masterLabel>Negative</masterLabel>
+            <translation><!-- Negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postive</masterLabel>
+            <translation><!-- Postive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Open Enrollment --></label>
+        <name>Open_Enrollment__c</name>
+        <relationshipLabel><!-- Facilitator Performance History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy FACPerfID --></label>
+        <name>SFDC_Legacy_FACPerfID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter --></label>
+        <name>Submitter__c</name>
+        <relationshipLabel><!-- Facilitator Performance History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Warning --></label>
+        <name>Warning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Watch --></label>
+        <name>Watch__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

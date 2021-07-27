@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LG_Rider</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LG_Riders</value>
+    </caseValues>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- FundingValue --></label>
+        <name>FundingValue__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO-FI</masterLabel>
+            <translation><!-- ASO-FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO/FI</masterLabel>
+            <translation><!-- ASO/FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GROUP SIZE --></label>
+        <name>GROUP_SIZE__c</name>
+    </fields>
+    <fields>
+        <label><!-- PORTFOLIO YEAR --></label>
+        <name>PORTFOLIO_YEAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rider Id --></label>
+        <name>Rider_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- SEGMENT --></label>
+        <name>SEGMENT__c</name>
+        <picklistValues>
+            <masterLabel>LG</masterLabel>
+            <translation><!-- LG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- STATE --></label>
+        <name>STATE__c</name>
+    </fields>
+    <fields>
+        <label><!-- VARIATION NAME --></label>
+        <name>VARIATION_NAME__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

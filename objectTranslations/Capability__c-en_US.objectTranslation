@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Capability</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Capabilities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Capability Detail --></label>
+        <name>Capability_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation><!-- Implementation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MVP --></label>
+        <name>MVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Capability --></label>
+        <name>Parent_Capability__c</name>
+        <relationshipLabel><!-- Sub-Capability --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>Release__c</name>
+        <relationshipLabel><!-- Capabilities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SOURCE ID --></label>
+        <name>SOURCE_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Capability --></label>
+        <name>Sub_Capability__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

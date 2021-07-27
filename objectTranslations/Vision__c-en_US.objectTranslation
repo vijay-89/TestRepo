@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vision</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vision</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adult Vision Co-Mingle --></label>
+        <name>Adult_Vision_Co_Mingle__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anthem Entity --></label>
+        <name>Anthem_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval or Declined Time --></label>
+        <name>Approval_or_Declined_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved_Date_Completed --></label>
+        <name>Approved_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved or Declined Date --></label>
+        <name>Approved_or_Declined_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Implementer --></label>
+        <name>Assigned_Implementer__c</name>
+    </fields>
+    <fields>
+        <label><!-- COMPLETE PAPERWORK RECEIVED IN IMPL --></label>
+        <name>COMPLETE_PAPERWORK_RECEIVED_IN_IMPL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cert Sent Date --></label>
+        <name>Cert_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cert Team Received Date --></label>
+        <name>Cert_Team_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Vision Co-Mingle --></label>
+        <name>Child_Vision_Co_Mingle__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claims Route Code --></label>
+        <name>Claims_Route_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Contract Code --></label>
+        <name>Contract_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME time --></label>
+        <name>Current_SME_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Master Account --></label>
+        <name>Customer_Master_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Approved --></label>
+        <name>Date_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Implementations Notified of Sale --></label>
+        <name>Date_Implementations_Notified_of_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days From Assignment --></label>
+        <name>Days_From_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMD Vendor Screen --></label>
+        <name>EMD_Vendor_Screen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eyemed Plan Code --></label>
+        <name>Eyemed_Plan_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Impressions Needed --></label>
+        <name>First_Impressions_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Size --></label>
+        <name>Group_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Products --></label>
+        <name>Impacted_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Id --></label>
+        <name>Implementation_Case_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Name --></label>
+        <name>Implementation_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Start Date --></label>
+        <name>Implementation_Case_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Status --></label>
+        <name>Implementation_Case_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Type --></label>
+        <name>Implementation_Case_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effective Date --></label>
+        <name>Implementation_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Tracking ID --></label>
+        <name>Implementation_Tracking__c</name>
+        <relationshipLabel><!-- Vision --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation Type --></label>
+        <name>Implementation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- In_Progress_Date_Completed --></label>
+        <name>In_Progress_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intake Type Migration --></label>
+        <name>Intake_Type_Migration__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsOwnerQueue --></label>
+        <name>IsOwnerQueue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pending Correction Record Present --></label>
+        <name>Is_Pending_Correction_Record_Present__c</name>
+    </fields>
+    <fields>
+        <label><!-- JAA Group --></label>
+        <name>JAA_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Assigned --></label>
+        <name>LG_Date_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- LVL1 --></label>
+        <name>LVL1__c</name>
+    </fields>
+    <fields>
+        <label><!-- LVL2 --></label>
+        <name>LVL2__c</name>
+    </fields>
+    <fields>
+        <label><!-- LVL3 --></label>
+        <name>LVL3__c</name>
+    </fields>
+    <fields>
+        <label><!-- LVL4 --></label>
+        <name>LVL4__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoggedinProfile --></label>
+        <name>LoggedinProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- MCS Group --></label>
+        <name>MCS_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Started Date --></label>
+        <name>Not_Started_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type --></label>
+        <name>Opportunity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Original Check Date --></label>
+        <name>Original_Vision_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- PendingCorrectionAction --></label>
+        <name>PendingCorrectionAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Date --></label>
+        <name>Pending_Correction_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Corrections Stage --></label>
+        <name>Pending_Correction_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Time --></label>
+        <name>Pending_Correction_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction to Approved/Declined --></label>
+        <name>Pending_Correction_to_Approved_Declined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction to Not Started --></label>
+        <name>Pending_Correction_to_Not_Started__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending SME Review Initiated --></label>
+        <name>Pending_SME_Review_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Time --></label>
+        <name>Pending_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Families --></label>
+        <name>Product_Families__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Product Line Code --></label>
+        <name>Product_Line_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date --></label>
+        <name>Production_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Name --></label>
+        <name>Quote_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready for Cert --></label>
+        <name>Ready_for_Cert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reissue Certificates? --></label>
+        <name>Reissue_Certificates__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Situs State --></label>
+        <name>Situs_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>01 Not Started</masterLabel>
+            <translation><!-- 01 Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 Work In Progress</masterLabel>
+            <translation><!-- 02 Work In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction</masterLabel>
+            <translation><!-- 03 Pending Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction Returned</masterLabel>
+            <translation><!-- 03 Pending Correction Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 Approved</masterLabel>
+            <translation><!-- 04 Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 Declined</masterLabel>
+            <translation><!-- 05 Declined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub-Stage --></label>
+        <name>Sub_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Coding Complete</masterLabel>
+            <translation><!-- Coding Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Guarantee - no action needed</masterLabel>
+            <translation><!-- Rate Guarantee - no action needed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tech Support Vision --></label>
+        <name>Tech_Support_Vision__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is How Long It Took The SME Department To Approve/Deny A SME Record --></help>
+        <label><!-- Time To Approve/Deny --></label>
+        <name>Time_To_Approve_Deny__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is How Long It Took A SME Department To Submit A Pending Correction --></help>
+        <label><!-- Time To Pend --></label>
+        <name>Time_To_Pend__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum Of Time To Pend And Time To Approve/Deny --></help>
+        <label><!-- Time in SME Dept --></label>
+        <name>Time_in_SME_Dept__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Time SME Record Was In The SME Department And The Sales Support/Implementations Department --></help>
+        <label><!-- Total Time --></label>
+        <name>Total_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell --></label>
+        <name>Upsell__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vision Benefit Level Effective Date --></label>
+        <name>Vision_Benefit_Level_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures Date When The Vision Check Field Is True --></help>
+        <label><!-- Vision Check Date --></label>
+        <name>Vision_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision_Check --></label>
+        <name>Vision_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Comments --></label>
+        <name>Vision_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Product Code --></label>
+        <name>Vision_Product_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Product Sold --></label>
+        <name>Vision_Product_Sold__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cert Sent Date cannot be before Cert Team Received Date --></errorMessage>
+        <name>Cert_Date_Validation_Vision</name>
+    </validationRules>
+</CustomObjectTranslation>

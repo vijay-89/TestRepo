@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Implementation Coordinator Repeatable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Implementation Coordinator Repeatables</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Implementer --></label>
+        <name>Assigned_Implementer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Accum Feed To PBM --></label>
+        <name>Batch_Accum_Feed_To_PBM__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Batch Eligibility Feed Includes --></label>
+        <name>Batch_Eligibility_Feed_Includes__c</name>
+        <picklistValues>
+            <masterLabel>Full Group</masterLabel>
+            <translation><!-- Full Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Groups</masterLabel>
+            <translation><!-- Partial Groups --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Batch Eligibility Feed To PBM --></label>
+        <name>Batch_Eligibility_Feed_To_PBM__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date IBVD/Crosswalk Posted To NIC --></label>
+        <name>Date_IBVD_Crosswalk_Posted_To_NIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date IT Resource Assigned --></label>
+        <name>Date_IT_Resource_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Implementations Notified Of Sale --></label>
+        <name>Date_Implementations_Notified_Of_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Of Estimated Release --></label>
+        <name>Date_Of_Estimated_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Of Final Release --></label>
+        <name>Date_Of_Final_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date SSCR Closed --></label>
+        <name>Date_SSCR_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date SSCR Submitted --></label>
+        <name>Date_SSCR_Submitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days From Assignment --></label>
+        <name>Days_From_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grp Str That Commingles Deductible --></label>
+        <name>Grp_Str_That_Commingles_Deductible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grp Str That Commingles Infertility LTM --></label>
+        <name>Grp_Str_That_Commingles_Infertility_LTM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grp Str That Commingles LTM --></label>
+        <name>Grp_Str_That_Commingles_LTM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grp Str That Commingles OOP --></label>
+        <name>Grp_Str_That_Commingles_OOP__c</name>
+    </fields>
+    <fields>
+        <label><!-- IBVD/Crosswalk Status --></label>
+        <name>IBVD_Crosswalk_Status__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Updates Needed</masterLabel>
+            <translation><!-- No Updates Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted To NIC</masterLabel>
+            <translation><!-- Posted To NIC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Batch Accum, List Grp Str Info --></label>
+        <name>If_Batch_Accum_List_Grp_Str_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Partial Batch Elg, List Grp Str Info --></label>
+        <name>If_Partial_Batch_Elg_List_Grp_Str_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Name --></label>
+        <name>Implementation_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Coordinator Tracking ID --></label>
+        <name>Implementation_Coordinator_Tracking_ID__c</name>
+        <relationshipLabel><!-- Implementation Coordinator Repeatables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effective Date --></label>
+        <name>Implementation_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Tracking ID --></label>
+        <name>Implementation_Tracking_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Type --></label>
+        <name>Implementation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Type --></label>
+        <name>Integration_Type__c</name>
+        <picklistValues>
+            <masterLabel>Batch</masterLabel>
+            <translation><!-- Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Realtime LITES</masterLabel>
+            <translation><!-- Realtime LITES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Realtime ODS</masterLabel>
+            <translation><!-- Realtime ODS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Deductible Commingled --></label>
+        <name>Is_Deductible_Commingled__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Infertility LTM Commingled --></label>
+        <name>Is_Infertility_LTM_Commingled__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is LTM Commingled --></label>
+        <name>Is_LTM_Commingled__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is OOP Commingled --></label>
+        <name>Is_OOP_Commingled__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Pharmacy Applicable --></label>
+        <name>Is_Pharmacy_Applicable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is SSCRs Applicable --></label>
+        <name>Is_SSCRs_Applicable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is There Integrated Rx --></label>
+        <name>Is_There_Integrated_Rx__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name Of Pharmacy Benefit Manager --></label>
+        <name>Name_Of_Pharmacy_Benefit_Manager__c</name>
+        <picklistValues>
+            <masterLabel>Anthem Prescription Drug Plan</masterLabel>
+            <translation><!-- Anthem Prescription Drug Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CVS/Caremark</masterLabel>
+            <translation><!-- CVS/Caremark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catamaran</masterLabel>
+            <translation><!-- Catamaran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EnvisionRx</masterLabel>
+            <translation><!-- EnvisionRx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Express Scripts</masterLabel>
+            <translation><!-- Express Scripts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kroger</masterLabel>
+            <translation><!-- Kroger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MedImpact</masterLabel>
+            <translation><!-- MedImpact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navitus</masterLabel>
+            <translation><!-- Navitus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OptumRx</masterLabel>
+            <translation><!-- OptumRx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmavail</masterLabel>
+            <translation><!-- Pharmavail --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Or Existing IBVD/Crosswalk --></label>
+        <name>New_Or_Existing_IBVD_Crosswalk__c</name>
+        <picklistValues>
+            <masterLabel>Existing</masterLabel>
+            <translation><!-- Existing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overall Status --></label>
+        <name>Overall_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date --></label>
+        <name>Production_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSCR Description --></label>
+        <name>SSCR_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSCR Funding Status --></label>
+        <name>SSCR_Funding_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved For Delivery</masterLabel>
+            <translation><!-- Approved For Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved For Requirements</masterLabel>
+            <translation><!-- Approved For Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Approved</masterLabel>
+            <translation><!-- Not Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Prioritized</masterLabel>
+            <translation><!-- Not Yet Prioritized --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SSCR Number --></label>
+        <name>SSCR_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSCR Status --></label>
+        <name>SSCR_Status__c</name>
+        <picklistValues>
+            <masterLabel>SSCR Cancelled</masterLabel>
+            <translation><!-- SSCR Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSCR Complete</masterLabel>
+            <translation><!-- SSCR Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSCR In Progress</masterLabel>
+            <translation><!-- SSCR In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- National and Local NASCO --></label>
+        <name>National_and_Local_NASCO</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- National and Local WGS --></label>
+        <name>National_and_Local_WGS</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- New_ICR --></label>
+        <name>New_ICR</name>
+    </webLinks>
+</CustomObjectTranslation>

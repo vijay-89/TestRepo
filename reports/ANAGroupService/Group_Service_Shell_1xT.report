@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Implementation_Tracking__c$Implementation_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>Implementation_Tracking__c$Name</field>
+    </columns>
+    <columns>
+        <field>Implementation_Tracking__c.Group_Services_and_ID_Cards__r$Name</field>
+    </columns>
+    <columns>
+        <field>Implementation_Tracking__c.Group_Services_and_ID_Cards__r.Group_Services_Repeatable__r$Name</field>
+    </columns>
+    <description>Shell for purpose of Group Service House Account tracking</description>
+    <filter>
+        <criteriaItems>
+            <column>Implementation_Tracking__c$Account_Legal_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Anthem</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Group Service House Shell</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Imp_Tracking_with_GSA_w_or_wo_GSA_Repeatable__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Implementation_Tracking__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

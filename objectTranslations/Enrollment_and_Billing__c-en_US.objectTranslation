@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Membership</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Membership</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Add Products --></label>
+        <name>Add_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Entity --></label>
+        <name>Anthem_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved_Date_Completed --></label>
+        <name>Approved_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved or Declined Date --></label>
+        <name>Approved_or_Declined_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Install Group Loaded --></label>
+        <name>Case_Install_Group_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Install Stage --></label>
+        <name>Case_Install_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Installation --></label>
+        <name>Case_Installation__c</name>
+        <relationshipLabel><!-- Membership --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME Queue time --></label>
+        <name>Current_SME_Queue_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME time --></label>
+        <name>Current_SME_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOH Required --></label>
+        <name>DOH_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Implementations Notified Of Sale --></label>
+        <name>Date_Implementations_Notified_Of_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days From Assignment --></label>
+        <name>Days_From_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- EET Client ID --></label>
+        <name>EET_Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- EET File Received --></label>
+        <name>EET_File_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- EET Output Complete --></label>
+        <name>EET_Output_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- EET Prod Run --></label>
+        <name>EET_Prod_Run__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligibility Loaded --></label>
+        <name>Eligibility_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Report Sent Date --></label>
+        <name>Error_Report_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Size --></label>
+        <name>Group_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- HQ State --></label>
+        <name>HQ_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Card Issued Order Level --></label>
+        <name>ID_Card_Issued_Order_Level__c</name>
+        <picklistValues>
+            <masterLabel>Auto-generate</masterLabel>
+            <translation><!-- Auto-generate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mass Order</masterLabel>
+            <translation><!-- Mass Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Order</masterLabel>
+            <translation><!-- Partial Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ID Card Order Re-triggered Date --></label>
+        <name>ID_Card_Order_Re_triggered_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Card Special Instructions --></label>
+        <name>ID_Card_Special_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Cards Requested --></label>
+        <name>ID_Cards_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Cards Triggered --></label>
+        <name>ID_Cards_Triggered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Name --></label>
+        <name>Implementation_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Start Date --></label>
+        <name>Implementation_Case_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effective Date --></label>
+        <name>Implementation_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Id --></label>
+        <name>Implementation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Tracking ID --></label>
+        <name>Implementation_Tracking_ID__c</name>
+        <relationshipLabel><!-- Membership --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation Type --></label>
+        <name>Implementation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- In_Progress_Date_Completed --></label>
+        <name>In_Progress_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Enrollment Submission Type --></label>
+        <name>Initial_Enrollment_Submission_Type__c</name>
+        <picklistValues>
+            <masterLabel>Census</masterLabel>
+            <translation><!-- Census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EET/EDI</masterLabel>
+            <translation><!-- EET/EDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer Access</masterLabel>
+            <translation><!-- Employer Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Move from FACETS</masterLabel>
+            <translation><!-- Manual Move from FACETS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Move from ISG</masterLabel>
+            <translation><!-- Manual Move from ISG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Move from NASC</masterLabel>
+            <translation><!-- Manual Move from NASC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OME (Online Member Enrollment)</masterLabel>
+            <translation><!-- OME (Online Member Enrollment) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper/Form</masterLabel>
+            <translation><!-- Paper/Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Source Group Tape</masterLabel>
+            <translation><!-- Plan Source Group Tape --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Source Real Time</masterLabel>
+            <translation><!-- Plan Source Real Time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Membership Details Applicable --></label>
+        <name>Is_E_B_Details_Applicable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Imp &amp; Chg Request Detail Applicable --></label>
+        <name>Is_Imp_Chg_Request_Detail_Applicable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Owner the Logged in user --></label>
+        <name>Is_Owner_the_Logged_in_user__c</name>
+    </fields>
+    <fields>
+        <label><!-- JAA Group --></label>
+        <name>JAA_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoggedinProfile --></label>
+        <name>LoggedinProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- MCS Group --></label>
+        <name>MCS_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Level ID Card --></label>
+        <name>Member_Level_ID_Card__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Large Group: Paper Exception Granted --></label>
+        <name>New_Large_Group_Paper_Exception_Granted__c</name>
+        <picklistValues>
+            <masterLabel>Broker needs to be trained on the availability of the suite of the electronic tool</masterLabel>
+            <translation><!-- Broker needs to be trained on the availability of the suite of the electronic tool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group does not have computer access to submit electronically</masterLabel>
+            <translation><!-- Group does not have computer access to submit electronically --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group has security settings that block the use of our electronic tools</masterLabel>
+            <translation><!-- Group has security settings that block the use of our electronic tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group refuses to submit electronically</masterLabel>
+            <translation><!-- Group refuses to submit electronically --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Please Specify)</masterLabel>
+            <translation><!-- Other (Please Specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The product mix is not supported on the tools i.e.: Stand Alone Specialty</masterLabel>
+            <translation><!-- The product mix is not supported on the tools i.e.: Stand Alone Specialty --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Not_Started_Date_Completed --></label>
+        <name>Not_Started_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Started Date --></label>
+        <name>Not_Started_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Errors --></label>
+        <name>Number_of_Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ongoing Enrollment Submission Type --></label>
+        <name>Ongoing_Enrollment_Submission_Type__c</name>
+        <picklistValues>
+            <masterLabel>Census</masterLabel>
+            <translation><!-- Census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EET/EDI</masterLabel>
+            <translation><!-- EET/EDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer Access</masterLabel>
+            <translation><!-- Employer Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Move from FACETS</masterLabel>
+            <translation><!-- Manual Move from FACETS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Move from ISG</masterLabel>
+            <translation><!-- Manual Move from ISG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Move from NASC</masterLabel>
+            <translation><!-- Manual Move from NASC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Known</masterLabel>
+            <translation><!-- Not Known --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OME (Online Member Enrollment)</masterLabel>
+            <translation><!-- OME (Online Member Enrollment) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper/Form</masterLabel>
+            <translation><!-- Paper/Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Source Group Tape</masterLabel>
+            <translation><!-- Plan Source Group Tape --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Source Real Time</masterLabel>
+            <translation><!-- Plan Source Real Time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Effective Date --></label>
+        <name>Opportunity_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Membership --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Enrollment &amp; Billing Original Check Date --></label>
+        <name>Original_Enrollment_and_Billing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Special Instructions --></label>
+        <name>Other_Special_Instructions__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overall Status --></label>
+        <name>Overall_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paper Exception Details --></label>
+        <name>Paper_Exception_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- PendingCorrectionAction --></label>
+        <name>PendingCorrectionAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Date --></label>
+        <name>Pending_Correction_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Time --></label>
+        <name>Pending_Correction_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction to Approved/Declined --></label>
+        <name>Pending_Correction_to_Approved_Declined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Corrections Stage --></label>
+        <name>Pending_Corrections_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pooled/Non-Pooled --></label>
+        <name>Pooled_Non_Pooled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probationary Period --></label>
+        <name>Probationary_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date --></label>
+        <name>Production_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Enrollment File Status --></label>
+        <name>Production_Enrollment_File_Status__c</name>
+        <picklistValues>
+            <masterLabel>File Loading Completed</masterLabel>
+            <translation><!-- File Loading Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>File Received And Being Reviewed/Loaded</masterLabel>
+            <translation><!-- File Received And Being Reviewed/Loaded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting On File Delivery</masterLabel>
+            <translation><!-- Waiting On File Delivery --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Received Date --></label>
+        <name>Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situs State --></label>
+        <name>Situs_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instruction Details --></label>
+        <name>Special_Instruction_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>01 Not Started</masterLabel>
+            <translation><!-- 01 Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 Work In Progress</masterLabel>
+            <translation><!-- 02 Work In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction</masterLabel>
+            <translation><!-- 03 Pending Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction Returned</masterLabel>
+            <translation><!-- 03 Pending Correction Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 Approved</masterLabel>
+            <translation><!-- 04 Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 Declined</masterLabel>
+            <translation><!-- 05 Declined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub-Stage --></label>
+        <name>Sub_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Pending Cancellation</masterLabel>
+            <translation><!-- Pending Cancellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Clarification</masterLabel>
+            <translation><!-- Pending Clarification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Enrollment</masterLabel>
+            <translation><!-- Pending Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Too Early to Process</masterLabel>
+            <translation><!-- Pending Too Early to Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending a Technical Fix</masterLabel>
+            <translation><!-- Pending a Technical Fix --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tech_Support_EnrollmentBilling --></label>
+        <name>Tech_Support_EnrollmentBilling__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is How Long It Took The SME Department To Approve/Deny A SME Record --></help>
+        <label><!-- Time To Approve/Deny --></label>
+        <name>Time_To_Approve_Deny__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is How Long It Took A SME Department To Submit A Pending Correction --></help>
+        <label><!-- Time To Pend --></label>
+        <name>Time_To_Pend__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum Of Time To Pend And Time To Approve/Deny --></help>
+        <label><!-- Time in SME Dept --></label>
+        <name>Time_in_SME_Dept__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Enrollments Submitted --></label>
+        <name>Total_Enrollments_Submitted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Time SME Record Was In The SME Department And The Sales Support/Implementations 		Department --></help>
+        <label><!-- Total Time --></label>
+        <name>Total_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transfer Members --></label>
+        <name>Transfer_Members__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please specify Paper Exception details. --></errorMessage>
+        <name>Add_Paper_Exception_Details</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide Member Transfer details. --></errorMessage>
+        <name>LG_Comments_For_Transfer_Members</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Special Instruction Details&quot; can not be left blank, if &quot;Other Special Instructions&quot; is &apos;Yes&apos;. --></errorMessage>
+        <name>LG_Special_Instruction_Details</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;New Large Group: Paper Exception Granted&quot; can not be left blank. --></errorMessage>
+        <name>LG_SubmissionType_Paper_Form</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter a value --></errorMessage>
+        <name>VR_01_Is_EB_Applicable</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seismic Product Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Seismic Product Types</value>
+    </caseValues>
+    <fields>
+        <label><!-- # Product And Funding Types --></label>
+        <name>No_ProductType_FundingType__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Product Type --></label>
+        <name>No_ProductTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Quote Lines --></label>
+        <name>Number_of_Quote_Lines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Seismic Product Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Seismic Funding Type --></label>
+        <name>Seismic_Funding_Type__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Seismic Product Type --></label>
+        <name>Seismic_Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Act Wise</masterLabel>
+            <translation><!-- Act Wise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life</masterLabel>
+            <translation><!-- Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Term Disability</masterLabel>
+            <translation><!-- Long Term Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Short Term Disability</masterLabel>
+            <translation><!-- Short Term Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Seismic QLI Rollup Refresh --></label>
+        <name>Seismic_QLI_Rollup_Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seismic Quoted Funding Type --></label>
+        <name>Seismic_Quoted_Funding_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seismic Quoted Product Type --></label>
+        <name>Seismic_Quoted_Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZZZ Delete Seismic Upsell Funding Type --></label>
+        <name>Seismic_Upsell_Funding_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seismic Upsell Product Type --></label>
+        <name>Seismic_Upsell_Product_Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

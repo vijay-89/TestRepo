@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IntakeReturn RecordType Ids</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IntakeReturn RecordType Ids</value>
+    </caseValues>
+    <fields>
+        <label><!-- Implementers Readonly --></label>
+        <name>Implementers_Readonly__c</name>
+    </fields>
+    <fields>
+        <label><!-- IntakeReasons Lock Sales --></label>
+        <name>IntakeReasons_Lock_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- IntakeReasons Lock --></label>
+        <name>IntakeReasons_Lock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales ReadOnly --></label>
+        <name>Sales_ReadOnly__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

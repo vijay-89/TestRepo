@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Alphanumeric Prefix Network</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Alphanumeric Prefix Networks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account ID Indicator --></label>
+        <name>Account_ID_Indicator__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alphanumeric Prefix Request --></label>
+        <name>Alpha_Prefix_Request__c</name>
+        <relationshipLabel><!-- Alphanumeric Prefix Networks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned Prefix --></label>
+        <name>Assigned_Prefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Control Plan --></label>
+        <name>Control_Plan__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only if &quot;Other&quot; Product/Network is selected. --></help>
+        <label><!-- Custom Network Name --></label>
+        <name>CustomNetworkName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Prefix --></label>
+        <name>Custom_Prefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Method --></label>
+        <name>DeliveryMethod__c</name>
+        <picklistValues>
+            <masterLabel>1 = Traditional</masterLabel>
+            <translation><!-- 1 = Traditional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 = BlueCard PPO</masterLabel>
+            <translation><!-- 2 = BlueCard PPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 = Medigap</masterLabel>
+            <translation><!-- 6 = Medigap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 = Med Adv without Reciprocity</masterLabel>
+            <translation><!-- 7 = Med Adv without Reciprocity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 = Medicaid</masterLabel>
+            <translation><!-- 8 = Medicaid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A = Med Adv PPO with Reciprocity</masterLabel>
+            <translation><!-- A = Med Adv PPO with Reciprocity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B = Med Adv Regional PPO with Reciprocity</masterLabel>
+            <translation><!-- B = Med Adv Regional PPO with Reciprocity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C = Med Adv HMO</masterLabel>
+            <translation><!-- C = Med Adv HMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D = Med Adv Private Fee for Service (PFFS)</masterLabel>
+            <translation><!-- D = Med Adv Private Fee for Service (PFFS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E = Med Adv Special Needs Plan (SNP)</masterLabel>
+            <translation><!-- E = Med Adv Special Needs Plan (SNP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F = Med Adv Cost Product</masterLabel>
+            <translation><!-- F = Med Adv Cost Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G - PPO</masterLabel>
+            <translation><!-- G - PPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G = Custom Network</masterLabel>
+            <translation><!-- G = Custom Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H - TRAD</masterLabel>
+            <translation><!-- H - TRAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J = AdvNet Networks</masterLabel>
+            <translation><!-- J = AdvNet Networks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K = Exchange Qualified PPO</masterLabel>
+            <translation><!-- K = Exchange Qualified PPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L = Exchange Qualified PPO Custom</masterLabel>
+            <translation><!-- L = Exchange Qualified PPO Custom --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case --></label>
+        <name>Implementation_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incomplete? --></label>
+        <name>Incomplete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prefix Account ID --></label>
+        <name>Prefix_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product/Network Name --></label>
+        <name>ProductNetworkName__c</name>
+        <picklistValues>
+            <masterLabel>AZ: Blue Alternative</masterLabel>
+            <translation><!-- AZ: Blue Alternative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA: Select PPO</masterLabel>
+            <translation><!-- CA: Select PPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO  3GB- WellChoice - C</masterLabel>
+            <translation><!-- CO  3GB- WellChoice - C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO  3GC- WellChoice - H</masterLabel>
+            <translation><!-- CO  3GC- WellChoice - H --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO  3GD- WellChoice - U</masterLabel>
+            <translation><!-- CO  3GD- WellChoice - U --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO: Pathways CO</masterLabel>
+            <translation><!-- CO: Pathways CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT- Century Preferred Tiered</masterLabel>
+            <translation><!-- CT- Century Preferred Tiered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CareFirst: BlueChoice</masterLabel>
+            <translation><!-- CareFirst: BlueChoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Network (Please Specify)</masterLabel>
+            <translation><!-- Custom Network (Please Specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPO</masterLabel>
+            <translation><!-- EPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL: NetworkBlue</masterLabel>
+            <translation><!-- FL: NetworkBlue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA: Blue Open Access POS</masterLabel>
+            <translation><!-- GA: Blue Open Access POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMO</masterLabel>
+            <translation><!-- HMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL - BlueChoice Options PPO</masterLabel>
+            <translation><!-- IL - BlueChoice Options PPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN- Anthem HealthSync</masterLabel>
+            <translation><!-- IN- Anthem HealthSync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN- High Value Network</masterLabel>
+            <translation><!-- MN- High Value Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO- Anthem Alliance EPO</masterLabel>
+            <translation><!-- MO- Anthem Alliance EPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO-KC: Preferred-Care</masterLabel>
+            <translation><!-- MO-KC: Preferred-Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO-St.Louis: Blue Access Choice</masterLabel>
+            <translation><!-- MO-St.Louis: Blue Access Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO: Anthem Alliance EPO</masterLabel>
+            <translation><!-- MO: Anthem Alliance EPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO: Blue Preferred-POS</masterLabel>
+            <translation><!-- MO: Blue Preferred-POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicaid Advantage</masterLabel>
+            <translation><!-- Medicaid Advantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation><!-- Medicare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medigap</masterLabel>
+            <translation><!-- Medigap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC: BlueValue</masterLabel>
+            <translation><!-- NC: BlueValue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH: BlueChoice Open Access POS</masterLabel>
+            <translation><!-- NH: BlueChoice Open Access POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ: Managed Care Network</masterLabel>
+            <translation><!-- NJ: Managed Care Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY  Blue Access</masterLabel>
+            <translation><!-- NY  Blue Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY: Blue Priority</masterLabel>
+            <translation><!-- NY: Blue Priority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY: Empire POS</masterLabel>
+            <translation><!-- NY: Empire POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPO</masterLabel>
+            <translation><!-- PPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN: Network S</masterLabel>
+            <translation><!-- TN: Network S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX- Blue Premier Access</masterLabel>
+            <translation><!-- TX- Blue Premier Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional</masterLabel>
+            <translation><!-- Traditional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI - Blue Priority</masterLabel>
+            <translation><!-- WI - Blue Priority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI - Blue Priority (WCIC)</masterLabel>
+            <translation><!-- WI - Blue Priority (WCIC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI: Blue Preferred POS</masterLabel>
+            <translation><!-- WI: Blue Preferred POS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used for data load, the CIP, and Open Enrollment processes that need to be maintained in the old Commercial ORG. --></help>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please check your entry. There may be no spaces, no lower case letters or special characters. ID must begin with ANTM and be 10-20 characters in length --></errorMessage>
+        <name>Prefix_Account_ID_validation</name>
+    </validationRules>
+</CustomObjectTranslation>

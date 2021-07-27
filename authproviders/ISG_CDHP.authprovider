@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <consumerKey>3MVG9A2kN3Bn17huDbLre_GA5WY6WM0AbOs8ZkOpm7Pt30KyWKIQcz1laN7tyaWwPyEin.mWibA5acIAVbPed</consumerKey>
+    <consumerSecret>OwYcw9mk9BBo4+LIoX4VanZgC/dCLi0MEBYofKZ4GgLMXJDuityXDAJlSzNzQh619uyG1ZQQe19E+3KgsT2sYXBBGPdiC2rX</consumerSecret>
+    <friendlyName>ISG_CDHP</friendlyName>
+    <includeOrgIdInIdentifier>true</includeOrgIdInIdentifier>
+    <providerType>Salesforce</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+</AuthProvider>

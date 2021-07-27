@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Commissions Estimator Variable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Commissions Estimator Variables</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the base rate or the term &quot;Variable&quot; --></help>
+        <label><!-- zzz DELETE Base Rate --></label>
+        <name>Base_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal eligible --></label>
+        <name>Goal_eligible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Variable --></label>
+        <name>Is_Variable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line of Business --></label>
+        <name>Line_of_Business__c</name>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life</masterLabel>
+            <translation><!-- Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplemental</masterLabel>
+            <translation><!-- Supplemental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is the upper limit for the lines of business that are tiered by premium --></help>
+        <label><!-- Maximum Premium --></label>
+        <name>Maximum_Premium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min Premium for LOB --></label>
+        <name>Min_Premium_for_LOB__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the lower limit for the lines of business that are tiered by premium --></help>
+        <label><!-- Minimum Premium --></label>
+        <name>Minimum_Premium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Year --></label>
+        <name>Plan_Year__c</name>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Input the level for case premium thresholds --></help>
+        <label><!-- Premium Level --></label>
+        <name>Premium_Level__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Premium Rate Tier 1 --></label>
+        <name>Premium_Rate_Tier_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premium Rate Tier 2 --></label>
+        <name>Premium_Rate_Tier_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premium Rate Tier 3 --></label>
+        <name>Premium_Rate_Tier_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate --></label>
+        <name>Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Type --></label>
+        <name>Sales_Type__c</name>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation><!-- New Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewals</masterLabel>
+            <translation><!-- Renewals --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>Unit_of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>Members</masterLabel>
+            <translation><!-- Members --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You must enter a value between $0 and $20 for the base rate, OR enter the term &quot;Variable&quot; (without quotations) --></errorMessage>
+        <name>Base_Rate_Must_be_a_Number_or_Variable</name>
+    </validationRules>
+</CustomObjectTranslation>

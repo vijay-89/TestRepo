@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Invoices (Local)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Invoices (Local)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+        <relationshipLabel><!-- Invoices (Local) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BillingContactLastName --></label>
+        <name>BillingContactLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillingContactName --></label>
+        <name>BillingContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Contact Title --></label>
+        <name>Billing_Contact_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact Record For The Invoice Administrator --></help>
+        <label><!-- Billing Contact --></label>
+        <name>Billing_Contact__c</name>
+        <relationshipLabel><!-- Invoices (Local) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This Is The Frequency In Which The Invoice Is Generated. Monthly Is Most Commonly Used. --></help>
+        <label><!-- Billing Frequency --></label>
+        <name>Billing_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>10 Month</masterLabel>
+            <translation><!-- 10 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 Month</masterLabel>
+            <translation><!-- 9 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation><!-- Semi-Annual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing Preference --></label>
+        <name>Billing_Preference__c</name>
+        <picklistValues>
+            <masterLabel>List/Premium Bill</masterLabel>
+            <translation><!-- List/Premium Bill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Bill</masterLabel>
+            <translation><!-- Self-Bill --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Populated via API response from Customer Master --></help>
+        <label><!-- CBP Bill Group ID --></label>
+        <name>CBP_Bill_Group_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <help><!-- # Of Days Before A Bill Entity Becomes Delinquent. Claims Will Not Pay If The Service Date Is After The Group&apos;s Paid To Date Plus Grace Days. Typically Ranges From 30 – 90 Days. --></help>
+        <label><!-- Claim Grace Days --></label>
+        <name>Claim_Grace_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates day of the month the invoice bill is scheduled to be generated, from 01 through 31. --></help>
+        <label><!-- Cycle Code --></label>
+        <name>Cycle_Code__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation><!-- 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28</masterLabel>
+            <translation><!-- 28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29</masterLabel>
+            <translation><!-- 29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31</masterLabel>
+            <translation><!-- 31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>Fax__c</name>
+    </fields>
+    <fields>
+        <help><!-- # Of Days Before A Bill Entity Becomes Delinquent. Claims Will Not Pay If The Service Date Is After The Group&apos;s Paid To Date Plus Grace Days. Typically Ranges From 30 – 90 Days. --></help>
+        <label><!-- Grace Days --></label>
+        <name>Grace_Days__c</name>
+        <picklistValues>
+            <masterLabel>30 days</masterLabel>
+            <translation><!-- 30 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31 days</masterLabel>
+            <translation><!-- 31 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 days</masterLabel>
+            <translation><!-- 60 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90 days</masterLabel>
+            <translation><!-- 90 days --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <relationshipLabel><!-- Invoices (Local) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- If Other, Enter Invoice Sorting Option 2 --></label>
+        <name>If_Other_Enter_Invoice_Sorting_Option_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, Enter Invoice Sorting Option 1 --></label>
+        <name>If_Other_Enter_Invoice_Sorting_Option__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Cancel Date --></label>
+        <name>Invoice_Cancel_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Description --></label>
+        <name>Invoice_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Effective Date --></label>
+        <name>Invoice_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Format --></label>
+        <name>Invoice_Format__c</name>
+        <picklistValues>
+            <masterLabel>D (Detailed)</masterLabel>
+            <translation><!-- D (Detailed) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S (Summary)</masterLabel>
+            <translation><!-- S (Summary) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Sorting Option 2 --></label>
+        <name>Invoice_Sorting_Option_2__c</name>
+        <picklistValues>
+            <masterLabel>Geographic Location</masterLabel>
+            <translation><!-- Geographic Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Location</masterLabel>
+            <translation><!-- Payroll Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salary Class</masterLabel>
+            <translation><!-- Salary Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State</masterLabel>
+            <translation><!-- State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store Number</masterLabel>
+            <translation><!-- Store Number --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Sorting Option 1 --></label>
+        <name>Invoice_Sorting_Option__c</name>
+        <picklistValues>
+            <masterLabel>Geographic Location</masterLabel>
+            <translation><!-- Geographic Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Location</masterLabel>
+            <translation><!-- Payroll Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salary Class</masterLabel>
+            <translation><!-- Salary Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State</masterLabel>
+            <translation><!-- State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store Number</masterLabel>
+            <translation><!-- Store Number --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sorting Order For Option 1 --></label>
+        <name>Sorting_Order_For_Option_1__c</name>
+        <picklistValues>
+            <masterLabel>Ascending</masterLabel>
+            <translation><!-- Ascending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Descending</masterLabel>
+            <translation><!-- Descending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sorting Order For Option 2 --></label>
+        <name>Sorting_Order_For_Option_2__c</name>
+        <picklistValues>
+            <masterLabel>Ascending</masterLabel>
+            <translation><!-- Ascending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Descending</masterLabel>
+            <translation><!-- Descending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source System --></label>
+        <name>Source_System__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Address --></label>
+        <name>Street_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is The Minimum Percent Payment Of An Invoice Required Before The Paid To Date Is Advanced. Minimum Percent Is 80%. --></help>
+        <label><!-- Tolerance Level % --></label>
+        <name>Tolerance_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Bill --></label>
+        <name>Type_of_Bill__c</name>
+        <picklistValues>
+            <masterLabel>Electronic/Email</masterLabel>
+            <translation><!-- Electronic/Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print/Mail</masterLabel>
+            <translation><!-- Print/Mail --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>Zip_Code__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

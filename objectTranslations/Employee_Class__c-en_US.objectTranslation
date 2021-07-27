@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Employee Class</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Employee Classes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer defined --></help>
+        <label><!-- Employee Class Name --></label>
+        <name>Employee_Class_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Class Type --></label>
+        <name>Employee_Class_Type__c</name>
+        <picklistValues>
+            <masterLabel>Division</masterLabel>
+            <translation><!-- Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geographic Location</masterLabel>
+            <translation><!-- Geographic Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Location</masterLabel>
+            <translation><!-- Payroll Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salary Class</masterLabel>
+            <translation><!-- Salary Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State</masterLabel>
+            <translation><!-- State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store Number</masterLabel>
+            <translation><!-- Store Number --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Formatted Last Modified Date --></label>
+        <name>Formatted_Last_Modified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <relationshipLabel><!-- Employee Class --></relationshipLabel>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

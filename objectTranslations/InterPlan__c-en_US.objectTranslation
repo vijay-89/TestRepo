@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>InterPlan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>InterPlans</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Record Type --></label>
+        <name>Account_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Status --></label>
+        <name>Account_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Team Underwriter --></label>
+        <name>Account_Team_Underwriter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alphanumeric Prefix Request --></label>
+        <name>Alphanumeric_Prefix_Request__c</name>
+        <relationshipLabel><!-- InterPlans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Anthem Entity --></label>
+        <name>Anthem_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval or Declined Time --></label>
+        <name>Approval_or_Declined_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved_Date_Completed --></label>
+        <name>Approved_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved or Declined Date --></label>
+        <name>Approved_or_Declined_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branding --></label>
+        <name>Branding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cede Information Cede End Date --></label>
+        <name>Cede_Information_Cede_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cede Information Cede Start Date --></label>
+        <name>Cede_Information_Cede_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Control Plan Code --></label>
+        <name>Control_Plan_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME Queue time --></label>
+        <name>Current_SME_Queue_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME time --></label>
+        <name>Current_SME_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Implementations Notified of Sale --></label>
+        <name>Date_Implementations_Notified_of_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days From Assignment --></label>
+        <name>Days_From_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Director Sales/ Account Management --></label>
+        <name>Director_Sales_Account_Management__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligible Employees --></label>
+        <name>Eligible_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange info --></label>
+        <name>Exchange_info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding Type --></label>
+        <name>Funding_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Size --></label>
+        <name>Group_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- HQ State --></label>
+        <name>HQ_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Name --></label>
+        <name>Implementation_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Start Date --></label>
+        <name>Implementation_Case_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Type --></label>
+        <name>Implementation_Case_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effective Date --></label>
+        <name>Implementation_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Tracking ID --></label>
+        <name>Implementation_Tracking_ID__c</name>
+        <relationshipLabel><!-- InterPlan --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation Type --></label>
+        <name>Implementation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- In_Progress_Date_Completed --></label>
+        <name>In_Progress_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures Date When The Interplan Check Field Is True --></help>
+        <label><!-- Interplan Check Date --></label>
+        <name>Interplan_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interplan_Check --></label>
+        <name>Interplan_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Owner the Logged in user --></label>
+        <name>Is_Owner_the_Logged_in_user__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pending Correction Record Present --></label>
+        <name>Is_Pending_Correction_Record_Present__c</name>
+    </fields>
+    <fields>
+        <label><!-- JAA Group --></label>
+        <name>JAA_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoggedinProfile --></label>
+        <name>LoggedinProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- MCS Group --></label>
+        <name>MCS_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Segment (MBU) --></label>
+        <name>Market_Segment_MBU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not_Started_Date_Completed --></label>
+        <name>Not_Started_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Started Date --></label>
+        <name>Not_Started_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interplan Original Check Date --></label>
+        <name>Original_Interplan_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- PendingCorrectionAction --></label>
+        <name>PendingCorrectionAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Date --></label>
+        <name>Pending_Correction_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Time --></label>
+        <name>Pending_Correction_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction to Approved/Declined --></label>
+        <name>Pending_Correction_to_Approved_Declined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction to Not Started --></label>
+        <name>Pending_Correction_to_Not_Started__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Corrections Stage --></label>
+        <name>Pending_Corrections_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Time --></label>
+        <name>Pending_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date --></label>
+        <name>Production_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Products on Quote --></label>
+        <name>Products_on_Quote__c</name>
+        <relationshipLabel><!-- InterPlans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Month --></label>
+        <name>Renewal_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Provider Relationships --></label>
+        <name>Service_Provider_Relationships__c</name>
+        <relationshipLabel><!-- InterPlans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Situs State --></label>
+        <name>Situs_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>01 Not Started</masterLabel>
+            <translation><!-- 01 Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>01A Assign to UW</masterLabel>
+            <translation><!-- 01A Assign to UW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>01AA Submitted To CIC</masterLabel>
+            <translation><!-- 01AA Submitted To CIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 Work In Progress</masterLabel>
+            <translation><!-- 02 Work In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction</masterLabel>
+            <translation><!-- 03 Pending Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction Returned</masterLabel>
+            <translation><!-- 03 Pending Correction Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 Approved</masterLabel>
+            <translation><!-- 04 Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 Declined</masterLabel>
+            <translation><!-- 05 Declined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sutter Status --></label>
+        <name>Sutter_Status__c</name>
+        <relationshipLabel><!-- InterPlans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tech Support Interplan --></label>
+        <name>Tech_Support_Interplan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time To Approve/Deny --></label>
+        <name>Time_To_Approve_Deny__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time To Pend --></label>
+        <name>Time_To_Pend__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum of &quot;Time To Pend&quot; and &quot;Time To Approve&quot; --></help>
+        <label><!-- Time in SME Dept --></label>
+        <name>Time_in_SME_Dept__c</name>
+    </fields>
+    <fields>
+        <help><!-- Difference Between The Dates Of Previous Department&apos;s &quot;Approved?&quot; Checkbox Was checked And Date When The Current SME Record&apos;s Stage Is Changed To &quot;03 Pending Correction&quot; To &quot;04 Approved&quot; Or &quot;05 Declined&quot;. --></help>
+        <label><!-- Total Time --></label>
+        <name>Total_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Work Month --></label>
+        <name>Underwriting_Work_Month__c</name>
+        <picklistValues>
+            <masterLabel>Apr</masterLabel>
+            <translation><!-- Apr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aug</masterLabel>
+            <translation><!-- Aug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dec</masterLabel>
+            <translation><!-- Dec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feb</masterLabel>
+            <translation><!-- Feb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jan</masterLabel>
+            <translation><!-- Jan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jun</masterLabel>
+            <translation><!-- Jun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mar</masterLabel>
+            <translation><!-- Mar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation><!-- May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nov</masterLabel>
+            <translation><!-- Nov --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oct</masterLabel>
+            <translation><!-- Oct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sept</masterLabel>
+            <translation><!-- Sept --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Warp Medical Members --></label>
+        <name>Warp_Medical_Members__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

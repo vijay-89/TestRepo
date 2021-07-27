@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Engage Scoping And Engage Standard</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Engage Scoping And Engage Standard</value>
+    </caseValues>
+    <fields>
+        <label><!-- ASH Eligible Members --></label>
+        <name>ASH_Eligible_Members__c</name>
+        <picklistValues>
+            <masterLabel>All Members (Employees + Dependents)</masterLabel>
+            <translation><!-- All Members (Employees + Dependents) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employees Only</masterLabel>
+            <translation><!-- Employees Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please choose Yes or No based on the client&apos;s participation in ASH Gym reimbursement. --></help>
+        <label><!-- ASH Gym Reimbursement (Buy-up) --></label>
+        <name>ASH_Gym_Reimbursement_Buyup__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ASH Program Name --></label>
+        <name>ASH_Program_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity, Nutrition, Sleep Programs --></label>
+        <name>Activity_Nutrition_Sleep_Programs__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specify All Alpha Prefixes Separated By Commas --></help>
+        <label><!-- Advantage Networks Alpha Prefixes --></label>
+        <name>Advantage_Networks_Alpha_Prefixes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advantage Networks --></label>
+        <name>Advantage_Networks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Basic Or Enhanced EAP --></label>
+        <name>Anthem_Basic_of_Enhanced_EAP__c</name>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation><!-- Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhanced</masterLabel>
+            <translation><!-- Enhanced --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anthem Contract Sign Date --></label>
+        <name>Anthem_Contract_Sign_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Control State --></label>
+        <name>Anthem_Control_State__c</name>
+    </fields>
+    <fields>
+        <help><!-- Must be administratively integrated. --></help>
+        <label><!-- Anthem Dental Product --></label>
+        <name>Anthem_Dental_Carrier__c</name>
+        <picklistValues>
+            <masterLabel>Anthem Dental Consumer Choice PPO</masterLabel>
+            <translation><!-- Anthem Dental Consumer Choice PPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem Dental Essential Choice PPO</masterLabel>
+            <translation><!-- Anthem Dental Essential Choice PPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem Dental Prime And Complete</masterLabel>
+            <translation><!-- Anthem Dental Prime And Complete --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anthem Executive / Manager --></label>
+        <name>Anthem_Executive_Manager__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please choose Yes or No based on the client&apos;s access to Anthem Health Guide. --></help>
+        <label><!-- Anthem Health Guide --></label>
+        <name>Anthem_Health_Guide__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please choose Yes or No based on the client&apos;s participation in Anthem Health rewards. --></help>
+        <label><!-- Anthem Health Rewards --></label>
+        <name>Anthem_Health_Rewards__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anthem Implementation Lead --></label>
+        <name>Anthem_Implementation_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Only Or Multi Carrier --></label>
+        <name>Anthem_Only_Or_Multi_Carrier__c</name>
+        <picklistValues>
+            <masterLabel>Anthem (Only)</masterLabel>
+            <translation><!-- Anthem (Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Carrier</masterLabel>
+            <translation><!-- Multi-Carrier --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anthem Existing Client or New Sale --></label>
+        <name>Anthem_Renewal_or_New_Sale__c</name>
+    </fields>
+    <fields>
+        <help><!-- Will Anthem Provide Communications Support To Drive Registration? --></help>
+        <label><!-- Anthem To Provide Comm Support --></label>
+        <name>Anthem_To_Provide_Comm_Support__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please choose Yes or No based on the client&apos;s desire to offer this non-incentivized program. --></help>
+        <label><!-- BioIQ --></label>
+        <name>BioIQ__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Care And Cost Finder (CCF) --></label>
+        <name>Care_And_Cost_Finder_CCF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Castlight Contract Sign Date --></label>
+        <name>Castlight_Contract_Sign_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Castlight Opportunity Approval Stage --></label>
+        <name>Castlight_Opportunity_Approval_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Castlight Opportunity --></label>
+        <name>Castlight_Opportunity__c</name>
+        <relationshipLabel><!-- Engage Scoping And Engage Standard --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Castlight Submission Status --></label>
+        <name>Castlight_Submission_Status_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Castlight Submission Status --></label>
+        <name>Castlight_Submission_Status__c</name>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation><!-- Not Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Update After Initial Submission</masterLabel>
+            <translation><!-- Pending Update After Initial Submission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Re-Submission</masterLabel>
+            <translation><!-- Ready for Re-Submission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Submission</masterLabel>
+            <translation><!-- Ready for Submission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Billing Address --></label>
+        <name>Client_Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Have Benefit Enrollment Platform --></label>
+        <name>Client_Have_Benefit_Enrollment_Platform__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Does The Client Have Its Own Wellness Vendors That We Should Promote In Engage Application? --></help>
+        <label><!-- Client Have Own Wellness Vendors --></label>
+        <name>Client_Have_Own_Wellness_Vendors__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client Integrating Wellness Bundle --></label>
+        <name>Client_Integrating_Wellness_Bundle__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client Market --></label>
+        <name>Client_Market__c</name>
+    </fields>
+    <fields>
+        <help><!-- What Is The Client Preferred Launch Date For Engage --></help>
+        <label><!-- Client Preferred Launch Date For Engage --></label>
+        <name>Client_Preferred_Launch_Date_For_Engage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Termination Effective Date --></label>
+        <name>Client_Termination_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please indicate all applicable. --></help>
+        <label><!-- Clinical Shared Data And Experiences --></label>
+        <name>Clinical_Shared_Data_And_Experiences__c</name>
+        <picklistValues>
+            <masterLabel>24/7 Nurse Line</masterLabel>
+            <translation><!-- 24/7 Nurse Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AIM</masterLabel>
+            <translation><!-- AIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem Health Guide</masterLabel>
+            <translation><!-- Anthem Health Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Moms</masterLabel>
+            <translation><!-- Future Moms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrated Health Model</masterLabel>
+            <translation><!-- Integrated Health Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LiveHealthOnline</masterLabel>
+            <translation><!-- LiveHealthOnline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MyHealth Advantage</masterLabel>
+            <translation><!-- MyHealth Advantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Health, Total You Tier 1</masterLabel>
+            <translation><!-- Total Health, Total You Tier 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Health, Total You Tier 2</masterLabel>
+            <translation><!-- Total Health, Total You Tier 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual Second Opinion</masterLabel>
+            <translation><!-- Virtual Second Opinion --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Type --></label>
+        <name>Contract_Type__c</name>
+        <picklistValues>
+            <masterLabel>Anthem Contract With Client</masterLabel>
+            <translation><!-- Anthem Contract With Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castlight Contract With Client</masterLabel>
+            <translation><!-- Castlight Contract With Client --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Delta Dental State --></label>
+        <name>Delta_Dental_State__c</name>
+        <picklistValues>
+            <masterLabel>Dentegra</masterLabel>
+            <translation><!-- Dentegra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device Credit Budget --></label>
+        <name>Device_Credit_Budget__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Display Name --></label>
+        <name>Display_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does Client Have Anthem Health Rewards --></label>
+        <name>Does_Client_Have_Anthem_Health_Rewards__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does The Client Have Onsite Clinics --></label>
+        <name>Does_The_Client_Have_Onsite_Clinics__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anthem Rx (ESI Carve-In) --></label>
+        <name>ESI_Carve_In__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Estimate Your Costs (EYC) And Find A Doctor (FAD) --></help>
+        <label><!-- EYC And FAD --></label>
+        <name>EYC_And_FAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Elite Plus --></label>
+        <name>Elite_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Elite --></label>
+        <name>Elite__c</name>
+    </fields>
+    <fields>
+        <help><!-- Will Client Embed Registration For Engage Into Annual Enrollment And New Hire Enrollment? --></help>
+        <label><!-- Embed Registration Into AE And NHE --></label>
+        <name>Embed_Registration_Into_AE_And_NHE__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please enter the end date of the current contract. This will not cause termination unless notification is provided prior to this date. --></help>
+        <label><!-- End Date Of Customer Contract --></label>
+        <name>End_Date_Of_Customer_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Essentials Plus --></label>
+        <name>Essentials_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Essentials --></label>
+        <name>Essentials__c</name>
+    </fields>
+    <fields>
+        <label><!-- Essentials (non-Anthem) --></label>
+        <name>Essentials_non_Anthem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Est Receipt Date Of 1st Prod Elig File --></label>
+        <name>Est_Receipt_Date_Of_1st_Prod_Elig_File__c</name>
+    </fields>
+    <fields>
+        <label><!-- Est Receipt Date of 1st Prod OE File --></label>
+        <name>Est_Receipt_Date_of_1st_Prod_OE_File__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Total Membership --></label>
+        <name>Estimated_Total_Membership__c</name>
+    </fields>
+    <fields>
+        <help><!-- Existing Client Changes/Updates Effective Date --></help>
+        <label><!-- Existing Client Changes Effective Date --></label>
+        <name>Existing_Client_Changes_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSA Health Account --></label>
+        <name>FSA_Health_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Status --></label>
+        <name>Form_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- FOR ANTHEM Dental ONLY
+Future dental claims: --></help>
+        <label><!-- Future Dental Claims --></label>
+        <name>Future_Dental_Claims__c</name>
+    </fields>
+    <fields>
+        <help><!-- FOR ANTHEM DENTAL ONLY
+Provide group numbers for this client
+that should be used to obtain/provide. Separate Group numbers with commas. --></help>
+        <label><!-- Future Dental Group Numbers --></label>
+        <name>Future_Dental_Group_Numbers__c</name>
+    </fields>
+    <fields>
+        <help><!-- FOR ANTHEM RX ONLY
+Future pharmacy claims: --></help>
+        <label><!-- Future Pharmacy Claims --></label>
+        <name>Future_Pharmacy_Claims__c</name>
+    </fields>
+    <fields>
+        <help><!-- FOR ANTHEM RX ONLY
+Provide group numbers for this client
+that should be used to obtain/provide. Separate Group numbers with commas. --></help>
+        <label><!-- Future Pharmacy Group Numbers --></label>
+        <name>Future_Pharmacy_Group_Numbers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- HRA Health Account --></label>
+        <name>HRA_Health_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- HSA Health Account --></label>
+        <name>HSA_Health_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- IF EAP, Select All That Apply --></label>
+        <name>IF_EAP_Select_All_That_Apply__c</name>
+        <picklistValues>
+            <masterLabel>Anthem</masterLabel>
+            <translation><!-- Anthem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian LifeWorks</masterLabel>
+            <translation><!-- Ceridian LifeWorks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chesnut</masterLabel>
+            <translation><!-- Chesnut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ComPsych</masterLabel>
+            <translation><!-- ComPsych --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E4 Health</masterLabel>
+            <translation><!-- E4 Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optum</masterLabel>
+            <translation><!-- Optum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Behav Health, Select All That Apply --></label>
+        <name>If_Behav_Health_Select_All_That_Apply__c</name>
+        <picklistValues>
+            <masterLabel>Anthem</masterLabel>
+            <translation><!-- Anthem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beacon Health Options</masterLabel>
+            <translation><!-- Beacon Health Options --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carolina Behavior Health Alliance</masterLabel>
+            <translation><!-- Carolina Behavior Health Alliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ComPsych</masterLabel>
+            <translation><!-- ComPsych --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magelian Health</masterLabel>
+            <translation><!-- Magelian Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If CARVE-OUT, Select All That Apply --></label>
+        <name>If_CARVE_OUT_Select_All_That_Apply__c</name>
+        <picklistValues>
+            <masterLabel>Aetna Pharmacy</masterLabel>
+            <translation><!-- Aetna Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CVS Caremark</masterLabel>
+            <translation><!-- CVS Caremark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Express Scripts</masterLabel>
+            <translation><!-- Express Scripts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Humana</masterLabel>
+            <translation><!-- Humana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OptumRx</masterLabel>
+            <translation><!-- OptumRx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prime Therapeutics (BCBS NE &amp; HCSC-carve in only)</masterLabel>
+            <translation><!-- Prime Therapeutics (BCBS NE &amp; HCSC-carve in only) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Multi-Carrier, Select All That Apply --></label>
+        <name>If_Multi_Carrier_Select_All_That_Apply__c</name>
+        <picklistValues>
+            <masterLabel>Aetna</masterLabel>
+            <translation><!-- Aetna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AmeriBen</masterLabel>
+            <translation><!-- AmeriBen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas Blue Cross Blue Shield</masterLabel>
+            <translation><!-- Arkansas Blue Cross Blue Shield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aultcare</masterLabel>
+            <translation><!-- Aultcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigna</masterLabel>
+            <translation><!-- Cigna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CoreSource</masterLabel>
+            <translation><!-- CoreSource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gundersen Health Plan</masterLabel>
+            <translation><!-- Gundersen Health Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthPartners</masterLabel>
+            <translation><!-- HealthPartners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthSCOPE Benefits</masterLabel>
+            <translation><!-- HealthSCOPE Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Humana</masterLabel>
+            <translation><!-- Humana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnitedHealthcare</masterLabel>
+            <translation><!-- UnitedHealthcare --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If No, Specify Alternative Arrangement --></label>
+        <name>If_No_Specify_Alternative_Arrangement__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other Anthem Dental Specify Carriers --></label>
+        <name>If_Other_Anthem_Dental_Specify_Carriers__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other Clinical, Please Specify --></label>
+        <name>If_Other_Clinical_Please_Specify__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, Please Specify BH EAP --></label>
+        <name>If_Other_Please_Specify_BH_EAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, Specify BEP Administrator --></label>
+        <name>If_Other_Specify_BEP_Administrator__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, Specify Behavior Health --></label>
+        <name>If_Other_Specify_Behavior_Health__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, Specify Ecosystem Integration --></label>
+        <name>If_Other_Specify_Ecosystem_Integration__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, Specify Medical Carriers --></label>
+        <name>If_Other_Specify_Medical_Carriers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Custom arrangements not reflected in the Anthem provider directory may result in additional feeds and limited support. --></help>
+        <label><!-- If Other, Specify Network --></label>
+        <name>If_Other_Specify_Network__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, Specify Rx Carriers --></label>
+        <name>If_Other_Specify_Rx_Carriers__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Yes, Please Indicate Rx Vendor --></label>
+        <name>If_Yes_Please_Indicate_Rx_Vendor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please Select All Applicable Wellness Bundle Packages --></help>
+        <label><!-- If Yes, Select All Applicable Wellness --></label>
+        <name>If_Yes_Select_All_Applicable_Wellness__c</name>
+        <picklistValues>
+            <masterLabel>Biometrics And Coaching</masterLabel>
+            <translation><!-- Biometrics And Coaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biometrics And Coaching/Financial Health</masterLabel>
+            <translation><!-- Biometrics And Coaching/Financial Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutrition And Sleep</masterLabel>
+            <translation><!-- Nutrition And Sleep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resilience And Financial Health</masterLabel>
+            <translation><!-- Resilience And Financial Health --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If Benefits Enrollment Platform is Yes, Specify Administrator --></help>
+        <label><!-- If Yes, Specify BEP Administrator --></label>
+        <name>If_Yes_Specify_BEP_Administrator__c</name>
+        <picklistValues>
+            <masterLabel>ADP (Link only)</masterLabel>
+            <translation><!-- ADP (Link only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alight-Upoint/TBA PLTFRM (AON)</masterLabel>
+            <translation><!-- Alight-Upoint/TBA PLTFRM (AON) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BCI</masterLabel>
+            <translation><!-- BCI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefit Harbor</masterLabel>
+            <translation><!-- Benefit Harbor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefit Outsourcing</masterLabel>
+            <translation><!-- Benefit Outsourcing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefitfocus</masterLabel>
+            <translation><!-- Benefitfocus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bswift (Link only)</masterLabel>
+            <translation><!-- Bswift (Link only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buck</masterLabel>
+            <translation><!-- Buck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Businessolver</masterLabel>
+            <translation><!-- Businessolver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cobra Guard</masterLabel>
+            <translation><!-- Cobra Guard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conduent</masterLabel>
+            <translation><!-- Conduent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empyrean</masterLabel>
+            <translation><!-- Empyrean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fidelity (Link only)</masterLabel>
+            <translation><!-- Fidelity (Link only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallagher</masterLabel>
+            <translation><!-- Gallagher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mercer</masterLabel>
+            <translation><!-- Mercer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mercer-MBC platform only</masterLabel>
+            <translation><!-- Mercer-MBC platform only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peoplesoft (Link only)</masterLabel>
+            <translation><!-- Peoplesoft (Link only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP (Link only)</masterLabel>
+            <translation><!-- SAP (Link only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver Eagle</masterLabel>
+            <translation><!-- Silver Eagle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilipro (Link only)</masterLabel>
+            <translation><!-- Utilipro (Link only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WTW (Link only)</masterLabel>
+            <translation><!-- WTW (Link only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workday (Link only)</masterLabel>
+            <translation><!-- Workday (Link only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xerox</masterLabel>
+            <translation><!-- Xerox --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Yes, Specify FSA Vendor --></label>
+        <name>If_Yes_Specify_FSA_Vendor__c</name>
+        <picklistValues>
+            <masterLabel>Act Wise</masterLabel>
+            <translation><!-- Act Wise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aon</masterLabel>
+            <translation><!-- Aon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation><!-- Bank of America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BenefitWallet</masterLabel>
+            <translation><!-- BenefitWallet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ConnectYourCare</masterLabel>
+            <translation><!-- ConnectYourCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthEquity</masterLabel>
+            <translation><!-- HealthEquity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayFlex</masterLabel>
+            <translation><!-- PayFlex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SelectAccount</masterLabel>
+            <translation><!-- SelectAccount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WageWorks</masterLabel>
+            <translation><!-- WageWorks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WellsFargo</masterLabel>
+            <translation><!-- WellsFargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wex Health</masterLabel>
+            <translation><!-- Wex Health --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Yes, Specify HRA Vendor --></label>
+        <name>If_Yes_Specify_HRA_Vendor__c</name>
+        <picklistValues>
+            <masterLabel>Act Wise</masterLabel>
+            <translation><!-- Act Wise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aon</masterLabel>
+            <translation><!-- Aon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation><!-- Bank of America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BenefitWallet</masterLabel>
+            <translation><!-- BenefitWallet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ConnectYourCare</masterLabel>
+            <translation><!-- ConnectYourCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthEquity</masterLabel>
+            <translation><!-- HealthEquity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayFlex</masterLabel>
+            <translation><!-- PayFlex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SelectAccount</masterLabel>
+            <translation><!-- SelectAccount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WageWorks</masterLabel>
+            <translation><!-- WageWorks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WellsFargo</masterLabel>
+            <translation><!-- WellsFargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wex Health</masterLabel>
+            <translation><!-- Wex Health --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Yes, Specify HSA Vendor --></label>
+        <name>If_Yes_Specify_HSA_Vendor__c</name>
+        <picklistValues>
+            <masterLabel>Act Wise</masterLabel>
+            <translation><!-- Act Wise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aon</masterLabel>
+            <translation><!-- Aon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation><!-- Bank of America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BenefitWallet</masterLabel>
+            <translation><!-- BenefitWallet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ConnectYourCare</masterLabel>
+            <translation><!-- ConnectYourCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthEquity</masterLabel>
+            <translation><!-- HealthEquity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayFlex</masterLabel>
+            <translation><!-- PayFlex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SelectAccount</masterLabel>
+            <translation><!-- SelectAccount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WageWorks</masterLabel>
+            <translation><!-- WageWorks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WellsFargo</masterLabel>
+            <translation><!-- WellsFargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wex Health</masterLabel>
+            <translation><!-- Wex Health --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If Yes, Specify Onsite Clinics Administrator --></help>
+        <label><!-- If Yes, Specify OC Administrator --></label>
+        <name>If_Yes_Specify_OC_Administrator__c</name>
+        <picklistValues>
+            <masterLabel>CHS</masterLabel>
+            <translation><!-- CHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthSmart</masterLabel>
+            <translation><!-- HealthSmart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare Clinic</masterLabel>
+            <translation><!-- Healthcare Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infinity (Community Hospital)</masterLabel>
+            <translation><!-- Infinity (Community Hospital) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OnSite Care</masterLabel>
+            <translation><!-- OnSite Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OurHealth / TakeCare Clinics</masterLabel>
+            <translation><!-- OurHealth / TakeCare Clinics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paladina Health</masterLabel>
+            <translation><!-- Paladina Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premise Health</masterLabel>
+            <translation><!-- Premise Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QuadMex</masterLabel>
+            <translation><!-- QuadMex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vera</masterLabel>
+            <translation><!-- Vera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WholeHealthMD.com</masterLabel>
+            <translation><!-- WholeHealthMD.com --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If Yes, Which Vendor Does The Client Use Today --></help>
+        <label><!-- If Yes, Which Vendor Used Today --></label>
+        <name>If_Yes_Which_Vendor_Used_Today__c</name>
+        <picklistValues>
+            <masterLabel>Keas</masterLabel>
+            <translation><!-- Keas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limeade</masterLabel>
+            <translation><!-- Limeade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RedBrick</masterLabel>
+            <translation><!-- RedBrick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VirginPulse</masterLabel>
+            <translation><!-- VirginPulse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vitality</masterLabel>
+            <translation><!-- Vitality --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inbound SSO Partners Desired --></label>
+        <name>Inbound_SSO_Partners_Desired__c</name>
+        <picklistValues>
+            <masterLabel>Accolade</masterLabel>
+            <translation><!-- Accolade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aetna</masterLabel>
+            <translation><!-- Aetna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem</masterLabel>
+            <translation><!-- Anthem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aon Hewitt</masterLabel>
+            <translation><!-- Aon Hewitt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefitfocus</masterLabel>
+            <translation><!-- Benefitfocus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefitsolver</masterLabel>
+            <translation><!-- Benefitsolver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benetak</masterLabel>
+            <translation><!-- Benetak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bswift(Link Only)</masterLabel>
+            <translation><!-- Bswift(Link Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buck Consultants</masterLabel>
+            <translation><!-- Buck Consultants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ConnectYourCare</masterLabel>
+            <translation><!-- ConnectYourCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enwisen</masterLabel>
+            <translation><!-- Enwisen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fidelity</masterLabel>
+            <translation><!-- Fidelity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Tap</masterLabel>
+            <translation><!-- Health Tap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthEquity</masterLabel>
+            <translation><!-- HealthEquity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthx</masterLabel>
+            <translation><!-- Healthx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limeade</masterLabel>
+            <translation><!-- Limeade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborhood Health</masterLabel>
+            <translation><!-- Neighborhood Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Okta</masterLabel>
+            <translation><!-- Okta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rally Health</masterLabel>
+            <translation><!-- Rally Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RedBrick Health</masterLabel>
+            <translation><!-- RedBrick Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regis</masterLabel>
+            <translation><!-- Regis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RightOpt</masterLabel>
+            <translation><!-- RightOpt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Willis Towers Watson</masterLabel>
+            <translation><!-- Willis Towers Watson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xerox</masterLabel>
+            <translation><!-- Xerox --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Incentives Budget --></label>
+        <name>Incentives_Budget__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Includes Behavioral Health Elevate --></label>
+        <name>Includes_Behavioral_Health_Elevate__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Client Interested In Device Credit --></label>
+        <name>Is_Client_Interested_In_Device_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Client Interested In Incentives --></label>
+        <name>Is_Client_Interested_In_Incentives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Client Interested In Rewards Center --></label>
+        <name>Is_Client_Interseted_In_Rewards_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Inbound SSO Required --></label>
+        <name>Is_Inbound_SSO_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Outbound SSO Required --></label>
+        <name>Is_Outbound_SSO_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Pharmacy Included --></label>
+        <name>Is_Pharmacy_Included__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Anthem Dental Included --></label>
+        <name>Is_There_Anthem_Dental__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please choose the correct option based on the client&apos;s utilization of LiveHealth Online. --></help>
+        <label><!-- Live Health Online Offering --></label>
+        <name>Live_Health_Online_Offering__c</name>
+        <picklistValues>
+            <masterLabel>Live Health Online Medical + Psychology</masterLabel>
+            <translation><!-- Live Health Online Medical + Psychology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live Health Online Medical Only</masterLabel>
+            <translation><!-- Live Health Online Medical Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Member Support Hours Of Availability --></label>
+        <name>Member_Support_Hours_Of_Availability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Support Phone Number --></label>
+        <name>Member_Support_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please choose Yes or No based on the client&apos;s access to MyHealthAdvantage gaps-in-care. --></help>
+        <label><!-- My Health Advantage --></label>
+        <name>MyHealthAdvantage__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specify All Alpha Prefixes Separated By Commas --></help>
+        <label><!-- National Networks Alpha Prefixes --></label>
+        <name>National_Networks_Alpha_Prefixes__c</name>
+    </fields>
+    <fields>
+        <label><!-- National Networks --></label>
+        <name>National_Networks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Plans --></label>
+        <name>Number_Of_Plans__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Subscribers Elite Plus --></label>
+        <name>Number_Subscribers_Elite_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Subscribers Elite --></label>
+        <name>Number_Subscribers_Elite__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Subscribers Essentials Plus --></label>
+        <name>Number_Subscribers_Essentials_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Subscribers Essentials --></label>
+        <name>Number_Subscribers_Essentials__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Subscribers Essentials (non) --></label>
+        <name>Number_Subscribers_Essentials_non__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Total Membership Elite Plus --></label>
+        <name>Number_Total_Membership_Elite_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Total Membership Elite --></label>
+        <name>Number_Total_Membership_Elite__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Total Membership Essentials Plus --></label>
+        <name>Number_Total_Membership_Essentials_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Total Membership Essentials --></label>
+        <name>Number_Total_Membership_Essentials__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Total Membership Essentials (non) --></label>
+        <name>Number_Total_Membership_Essentials_non__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type --></label>
+        <name>Opportunity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Health Account --></label>
+        <name>Other_Health_Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional Customer Cost May Apply. --></help>
+        <label><!-- Outbound SSO Partners Desired --></label>
+        <name>Outbound_SSO_Partners_Desired__c</name>
+        <picklistValues>
+            <masterLabel>Anthem</masterLabel>
+            <translation><!-- Anthem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefitfocus</masterLabel>
+            <translation><!-- Benefitfocus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CVS Caremark</masterLabel>
+            <translation><!-- CVS Caremark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigna</masterLabel>
+            <translation><!-- Cigna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ConnectYourCare</masterLabel>
+            <translation><!-- ConnectYourCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Dental of Washington</masterLabel>
+            <translation><!-- Delta Dental of Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctor on Demand</masterLabel>
+            <translation><!-- Doctor on Demand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Express Scripts**</masterLabel>
+            <translation><!-- Express Scripts** --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HSA Bank</masterLabel>
+            <translation><!-- HSA Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Equity</masterLabel>
+            <translation><!-- Health Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthPartners</masterLabel>
+            <translation><!-- HealthPartners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rally Health</masterLabel>
+            <translation><!-- Rally Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RedBrick Health</masterLabel>
+            <translation><!-- RedBrick Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rx Savings Solutions</masterLabel>
+            <translation><!-- Rx Savings Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnitedHealthcare</masterLabel>
+            <translation><!-- UnitedHealthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WageWorks</masterLabel>
+            <translation><!-- WageWorks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>myStrength</masterLabel>
+            <translation><!-- myStrength --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- FOR ANTHEM DENTAL ONLY
+Past 2-year dental claim history for eligible population of Castlight: --></help>
+        <label><!-- Past 2 Year Dental Claim History --></label>
+        <name>Past_2_Year_Dental_Claim_History__c</name>
+    </fields>
+    <fields>
+        <help><!-- FOR ANTHEM RX ONLY
+Past 2-year pharmacy claim history for eligible population of Castlight: --></help>
+        <label><!-- Past 2 Year Pharmacy Claim History --></label>
+        <name>Past_2_Year_Pharmacy_Claim_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Population Identifier Elite Plus --></label>
+        <name>Population_Identifier_Elite_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Population Identifier Elite --></label>
+        <name>Population_Identifier_Elite__c</name>
+    </fields>
+    <fields>
+        <label><!-- Population Identifier Essentials --></label>
+        <name>Population_Identifier_Essentials__c</name>
+    </fields>
+    <fields>
+        <label><!-- Population Identifier Essentials (non) --></label>
+        <name>Population_Identifier_Essentials_non__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Name --></label>
+        <name>Quote_Name__c</name>
+        <relationshipLabel><!-- Engage Scoping And Engage Standard --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Automated Indicator To Display If Minimum Set Of Required Fields For Engage Scoping Have All Been Entered --></help>
+        <label><!-- Required Fields to Submit are Entered --></label>
+        <name>Ready_to_Submit_Engage_Scoping_Form__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automated Indicator To Display If Minimum Set Of Required Fields For Engage Standard Have All Been Entered --></help>
+        <label><!-- Required Fields to Submit are Entered --></label>
+        <name>Ready_to_Submit_Engage_Standard_Form__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordTypeName --></label>
+        <name>RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Will Client Be Requesting Registration Availability During Open Enrollment --></help>
+        <label><!-- Registration Availability During OE --></label>
+        <name>Registration_Availability_During_OE__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Select All Anthem Dental That Apply --></label>
+        <name>Select_All_Anthem_Dental_That_Apply__c</name>
+        <picklistValues>
+            <masterLabel>Aetna Dental</masterLabel>
+            <translation><!-- Aetna Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigna Dental</masterLabel>
+            <translation><!-- Cigna Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Dental</masterLabel>
+            <translation><!-- Delta Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MetLife</masterLabel>
+            <translation><!-- MetLife --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Concordia</masterLabel>
+            <translation><!-- United Concordia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Select All Carriers That Apply --></label>
+        <name>Select_All_Carriers_That_Apply__c</name>
+        <picklistValues>
+            <masterLabel>Aetna Dental</masterLabel>
+            <translation><!-- Aetna Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigna Dental</masterLabel>
+            <translation><!-- Cigna Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Dental</masterLabel>
+            <translation><!-- Delta Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MetLife</masterLabel>
+            <translation><!-- MetLife --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Concordia</masterLabel>
+            <translation><!-- United Concordia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please Select All Applicable Ecosystem Integrations --></help>
+        <label><!-- Select All Ecosystem Integrations --></label>
+        <name>Select_All_Ecosystem_Integrations__c</name>
+        <picklistValues>
+            <masterLabel>2Morrow</masterLabel>
+            <translation><!-- 2Morrow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enrich</masterLabel>
+            <translation><!-- Enrich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monj</masterLabel>
+            <translation><!-- Monj --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MyStrength</masterLabel>
+            <translation><!-- MyStrength --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quest Diagnostics</masterLabel>
+            <translation><!-- Quest Diagnostics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sleepio</masterLabel>
+            <translation><!-- Sleepio --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source System Code --></label>
+        <name>Source_System_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Other, Specify Account Type And Vendor Details --></help>
+        <label><!-- Specify Account Type And Vendor Details --></label>
+        <name>Specify_Account_Type_And_Vendor_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the intended launch date of the functionality. --></help>
+        <label><!-- Start Date Of Customer Contract --></label>
+        <name>Start_Date_Of_Customer_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+        <relationshipLabel><!-- Engage Scoping And Engage Standard --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Todays Date --></label>
+        <name>Todays_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- FOR ANTHEM DENTAL ONLY
+Provide group numbers for this client that should be used to obtain/provide. Separate Group numbers with commas. --></help>
+        <label><!-- 2 Year Dental Group Numbers --></label>
+        <name>Two_Year_Dental_Group_Numbers__c</name>
+    </fields>
+    <fields>
+        <help><!-- FOR ANTHEM RX ONLY
+Provide group numbers for this client that should be used to obtain/provide. Separate Group numbers with commas. --></help>
+        <label><!-- 2 Year Pharmacy Group Numbers --></label>
+        <name>Two_Year_Pharmacy_Group_Numbers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Incentivized program w/ 500 points per annual completion. --></help>
+        <label><!-- WebMD HRA Program --></label>
+        <name>WebMD_HRA_Program__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- When Does Plan Year Start --></label>
+        <name>When_Does_Plan_Year_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- When Is Open Enrollment --></label>
+        <name>When_Is_Open_Enrollment__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Engage Scoping --></label>
+        <name>Engage_Scoping</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Engage Standard --></label>
+        <name>Engage_Standard</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

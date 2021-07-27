@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LG Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LG Applications</value>
+    </caseValues>
+    <fields>
+        <label><!-- Application ID --></label>
+        <name>Application_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Status Description --></label>
+        <name>Application_Status_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Status Modified --></label>
+        <name>Application_Status_Modified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Status --></label>
+        <name>Application_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Name --></label>
+        <name>Event_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line of Business --></label>
+        <name>Line_of_Business__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent TIN --></label>
+        <name>Parent_TIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payee TIN --></label>
+        <name>Payee_TIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Writing TIN --></label>
+        <name>Writing_TIN__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

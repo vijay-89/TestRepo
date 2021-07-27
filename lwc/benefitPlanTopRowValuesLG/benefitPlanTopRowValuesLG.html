@@ -1,0 +1,63 @@
+<!--
+*Author : Geetha 
+*Date  : 03/17/2020     
+*Description :  HTML that displays the top row, Selected/Deselected anthem plan names and benefit(competitor name & Plan name)   
+*Modification Log:
+* Developer Name                                Date            Description
+* Geetha                                      03/05/2020      Final version
+-->
+<template>
+  <div class="slds-grid margin_top_fix">
+    <template iterator:it={planDataToDislay.topRow}>
+      <!--START:Benefit Plans With Background Color-->
+      <div if:true={it.first} key={it.value.Id} class={benefitDecideHtmlClasses}>
+        <template if:true={isBenefitSelected}>
+          <p class="comparePlan">{customLabelLG.Label.Competitor_Plan}</p>
+        </template>
+        <h3 class="plan-title-fix" title={it.value.name}>{it.value.name}</h3>
+        <div class="text-align-left">
+          <template if:true={it.value.productData}>
+            <template if:true={it.value.productData.selected}>
+              <div class="select-button">
+                <button type="button" class="slds-button slds-button_success" data-prodid={it.value.id}
+                  onclick={handleSelect}>{customLabelLG.Label.Deselect}</button>
+              </div>
+            </template>
+            <template if:false={it.value.productData.selected}>
+              <div class="select-button">
+                <button type="button" class="slds-button slds-button_brand" data-prodid={it.value.id}
+                  onclick={handleSelect}>{customLabelLG.Label.Select}</button>
+              </div>
+            </template>
+          </template>
+        </div>
+        <p class="custom_remove_link" onclick={handleRemoveFromComparision} data-target-id={it.index}>
+          {customLabelLG.Label.Remove_from_Comparison}</p>
+      </div>
+      <!--END:Benefit Plans With Background Color-->
+      <!--START:Anthem Plans Without Background Color-->
+      <div if:false={it.first} key={it.value.Id} class={decideHtmlClasses}>
+        <h3 class="plan-title-fix" title={it.value.name}>{it.value.name}</h3>
+        <div class="text-align-left">
+          <template if:true={it.value.productData}>
+            <template if:true={it.value.productData.selected}>
+              <div class="select-button">
+                <button type="button" class="slds-button slds-button_success" data-prodid={it.value.id}
+                  onclick={handleSelect}>{customLabelLG.Label.Deselect}</button>
+              </div>
+            </template>
+            <template if:false={it.value.productData.selected}>
+              <div class="select-button">
+                <button type="button" class="slds-button slds-button_brand" data-prodid={it.value.id}
+                  onclick={handleSelect}>{customLabelLG.Label.Select}</button>
+              </div>
+            </template>
+          </template>
+        </div>
+        <p class="custom_remove_link" onclick={handleRemoveFromComparision} data-target-id={it.index}>
+          {customLabelLG.Label.Remove_from_Comparison}</p>
+      </div>
+    </template>
+  </div>
+  <!--END:Anthem Plans Without Background Color-->
+</template>

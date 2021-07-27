@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Execution Cycle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Test Execution Cycles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Environment --></label>
+        <name>Environment__c</name>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandbox</masterLabel>
+            <translation><!-- Sandbox --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Execution End Date --></label>
+        <name>Execution_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Start Date --></label>
+        <name>Execution_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Type --></label>
+        <name>Execution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Regression Test</masterLabel>
+            <translation><!-- Regression Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIT</masterLabel>
+            <translation><!-- SIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT</masterLabel>
+            <translation><!-- UAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Test</masterLabel>
+            <translation><!-- Unit Test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Release Name --></label>
+        <name>Release_Name__c</name>
+        <relationshipLabel><!-- Test Execution Cycles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passed</masterLabel>
+            <translation><!-- Passed --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_Test_Script_Execution --></label>
+        <name>Add_Test_Script_Execution</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Script_Execution_Status --></label>
+        <name>Update_Script_Execution_Status</name>
+    </webLinks>
+</CustomObjectTranslation>

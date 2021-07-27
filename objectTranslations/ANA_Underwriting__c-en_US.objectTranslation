@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Underwriting/Request for Quote</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Underwriting/Request for Quote</value>
+    </caseValues>
+    <fields>
+        <help><!-- Aggregate Stop Loss % --></help>
+        <label><!-- ASL --></label>
+        <name>ASL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Draw --></label>
+        <name>Alternate_Draw__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Underwriter --></label>
+        <name>Assigned_Underwriter__c</name>
+        <relationshipLabel><!-- Underwriting/Request for Quote --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bariatric Surgery --></label>
+        <name>Bariatric_Surgery__c</name>
+        <picklistValues>
+            <masterLabel>Covered</masterLabel>
+            <translation><!-- Covered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Covered</masterLabel>
+            <translation><!-- Non Covered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bill Tier --></label>
+        <name>Bill_Tier__c</name>
+        <picklistValues>
+            <masterLabel>2T</masterLabel>
+            <translation><!-- 2T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3T</masterLabel>
+            <translation><!-- 3T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4T</masterLabel>
+            <translation><!-- 4T --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- % Change in Rates --></label>
+        <name>ChangeInRates__c</name>
+    </fields>
+    <fields>
+        <help><!-- Do not attach PHI or PII --></help>
+        <label><!-- Check List --></label>
+        <name>Check_List__c</name>
+        <picklistValues>
+            <masterLabel>Census</masterLabel>
+            <translation><!-- Census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims Experience</masterLabel>
+            <translation><!-- Claims Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Benefit Description</masterLabel>
+            <translation><!-- Current Benefit Description --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Rates</masterLabel>
+            <translation><!-- Current Rates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disclosure</masterLabel>
+            <translation><!-- Disclosure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Claim Info</masterLabel>
+            <translation><!-- Large Claim Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questionnaire</masterLabel>
+            <translation><!-- Questionnaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal Rates</masterLabel>
+            <translation><!-- Renewal Rates --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Competition Ending Point --></label>
+        <name>Competition_Ending_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition Starting Point --></label>
+        <name>Competition_Starting_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complexity --></label>
+        <name>Complexity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stop Loss Contract --></help>
+        <label><!-- Contract --></label>
+        <name>Contract__c</name>
+        <picklistValues>
+            <masterLabel>12/12</masterLabel>
+            <translation><!-- 12/12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12/15</masterLabel>
+            <translation><!-- 12/15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15/12</masterLabel>
+            <translation><!-- 15/12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Year Rate --></label>
+        <name>CurrentYearRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Carrier --></label>
+        <name>Current_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Products --></label>
+        <name>Current_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Rate Compare % --></label>
+        <name>Current_Rate_Compare__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use the lookup button to search and link the duplicate quote --></help>
+        <label><!-- Duplicate --></label>
+        <name>Duplicate__c</name>
+        <relationshipLabel><!-- Underwriting/Request for Quote (Duplicate) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Durable Medical Equipment --></label>
+        <name>Durable_Medical_Equipment__c</name>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50%</masterLabel>
+            <translation><!-- 50% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding --></label>
+        <name>Funding__c</name>
+        <picklistValues>
+            <masterLabel>ABF</masterLabel>
+            <translation><!-- ABF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HSA Admin --></label>
+        <name>HSA_Admin__c</name>
+        <picklistValues>
+            <masterLabel>Calendar Year</masterLabel>
+            <translation><!-- Calendar Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Year</masterLabel>
+            <translation><!-- Plan Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IBNR --></label>
+        <name>IBNR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Individual Stop Loss --></help>
+        <label><!-- ISL --></label>
+        <name>ISL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incumbent Carrier Ending Point --></label>
+        <name>Incumbent_Carrier_Ending_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incumbent Carrier Starting Point --></label>
+        <name>Incumbent_Carrier_Starting_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Infertility Rider --></label>
+        <name>Infertility_Rider__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>With Restrictions</masterLabel>
+            <translation><!-- With Restrictions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Without Restrictions</masterLabel>
+            <translation><!-- Without Restrictions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Rate Compare % --></label>
+        <name>Initial_Rate_Compare__c</name>
+    </fields>
+    <fields>
+        <label><!-- +/- Investment Premium --></label>
+        <name>Investment_Premium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investment % --></label>
+        <name>Investment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mature/Immature --></label>
+        <name>Mature_Immature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Funding Type --></label>
+        <name>MedicalFundingType__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Monthly Rolling Cap --></label>
+        <name>Monthly_Rolling_Cap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity ID --></label>
+        <name>OpportunityID__c</name>
+        <relationshipLabel><!-- Underwriting/Request for Quote --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Our Ending Point --></label>
+        <name>Our_Ending_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Our Starting Point --></label>
+        <name>Our_Starting_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Comments --></label>
+        <name>Pending_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending End Date --></label>
+        <name>Pending_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Start Date --></label>
+        <name>Pending_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior Year Rate --></label>
+        <name>PriorYearRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profitability --></label>
+        <name>Profitability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Released to Sales? --></label>
+        <name>Quote_Released_to_Sales__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RFQ Comments --></label>
+        <name>RFQ_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Guarantee End Date --></label>
+        <name>RateGuaranteeEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Assessment % --></label>
+        <name>Risk_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Client Expense --></label>
+        <name>TotalClientExpense__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Client Revenue --></label>
+        <name>TotalClientRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- UW Assigned Date --></label>
+        <name>UW_Assigned_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- UW Due Date --></label>
+        <name>UW_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Comments --></label>
+        <name>Underwriting_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Team --></label>
+        <name>Underwriting_Team__c</name>
+        <picklistValues>
+            <masterLabel>Chris Miceli</masterLabel>
+            <translation><!-- Chris Miceli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chris Rowan</masterLabel>
+            <translation><!-- Chris Rowan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frederick Hurford</masterLabel>
+            <translation><!-- Frederick Hurford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Victoria Abdelaziz</masterLabel>
+            <translation><!-- Victoria Abdelaziz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>William Corrigan</masterLabel>
+            <translation><!-- William Corrigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yong Chong</masterLabel>
+            <translation><!-- Yong Chong --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The difference between price of us and the carrier that won the business. --></help>
+        <label><!-- Winning Percentage --></label>
+        <name>Winning_Percentage__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- Generate_RFQ_Form --></label>
+        <name>Generate_RFQ_Form</name>
+    </webLinks>
+</CustomObjectTranslation>

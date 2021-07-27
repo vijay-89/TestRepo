@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Intake Return</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Intake Return</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Demo --></label>
+        <name>Account_Demo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Display --></label>
+        <name>ActionDisplay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Entity --></label>
+        <name>Anthem_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Implementer Email --></label>
+        <name>Assigned_Implementer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Owner Email --></label>
+        <name>Case_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Owner --></label>
+        <name>Implementation_Case_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intake Reasons Count --></label>
+        <name>Intake_Reasons_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intake Return URL --></label>
+        <name>Intake_Return_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Implementer Logged In --></label>
+        <name>Is_Implementer_Logged_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- LnT Identifer --></label>
+        <name>LnT_Identifer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Id --></label>
+        <name>OrderId__c</name>
+        <relationshipLabel><!-- Intake Return --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Profile Group Name --></label>
+        <name>Profile_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Name --></label>
+        <name>Quote_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ReSubmission Date --></label>
+        <name>ReSubmission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ReSubmission Id --></label>
+        <name>ReSubmission_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situs State --></label>
+        <name>Situs_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation><!-- Incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response from Sales/ Account Management</masterLabel>
+            <translation><!-- Pending Response from Sales/ Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Implementations</masterLabel>
+            <translation><!-- Ready for Implementations --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submission Date --></label>
+        <name>Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Lapse For Follow Up Notification --></label>
+        <name>Time_Lapse_For_Follow_Up_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Lapse For Initial Notification --></label>
+        <name>Time_Lapse_For_Initial_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Corrected Intake Reasons Count --></label>
+        <name>Total_Corrected_Intake_Reasons_Count__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Implementers Read Only --></label>
+        <name>Implementers_Readonly</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Read Only --></label>
+        <name>Sales_ReadOnly</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

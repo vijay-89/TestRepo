@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Health &amp; Wellness Program</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Health &amp; Wellness Program</value>
+    </caseValues>
+    <fields>
+        <label><!-- Baseline Intro Letter Sent --></label>
+        <name>Baseline_Intro_Letter_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build Health &amp; Wellness Package --></label>
+        <name>Build_Health_and_Wellness_Package__c</name>
+        <picklistValues>
+            <masterLabel>All In</masterLabel>
+            <translation><!-- All In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biometric Screening</masterLabel>
+            <translation><!-- Biometric Screening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biometric Screening Pooled</masterLabel>
+            <translation><!-- Biometric Screening Pooled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooking Demo</masterLabel>
+            <translation><!-- Cooking Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fitness or Nutrition Seminars</masterLabel>
+            <translation><!-- Fitness or Nutrition Seminars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get More</masterLabel>
+            <translation><!-- Get More --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Moving</masterLabel>
+            <translation><!-- Get Moving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Smart</masterLabel>
+            <translation><!-- Get Smart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massage Therapy</masterLabel>
+            <translation><!-- Massage Therapy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mental Health Seminars</masterLabel>
+            <translation><!-- Mental Health Seminars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Health Core</masterLabel>
+            <translation><!-- Mobile Health Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Health Core Plus</masterLabel>
+            <translation><!-- Mobile Health Core Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Activity Challenge (Anthem Vendor)</masterLabel>
+            <translation><!-- Online Activity Challenge (Anthem Vendor) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Wellness Survey (KTC)</masterLabel>
+            <translation><!-- Online Wellness Survey (KTC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite Nutrition Class</masterLabel>
+            <translation><!-- Onsite Nutrition Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Health Seminars</masterLabel>
+            <translation><!-- Preventive Health Seminars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stress Management Seminars</masterLabel>
+            <translation><!-- Stress Management Seminars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weight Management Seminars</masterLabel>
+            <translation><!-- Weight Management Seminars --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Users are allowed to select which level of benefits the client has --></help>
+        <label><!-- H&amp;W Advantage Option --></label>
+        <name>Health_Wellness_Advantage__c</name>
+        <picklistValues>
+            <masterLabel>B - Baseline</masterLabel>
+            <translation><!-- B - Baseline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENH - Enhanced</masterLabel>
+            <translation><!-- ENH - Enhanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESS - Essential</masterLabel>
+            <translation><!-- ESS - Essential --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Users will be able to capture all of the data related to the Mobile Health Consumer on the opportunity --></help>
+        <label><!-- Opportunity --></label>
+        <name>Mobile_Health_Consumer__c</name>
+        <relationshipLabel><!-- Health &amp; Wellness --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Webinar Attendee --></label>
+        <name>Webinar_Attendee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Webinar Completion Date --></label>
+        <name>Webinar_Completion_Date__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

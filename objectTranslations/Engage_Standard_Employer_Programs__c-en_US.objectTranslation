@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Engage Standard Employer Programs</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Engage Standard Employer Programs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Employer Program Availability Date --></label>
+        <name>Employer_Program_Availability_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Program Eligible Members --></label>
+        <name>Employer_Program_Eligible_Members__c</name>
+        <picklistValues>
+            <masterLabel>Employees + Dependents</masterLabel>
+            <translation><!-- Employees + Dependents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employees Only</masterLabel>
+            <translation><!-- Employees Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- MAIL@EMAILVENDOR.com --></help>
+        <label><!-- Employer Program Email --></label>
+        <name>Employer_Program_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Program Name --></label>
+        <name>Employer_Program_Name__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party Telehealth</masterLabel>
+            <translation><!-- 3rd Party Telehealth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite Clinic</masterLabel>
+            <translation><!-- Onsite Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employer Program Phone Number --></label>
+        <name>Employer_Program_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter as http://www.INSERTWEBPAGE.com --></help>
+        <label><!-- Employer Program Website --></label>
+        <name>Employer_Program_Website__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engage Scoping And Engage Standard --></label>
+        <name>Engage_Scoping_And_Engage_Standard__c</name>
+        <relationshipLabel><!-- Engage Standard Employer Programs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Group Suffix Number --></label>
+        <name>Group_Suffix_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, Employer Program Name --></label>
+        <name>If_Other_Employer_Program_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

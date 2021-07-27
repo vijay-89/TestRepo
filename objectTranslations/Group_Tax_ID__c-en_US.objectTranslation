@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Group Tax ID</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Group Tax IDs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Tax ID --></label>
+        <name>Actual_Tax_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- It defines the Group associated with the Group tax ids. --></help>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <relationshipLabel><!-- Group Tax IDs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used for data load, the CIP, and Open Enrollment processes that need to be maintained in the old Commercial ORG. --></help>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax ID --></label>
+        <name>Tax_ID__c</name>
+        <relationshipLabel><!-- Group Tax IDs --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

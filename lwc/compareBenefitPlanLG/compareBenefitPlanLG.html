@@ -1,0 +1,63 @@
+<!--
+*Author : Haneesha Tangeti & Wes
+*Date  : 03/18/2020     
+*Description :  * HTML to Invoke other LWC components that are used to showcase selected Anthem plans and Benefit data for comparison 
+                * Displays Error message when no Benefit data is available.
+*Modification Log:
+* Developer Name                                Date            Description
+* Haneesha Tangeti                            03/05/2020      Initial version
+* Wes                                         03/05/2020      slds Grid 
+-->
+<template>
+  <div class="slds-modal slds-fade-in-open">
+    <div class={inner_container_class}>
+      <!--Toast modal-->
+      <div data-id="toastModal" style="background-color: #ABA9A7;" class="slds-hide" if:true={isErrorState}>
+        <div class="slds-notify_container slds-is-relative">
+          <div class="slds-notify slds-notify_toast slds-theme_error" role="status">
+            <span class="slds-assistive-text">{customLabelLG.Label.Error}</span>
+            <span class="slds-icon_container slds-icon-utility-error slds-icon-utility-success slds-m-right_small slds-no-flex slds-align-top" title={message}>
+              <lightning-icon icon-name="utility:error" size="small" variant="inverse"></lightning-icon>
+            </span>
+            <div class="slds-notify__content">
+              <h2 class="slds-text-heading_small ">{customLabelLG.Label.No_Competitor_Data_available}</h2>
+            </div>
+            <div class="slds-notify__close">
+              <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close" onclick={closeErrorModal}>
+                <lightning-icon icon-name="utility:close" size="small" variant="inverse"> </lightning-icon>
+                <span class="slds-assistive-text">Close</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Toast Modal-->
+      <!-- START:Title of the Modal Popup -->
+      <div class="slds-modal__header custom_modal_header">
+      <h2 class="slds-text-heading--large custom_title">{customLabelLG.Label.ComparePlans}</h2>
+      <lightning-button-icon icon-name="utility:close" size="large" variant="bare" alternative-text="Close" onclick={closeModal} class="slds-m-left_xx-large custom_close_button"></lightning-button-icon>
+      </div>
+    </div>
+    <!-- END: Title of the Modal Popup -->
+    <!-- START: Sections & Rows -->
+    <div class="slds-modal__conten">
+      <div class="slds-grid margin_top_fix">
+        <!--START: DropDown Component -->
+        <div class={headerFillerClass}>
+          <c-benefit-plan-picklist-values-l-g onpicklistclick={handlePicklistChange} oncheckboxclick={handleDifference} value={value} place-holder={placeHolder} list-benefit-records={listBenefitRecords} is-disabled={isDisabled} is-benefit-selected={isBenefitSelected} plan-data-to-dislay={planDataToDislay} is-difference={isDifference} is-drop-down={isDropDown}>
+          </c-benefit-plan-picklist-values-l-g>
+        </div>
+        <!--END: DropDown Component -->
+        <!--START: TopRow Component -->
+        <c-benefit-plan-top-row-values-l-g style="width: 100%;" plan-data-to-dislay={planDataToDislay} selected-picklist-id={selectedPicklistId} is-benefit-selected={isBenefitSelected} onlinkclick={handleRemoveFromComparision} onbuttonclick={handleSelect}></c-benefit-plan-top-row-values-l-g>
+        <!--END: TopRow Component-->
+      </div>
+    </div>
+    <!-- START: Plan Record Values Component -->
+    <c-benefit-plan-record-values-l-g is-benefit-selected={isBenefitSelected} plan-data-to-dislay={planDataToDislay} is-difference={isDifference}>
+    </c-benefit-plan-record-values-l-g>
+    <!-- END:  Plan Record Values Component  -->
+  </div>
+  </div>
+  </div>
+</template>

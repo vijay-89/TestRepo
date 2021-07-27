@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mailbox Origin Emails</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mailbox Origin Emails</value>
+    </caseValues>
+    <fields>
+        <label><!-- Mailbox Value --></label>
+        <name>Mailbox_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailbox origin Name --></label>
+        <name>Mailbox_origin_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Underwriting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Underwriting</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Entity --></label>
+        <name>Anthem_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval or Declined Time --></label>
+        <name>Approval_or_Declined_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved_Date_Completed --></label>
+        <name>Approved_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved or Declined Date --></label>
+        <name>Approved_or_Declined_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME Queue time --></label>
+        <name>Current_SME_Queue_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME time --></label>
+        <name>Current_SME_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Assigned to UW --></label>
+        <name>Date_Assigned_to_UW__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Implementations Notified Of Sale --></label>
+        <name>Date_Implementations_Notified_Of_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days From Assignment --></label>
+        <name>Days_From_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grandfathered List --></label>
+        <name>Grandfathered_List__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Size --></label>
+        <name>Group_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- HQ State --></label>
+        <name>HQ_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Name --></label>
+        <name>Implementation_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Number --></label>
+        <name>Implementation_Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Start Date --></label>
+        <name>Implementation_Case_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effective Date --></label>
+        <name>Implementation_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Tracking ID --></label>
+        <name>Implementation_Tracking_ID__c</name>
+        <relationshipLabel><!-- Underwriting --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation Type --></label>
+        <name>Implementation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- In_Progress_Date_Completed --></label>
+        <name>In_Progress_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pending Correction Record Present --></label>
+        <name>Is_Pending_Correction_Record_Present__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Underwriting Details Applicable --></label>
+        <name>Is_Underwriting_Details_Applicable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- JAA Group --></label>
+        <name>JAA_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoggedinProfile --></label>
+        <name>LoggedinProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- MCS Group --></label>
+        <name>MCS_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical UW Approved --></label>
+        <name>Medical_UW_Approved__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Not_Started_Date_Completed --></label>
+        <name>Not_Started_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Started Date --></label>
+        <name>Not_Started_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Original Check Date --></label>
+        <name>Original_Underwriting_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Status --></label>
+        <name>Overall_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- PendingCorrectionAction --></label>
+        <name>PendingCorrectionAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Date --></label>
+        <name>Pending_Correction_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Time --></label>
+        <name>Pending_Correction_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction to Approved/Declined --></label>
+        <name>Pending_Correction_to_Approved_Declined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction to Not Started --></label>
+        <name>Pending_Correction_to_Not_Started__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Corrections Stage --></label>
+        <name>Pending_Corrections_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Time --></label>
+        <name>Pending_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pooled/Non-Pooled --></label>
+        <name>Pooled_Non_Pooled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date --></label>
+        <name>Production_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received Date --></label>
+        <name>Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situs State --></label>
+        <name>Situs_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>01 Not Started</masterLabel>
+            <translation><!-- 01 Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>01A Assign To UW</masterLabel>
+            <translation><!-- 01A Assign To UW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 Work In Progress</masterLabel>
+            <translation><!-- 02 Work In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction</masterLabel>
+            <translation><!-- 03 Pending Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction Returned</masterLabel>
+            <translation><!-- 03 Pending Correction Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 Approved</masterLabel>
+            <translation><!-- 04 Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 Declined</masterLabel>
+            <translation><!-- 05 Declined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Support Docs Saved --></label>
+        <name>Support_Docs_Saved__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tech Support Underwriting --></label>
+        <name>Tech_Support_Underwriting__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is How Long It Took The SME Department To Approve/Deny A SME Record --></help>
+        <label><!-- Time To Approve/Deny --></label>
+        <name>Time_To_Approve_Deny__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is How Long It Took A SME Department To Submit A Pending Correction --></help>
+        <label><!-- Time To Pend --></label>
+        <name>Time_To_Pend__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum Of Time To Pend And Time To Approve/Deny --></help>
+        <label><!-- Time in SME Dept --></label>
+        <name>Time_in_SME_Dept__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Time SME Record Was In The SME Department And The Sales Support/Implementations Department --></help>
+        <label><!-- Total Time --></label>
+        <name>Total_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriter Type --></label>
+        <name>Underwriter_Type__c</name>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life &amp; Disability</masterLabel>
+            <translation><!-- Life &amp; Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Captures Date When The Underwriting Check Field Is True --></help>
+        <label><!-- Underwriting Check Date --></label>
+        <name>Underwriting_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Support Approved By --></label>
+        <name>Underwriting_Support_Approved_By__c</name>
+        <relationshipLabel><!-- Underwriting --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Support Approved --></label>
+        <name>Underwriting_Support_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Type Formula --></label>
+        <name>Underwriting_Type_Formula__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

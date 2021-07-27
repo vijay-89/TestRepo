@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OE Ambassador Volunteers</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OE Ambassador Volunteers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Attended mtgs. for this client before? --></label>
+        <name>Attended_mtgs_for_this_client_before__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is the cost of the car rental per day even if the meeting requires more than 1 day --></help>
+        <label><!-- Car Rental per day --></label>
+        <name>Car_Rental_per_day__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter any comments you have related to the meeting for which you are volunteering. --></help>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confidence level with presenting --></label>
+        <name>Confidence_conducting_live_presentations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coordinator Comment --></label>
+        <name>Coordinator_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facilitator Status --></label>
+        <name>Facilitator_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facilitator Type --></label>
+        <name>Facilitator_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the cost of the round trip flight --></help>
+        <label><!-- Flight Cost --></label>
+        <name>Flight_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the cost of the hotel per day even if the meeting requires more than 1 day --></help>
+        <label><!-- Hotel Cost --></label>
+        <name>Hotel_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Live Presentations-outside of company --></label>
+        <name>Live_Presentations_outside_of_the_comp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meeting Date --></label>
+        <name>Meeting_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Ambassador City and State --></label>
+        <name>OE_Ambassador_City_and_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Ambassador Region/Location --></label>
+        <name>OE_Ambassador_Region_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Ambassador Volunteer --></label>
+        <name>OE_Ambassador_Volunteer__c</name>
+        <relationshipLabel><!-- OE Ambassador Volunteers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OE Coordinator --></label>
+        <name>OE_Coordinator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for not being selected --></label>
+        <name>Reaon_for_not_being_selected__c</name>
+        <picklistValues>
+            <masterLabel>A consultant volunteered sooner than you.</masterLabel>
+            <translation><!-- A consultant volunteered sooner than you. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Manager/Sales decided to attend</masterLabel>
+            <translation><!-- Account Manager/Sales decided to attend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Another Ambassador near you volunteered sooner</masterLabel>
+            <translation><!-- Another Ambassador near you volunteered sooner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buddy Ambassador was not secured.</masterLabel>
+            <translation><!-- Buddy Ambassador was not secured. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Controlling travel expenses</masterLabel>
+            <translation><!-- Controlling travel expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did not submit mileage/estimate of travel expenses</masterLabel>
+            <translation><!-- Did not submit mileage/estimate of travel expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal associate was secured.</masterLabel>
+            <translation><!-- Internal associate was secured. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local consultant was secured.</masterLabel>
+            <translation><!-- Local consultant was secured. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting date change</masterLabel>
+            <translation><!-- Meeting date change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting was cancelled</masterLabel>
+            <translation><!-- Meeting was cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple Ambassadors Volunteered</masterLabel>
+            <translation><!-- Multiple Ambassadors Volunteered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secured local representation</masterLabel>
+            <translation><!-- Secured local representation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specific experience level needed for sensitive client, new group, presentation, etc.</masterLabel>
+            <translation><!-- Specific experience level needed for sensitive client, new group, presentation, etc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thanks but No thanks</masterLabel>
+            <translation><!-- Thanks but No thanks --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Buddy Program --></label>
+        <name>Requested_Buddy_Program__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy OEAMBID --></label>
+        <name>SFDC_Legacy_OEAMBID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please check this box if this is the Open Enrollment Ambassador selected to Facilitate the meeting. --></help>
+        <label><!-- Selected For Facilitator --></label>
+        <name>Selected_For_Facilitator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected for Fac Current Year Tally --></label>
+        <name>Selected_for_Facilitator_Tally__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Thanks Current Year Tally --></label>
+        <name>Thanks_but_No_Thanks_Tally__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thanks but No Thanks --></label>
+        <name>Thanks_but_No_Thanks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the sum of all noted expenses --></help>
+        <label><!-- Total Travel Cost --></label>
+        <name>Total_Travel_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the mileage and time as calculated based on the Volunteer’s zip code and Meeting address. This mileage is each way. --></help>
+        <label><!-- Duration/Distance --></label>
+        <name>Travel_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Distance --></label>
+        <name>Travel_Distance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Duration --></label>
+        <name>Travel_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meeting Name --></label>
+        <name>Volunteer_Event__c</name>
+        <relationshipLabel><!-- OE Ambassador Volunteers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Volunteered for &gt; 1 meeting in group? --></label>
+        <name>Volunteered_for_1_meeting_in_group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Watch --></label>
+        <name>Watch__c</name>
+    </fields>
+    <fields>
+        <label><!-- field to count --></label>
+        <name>field_to_count__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- New_Volunteer --></label>
+        <name>New_Volunteer</name>
+    </webLinks>
+</CustomObjectTranslation>

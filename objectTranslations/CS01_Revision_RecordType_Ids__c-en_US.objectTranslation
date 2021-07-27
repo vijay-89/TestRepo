@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CS01_Revision_RecordType_Ids</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CS01_Revision_RecordType_Ids</value>
+    </caseValues>
+    <fields>
+        <label><!-- Local Implementations Dual profile --></label>
+        <name>Local_Implementations_Dual_profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Implementer Profile --></label>
+        <name>Local_Implementer_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Sales Dual profile --></label>
+        <name>Local_Sales_Dual_profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Sales Profile --></label>
+        <name>Local_Sales_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- National Implementations Dual profile --></label>
+        <name>National_Implementations_Dual_profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- National Implementer Profile --></label>
+        <name>National_Implementer_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- National Sales Dual Profile --></label>
+        <name>National_Sales_Dual_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- National Sales Profile --></label>
+        <name>National_Sales_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason LockAll --></label>
+        <name>Reason_LockAll__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason ReadOnly --></label>
+        <name>Reason_ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev_Implementer --></label>
+        <name>Rev_Implementer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision Lock --></label>
+        <name>Revision_Lock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision Reason Sales --></label>
+        <name>Revision_Reason_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision Reason --></label>
+        <name>Revision_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision --></label>
+        <name>Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME Dual Profile --></label>
+        <name>SME_Dual_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME Profile --></label>
+        <name>SME_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales And Imp Lock --></label>
+        <name>Sales_And_Imp_Lock__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

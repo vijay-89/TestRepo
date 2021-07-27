@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Deployment Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Deployment Status</value>
+    </caseValues>
+    <fields>
+        <label><!-- Application Inventory --></label>
+        <name>Application_Inventory__c</name>
+        <relationshipLabel><!-- Deployment Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Environment --></label>
+        <name>Environment__c</name>
+        <picklistValues>
+            <masterLabel>DEMO</masterLabel>
+            <translation><!-- DEMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEV</masterLabel>
+            <translation><!-- DEV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROD</masterLabel>
+            <translation><!-- PROD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA</masterLabel>
+            <translation><!-- QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIT</masterLabel>
+            <translation><!-- SIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT</masterLabel>
+            <translation><!-- UAT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting</masterLabel>
+            <translation><!-- Awaiting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

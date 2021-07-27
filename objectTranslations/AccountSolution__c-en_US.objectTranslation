@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Strategic Opportunity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Strategic Opportunities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>AccountLU__c</name>
+        <relationshipLabel><!-- Strategic Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Account Plan linked to this Account Solution record. --></help>
+        <label><!-- Account Plan --></label>
+        <name>Account_Plan__c</name>
+        <relationshipLabel><!-- Strategic Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Account linked to the parent Account Plan for this Account Solution. --></help>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Objective --></label>
+        <name>Business_Objective__c</name>
+        <relationshipLabel><!-- Strategic Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A detailed description of the Account Solution from the point of view of your Company. --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- A detailed description of the impact that the Account Solution has on your your customer. --></help>
+        <label><!-- Impact --></label>
+        <name>Impact__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Solution record linked to this Account Solution record. --></help>
+        <label><!-- Solution Library --></label>
+        <name>Solution__c</name>
+        <relationshipLabel><!-- Strategic Opportunities --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

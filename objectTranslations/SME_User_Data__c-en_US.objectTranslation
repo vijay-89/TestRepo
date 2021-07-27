@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SME User Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SME User Data</value>
+    </caseValues>
+    <fields>
+        <label><!-- Claim System Text --></label>
+        <name>Claim_System_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+        <picklistValues>
+            <masterLabel>NASCO</masterLabel>
+            <translation><!-- NASCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WGS 2.0</masterLabel>
+            <translation><!-- WGS 2.0 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Department Text1 --></label>
+        <name>Department_Text1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department Text2 --></label>
+        <name>Department_Text2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>AIM</masterLabel>
+            <translation><!-- AIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Act Wise CDH</masterLabel>
+            <translation><!-- Act Wise CDH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Act Wise FSA</masterLabel>
+            <translation><!-- Act Wise FSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem Flex Hour</masterLabel>
+            <translation><!-- Anthem Flex Hour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem Health Guide</masterLabel>
+            <translation><!-- Anthem Health Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem Health Rewards</masterLabel>
+            <translation><!-- Anthem Health Rewards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Behavioral Health</masterLabel>
+            <translation><!-- Behavioral Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefit Booklets/Contracts</masterLabel>
+            <translation><!-- Benefit Booklets/Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing/Finance - ASO</masterLabel>
+            <translation><!-- Billing/Finance - ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Exchange (BX)</masterLabel>
+            <translation><!-- Blue Exchange (BX) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bold</masterLabel>
+            <translation><!-- Bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker Compensation</masterLabel>
+            <translation><!-- Broker Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCMU</masterLabel>
+            <translation><!-- CCMU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims</masterLabel>
+            <translation><!-- Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims Retro</masterLabel>
+            <translation><!-- Claims Retro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Reporting</masterLabel>
+            <translation><!-- Client Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coordinated Care Model</masterLabel>
+            <translation><!-- Coordinated Care Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coordination of Benefits</masterLabel>
+            <translation><!-- Coordination of Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Interface Team (DIT)</masterLabel>
+            <translation><!-- Data Interface Team (DIT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DeCare</masterLabel>
+            <translation><!-- DeCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EAP</masterLabel>
+            <translation><!-- EAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enrollment and Billing (E/B)</masterLabel>
+            <translation><!-- Enrollment and Billing (E/B) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fraud Investigations</masterLabel>
+            <translation><!-- Fraud Investigations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grievance &amp; Appeals</masterLabel>
+            <translation><!-- Grievance &amp; Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Services</masterLabel>
+            <translation><!-- Group Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health and Wellness Solutions</masterLabel>
+            <translation><!-- Health and Wellness Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthEquity/WageWorks/FSA/COBRA</masterLabel>
+            <translation><!-- HealthEquity/WageWorks/FSA/COBRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Cards</masterLabel>
+            <translation><!-- ID Cards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IHM</masterLabel>
+            <translation><!-- IHM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementations</masterLabel>
+            <translation><!-- Implementations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interplan</masterLabel>
+            <translation><!-- Interplan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAA/NTS</masterLabel>
+            <translation><!-- JAA/NTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LITES CDH</masterLabel>
+            <translation><!-- LITES CDH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life and Disability</masterLabel>
+            <translation><!-- Life and Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live Health Online</masterLabel>
+            <translation><!-- Live Health Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Benefits</masterLabel>
+            <translation><!-- Medical Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Benefits - NASCO Retro</masterLabel>
+            <translation><!-- Medical Benefits - NASCO Retro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mercer Health Advantage</masterLabel>
+            <translation><!-- Mercer Health Advantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NCN</masterLabel>
+            <translation><!-- NCN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Management</masterLabel>
+            <translation><!-- Network Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite Clinic</masterLabel>
+            <translation><!-- Onsite Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSCCR</masterLabel>
+            <translation><!-- PSCCR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance Guarantees</masterLabel>
+            <translation><!-- Performance Guarantees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Imp Audit</masterLabel>
+            <translation><!-- Pre-Imp Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing Configuration Management (PCM)</masterLabel>
+            <translation><!-- Pricing Configuration Management (PCM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production Support</masterLabel>
+            <translation><!-- Production Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBC</masterLabel>
+            <translation><!-- SBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Operations</masterLabel>
+            <translation><!-- Service Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Operations Retro</masterLabel>
+            <translation><!-- Service Operations Retro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty Sales</masterLabel>
+            <translation><!-- Specialty Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spider</masterLabel>
+            <translation><!-- Spider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subrogation</masterLabel>
+            <translation><!-- Subrogation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeleHealth</masterLabel>
+            <translation><!-- TeleHealth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephony</masterLabel>
+            <translation><!-- Telephony --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Team</masterLabel>
+            <translation><!-- Testing Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UM Intake</masterLabel>
+            <translation><!-- UM Intake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual Second Opinion</masterLabel>
+            <translation><!-- Virtual Second Opinion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WINFertility</masterLabel>
+            <translation><!-- WINFertility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eBusiness</masterLabel>
+            <translation><!-- eBusiness --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region Text --></label>
+        <name>Region_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Central</masterLabel>
+            <translation><!-- Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North East</masterLabel>
+            <translation><!-- North East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South East</masterLabel>
+            <translation><!-- South East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation><!-- West --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Required --></label>
+        <name>Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME Email --></label>
+        <name>SME_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME Imp Case Rec ID --></label>
+        <name>SME_Imp_Case_Rec_ID__c</name>
+        <relationshipLabel><!-- SME User Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SME Imp Case --></label>
+        <name>SME_Imp_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME Status --></label>
+        <name>SME_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME Title --></label>
+        <name>SME_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME User Name --></label>
+        <name>SME_User_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

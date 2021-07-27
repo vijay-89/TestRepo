@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>ACE_National_Brokers</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>ACE National Brokers</label>
+        <sharedTo>
+            <group>ACE_National_Brokers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Agency/Brokerage</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ANA_DNC_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>ANA DNC Users</label>
+        <sharedTo>
+            <group>Modify_All_ANA_Accounts</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer,Prospect</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ANA_Specialty</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>None</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>ANA Specialty</label>
+        <sharedTo>
+            <group>ANA_Specialty</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer,Brokerage,Prospect</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ANA_Underwriting_GRP_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>ANA Underwriting GRP Rule</label>
+        <sharedTo>
+            <group>ANA_Underwriting</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer,Brokerage,Prospect</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_sharing_Non_confidential</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account sharing Non confidential</label>
+        <sharedTo>
+            <role>Enterprise_Role</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Prospect,Service Provider,Customer,Brokerage</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BrokerageAccountAdmins</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Brokerage Account Admins</label>
+        <sharedTo>
+            <group>BrokerageAccountAdmins</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Brokerage</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>California_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>California Admin</label>
+        <sharedTo>
+            <group>California_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>California</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>California_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to California Accounts for the California Market users</description>
+        <label>California Read Access</label>
+        <sharedTo>
+            <group>California_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>California</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Chamber_Account_Admins</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Chamber Account Admins</label>
+        <sharedTo>
+            <group>Chamber_Account_Admins</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Chamber</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Colorado_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Colorado Admin</label>
+        <sharedTo>
+            <group>Colorado_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Colorado</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Colorado_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Colorado Accounts for the Colorado Market users</description>
+        <label>Colorado Read Access</label>
+        <sharedTo>
+            <group>Colorado_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Colorado</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Connecticut_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Connecticut Admin</label>
+        <sharedTo>
+            <group>Connecticut_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Connecticut</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Connecticut_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Connecticut Accounts for the Connecticut Market users</description>
+        <label>Connecticut Read Access</label>
+        <sharedTo>
+            <group>Connecticut_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Connecticut</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CustomerAccountAdmins</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Customer Account Admins</label>
+        <sharedTo>
+            <group>CustomerAccountAdmins</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CustomerAccountReadOnly</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Customer Account Read Only</label>
+        <sharedTo>
+            <group>CustomerAccountReadOnly</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Georgia_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Georgia Admin</label>
+        <sharedTo>
+            <group>Georgia_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Georgia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Georgia_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Georgia Accounts for the Georgia Market users</description>
+        <label>Georgia Read Access</label>
+        <sharedTo>
+            <group>Georgia_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Georgia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Group_Services</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Group Services</label>
+        <sharedTo>
+            <group>Group_Services</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer,Prospect</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Indiana_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Indiana Admin</label>
+        <sharedTo>
+            <group>Indiana_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Indiana</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Indiana_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Indiana Accounts for the Indiana Market users</description>
+        <label>Indiana Read Access</label>
+        <sharedTo>
+            <group>Indiana_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Indiana</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Kentucky_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Kentucky Admin</label>
+        <sharedTo>
+            <group>Kentucky_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Kentucky</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Kentucky_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Ohio Accounts for the Ohio Market users</description>
+        <label>Kentucky Read Access</label>
+        <sharedTo>
+            <group>Kentucky_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Kentucky</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>LG_brokerage_records_share_local</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>LG brokerage records share local</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Local_Sales_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>LG Brokerage,LG Self Relationship</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Labor_and_Trust</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide edit access to Labor and Trust Accounts for the Labor and Trust users</description>
+        <label>Labor and Trust</label>
+        <sharedTo>
+            <group>Labor_and_Trust</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Maine_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Maine Admin</label>
+        <sharedTo>
+            <group>Maine_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Maine</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Maine_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Maine Accounts for the Maine Market users</description>
+        <label>Maine Read Access</label>
+        <sharedTo>
+            <group>Maine_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Maine</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Missouri_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Missouri Admin</label>
+        <sharedTo>
+            <group>Missouri_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Missouri</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Missouri_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Missouri Accounts for the Missouri Market users</description>
+        <label>Missouri Read Access</label>
+        <sharedTo>
+            <group>Missouri_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Missouri</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>National_record_access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide access to national records to all National users</description>
+        <label>National record access</label>
+        <sharedTo>
+            <role>NationalSales</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer,Brokerage,Prospect</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Nevada_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Nevada Admin</label>
+        <sharedTo>
+            <group>Nevada_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Nevada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Nevada_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Nevada Accounts for the Nevada Market users</description>
+        <label>Nevada Read Access</label>
+        <sharedTo>
+            <group>Nevada_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Nevada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NewHampshire_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to NewHampshire Accounts for the NewHampshire Market users</description>
+        <label>NewHampshire Read Access</label>
+        <sharedTo>
+            <group>NewHampshire_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>New Hampshire</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>New_Hampshire_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>New Hampshire Admin</label>
+        <sharedTo>
+            <group>New_Hampshire_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>New Hampshire</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>New_York_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>New York Admin</label>
+        <sharedTo>
+            <group>New_York_Admin_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>New York</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ohio_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Ohio Admin</label>
+        <sharedTo>
+            <group>Ohio_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Ohio</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ohio_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Ohio Accounts for the Ohio Market users</description>
+        <label>Ohio Read Access</label>
+        <sharedTo>
+            <group>Ohio_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Ohio</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ProspectAccountAdmins</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Prospect Account Admins</label>
+        <sharedTo>
+            <group>ProspectAccountAdmins</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Prospect</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_Access_to_East_Region_Labor_Data</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <description>Gives local sales users read access to east region labor data (NY, CT, ME, NH, GA, VA)</description>
+        <label>Read Access to East Region Labor Data</label>
+        <sharedTo>
+            <group>Read_Access_to_East_Region_Labor_Data</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Maine,Virginia,Connecticut,Georgia,New Hampshire,New York</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_Write_Access_to_West_Region_Labor_Data</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <description>Gives local sales users read access to west region labor data (CA,CO,IN,KY,MO,NV,OH,WI)</description>
+        <label>Read Write Access to West Region Labor Data</label>
+        <sharedTo>
+            <group>Read_Write_Access_to_West_Labor_Data</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Ohio,Indiana,Missouri,California,Wisconsin,Colorado,Kentucky,Nevada</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ServiceProviderAccountAdmins</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Service Provider Account Admins</label>
+        <sharedTo>
+            <group>ServiceProviderAccountAdmins</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Service Provider</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Service_Provider_Accounts</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share Service Provider Accounts with all internal users</description>
+        <label>Service Provider Accounts</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Service Provider</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Stop_Loss_Account_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>None</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Stop Loss Account Sharing</label>
+        <sharedTo>
+            <role>Stop_Loss_Team</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Stop Loss Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Brokerage Firm</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PBM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>TPA</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Virginia_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Virginia Admin</label>
+        <sharedTo>
+            <group>Virginia_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Virginia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Virginia_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Virginia Accounts for the Virginia Market users</description>
+        <label>Virginia Read Access</label>
+        <sharedTo>
+            <group>Virginia_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Virginia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Wisconsin_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Wisconsin Admin</label>
+        <sharedTo>
+            <group>Wisconsin_Admin_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Wisconsin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Wisconsin_Read_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Provide read access to Wisconsin Accounts for the Wisconsin Market users</description>
+        <label>Wisconsin Read Access</label>
+        <sharedTo>
+            <group>Wisconsin_Read_Access</group>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Situs_State__c</field>
+            <operation>equals</operation>
+            <value>Wisconsin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Anthem_Entity__c</field>
+            <operation>equals</operation>
+            <value>Labor and Trust</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

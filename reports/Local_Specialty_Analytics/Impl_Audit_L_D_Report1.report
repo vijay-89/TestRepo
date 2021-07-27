@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Order$Anthem_Entity__c</field>
+    </columns>
+    <columns>
+        <field>Order$AccountLegalName__c</field>
+    </columns>
+    <columns>
+        <field>Order$Implementation_Effective_Date__c</field>
+    </columns>
+    <columns>
+        <field>Order$EffectiveDate</field>
+    </columns>
+    <description>Originally created for Jenny Marah</description>
+    <filter>
+        <criteriaItems>
+            <column>Order$Implementation_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Withdrawn</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Order$Assigned_Implementer__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Krystal Ash,Tiffany Belcher,Emily Burgadt,Celeste Crowdery,Carrie Demitros,Jill Dileno,Ryan Gautreaux,Julie Kloncz,Brian Matthews,Chrystal Mitchell,Ginny Monica,Tuesdee Parrish,Erica Russell,Kendra Shipman,Bao Yang,Shannon Chite,Michael Delarco,Sarah Dilodovico,Scott Flanagan,Carol Justen,Natalie Miller,Samantha Sovde,Ruth Sykora,Austin Tharp,Abbey Thornton</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Impl Audit (L &amp; D) Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>JF_Jen_marah_Test_CRT2_Orders_Pending_corrections__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Order$CreatedDate</dateColumn>
+        <endDate>2019-09-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2019-04-01</startDate>
+    </timeFrameFilter>
+</Report>

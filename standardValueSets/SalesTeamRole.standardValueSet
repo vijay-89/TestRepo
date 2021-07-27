@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Account Executive</fullName>
+        <default>false</default>
+        <label>Account Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Manager</fullName>
+        <default>false</default>
+        <label>Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Service Coordinator</fullName>
+        <default>false</default>
+        <label>Account Service Coordinator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Service Representative</fullName>
+        <default>false</default>
+        <label>Account Service Representative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Admin Sales/AM</fullName>
+        <default>false</default>
+        <label>Admin Sales/AM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AE Support Rep</fullName>
+        <default>false</default>
+        <label>AE Support Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AM Support Rep</fullName>
+        <default>false</default>
+        <label>AM Support Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Case Installation Coordinator (CIC)</fullName>
+        <default>false</default>
+        <label>Case Installation Coordinator (CIC)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chief Client Officer</fullName>
+        <default>false</default>
+        <label>Chief Client Officer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chief Growth Officer</fullName>
+        <default>false</default>
+        <label>Chief Growth Officer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Engagement Consultant/SAR</fullName>
+        <default>false</default>
+        <label>Client Engagement Consultant/SAR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Reporting</fullName>
+        <default>false</default>
+        <label>Client Reporting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical Account Director</fullName>
+        <default>false</default>
+        <label>Clinical Account Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical RPh</fullName>
+        <default>false</default>
+        <label>Clinical RPh</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Exchange Analyst</fullName>
+        <default>false</default>
+        <label>Data Exchange Analyst</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Interface Manager</fullName>
+        <default>false</default>
+        <label>Data Interface Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental Implementer</fullName>
+        <default>false</default>
+        <label>Dental Implementer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental UW</fullName>
+        <default>false</default>
+        <label>Dental UW</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Director Sales/AM</fullName>
+        <default>false</default>
+        <label>Director Sales/AM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EAP Account Executive</fullName>
+        <default>false</default>
+        <label>EAP Account Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EAP Account Manager</fullName>
+        <default>false</default>
+        <label>EAP Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EBA</fullName>
+        <default>false</default>
+        <label>EBA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employer Service Representative</fullName>
+        <default>false</default>
+        <label>Employer Service Representative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Sponsor</fullName>
+        <default>false</default>
+        <label>Executive Sponsor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group Service Analyst</fullName>
+        <default>false</default>
+        <label>Group Service Analyst</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group Services Manager</fullName>
+        <default>false</default>
+        <label>Group Services Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GRS Account Executive</fullName>
+        <default>false</default>
+        <label>GRS Account Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GRS Account Manager</fullName>
+        <default>false</default>
+        <label>GRS Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GRS Administrator</fullName>
+        <default>false</default>
+        <label>GRS Administrator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GRS ESR</fullName>
+        <default>false</default>
+        <label>GRS ESR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GRS Sales Support</fullName>
+        <default>false</default>
+        <label>GRS Sales Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GRS Underwriter</fullName>
+        <default>false</default>
+        <label>GRS Underwriter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>H&amp;W Consultant</fullName>
+        <default>false</default>
+        <label>H&amp;W Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Health Information Consultant</fullName>
+        <default>false</default>
+        <label>Health Information Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HWS Implementer</fullName>
+        <default>false</default>
+        <label>HWS Implementer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ID Card Manager</fullName>
+        <default>false</default>
+        <label>ID Card Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implementation Manager</fullName>
+        <default>false</default>
+        <label>Implementation Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implementer</fullName>
+        <default>false</default>
+        <label>Implementer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>L&amp;D UW</fullName>
+        <default>false</default>
+        <label>L&amp;D UW</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Local Account Executive (ANA Only)</fullName>
+        <default>false</default>
+        <label>Local Account Executive (ANA Only)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Local Account Manager (ANA Only)</fullName>
+        <default>false</default>
+        <label>Local Account Manager (ANA Only)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Director</fullName>
+        <default>false</default>
+        <label>Medical Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Membership Representative</fullName>
+        <default>false</default>
+        <label>Membership Representative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pharmacy Service Coordinator</fullName>
+        <default>false</default>
+        <label>Pharmacy Service Coordinator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regional Manager</fullName>
+        <default>false</default>
+        <label>Regional Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RVP Underwriting</fullName>
+        <default>false</default>
+        <label>RVP Underwriting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rx Account Management Director</fullName>
+        <default>false</default>
+        <label>Rx Account Management Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rx Account Manager</fullName>
+        <default>false</default>
+        <label>Rx Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rx Sales Director</fullName>
+        <default>false</default>
+        <label>Rx Sales Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Account Executive Lead</fullName>
+        <default>false</default>
+        <label>Sales Account Executive Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Account Rep - Acct Mgmt</fullName>
+        <default>false</default>
+        <label>Sales Account Rep - Acct Mgmt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Account Representative</fullName>
+        <default>false</default>
+        <label>Sales Account Representative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Support Specialist/Admin/Sales Assistant</fullName>
+        <default>false</default>
+        <label>Sales Assistant/Support Specialist/Admin</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Executive</fullName>
+        <default>false</default>
+        <label>Sales Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales VP</fullName>
+        <default>false</default>
+        <label>Sales VP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SAR Support Rep</fullName>
+        <default>false</default>
+        <label>SAR Support Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Secondary Account Executive</fullName>
+        <default>false</default>
+        <label>Secondary Account Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Secondary Account Manager</fullName>
+        <default>false</default>
+        <label>Secondary Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Secondary Executive Sponsor</fullName>
+        <default>false</default>
+        <label>Secondary Executive Sponsor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Specialty Clinical Account Director</fullName>
+        <default>false</default>
+        <label>Specialty Clinical Account Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Specialty Sales Account Manager</fullName>
+        <default>false</default>
+        <label>Specialty Sales Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Specialty Sales Account Rep</fullName>
+        <default>false</default>
+        <label>Specialty Sales Account Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Specialty Sales Executive</fullName>
+        <default>false</default>
+        <label>Specialty Sales Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Specialty Sales Support</fullName>
+        <default>false</default>
+        <label>Specialty Sales Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SR Sales Consultant</fullName>
+        <default>false</default>
+        <label>SR Sales Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Strategic Client Advisor</fullName>
+        <default>false</default>
+        <label>Strategic Client Advisor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Underwriter</fullName>
+        <default>false</default>
+        <label>Underwriter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Underwriting Support Team</fullName>
+        <default>false</default>
+        <label>Underwriting Support Team</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vision UW</fullName>
+        <default>false</default>
+        <label>Vision UW</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Voluntary Enrollment Consultant</fullName>
+        <default>false</default>
+        <label>Voluntary Enrollment Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VP</fullName>
+        <default>false</default>
+        <label>VP</label>
+    </standardValue>
+</StandardValueSet>

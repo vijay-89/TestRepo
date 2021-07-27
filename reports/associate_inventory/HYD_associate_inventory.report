@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Issue_Control__c$Implementation_Effective_Date__c</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c$Implementation_Type__c</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c$Name</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c$Situs_State__c</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c$Account_Legal_Name__c</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c$Group_Number__c</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c$CreatedDate</field>
+    </columns>
+    <description>Built off of the original E &amp; B Case Install Data Dump</description>
+    <filter>
+        <criteriaItems>
+            <column>Issue_Control__c$Anthem_Entity__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Issue_Control__c$Owner__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Nagen Kumar Pani,Aravind Yadav,Nagarjuna Tanneeru,Ajay Kumar Vodnala,Abilash A,Prashanth Reddy Chiguru,Kiran Biradar,Sai Kumar Goranta,Supriya kokkula,Lakshmikar Reddy,Ranjitha Kumaresan,Nageshwari Marepalli,Santhosh Potnuru,Krishna E,Mohammed Ameer Ali,Neelima Marepally,Sai Teja P B,SaiTeja Budde,Shivanand Kumar Sakkarisetti,Shaik Asif,VishwaKumar Chirka,P Saikrupa,SaiRam Potula</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Issue_Control__c$Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>01 Not Started,02 Work In Progress,03 Pending Correction,03 Pending Correction Returned,03 Waiting for Bill Approval,04 Approved,04 Activation Ready ,05 Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Issue_Control__c$Sub_Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Pending a technical fix,Pending audit,Pending too early to process,Pending EBA updates,Pending Enrollment,Pending Cancellation,Pending Bill Approval,Pending Clarification,Pending Migrations</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Issue_Control__c$Stage__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Issue_Control__c$Sub_Stage__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Issue_Control__c$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>HYD associate inventory</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>JF_Case_Installation_Data_Dump_CRT__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Issue_Control__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

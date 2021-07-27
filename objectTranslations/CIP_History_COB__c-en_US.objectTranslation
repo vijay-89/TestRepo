@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CIP History COB</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CIP History COB</value>
+    </caseValues>
+    <fields>
+        <label><!-- Anthem Month to Solicit COB --></label>
+        <name>Anthem_Month_to_Solicit_COB__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP History --></label>
+        <name>CIP_History__c</name>
+        <relationshipLabel><!-- CIP History COB --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- COB Method Apply to all Packages/Suffix --></label>
+        <name>COB_Method_Apply_to_all__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case or Suffix for Annual COB Solicit --></label>
+        <name>Case_or_Suffix_for_Annual_COB_Solicit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Medicare Part D Rx to: --></label>
+        <name>Change_Medicare_Part_D__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments_COB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments Medicare --></label>
+        <name>Comments_Medicare__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coordination of Benefits --></label>
+        <name>Coordination_of_Benefits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does this Apply to All Subgroups? --></label>
+        <name>Does_this_Apply__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does Me Too selection apply to all pkgs? --></label>
+        <name>Does_your_Me_Too_selection_apply_to_all__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclude from Medicare Crossover --></label>
+        <name>Exclude_from_Medicare_Crossover__c</name>
+    </fields>
+    <fields>
+        <label><!-- If no, specify ME Too per package --></label>
+        <name>If_no_please_specify_per_package_which_M__c</name>
+    </fields>
+    <fields>
+        <label><!-- Me Too Indicator --></label>
+        <name>Me_Too_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- If No, please explain: --></label>
+        <name>Medicare_Applies_to_Packages_Suffixes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medicare COB Options --></label>
+        <name>Medicare_COB_Options__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medicare COB --></label>
+        <name>Medicare_COB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option D --></label>
+        <name>Option_D__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option E --></label>
+        <name>Option_E__c</name>
+    </fields>
+    <fields>
+        <label><!-- If no, specify COB method per package --></label>
+        <name>Packages_Suffixes_COB_Method_Applies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pay and Pursue --></label>
+        <name>Pay_and_Pursue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pursue and Pay --></label>
+        <name>Pursue_and_Pay__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy Client Intake Process --></label>
+        <name>SFDC_Legacy_Client_Intake_Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- Will Medicare Part D Benefits be Offered --></label>
+        <name>Will_Medicare__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

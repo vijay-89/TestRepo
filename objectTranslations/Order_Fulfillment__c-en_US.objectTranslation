@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Order Fulfillment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Order Fulfillments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Delivery Date --></label>
+        <name>Actual_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Ship Date --></label>
+        <name>Actual_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>Carrier1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Delivery Date --></label>
+        <name>Estimated_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Left At --></label>
+        <name>Left_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+        <relationshipLabel><!-- Order Fulfillments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy OFID --></label>
+        <name>SFDC_Legacy_OFID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed By --></label>
+        <name>Signed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Information --></label>
+        <name>Tracking_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- UPS Full Status --></label>
+        <name>UPS_Full_Status__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- Update_UPS_Status --></label>
+        <name>Update_UPS_Status</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_UPS_Status_Lightning --></label>
+        <name>Update_UPS_Status_Lightning</name>
+    </webLinks>
+</CustomObjectTranslation>

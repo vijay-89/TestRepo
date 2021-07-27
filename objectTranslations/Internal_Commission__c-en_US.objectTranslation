@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Internal Commission</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Internal Commissions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Executive Multiplier Percentage --></label>
+        <name>Account_Executive_Multiplier_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Executive Proration Percentage --></label>
+        <name>Account_Executive_Proration_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Executive --></label>
+        <name>Account_Executive__c</name>
+        <relationshipLabel><!-- Internal Commissions (Account Executive) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+        <relationshipLabel><!-- Internal Commissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account_Manager 2 --></label>
+        <name>Account_Manager2__c</name>
+        <relationshipLabel><!-- Internal Commissions (Account_Manager 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account_Manager 3 --></label>
+        <name>Account_Manager3__c</name>
+        <relationshipLabel><!-- Internal Commissions (Account_Manager 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Manager 1 --></label>
+        <name>Account_Manager__c</name>
+        <relationshipLabel><!-- Internal Commissions (Account Manager 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chief Client Officer --></label>
+        <name>Chief_Client_Officer__c</name>
+        <relationshipLabel><!-- Internal Commissions (Chief Client Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Chief Growth Officer --></label>
+        <name>Chief_Growth_Officer__c</name>
+        <relationshipLabel><!-- Internal Commissions (Chief Growth Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Commisions Approval By Manager --></label>
+        <name>Commisions_Approval_By_Manager__c</name>
+        <picklistValues>
+            <masterLabel>Approved By Am1</masterLabel>
+            <translation><!-- Approved By Am1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved By Am2</masterLabel>
+            <translation><!-- Approved By Am2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved By Am3</masterLabel>
+            <translation><!-- Approved By Am3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Any Comments Returned From Compensation Source System Will Be Placed Here --></help>
+        <label><!-- Commissions Adjustment Comments --></label>
+        <name>Commissions_Adjustment_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commissions Approval Status --></label>
+        <name>Commissions_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved - Final Comp (Not Sent)</masterLabel>
+            <translation><!-- Approved - Final Comp (Not Sent) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved - Final Comp (Sent)</masterLabel>
+            <translation><!-- Approved - Final Comp (Sent) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved - Initial Comp (Not Sent)</masterLabel>
+            <translation><!-- Approved - Initial Comp (Not Sent) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved - Initial Comp (Sent)</masterLabel>
+            <translation><!-- Approved - Initial Comp (Sent) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Account Executive - Final Comp</masterLabel>
+            <translation><!-- Pending Response From Account Executive - Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Account Executive - Initial Comp</masterLabel>
+            <translation><!-- Pending Response From Account Executive - Initial Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Account Manager - Final Comp</masterLabel>
+            <translation><!-- Pending Response From Account Manager - Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Chief Growth Officer- Final Comp</masterLabel>
+            <translation><!-- Pending Response From Chief Growth Officer- Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Director/Sales AM - Final Comp</masterLabel>
+            <translation><!-- Pending Response From Director/Sales AM - Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Internal Comp Team - Final Comp</masterLabel>
+            <translation><!-- Pending Response From Internal Comp Team - Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Internal Comp Team - Initial Comp</masterLabel>
+            <translation><!-- Pending Response From Internal Comp Team - Initial Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Regional Manager - Final Comp</masterLabel>
+            <translation><!-- Pending Response From Regional Manager - Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Sales Executive - Final Comp</masterLabel>
+            <translation><!-- Pending Response From Sales Executive - Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Sales Executive - Initial Comp</masterLabel>
+            <translation><!-- Pending Response From Sales Executive - Initial Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From Sales RVP - Final Comp</masterLabel>
+            <translation><!-- Pending Response From Sales RVP - Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response From VP - Final Comp</masterLabel>
+            <translation><!-- Pending Response From VP - Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Response from Chief Client Officer – Final Comp</masterLabel>
+            <translation><!-- Pending Response from Chief Client Officer – Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled – Final Comp</masterLabel>
+            <translation><!-- Recalled – Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected - Final Comp</masterLabel>
+            <translation><!-- Rejected - Final Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected - Initial Comp</masterLabel>
+            <translation><!-- Rejected - Initial Comp --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Count Of Final Approved Records --></label>
+        <name>Count_Of_Final_Approved_Records__c</name>
+    </fields>
+    <fields>
+        <label><!-- CountofCEQrecords --></label>
+        <name>CountofCEQrecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Director/Sales AM Multiplier Percentage --></label>
+        <name>Director_Sales_AM_Multiplier_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Director/Sales AM Proration Percentage --></label>
+        <name>Director_Sales_AM_Proration_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Director/Sales AM --></label>
+        <name>Director_Sales_AM__c</name>
+        <relationshipLabel><!-- Internal Commissions (Director/Sales AM) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Revenue Enhancement Provision Factor --></help>
+        <label><!-- FI REP Factor Percentage --></label>
+        <name>FI_REP_Factor_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Commissions Request Type --></label>
+        <name>Internal_Commissions_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account Team</masterLabel>
+            <translation><!-- Account Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Sales Team</masterLabel>
+            <translation><!-- New Sales Team --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LoggedinProfile --></label>
+        <name>LoggedinProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Effective Date --></label>
+        <name>Opportunity_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+        <relationshipLabel><!-- Internal Commissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type --></label>
+        <name>Opportunity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proration Percentage --></label>
+        <name>Proration_Percentage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Revenue Enhancement Provision Factor --></help>
+        <label><!-- ASO REP Factor Percentage --></label>
+        <name>REP_Factor_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- RVP Multiplier Percentage --></label>
+        <name>RVP_Multiplier_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- RVP Proration Percentage --></label>
+        <name>RVP_Proration_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regional Manager Multiplier Percentage --></label>
+        <name>Regional_Manager_Multiplier_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regional Manager Proration Percentage --></label>
+        <name>Regional_Manager_Proration_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regional Manager --></label>
+        <name>Regional_Manager__c</name>
+        <relationshipLabel><!-- Internal Commissions (Regional Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- User Is Mapped From Account Team Role = SR Sales Consultant --></help>
+        <label><!-- Sales Executive --></label>
+        <name>Sales_Consultant__c</name>
+        <relationshipLabel><!-- Internal Commissions (Sales Executive) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Executive Multiplier Percentage --></label>
+        <name>Sales_Executive_Multiplier_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Executive Proration Percentage --></label>
+        <name>Sales_Executive_Proration_Percentage__c</name>
+    </fields>
+    <fields>
+        <help><!-- User Is Mapped From Account Team Role = Sales Executive --></help>
+        <label><!-- Sales RVP --></label>
+        <name>Sales_Executive__c</name>
+        <relationshipLabel><!-- Internal Commissions (Sales RVP) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales RVP Multiplier Percentage --></label>
+        <name>Sales_RVP_Multiplier_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales RVP Proration Percentage --></label>
+        <name>Sales_RVP_Proration_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>Url__c</name>
+    </fields>
+    <fields>
+        <help><!-- User Is Mapped From Account Team Role = VP --></help>
+        <label><!-- RVP --></label>
+        <name>VP__c</name>
+        <relationshipLabel><!-- Internal Commissions (RVP) --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

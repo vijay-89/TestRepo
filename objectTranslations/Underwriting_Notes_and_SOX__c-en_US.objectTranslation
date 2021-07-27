@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Underwriting Notes and SOX</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Underwriting Notes and SOX</value>
+    </caseValues>
+    <fields>
+        <help><!-- Enter the description/ SPX approval/ body of text --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note Date --></label>
+        <name>Note_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The topic of this record --></help>
+        <label><!-- Subject --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Record --></label>
+        <name>Underwriting_Record__c</name>
+        <relationshipLabel><!-- Underwriting Notes and SOX --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

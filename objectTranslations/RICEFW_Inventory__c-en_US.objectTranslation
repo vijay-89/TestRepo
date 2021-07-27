@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RICEFW Inventory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RICEFW Inventories</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complexity --></label>
+        <name>Complexity__c</name>
+        <picklistValues>
+            <masterLabel>Complex</masterLabel>
+            <translation><!-- Complex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple</masterLabel>
+            <translation><!-- Simple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- New / Modified --></label>
+        <name>New_Modified__c</name>
+        <picklistValues>
+            <masterLabel>Modify</masterLabel>
+            <translation><!-- Modify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must Have</masterLabel>
+            <translation><!-- Must Have --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RICEFW Autonumber --></label>
+        <name>RICEFW_Autonumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Release + RICEFW Object + RICEFW # --></help>
+        <label><!-- RICEFW ID --></label>
+        <name>RICEFW_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RICEFW Type Acronym --></label>
+        <name>RICEFW_Type_Acronym__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Acronym --></label>
+        <name>Release_Acronym__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>Release__c</name>
+        <relationshipLabel><!-- RICEFW Inventories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- System Impacted --></label>
+        <name>System_Impacted__c</name>
+        <picklistValues>
+            <masterLabel>Alliance</masterLabel>
+            <translation><!-- Alliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apttus</masterLabel>
+            <translation><!-- Apttus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CD</masterLabel>
+            <translation><!-- CD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Hub</masterLabel>
+            <translation><!-- Data Hub --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EAI</masterLabel>
+            <translation><!-- EAI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricetool</masterLabel>
+            <translation><!-- Pricetool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC</masterLabel>
+            <translation><!-- SFDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP</masterLabel>
+            <translation><!-- SP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STARS</masterLabel>
+            <translation><!-- STARS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surround</masterLabel>
+            <translation><!-- Surround --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VZW</masterLabel>
+            <translation><!-- VZW --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Application Pages</masterLabel>
+            <translation><!-- Application Pages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automatic Conversion</masterLabel>
+            <translation><!-- Automatic Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dashboard</masterLabel>
+            <translation><!-- Dashboard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhancements</masterLabel>
+            <translation><!-- Enhancements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interface - Inbound</masterLabel>
+            <translation><!-- Interface - Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interface - Outbound</masterLabel>
+            <translation><!-- Interface - Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Conversion</masterLabel>
+            <translation><!-- Manual Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report</masterLabel>
+            <translation><!-- Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Views</masterLabel>
+            <translation><!-- Views --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflows</masterLabel>
+            <translation><!-- Workflows --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Application Pages / Views --></label>
+        <name>Application_Pages_Views</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Conversions --></label>
+        <name>Conversions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Enhancements --></label>
+        <name>Enhancements</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Interfaces --></label>
+        <name>Interfaces</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reports --></label>
+        <name>Reports</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Workflow --></label>
+        <name>Workflow</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

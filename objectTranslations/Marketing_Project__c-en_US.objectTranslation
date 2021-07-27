@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Marketing Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Marketing Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Anthem Check Request Number --></label>
+        <name>Anthem_Check_Request_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audience --></label>
+        <name>Audience__c</name>
+        <picklistValues>
+            <masterLabel>Association/ Chamber</masterLabel>
+            <translation><!-- Association/ Chamber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker/Producer</masterLabel>
+            <translation><!-- Broker/Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer</masterLabel>
+            <translation><!-- Employer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor/ Union</masterLabel>
+            <translation><!-- Labor/ Union --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member</masterLabel>
+            <translation><!-- Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect-Consumer</masterLabel>
+            <translation><!-- Prospect-Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider</masterLabel>
+            <translation><!-- Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Communication Type --></label>
+        <name>Communication_Type__c</name>
+        <picklistValues>
+            <masterLabel>Binder Cover/Spines</masterLabel>
+            <translation><!-- Binder Cover/Spines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booklet/handbook</masterLabel>
+            <translation><!-- Booklet/handbook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure</masterLabel>
+            <translation><!-- Brochure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CD</masterLabel>
+            <translation><!-- CD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calendar</masterLabel>
+            <translation><!-- Calendar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Card/Coupon</masterLabel>
+            <translation><!-- Card/Coupon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decal</masterLabel>
+            <translation><!-- Decal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Only</masterLabel>
+            <translation><!-- Design Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Mailer</masterLabel>
+            <translation><!-- Direct Mailer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display/Banner</masterLabel>
+            <translation><!-- Display/Banner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envelope</masterLabel>
+            <translation><!-- Envelope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excel Spreadsheet</masterLabel>
+            <translation><!-- Excel Spreadsheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Explanation of Benefits</masterLabel>
+            <translation><!-- Explanation of Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAQ</masterLabel>
+            <translation><!-- FAQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flyer</masterLabel>
+            <translation><!-- Flyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Folder</masterLabel>
+            <translation><!-- Folder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insert</masterLabel>
+            <translation><!-- Insert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invitation</masterLabel>
+            <translation><!-- Invitation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter</masterLabel>
+            <translation><!-- Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magnet</masterLabel>
+            <translation><!-- Magnet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Masthead</masterLabel>
+            <translation><!-- Masthead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newsletter</masterLabel>
+            <translation><!-- Newsletter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overview (Single Value)</masterLabel>
+            <translation><!-- Overview (Single Value) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Stuffer</masterLabel>
+            <translation><!-- Payroll Stuffer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postcard</masterLabel>
+            <translation><!-- Postcard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poster</masterLabel>
+            <translation><!-- Poster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PowerPoint Presentation</masterLabel>
+            <translation><!-- PowerPoint Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule of Benefits</masterLabel>
+            <translation><!-- Schedule of Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet</masterLabel>
+            <translation><!-- Sheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet, Flyer, Insert, Overview</masterLabel>
+            <translation><!-- Sheet, Flyer, Insert, Overview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signage</masterLabel>
+            <translation><!-- Signage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sticker</masterLabel>
+            <translation><!-- Sticker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tent Card</masterLabel>
+            <translation><!-- Tent Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Translation</masterLabel>
+            <translation><!-- Translation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation><!-- Video --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Banner/Ad</masterLabel>
+            <translation><!-- Web Banner/Ad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Content</masterLabel>
+            <translation><!-- Web Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Word Template</masterLabel>
+            <translation><!-- Word Template --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Writing Only</masterLabel>
+            <translation><!-- Writing Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Complete Date --></label>
+        <name>Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Total --></label>
+        <name>CostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost 1 Description --></label>
+        <name>Cost_1_Description__c</name>
+        <picklistValues>
+            <masterLabel>Creative Development</masterLabel>
+            <translation><!-- Creative Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulfillment</masterLabel>
+            <translation><!-- Fulfillment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postage</masterLabel>
+            <translation><!-- Postage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Items</masterLabel>
+            <translation><!-- Premium Items --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Production</masterLabel>
+            <translation><!-- Print Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt Outside Vendor</masterLabel>
+            <translation><!-- Receipt Outside Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweepstakes</masterLabel>
+            <translation><!-- Sweepstakes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Translation</masterLabel>
+            <translation><!-- Translation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation><!-- Video --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Resource</masterLabel>
+            <translation><!-- Web Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost 1 --></label>
+        <name>Cost_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost 2 Description --></label>
+        <name>Cost_2_Description__c</name>
+        <picklistValues>
+            <masterLabel>Creative Development</masterLabel>
+            <translation><!-- Creative Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulfillment</masterLabel>
+            <translation><!-- Fulfillment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postage</masterLabel>
+            <translation><!-- Postage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Items</masterLabel>
+            <translation><!-- Premium Items --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Production</masterLabel>
+            <translation><!-- Print Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt Outside Vendor</masterLabel>
+            <translation><!-- Receipt Outside Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweepstakes</masterLabel>
+            <translation><!-- Sweepstakes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Translation</masterLabel>
+            <translation><!-- Translation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation><!-- Video --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Resource</masterLabel>
+            <translation><!-- Web Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost 2 --></label>
+        <name>Cost_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost 3 Description --></label>
+        <name>Cost_3_Description__c</name>
+        <picklistValues>
+            <masterLabel>Creative Development</masterLabel>
+            <translation><!-- Creative Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulfillment</masterLabel>
+            <translation><!-- Fulfillment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postage</masterLabel>
+            <translation><!-- Postage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Items</masterLabel>
+            <translation><!-- Premium Items --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Production</masterLabel>
+            <translation><!-- Print Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt Outside Vendor</masterLabel>
+            <translation><!-- Receipt Outside Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweepstakes</masterLabel>
+            <translation><!-- Sweepstakes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Translation</masterLabel>
+            <translation><!-- Translation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation><!-- Video --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Resource</masterLabel>
+            <translation><!-- Web Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost 3 --></label>
+        <name>Cost_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost 4 Description --></label>
+        <name>Cost_4_Description__c</name>
+        <picklistValues>
+            <masterLabel>Creative Development</masterLabel>
+            <translation><!-- Creative Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulfillment</masterLabel>
+            <translation><!-- Fulfillment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postage</masterLabel>
+            <translation><!-- Postage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Items</masterLabel>
+            <translation><!-- Premium Items --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Production</masterLabel>
+            <translation><!-- Print Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt Outside Vendor</masterLabel>
+            <translation><!-- Receipt Outside Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweepstakes</masterLabel>
+            <translation><!-- Sweepstakes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Translation</masterLabel>
+            <translation><!-- Translation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation><!-- Video --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Resource</masterLabel>
+            <translation><!-- Web Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost 4 --></label>
+        <name>Cost_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost 5 Description --></label>
+        <name>Cost_5_Description__c</name>
+        <picklistValues>
+            <masterLabel>Creative Development</masterLabel>
+            <translation><!-- Creative Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulfillment</masterLabel>
+            <translation><!-- Fulfillment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postage</masterLabel>
+            <translation><!-- Postage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Items</masterLabel>
+            <translation><!-- Premium Items --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Production</masterLabel>
+            <translation><!-- Print Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt Outside Vendor</masterLabel>
+            <translation><!-- Receipt Outside Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweepstakes</masterLabel>
+            <translation><!-- Sweepstakes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Translation</masterLabel>
+            <translation><!-- Translation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation><!-- Video --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Resource</masterLabel>
+            <translation><!-- Web Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost 5 --></label>
+        <name>Cost_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Total --></label>
+        <name>Cost_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deadline Date --></label>
+        <name>DeadlineDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoiced Amount --></label>
+        <name>Invoiced_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issued To --></label>
+        <name>Issued_To__c</name>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation><!-- Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP Vendor</masterLabel>
+            <translation><!-- TP Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Marketing Expense --></label>
+        <name>MarketingExpense__c</name>
+        <relationshipLabel><!-- Marketing Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Output --></label>
+        <name>Output__c</name>
+        <picklistValues>
+            <masterLabel>Electronic/PDF</masterLabel>
+            <translation><!-- Electronic/PDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted to Internet</masterLabel>
+            <translation><!-- Posted to Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted to Intranet</masterLabel>
+            <translation><!-- Posted to Intranet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print</masterLabel>
+            <translation><!-- Print --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for data load, the CIP, and Open Enrollment processes that need to be maintained in the old Commercial ORG. --></help>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation><!-- Hold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Invoice Number --></label>
+        <name>Vendor_Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Invoice --></label>
+        <name>Invoice</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You will exceed your remaining balance with this invoice. --></errorMessage>
+        <name>MP_SpendingOverage_Invoices</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Your Invoice Date is Not Within the Range of This Project --></errorMessage>
+        <name>MP_Validate_Invoice_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

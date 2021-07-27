@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Commission Paid Products</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Commission Paid Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+        <relationshipLabel><!-- Commission Paid Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tier 1 Annualized Premium --></label>
+        <name>Annualized_Premium_Dollar_Tier_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 2 Annualized Premium --></label>
+        <name>Annualized_Premium_Dollar_Tier_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 3 Annualized Premium --></label>
+        <name>Annualized_Premium_Dollar_Tier_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Channel --></label>
+        <name>CPP_Delivery_Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Incentive Cap Amount --></label>
+        <name>Case_Incentive_Cap_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Paid People --></label>
+        <name>Commission_Paid_People__c</name>
+        <relationshipLabel><!-- Commission Paid Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Year of Guarantee --></label>
+        <name>Current_Year_of_Guarantee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration of Guarantee --></label>
+        <name>Duration_of_Guarantee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Essential Formulary --></label>
+        <name>Essential_Formulary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financing --></label>
+        <name>Financing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding --></label>
+        <name>Funding__c</name>
+    </fields>
+    <fields>
+        <label><!-- GL Business Unit --></label>
+        <name>GL_Business_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Deductible --></label>
+        <name>Individual_Deductible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Commissions Request Type --></label>
+        <name>Internal_Commissions_Request_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Commissions --></label>
+        <name>Internal_Commissions__c</name>
+        <relationshipLabel><!-- Commission Paid Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mail Order --></label>
+        <name>Mail_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiplier Percentage --></label>
+        <name>Multiplier_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Effective Date --></label>
+        <name>Opportunity_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 1 Payment Calculation --></label>
+        <name>PM_Product_Calculated_Payment_Tier_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 2 Payment Calculation --></label>
+        <name>PM_Product_Calculated_Payment_Tier_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 3 Payment Calculation --></label>
+        <name>PM_Product_Calculated_Payment_Tier_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 4 Payment Calculation --></label>
+        <name>PM_Product_Calculated_Payment_Tier_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 1 Payment Rate --></label>
+        <name>PM_Product_Comp_Rate_Tier_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 2 Payment Rate --></label>
+        <name>PM_Product_Comp_Rate_Tier_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 3 Payment Rate --></label>
+        <name>PM_Product_Comp_Rate_Tier_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 4 Payment Rate --></label>
+        <name>PM_Product_Comp_Rate_Tier_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paid People Owner Name --></label>
+        <name>Paid_People_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 1 Premium Rate Calculation --></label>
+        <name>Prem_Product_Calculated_Payment_Tier_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 2 Premium Rate Calculation --></label>
+        <name>Prem_Product_Calculated_Payment_Tier_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 3 Premium Rate Calculation --></label>
+        <name>Prem_Product_Calculated_Payment_Tier_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 1 Premium Rate --></label>
+        <name>Premium_Comp_Rate_Tier_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 2 Premium Rate --></label>
+        <name>Premium_Comp_Rate_Tier_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier 3 Premium Rate --></label>
+        <name>Premium_Comp_Rate_Tier_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proration Percentage --></label>
+        <name>Proration_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- QLI Members Validated --></label>
+        <name>QLI_Members_Validated__c</name>
+    </fields>
+    <fields>
+        <label><!-- QLI Parent Bundle Name --></label>
+        <name>QLI_Parent_Bundle_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- QLI Product Stage --></label>
+        <name>QLI_Product_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- QLI Reason --></label>
+        <name>QLI_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- QLI Subscribers Validated --></label>
+        <name>QLI_Subscribers_Validated__c</name>
+    </fields>
+    <fields>
+        <label><!-- R90 --></label>
+        <name>R90__c</name>
+    </fields>
+    <fields>
+        <label><!-- REP Factor Percentage --></label>
+        <name>REP_Factor_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- RX Choice Tiered Network --></label>
+        <name>RX_Choice_Tiered_Network__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail --></label>
+        <name>Retail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart 90 --></label>
+        <name>Smart_90__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Comp Amount For Product --></label>
+        <name>Total_Comp_Amount_For_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Renew With Growth Members --></label>
+        <name>Validated_Renew_With_Growth_Members__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

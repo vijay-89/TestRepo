@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ServiceProviderRelationship__c$Account__c</field>
+    </columns>
+    <columns>
+        <field>ServiceProviderRelationship__c$VendorName__c</field>
+    </columns>
+    <columns>
+        <field>ServiceProviderRelationship__c$VendorType__c</field>
+    </columns>
+    <columns>
+        <field>ServiceProviderRelationship__c$Involvement_Type__c</field>
+    </columns>
+    <columns>
+        <field>ServiceProviderRelationship__c$Line_of_Business__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Vendor Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Service_Provider_Relationships__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>ServiceProviderRelationship__c$EffectiveDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ICR History Approval Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ICR History Approval Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account ID --></label>
+        <name>Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Add Product --></label>
+        <name>Add_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Entity --></label>
+        <name>Anthem_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Team --></label>
+        <name>Assigned_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Requested --></label>
+        <name>Bill_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bypass ID Cards --></label>
+        <name>Bypass_ID_Cards__c</name>
+    </fields>
+    <fields>
+        <label><!-- CalCobra Dept --></label>
+        <name>CalCobra_Dept__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check if ASO --></label>
+        <name>Check_if_ASO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Creator Team --></label>
+        <name>Creator_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Approved Calculated Field --></label>
+        <name>Date_Approved_Calculated_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Approved GMT --></label>
+        <name>Date_Approved_GMT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Approved --></label>
+        <name>Date_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Assigned to UW --></label>
+        <name>Date_Assigned_to_UW__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Over --></label>
+        <name>Days_Over__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document(s) Uploaded --></label>
+        <name>Documents_Uploaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- EA Notified --></label>
+        <name>EA_Notified__c</name>
+    </fields>
+    <fields>
+        <label><!-- EBA Logged By --></label>
+        <name>EBA_Logged_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- EBA Logged Date --></label>
+        <name>EBA_Logged_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date Change --></label>
+        <name>Effective_Date_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Loaded --></label>
+        <name>Group_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- ICR History --></label>
+        <name>ICR_History__c</name>
+        <relationshipLabel><!-- ICR History Approval Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IC Pending Reason --></label>
+        <name>IC_Pending_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Cards Requested --></label>
+        <name>ID_Cards_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locked --></label>
+        <name>Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- MedUW Approved CR --></label>
+        <name>MedUW_Approved_CR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Non-Std Books --></label>
+        <name>Number_of_Non_Std_Books__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Standard Books --></label>
+        <name>Number_of_Standard_Books__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paperwork Completed --></label>
+        <name>Paperwork_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pooled/Non-Pooled --></label>
+        <name>Pooled_Non_Pooled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rates Loaded --></label>
+        <name>Rates_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received Date --></label>
+        <name>Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Indicator --></label>
+        <name>Status_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suffix Count --></label>
+        <name>Suffix_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support Docs Saved --></label>
+        <name>Support_Docs_Saved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Days --></label>
+        <name>Target_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target --></label>
+        <name>Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- UW Name --></label>
+        <name>UW_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Support Approved By --></label>
+        <name>Underwriting_Support_Approved_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Support Approved --></label>
+        <name>Underwriting_Support_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Type --></label>
+        <name>Work_Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

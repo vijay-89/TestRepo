@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Issue_Control__c$Implementation_Tracking_ID__c.Implementation_Record_ID__c.Current_SME_Stage__c</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c.Membership__r$Id</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c.Membership__r$Stage__c</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c$Id</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c$Stage__c</field>
+    </columns>
+    <columns>
+        <field>Issue_Control__c.Membership__r.Pending_Corrections__r$ID_Cards__c.Id</field>
+    </columns>
+    <description>Elissa Ilario Report (ID Cards/Case Installation/Membership/Current SME Stage)</description>
+    <format>Tabular</format>
+    <name>Elissa Ilario Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>JF_Elissa_Report_CRT2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Issue_Control__c$CreatedDate</dateColumn>
+        <endDate>2019-09-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2019-04-01</startDate>
+    </timeFrameFilter>
+</Report>

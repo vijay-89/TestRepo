@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SME Approval Routing Logic</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SME Approval Routing Logics</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria --></label>
+        <name>Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>SME Act Wise CDH</masterLabel>
+            <translation><!-- SME Act Wise CDH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Act Wise FSA</masterLabel>
+            <translation><!-- SME Act Wise FSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Benefit Booklets/Contracts</masterLabel>
+            <translation><!-- SME Benefit Booklets/Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Coordinated Care Model</masterLabel>
+            <translation><!-- SME Coordinated Care Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Anthem Flex Hour</masterLabel>
+            <translation><!-- SME Anthem Flex Hour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Anthem Health Guide</masterLabel>
+            <translation><!-- SME Anthem Health Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Blue Exchange (BX)</masterLabel>
+            <translation><!-- SME Blue Exchange (BX) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Bold</masterLabel>
+            <translation><!-- SME Bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME CCMU</masterLabel>
+            <translation><!-- SME CCMU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Claims</masterLabel>
+            <translation><!-- SME Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Claims Retro</masterLabel>
+            <translation><!-- SME Claims Retro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Data Interface Team (DIT)</masterLabel>
+            <translation><!-- SME Data Interface Team (DIT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME DeCare</masterLabel>
+            <translation><!-- SME DeCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Dental</masterLabel>
+            <translation><!-- SME Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME EAP</masterLabel>
+            <translation><!-- SME EAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Enrollment and Billing (E/B)</masterLabel>
+            <translation><!-- SME Enrollment and Billing (E/B) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Group Services</masterLabel>
+            <translation><!-- SME Group Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Health and Wellness Solutions</masterLabel>
+            <translation><!-- SME Health and Wellness Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME HealthEquity/WageWorks/FSA/COBRA</masterLabel>
+            <translation><!-- SME HealthEquity/WageWorks/FSA/COBRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME ID Cards</masterLabel>
+            <translation><!-- SME ID Cards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME IHM</masterLabel>
+            <translation><!-- SME IHM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME IT</masterLabel>
+            <translation><!-- SME IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Implementations</masterLabel>
+            <translation><!-- SME Implementations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Interplan</masterLabel>
+            <translation><!-- SME Interplan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME JAA/NTS</masterLabel>
+            <translation><!-- SME JAA/NTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME LITES CDH</masterLabel>
+            <translation><!-- SME LITES CDH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Life and Disability</masterLabel>
+            <translation><!-- SME Life and Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Medical Benefits</masterLabel>
+            <translation><!-- SME Medical Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Medical Benefits - NASCO Retro</masterLabel>
+            <translation><!-- SME Medical Benefits - NASCO Retro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Mercer Health Advantage</masterLabel>
+            <translation><!-- SME Mercer Health Advantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME NCN</masterLabel>
+            <translation><!-- SME NCN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Network Management</masterLabel>
+            <translation><!-- SME Network Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Onsite Clinic</masterLabel>
+            <translation><!-- SME Onsite Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Other</masterLabel>
+            <translation><!-- SME Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Pharmacy</masterLabel>
+            <translation><!-- SME Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Pricing Configuration Management (PCM)</masterLabel>
+            <translation><!-- SME Pricing Configuration Management (PCM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME SBC</masterLabel>
+            <translation><!-- SME SBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Service Operations</masterLabel>
+            <translation><!-- SME Service Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Service Operations Retro</masterLabel>
+            <translation><!-- SME Service Operations Retro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Spider</masterLabel>
+            <translation><!-- SME Spider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Subrogation</masterLabel>
+            <translation><!-- SME Subrogation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME TeleHealth</masterLabel>
+            <translation><!-- SME TeleHealth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME UM Intake</masterLabel>
+            <translation><!-- SME UM Intake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Underwriting</masterLabel>
+            <translation><!-- SME Underwriting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Virtual Second Opinion</masterLabel>
+            <translation><!-- SME Virtual Second Opinion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Vision</masterLabel>
+            <translation><!-- SME Vision --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SME Department --></label>
+        <name>SME_Department__c</name>
+        <picklistValues>
+            <masterLabel>SME Act Wise CDH</masterLabel>
+            <translation><!-- SME Act Wise CDH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Act Wise FSA</masterLabel>
+            <translation><!-- SME Act Wise FSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Anthem Flex Hour</masterLabel>
+            <translation><!-- SME Anthem Flex Hour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Anthem Health Guide</masterLabel>
+            <translation><!-- SME Anthem Health Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Blue Exchange (BX)</masterLabel>
+            <translation><!-- SME Blue Exchange (BX) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Bold</masterLabel>
+            <translation><!-- SME Bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME CCMU</masterLabel>
+            <translation><!-- SME CCMU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Claims</masterLabel>
+            <translation><!-- SME Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Claims Retro</masterLabel>
+            <translation><!-- SME Claims Retro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Contracts</masterLabel>
+            <translation><!-- SME Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Coordinated Care Model</masterLabel>
+            <translation><!-- SME Coordinated Care Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Data Interface Team (DIT)</masterLabel>
+            <translation><!-- SME Data Interface Team (DIT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME DeCare</masterLabel>
+            <translation><!-- SME DeCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Dental</masterLabel>
+            <translation><!-- SME Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME EAP</masterLabel>
+            <translation><!-- SME EAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Enrollment and Billing (E/B)</masterLabel>
+            <translation><!-- SME Enrollment and Billing (E/B) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Group Services</masterLabel>
+            <translation><!-- SME Group Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Health and Wellness Solutions</masterLabel>
+            <translation><!-- SME Health and Wellness Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME HealthEquity/WageWorks/FSA/COBRA</masterLabel>
+            <translation><!-- SME HealthEquity/WageWorks/FSA/COBRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME ID Cards</masterLabel>
+            <translation><!-- SME ID Cards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME IHM</masterLabel>
+            <translation><!-- SME IHM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME IT</masterLabel>
+            <translation><!-- SME IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Implementations</masterLabel>
+            <translation><!-- SME Implementations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Interplan</masterLabel>
+            <translation><!-- SME Interplan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME JAA/NTS</masterLabel>
+            <translation><!-- SME JAA/NTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME LITES CDH</masterLabel>
+            <translation><!-- SME LITES CDH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Life and Disability</masterLabel>
+            <translation><!-- SME Life and Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Medical Benefits</masterLabel>
+            <translation><!-- SME Medical Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Medical Benefits - NASCO Retro</masterLabel>
+            <translation><!-- SME Medical Benefits - NASCO Retro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Mercer Health Advantage</masterLabel>
+            <translation><!-- SME Mercer Health Advantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME NCN</masterLabel>
+            <translation><!-- SME NCN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Network Management</masterLabel>
+            <translation><!-- SME Network Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Onsite Clinic</masterLabel>
+            <translation><!-- SME Onsite Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Other</masterLabel>
+            <translation><!-- SME Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Pharmacy</masterLabel>
+            <translation><!-- SME Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Pricing Configuration Management (PCM)</masterLabel>
+            <translation><!-- SME Pricing Configuration Management (PCM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME SBC</masterLabel>
+            <translation><!-- SME SBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Service Operations</masterLabel>
+            <translation><!-- SME Service Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Service Operations Retro</masterLabel>
+            <translation><!-- SME Service Operations Retro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Spider</masterLabel>
+            <translation><!-- SME Spider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Subrogation</masterLabel>
+            <translation><!-- SME Subrogation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME TeleHealth</masterLabel>
+            <translation><!-- SME TeleHealth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Total Health Total You</masterLabel>
+            <translation><!-- SME Total Health Total You --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME UM Intake</masterLabel>
+            <translation><!-- SME UM Intake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Underwriting</masterLabel>
+            <translation><!-- SME Underwriting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Virtual Second Opinion</masterLabel>
+            <translation><!-- SME Virtual Second Opinion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Vision</masterLabel>
+            <translation><!-- SME Vision --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

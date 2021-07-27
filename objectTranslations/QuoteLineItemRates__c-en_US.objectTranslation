@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quote Line Item Rates</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quote Line Item Rates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Class Code --></label>
+        <name>Class_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class --></label>
+        <name>Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Level --></label>
+        <name>Commission_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Type --></label>
+        <name>Commission_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employment Category Code --></label>
+        <name>Employment_Category_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line Item --></label>
+        <name>QuoteLineItem__c</name>
+        <relationshipLabel><!-- Quote Line Item Rates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rate 65 Spouse Ch Med Elig --></label>
+        <name>Rate_65_Spouse_Ch_Med_Elig__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate 65 Spouse Med Elg --></label>
+        <name>Rate_65_Spouse_Med_Elg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate EE CHN --></label>
+        <name>Rate_EE_CHN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate EE Child --></label>
+        <name>Rate_EE_Child__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Embedded Vision --></label>
+        <name>Rate_Embedded_Vision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Family --></label>
+        <name>Rate_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Id --></label>
+        <name>Rate_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Single --></label>
+        <name>Rate_Single__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate TwoParty --></label>
+        <name>Rate_TwoParty__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

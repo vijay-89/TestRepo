@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Life</fullName>
+        <default>false</default>
+        <label>Life</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendor</fullName>
+        <default>false</default>
+        <label>Vendor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>THTY</fullName>
+        <default>false</default>
+        <label>THTY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aligned Incentive</fullName>
+        <default>false</default>
+        <label>Aligned Incentive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accident</fullName>
+        <default>false</default>
+        <label>Accident</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Critical Illness</fullName>
+        <default>false</default>
+        <label>Critical Illness</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospital Indemnity</fullName>
+        <default>false</default>
+        <label>Hospital Indemnity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ActWise</fullName>
+        <default>false</default>
+        <label>ActWise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Benefits Admin</fullName>
+        <default>false</default>
+        <label>Benefits Admin</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vision</fullName>
+        <default>false</default>
+        <label>Vision</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Network Based</fullName>
+        <default>false</default>
+        <label>Network Based</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>External Vendor File Feed Non Enrollment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>External Vendor File Feed Non Enrollment</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area Supporting File Feed --></label>
+        <name>Area_Supporting_File_Feeds__c</name>
+        <picklistValues>
+            <masterLabel>DIT</masterLabel>
+            <translation><!-- DIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMC</masterLabel>
+            <translation><!-- HMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UM</masterLabel>
+            <translation><!-- UM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Cancellation Date --></label>
+        <name>File_Cancellation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Exchange Comments --></label>
+        <name>File_Exchange_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Frequency --></label>
+        <name>File_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Biweekly</masterLabel>
+            <translation><!-- Biweekly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- File Name --></label>
+        <name>File_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Start Date --></label>
+        <name>File_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, List Area Supporting --></label>
+        <name>If_Other_List_Area_Supporting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case --></label>
+        <name>Implementation__c</name>
+        <relationshipLabel><!-- External Vendor File Feed Non Enrollment --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packages/Suffixes Impacted By File --></label>
+        <name>Packages_Suffixes_Impacted_By_File__c</name>
+    </fields>
+    <fields>
+        <label><!-- Runout Date --></label>
+        <name>Runout_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Provider Relationship Name --></label>
+        <name>Service_Provider_Relationship__c</name>
+        <relationshipLabel><!-- External Vendor File Feed Non Enrollment --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter a value here --></errorMessage>
+        <name>EVFF_VR01_IfOtherListAreaSupporting</name>
+    </validationRules>
+</CustomObjectTranslation>

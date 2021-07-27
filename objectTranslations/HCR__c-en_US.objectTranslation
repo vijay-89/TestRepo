@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>HCR</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>HCRs</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountRecordTypeHCR --></label>
+        <name>AccountRecordTypeHCR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Account_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Are There Any Plans That Are EXEMPT? --></help>
+        <label><!-- Exempt Q1 --></label>
+        <name>Exempt_Q1__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Does The Client Have Or wWant To Have An Annual Or Lifetime Dollar Limit On ANY Benefit? --></help>
+        <label><!-- General HCR Q1 --></label>
+        <name>General_HCR_Q2__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Is Client Using The Anthem Standard (HCR Compliant) Appeals Process? --></help>
+        <label><!-- General HCR Q2 --></label>
+        <name>General_HCR_Q3__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Has The Group Advised That They Are A Religious Employer Excluding Women&apos;s Contraceptive Coverage? --></help>
+        <label><!-- General HCR Q3 --></label>
+        <name>General_HCR_Q4__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Has The Group Advised They Are A 1) Religious Affiliated Employer OR 2) Closely Held For-Profit Group Excluding Women&apos;s Contraceptive Coverage? --></help>
+        <label><!-- General HCR Q4 --></label>
+        <name>General_HCR_Q5__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Are There Any Plans That Are GRANDFATHERED?
+Reference Note A --></help>
+        <label><!-- Grandfathered --></label>
+        <name>Grandfathered_Q0__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If The Client Has Any Plans (Packages, Suffixes, Subgroups) That Are Grandfathered, Has Client Provided Any Written Documentation? (RECOMMENDED) --></help>
+        <label><!-- Grandfathered Q1 --></label>
+        <name>Grandfathered_Q1__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Will The Client Notify Anthem Of Any Changes That Could Impact Grandfathered Status? --></help>
+        <label><!-- Grandfathered Q2 --></label>
+        <name>Grandfathered_Q2__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Do Any Of The Changes Potentially Impact Grandfathered Status? (Examples: Increased Office Copayment Or Deductible) --></help>
+        <label><!-- Grandfathered Q3 --></label>
+        <name>Grandfathered_Q3__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Has The Client Disagreed With The Anthem Determination That A Plan&apos;s Grandfathered Status Has Been Pierced? --></help>
+        <label><!-- Grandfathered Q4 --></label>
+        <name>Grandfathered_Q4__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Is Client Aware That Certain Communications And Materials Must Include Language That Their Plan Is Grandfathered? --></help>
+        <label><!-- Grandfathered Q5 --></label>
+        <name>Grandfathered_Q5__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select The Preventive Care List The Client Will Be Implementing For Their Grandfathered Plans --></help>
+        <label><!-- Grandfathered Q6 --></label>
+        <name>Grandfathered_Q6__c</name>
+        <picklistValues>
+            <masterLabel>Current (Pre-HCR List)</masterLabel>
+            <translation><!-- Current (Pre-HCR List) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise HCR Preventive Care List</masterLabel>
+            <translation><!-- Enterprise HCR Preventive Care List --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Has The Group Adopted The Women&apos;s Preventive Services? --></help>
+        <label><!-- Grandfathered Q7 --></label>
+        <name>Grandfathered_Q7__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Will IN-NETWORK Preventive Care Coverage Not Be Subject To Cost-Sharing? --></help>
+        <label><!-- Grandfathered Q8 --></label>
+        <name>Grandfathered_Q8__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Are There Any Plans That Are GRANDFATHERED That Have Zero Enrollment? --></help>
+        <label><!-- Grandfathered - Zero enrollment Q1 --></label>
+        <name>Grandfathered_Zero_enrollment_Q1__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <relationshipLabel><!-- HCRs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- HCR Details Effective Date --></label>
+        <name>HCR_Details_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoggedInUserProfile --></label>
+        <name>LoggedInUserProfile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Are There Any Plans (Packages, Suffixes, Subgroups) That Are NON-GRANDFATHERED? --></help>
+        <label><!-- Non-Grandfathered --></label>
+        <name>Non_Grandfathered_Q0__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- NGF 2. The CY 2020 INN OOPM is $8,150/$16,300 (or $6,900 Individual/ $13,800 Family For HDHP-HSA Compatible). Does The Group Understand Considerations For All IN-NETWORK Out-Of-Pocket Costs And The Family High Deductible Health Plan? --></help>
+        <label><!-- Non-Grandfathered Q1 --></label>
+        <name>Non_Grandfathered_Q1__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- NGF 3. Does The Group Understand That If A Member Is Part Of An FDA-Approved Clinical Trial For A Life-Threatening Disease, We Will Cover Normal Medical Expenses That Happen During That Trial? --></help>
+        <label><!-- Non-Grandfathered Q2 --></label>
+        <name>Non_Grandfathered_Q2__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

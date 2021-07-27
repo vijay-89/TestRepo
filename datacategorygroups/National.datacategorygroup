@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Reference Material</label>
+            <name>Reference_Material</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Opportunity Management</label>
+                <name>Opportunity_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Implementation</label>
+                <name>Implementation</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Internal Compensation</label>
+                    <name>Internal_Compensation</name>
+                </dataCategory>
+                <label>General</label>
+                <name>General</name>
+            </dataCategory>
+            <label>Support &amp; Training</label>
+            <name>Support_Training</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>National</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

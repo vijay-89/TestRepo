@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>External Vendor File Feeds To Implement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>External Vendor File Feeds To Implement</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountRecordTypeExtVen --></label>
+        <name>AccountRecordTypeExtVen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Demo --></label>
+        <name>Account_Demo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area Supporting File Feed --></label>
+        <name>Area_Supporting_File_Feed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details For This File Exchange Update --></label>
+        <name>Details_For_This_File_Exchange_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Feed Added, Removed, or Changed --></label>
+        <name>Exchange_Added_Removed_or_Changed__c</name>
+        <picklistValues>
+            <masterLabel>Added</masterLabel>
+            <translation><!-- Added --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changed</masterLabel>
+            <translation><!-- Changed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removed</masterLabel>
+            <translation><!-- Removed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External File Feed Non Enrollment ID --></label>
+        <name>External_Vendor_File_Feed_Non_Enrollment__c</name>
+        <relationshipLabel><!-- External Vendors File Feeds To Implemen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Vendor File Feeds To Implement --></label>
+        <name>External_Vendor_File_Feeds_To_Implement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feed Inbound or Outbound or Both --></label>
+        <name>Feed_Inbound_or_Outbound_or_Both__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Only</masterLabel>
+            <translation><!-- Inbound Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Only</masterLabel>
+            <translation><!-- Outbound Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- File Cancellation Date --></label>
+        <name>File_Cancellation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Exchange Comments --></label>
+        <name>File_Exchange_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Name --></label>
+        <name>File_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Start Date --></label>
+        <name>File_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, List Area Supporting --></label>
+        <name>If_Other_List_Area_Supporting__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImpCaseName --></label>
+        <name>ImpCaseName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case --></label>
+        <name>Implementation_Case__c</name>
+        <relationshipLabel><!-- External Vendor File Feeds To Implement --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Term Date --></label>
+        <name>Term_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>Vendor__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You can only attach EXFILE records linked to the same account --></errorMessage>
+        <name>EVFFTI_VR01_EXFILERecordsWithSameAccount</name>
+    </validationRules>
+</CustomObjectTranslation>

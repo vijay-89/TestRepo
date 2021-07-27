@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>GRS Opportunity Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>GRS Opportunity Details</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+        <relationshipLabel><!-- GRS Opportunity Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AcctID --></label>
+        <name>AcctID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Bill Type --></label>
+        <name>Current_Bill_Type__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO &amp; Direct</masterLabel>
+            <translation><!-- ASO &amp; Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO &amp; Self</masterLabel>
+            <translation><!-- ASO &amp; Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO &amp; Split</masterLabel>
+            <translation><!-- ASO &amp; Split --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct</masterLabel>
+            <translation><!-- Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium &amp; Direct</masterLabel>
+            <translation><!-- Premium &amp; Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium &amp; Self</masterLabel>
+            <translation><!-- Premium &amp; Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium &amp; Split</masterLabel>
+            <translation><!-- Premium &amp; Split --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self</masterLabel>
+            <translation><!-- Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Split</masterLabel>
+            <translation><!-- Split --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Custom ID Cards --></label>
+        <name>Custom_ID_Cards__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Group Structure, Contact Information, etc
+This Text Box has a 255 character limit --></help>
+        <label><!-- Describe GRS Changes --></label>
+        <name>Describe_Any_Other_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enrollment Process --></label>
+        <name>Enrollment_Process__c</name>
+        <picklistValues>
+            <masterLabel>Group Tape</masterLabel>
+            <translation><!-- Group Tape --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper</masterLabel>
+            <translation><!-- Paper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spreadsheet</masterLabel>
+            <translation><!-- Spreadsheet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expected Change in Enrollment --></label>
+        <name>Expected_Change_in_Enrollment__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- For Medical, Renewing with Change? --></label>
+        <name>For_Medical_Renewing_with_Change__c</name>
+        <picklistValues>
+            <masterLabel>Changing to a New Custom Plan for 2018</masterLabel>
+            <translation><!-- Changing to a New Custom Plan for 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changing to a New Standard Plan for 2018</masterLabel>
+            <translation><!-- Changing to a New Standard Plan for 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Plan Changes for 2018 (Current Plan)</masterLabel>
+            <translation><!-- Custom Plan Changes for 2018 (Current Plan) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Changes to Current Plan</masterLabel>
+            <translation><!-- No Changes to Current Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Plan Changes for 2018 (Current Plan)</masterLabel>
+            <translation><!-- Standard Plan Changes for 2018 (Current Plan) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- For Rx, Renewing with Change? --></label>
+        <name>For_Rx_Renewing_with_Change__c</name>
+        <picklistValues>
+            <masterLabel>Changing to a New Custom Plan for 2018</masterLabel>
+            <translation><!-- Changing to a New Custom Plan for 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changing to a New Standard Plan for 2018</masterLabel>
+            <translation><!-- Changing to a New Standard Plan for 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Plan Changes for 2018 (Current Plan)</masterLabel>
+            <translation><!-- Custom Plan Changes for 2018 (Current Plan) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Changes to Current Plan</masterLabel>
+            <translation><!-- No Changes to Current Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Plan Changes for 2018 (Current Plan)</masterLabel>
+            <translation><!-- Standard Plan Changes for 2018 (Current Plan) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Has Enrollment Process Changed? --></label>
+        <name>Has_Enrollment_Process_Changed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If New Broker, Please Note:
+Broker Commissions cannot be paid without complete broker information. 
+If writing broker is new, provide copies of the W-9 Broker License. 
+If the payee is different at renewal please provide copy of broker record letter. --></help>
+        <label><!-- Has There Been a Change in Broker? --></label>
+        <name>Has_There_Been_a_Change_in_Broker__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Broker Changed has W-9 Been Received? --></label>
+        <name>If_Broker_Changed_has_W_9_Been_Received__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Only answer this, if the Broker has changed. --></help>
+        <label><!-- Is New Broker Appointed in Situs State? --></label>
+        <name>If_Broker_Changed_is_Broker_Appointed_i__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This Text Box has a 100 character limit --></help>
+        <label><!-- If MA HMO, Identify Service Area --></label>
+        <name>If_MA_HMO_Identify_Service_Area__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Text Box has a 255 character limit --></help>
+        <label><!-- If Yes, Reason For Change --></label>
+        <name>If_Yes_Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Yes, Please Complete the following fields: --></help>
+        <label><!-- Is the Payee an Agency? --></label>
+        <name>Is_the_Payee_an_Agency__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This Text Box has a 50 character limit --></help>
+        <label><!-- MA Carrier --></label>
+        <name>MA_Carrier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Complete following fields only if the group has an MA Only plan(s) with Anthem, and their Pharmacy coverage is a Standalone PDP plan with another carrier. --></help>
+        <label><!-- MA Only - Standalone PDP Contact Info --></label>
+        <name>MA_Only_Standalone_PDP_Contact_Info__c</name>
+        <picklistValues>
+            <masterLabel>Applicable</masterLabel>
+            <translation><!-- Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable (If RDS)</masterLabel>
+            <translation><!-- Not Applicable (If RDS) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New ID Cards Required? --></label>
+        <name>New_ID_Cards_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Custom notifications require compliance approval which takes up to 10 business days --></help>
+        <label><!-- Open Enrollment Start Date --></label>
+        <name>Open_Enrollment_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Enrollment --></label>
+        <name>Open_Enrollment__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OppID --></label>
+        <name>OppID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+        <relationshipLabel><!-- GRS Opportunity Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Senior RxPlus Out of Country Rx Emergency Benefit Apply? --></help>
+        <label><!-- Out of Country Rx --></label>
+        <name>Out_of_County_Rx__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Performance Guarantees: Risk $ Amount --></label>
+        <name>Performance_Guarantees_Risk_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please be advised that this field is not populated on any form. --></help>
+        <label><!-- Performance Guarantees Type --></label>
+        <name>Performance_Guarantees_Type__c</name>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Performance Guarantees --></label>
+        <name>Performance_Guarantees__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Questionnaire/RFI: --></label>
+        <name>Questionnaire_RFI__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Renewal Bill Type --></label>
+        <name>Renewal_Bill_Type__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO &amp; Direct</masterLabel>
+            <translation><!-- ASO &amp; Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO &amp; Self</masterLabel>
+            <translation><!-- ASO &amp; Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO &amp; Split</masterLabel>
+            <translation><!-- ASO &amp; Split --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct</masterLabel>
+            <translation><!-- Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium &amp; Direct</masterLabel>
+            <translation><!-- Premium &amp; Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium &amp; Self</masterLabel>
+            <translation><!-- Premium &amp; Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium &amp; Split</masterLabel>
+            <translation><!-- Premium &amp; Split --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self</masterLabel>
+            <translation><!-- Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Split</masterLabel>
+            <translation><!-- Split --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- GRS_Forms --></label>
+        <name>GRS_Forms</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prospect Strategy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Prospect Strategy</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ancillary Behavioral Health Comment --></label>
+        <name>API_Behavioral_Health_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Behavioral Health --></label>
+        <name>API_Behavioral_Health__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Dental Comment --></label>
+        <name>API_Dental_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Dental --></label>
+        <name>API_Dental__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary EAP Comment --></label>
+        <name>API_EAP_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary EAP --></label>
+        <name>API_EAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary FlexHour Comment --></label>
+        <name>API_FlexHour_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary FlexHour --></label>
+        <name>API_FlexHour__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Other Comment --></label>
+        <name>API_Other_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Other --></label>
+        <name>API_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Pharmacy Comment --></label>
+        <name>API_Pharmacy_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Pharmacy --></label>
+        <name>API_Pharmacy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Stop Loss Comment --></label>
+        <name>API_Stop_Loss_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Stop Loss --></label>
+        <name>API_Stop_Loss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Vision Comment --></label>
+        <name>API_Vision_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Vision --></label>
+        <name>API_Vision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Prospect Strategy --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additonal Notes --></label>
+        <name>Additonal_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aetna Members --></label>
+        <name>Aetna_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aetna Subscribers --></label>
+        <name>Aetna_Subscribers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Product Interest Comment --></label>
+        <name>Ancillary_Product_Interest_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Retiree Comment --></label>
+        <name>Ancillary_Retiree_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancillary Retiree --></label>
+        <name>Ancillary_Retiree__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Anthem Local Comments --></label>
+        <name>Anthem_Local_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Local Members --></label>
+        <name>Anthem_Local_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Local Subscribers --></label>
+        <name>Anthem_Local_Subscribers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Anthem Local --></label>
+        <name>Anthem_Local__c</name>
+    </fields>
+    <fields>
+        <label><!-- B2B/Procurement Spend --></label>
+        <name>B2B_Procurement_Spend__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSCA Members --></label>
+        <name>BSCA_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSCA Subs --></label>
+        <name>BSCA_Subs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blue Members --></label>
+        <name>Blue_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blue Subscribers --></label>
+        <name>Blue_Subscribers__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIGNA Members --></label>
+        <name>CIGNA_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIGNA Subscribers --></label>
+        <name>CIGNA_Subscribers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Aon Comment --></label>
+        <name>Consultant_Aon_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Aon --></label>
+        <name>Consultant_Aon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Gallagher Comment --></label>
+        <name>Consultant_Gallagher_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Gallagher --></label>
+        <name>Consultant_Gallagher__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Lockton Comment --></label>
+        <name>Consultant_Lockton_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Lockton --></label>
+        <name>Consultant_Lockton__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Mercer Comment --></label>
+        <name>Consultant_Mercer_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Mercer --></label>
+        <name>Consultant_Mercer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Other Comment --></label>
+        <name>Consultant_Other_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Other --></label>
+        <name>Consultant_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant WTW Comment --></label>
+        <name>Consultant_WTW_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant WTW --></label>
+        <name>Consultant_WTW__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant(s) --></label>
+        <name>Consultant_s__c</name>
+        <picklistValues>
+            <masterLabel>Aon</masterLabel>
+            <translation><!-- Aon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallagher</masterLabel>
+            <translation><!-- Gallagher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockton</masterLabel>
+            <translation><!-- Lockton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mercer</masterLabel>
+            <translation><!-- Mercer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (specify)</masterLabel>
+            <translation><!-- Other (specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WTW</masterLabel>
+            <translation><!-- WTW --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost of Care Advantage --></label>
+        <name>Cost_of_Care_Advantage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom and or sensitive networks in play --></label>
+        <name>Custom_and_or_sensitive_networks_in_play__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Castlight Comment --></label>
+        <name>Engagement_Castlight_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Castlight --></label>
+        <name>Engagement_Castlight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Collective Health Comment --></label>
+        <name>Engagement_Collective_Health_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Collective Health --></label>
+        <name>Engagement_Collective_Health__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Consultant Comment --></label>
+        <name>Engagement_Consultant_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Consultant --></label>
+        <name>Engagement_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Direct To Employer Comment --></label>
+        <name>Engagement_Direct_Employer_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Direct To Employer --></label>
+        <name>Engagement_Direct_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Leadership Rel Comment --></label>
+        <name>Engagement_Leadership_Rel_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Leadership Relationship --></label>
+        <name>Engagement_Leadership_Relationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Other Comment --></label>
+        <name>Engagement_Other_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Other --></label>
+        <name>Engagement_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Procurement Comment --></label>
+        <name>Engagement_Procurement_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Procurement --></label>
+        <name>Engagement_Procurement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement State Affairs Comment --></label>
+        <name>Engagement_State_Affairs_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement State Affairs --></label>
+        <name>Engagement_State_Affairs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Cost of Care Current Spend --></label>
+        <name>Estimated_Cost_of_Care_Current_Spend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Cost of Care Savings --></label>
+        <name>Estimated_Cost_of_Care__c</name>
+    </fields>
+    <fields>
+        <label><!-- Executive Summary / Key Notes --></label>
+        <name>Executive_Summary_Key_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- HQ State --></label>
+        <name>HQ_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- How will we win? --></label>
+        <name>How_will_we_win__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction Summary --></label>
+        <name>Interaction_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kaiser Members --></label>
+        <name>Kaiser_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kaiser Subs --></label>
+        <name>Kaiser_Subs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 1 Comments --></label>
+        <name>Key_Decision_Maker_1_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 1 --></label>
+        <name>Key_Decision_Maker_1__c</name>
+        <relationshipLabel><!-- Prospect Strategy (Key Decision Maker 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 1 --></label>
+        <name>Key_Decision_Maker_1c__c</name>
+        <relationshipLabel><!-- Prospect Strategy KDM1 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 2 Comments --></label>
+        <name>Key_Decision_Maker_2_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 2 --></label>
+        <name>Key_Decision_Maker_2__c</name>
+        <relationshipLabel><!-- Prospect Strategy (Key Decision Maker 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 2 --></label>
+        <name>Key_Decision_Maker_2c__c</name>
+        <relationshipLabel><!-- Prospect Strategy KDM2 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 3 Comments --></label>
+        <name>Key_Decision_Maker_3_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 3 --></label>
+        <name>Key_Decision_Maker_3__c</name>
+        <relationshipLabel><!-- Prospect Strategy (Key Decision Maker 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 3 --></label>
+        <name>Key_Decision_Maker_3c__c</name>
+        <relationshipLabel><!-- Prospect Strategy KDM3 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker(s) --></label>
+        <name>Key_Decision_Makers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 1 --></label>
+        <name>Key_Geographies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 1 Eligible Employees --></label>
+        <name>Key_Geography_1_Eligible_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 1 Members --></label>
+        <name>Key_Geography_1_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 2 Eligible Employees --></label>
+        <name>Key_Geography_2_Eligible_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 2 Members --></label>
+        <name>Key_Geography_2_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 2 --></label>
+        <name>Key_Geography_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 3 Eligible Employees --></label>
+        <name>Key_Geography_3_Eligible_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 3 Members --></label>
+        <name>Key_Geography_3_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 3 --></label>
+        <name>Key_Geography_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 4 Eligible Employees --></label>
+        <name>Key_Geography_4_Eligible_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 4 Members --></label>
+        <name>Key_Geography_4_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 4 --></label>
+        <name>Key_Geography_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 5 Eligible Employees --></label>
+        <name>Key_Geography_5_Eligible_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 5 Members --></label>
+        <name>Key_Geography_5_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography 5 --></label>
+        <name>Key_Geography_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Geography Comments --></label>
+        <name>Key_Geography_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Aetna Comment --></label>
+        <name>Medical_Incumbent_Aetna_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Aetna --></label>
+        <name>Medical_Incumbent_Aetna__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent BSCA Comment --></label>
+        <name>Medical_Incumbent_BSCA_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Blue_Comment --></label>
+        <name>Medical_Incumbent_Blue_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Blue Shield of CA --></label>
+        <name>Medical_Incumbent_Blue_Shield_of_CA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Blue --></label>
+        <name>Medical_Incumbent_Blue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent CIGNA Comment --></label>
+        <name>Medical_Incumbent_CIGNA_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent CIGNA --></label>
+        <name>Medical_Incumbent_CIGNA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Kaiser Comment --></label>
+        <name>Medical_Incumbent_Kaiser_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Kaiser --></label>
+        <name>Medical_Incumbent_Kaiser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Other Comment --></label>
+        <name>Medical_Incumbent_Other_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent Other --></label>
+        <name>Medical_Incumbent_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent UHC Comment --></label>
+        <name>Medical_Incumbent_UHC_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent United Health Care --></label>
+        <name>Medical_Incumbent_United_Health_Care__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent United TPA Comment --></label>
+        <name>Medical_Incumbent_United_TPA_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent United TPA --></label>
+        <name>Medical_Incumbent_United_TPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Incumbent(s) --></label>
+        <name>Medical_Incumbent_s__c</name>
+        <picklistValues>
+            <masterLabel>Aetna</masterLabel>
+            <translation><!-- Aetna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue (specify)</masterLabel>
+            <translation><!-- Blue (specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIGNA</masterLabel>
+            <translation><!-- CIGNA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (specify)</masterLabel>
+            <translation><!-- Other (specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Health Care</masterLabel>
+            <translation><!-- United Health Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United TPA</masterLabel>
+            <translation><!-- United TPA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Net New Members to Anthem --></label>
+        <name>Net_New_Members_to_Anthem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles B2B Comment --></label>
+        <name>Obstacles_B2B_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles B2B --></label>
+        <name>Obstacles_B2B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Cost Of Care Comment --></label>
+        <name>Obstacles_Cost_Of_Care_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Cost Of Care --></label>
+        <name>Obstacles_Cost_Of_Care__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Fees Comment --></label>
+        <name>Obstacles_Fees_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Fees --></label>
+        <name>Obstacles_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Incumbent Relationship Comment --></label>
+        <name>Obstacles_Incumbent_Rel_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Incumbent Relationship --></label>
+        <name>Obstacles_Incumbent_Rel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Network Solutions Comment --></label>
+        <name>Obstacles_Network_Solutions_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Network Solutions --></label>
+        <name>Obstacles_Network_Solutions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Other Comment --></label>
+        <name>Obstacles_Other_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Other --></label>
+        <name>Obstacles_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Past Client Comment --></label>
+        <name>Obstacles_Past_Client_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Past Client Issue --></label>
+        <name>Obstacles_Past_Client_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Product Comment --></label>
+        <name>Obstacles_Product_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obstacles Product --></label>
+        <name>Obstacles_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Members --></label>
+        <name>Other_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Subscribers --></label>
+        <name>Other_Subscribers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Members --></label>
+        <name>Potential_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship to Leverage #1 Comments --></label>
+        <name>Relationship_to_Leverage_1_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship to Leverage #1 --></label>
+        <name>Relationship_to_Leverage_1__c</name>
+        <relationshipLabel><!-- Prospect Strategy (Relationship to Leverage #1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationship to Leverage #1 --></label>
+        <name>Relationship_to_Leverage_1c__c</name>
+        <relationshipLabel><!-- Prospect Strategy RTL1c --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationship to Leverage #2 Comments --></label>
+        <name>Relationship_to_Leverage_2_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship to Leverage #2 --></label>
+        <name>Relationship_to_Leverage_2__c</name>
+        <relationshipLabel><!-- Prospect Strategy (Relationship to Leverage #2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationship to Leverage #2 --></label>
+        <name>Relationship_to_Leverage_2c__c</name>
+        <relationshipLabel><!-- Prospect Strategy RTL2c --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationship to Leverage #3 Comments --></label>
+        <name>Relationship_to_Leverage_3_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship to Leverage #3 --></label>
+        <name>Relationship_to_Leverage_3__c</name>
+        <relationshipLabel><!-- Prospect Strategy (Relationship to Leverage #3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationship to Leverage #3 --></label>
+        <name>Relationship_to_Leverage_3c__c</name>
+        <relationshipLabel><!-- Prospect Strategy RTL3c --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationships To Leverage --></label>
+        <name>Relationships_To_Leverage__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is defined on the Account --></help>
+        <label><!-- Total Employees --></label>
+        <name>Total_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- UHC Members --></label>
+        <name>UHC_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- UHC Subscribers --></label>
+        <name>UHC_Subscribers__c</name>
+    </fields>
+    <fields>
+        <label><!-- United TPA Members --></label>
+        <name>United_TPA_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- United TPA Subscribers --></label>
+        <name>United_TPA_Subscribers__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Generate_Prospect_Strategy_Form --></label>
+        <name>Generate_Prospect_Strategy_Form</name>
+    </webLinks>
+</CustomObjectTranslation>

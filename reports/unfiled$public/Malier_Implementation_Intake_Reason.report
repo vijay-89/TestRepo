@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Order$Assigned_Implementer__c</field>
+    </columns>
+    <columns>
+        <field>Order$OrderNumber</field>
+    </columns>
+    <columns>
+        <field>Order$Implementation_Type__c</field>
+    </columns>
+    <columns>
+        <field>Order$Implementation_Effective_Date__c</field>
+    </columns>
+    <columns>
+        <field>Order$Implementation_Status__c</field>
+    </columns>
+    <columns>
+        <field>Order$AccountLegalName__c</field>
+    </columns>
+    <columns>
+        <field>Order.IntakeReturns__r$Name</field>
+    </columns>
+    <columns>
+        <field>Order.IntakeReturns__r$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Order.IntakeReturns__r.IntakeReasons__r$Name</field>
+    </columns>
+    <columns>
+        <field>Order.IntakeReturns__r.IntakeReasons__r$Reason__c</field>
+    </columns>
+    <columns>
+        <field>Order.IntakeReturns__r.IntakeReasons__r$Imp_Comments__c</field>
+    </columns>
+    <columns>
+        <field>Order.IntakeReturns__r.IntakeReasons__r$Sales_Comments__c</field>
+    </columns>
+    <columns>
+        <field>Order$Situs_State__c</field>
+    </columns>
+    <description>Implementation Case (Order) to Intake Return to Intake Reason</description>
+    <filter>
+        <criteriaItems>
+            <column>Order$Anthem_Entity__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Local/Large Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Order$Situs_State__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Connecticut,maine,New Hampshire</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Malier Implementation Intake Reason</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Imp_Cases_to_Intake_Rtn_to_Reason__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Order$OrderNumber</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Order$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Digital Resource Assignment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Digital Resource Assignments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assignee Email --></label>
+        <name>Assignee_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assignee First Name --></label>
+        <name>Assignee_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assignee Last Name --></label>
+        <name>Assignee_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assignee Phone --></label>
+        <name>Assignee_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Digital Resource Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Digital Support Request --></label>
+        <name>Digital_Support_Request__c</name>
+        <relationshipLabel><!-- Digital Resource Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>Request_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requester Email --></label>
+        <name>Requester_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requester First Name --></label>
+        <name>Requester_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requester Last Name --></label>
+        <name>Requester_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requester Phone --></label>
+        <name>Requester_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requester --></label>
+        <name>Requester__c</name>
+        <relationshipLabel><!-- Digital Resource Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>Resource_First_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

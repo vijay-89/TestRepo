@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This Permission set grants access/visibility to key fields relevant to the LG App Tracker Integration for reporting purposes.</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.ENCRYPTID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.ENCRYPTID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.LG_Broker_Portal_Implementation_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>LG App Tracker Exception Reporting</label>
+    <license>Salesforce</license>
+</PermissionSet>

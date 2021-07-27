@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Target Account Selling</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Target Account Selling</value>
+    </caseValues>
+    <fields>
+        <label><!-- AIM --></label>
+        <name>AIM__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Describe the level of engagement by Anthem Leadership? --></help>
+        <label><!-- Anthem Leader Engagement --></label>
+        <name>ANA_Leader_Engagement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is Anthem Leadership team engaged with this prospect? --></help>
+        <label><!-- Anthem Leaders Engaged --></label>
+        <name>ANA_Leaders_Engaged__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Target Account Selling --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Is there a second Anthem Leadership team engaged with this prospect? --></help>
+        <label><!-- Anthem Leader Engaged (Optional) --></label>
+        <name>Ana_Leader_Engaged_Optional__c</name>
+        <relationshipLabel><!-- Target Account Selling (Ana Leader Engaged (Optional)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Anthem Leader Engaged --></label>
+        <name>Ana_Leader_Engaged__c</name>
+        <relationshipLabel><!-- Target Account Selling (Ana Leader Engaged) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Anthem Health Guide --></label>
+        <name>Anthem_Health_Guide__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anthem Spend Year --></label>
+        <name>Anthem_Spend_Year__c</name>
+        <picklistValues>
+            <masterLabel>2016</masterLabel>
+            <translation><!-- 2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2017</masterLabel>
+            <translation><!-- 2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018</masterLabel>
+            <translation><!-- 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021</masterLabel>
+            <translation><!-- 2021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2022</masterLabel>
+            <translation><!-- 2022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2023</masterLabel>
+            <translation><!-- 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2024</masterLabel>
+            <translation><!-- 2024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2025</masterLabel>
+            <translation><!-- 2025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2026</masterLabel>
+            <translation><!-- 2026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2027</masterLabel>
+            <translation><!-- 2027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2028</masterLabel>
+            <translation><!-- 2028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2029</masterLabel>
+            <translation><!-- 2029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2030</masterLabel>
+            <translation><!-- 2030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2031</masterLabel>
+            <translation><!-- 2031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2032</masterLabel>
+            <translation><!-- 2032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2033</masterLabel>
+            <translation><!-- 2033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2034</masterLabel>
+            <translation><!-- 2034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2035</masterLabel>
+            <translation><!-- 2035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2036</masterLabel>
+            <translation><!-- 2036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2037</masterLabel>
+            <translation><!-- 2037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2038</masterLabel>
+            <translation><!-- 2038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2039</masterLabel>
+            <translation><!-- 2039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2040</masterLabel>
+            <translation><!-- 2040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2041</masterLabel>
+            <translation><!-- 2041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2042</masterLabel>
+            <translation><!-- 2042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2043</masterLabel>
+            <translation><!-- 2043 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2044</masterLabel>
+            <translation><!-- 2044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2045</masterLabel>
+            <translation><!-- 2045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2046</masterLabel>
+            <translation><!-- 2046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2047</masterLabel>
+            <translation><!-- 2047 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2048</masterLabel>
+            <translation><!-- 2048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2049</masterLabel>
+            <translation><!-- 2049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2050</masterLabel>
+            <translation><!-- 2050 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anthem Vendor Spend --></label>
+        <name>Anthem_Vendor_Spend__c</name>
+    </fields>
+    <fields>
+        <label><!-- CDHP --></label>
+        <name>CDHP__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Carrier 1 Members --></label>
+        <name>Carrier_1_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier 2 Members --></label>
+        <name>Carrier_2_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier 3 Members --></label>
+        <name>Carrier_3_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Castlight --></label>
+        <name>Castlight__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cede Required --></label>
+        <name>Cede_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Required if selecting Cede Required --></help>
+        <label><!-- Ceding Plan --></label>
+        <name>Ceding_Plan__c</name>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Alabama</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Arizona</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Arkansas</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Colorado</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Connecticut</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Florida</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Georgia</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Illinois - HCSC</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Illinois - HCSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Indiana</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Kansas</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Kansas City (Missouri)</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Kansas City (Missouri) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Kentucky</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Louisiana</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Maine</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Massachusetts</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Michigan</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Minnesota</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Mississippi</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Missouri</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Montana - HCSC</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Montana - HCSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Nebraska</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Nevada</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of New Hampshire</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of New Mexico - HCSC</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of New Mexico - HCSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of North Carolina</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of North Dakota</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Ohio</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Oklahoma</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Rhode Island</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of South Carolina</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Tennesse</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Tennesse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Texas - HCSC</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Texas - HCSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Vermont</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Virginia</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Western New York</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Western New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Wisconsin</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Wisconsin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross Blue Shield of Wyoming</masterLabel>
+            <translation><!-- Blue Cross Blue Shield of Wyoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross California</masterLabel>
+            <translation><!-- Blue Cross California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross of Idaho</masterLabel>
+            <translation><!-- Blue Cross of Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Cross of Northeastern Pennsylvania</masterLabel>
+            <translation><!-- Blue Cross of Northeastern Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Shield of California</masterLabel>
+            <translation><!-- Blue Shield of California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Shield of Northeastern New York</masterLabel>
+            <translation><!-- Blue Shield of Northeastern New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital Blue Cross (Central Pennsylvania)</masterLabel>
+            <translation><!-- Capital Blue Cross (Central Pennsylvania) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CareFirst District of Columbia</masterLabel>
+            <translation><!-- CareFirst District of Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CareFirst Maryland</masterLabel>
+            <translation><!-- CareFirst Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CareFirst Virginia</masterLabel>
+            <translation><!-- CareFirst Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMPIRE BCBS</masterLabel>
+            <translation><!-- EMPIRE BCBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excellus Blue Cross Blue Shield (Central NY)</masterLabel>
+            <translation><!-- Excellus Blue Cross Blue Shield (Central NY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highmark Blue Cross Blue Shield (Western Pennsylvania)</masterLabel>
+            <translation><!-- Highmark Blue Cross Blue Shield (Western Pennsylvania) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highmark Blue Cross Blue Shield Delaware (Delaware)</masterLabel>
+            <translation><!-- Highmark Blue Cross Blue Shield Delaware (Delaware) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highmark Blue Cross Blue Shield West Virginia (West Virginia)</masterLabel>
+            <translation><!-- Highmark Blue Cross Blue Shield West Virginia (West Virginia) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highmark Blue Shield (Northeastern, Eastern &amp; Central Pennsylvania)</masterLabel>
+            <translation><!-- Highmark Blue Shield (Northeastern, Eastern &amp; Central Pennsylvania) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizon Blue Cross Blue Shield of New Jersey</masterLabel>
+            <translation><!-- Horizon Blue Cross Blue Shield of New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independence Blue Cross (Philadelphia, Southeastern Pennsylvania)</masterLabel>
+            <translation><!-- Independence Blue Cross (Philadelphia, Southeastern Pennsylvania) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premera Blue Cross (Washington)</masterLabel>
+            <translation><!-- Premera Blue Cross (Washington) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premera Blue Cross Blue Shield of Alaska</masterLabel>
+            <translation><!-- Premera Blue Cross Blue Shield of Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regence Blue Cross Blue Shield of Oregon</masterLabel>
+            <translation><!-- Regence Blue Cross Blue Shield of Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regence Blue Cross Blue Shield of Utah</masterLabel>
+            <translation><!-- Regence Blue Cross Blue Shield of Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regence Blue Shield (Washington)</masterLabel>
+            <translation><!-- Regence Blue Shield (Washington) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regence Blue Shield of Idaho</masterLabel>
+            <translation><!-- Regence Blue Shield of Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellmark Blue Cross Blue Shield Iowa</masterLabel>
+            <translation><!-- Wellmark Blue Cross Blue Shield Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellmark Blue Cross Blue Shield South Dakota</masterLabel>
+            <translation><!-- Wellmark Blue Cross Blue Shield South Dakota --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Field limited to 255 Characters --></help>
+        <label><!-- Client Characteristics --></label>
+        <name>Client_Characteristics__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field limited to 255 Characters --></help>
+        <label><!-- Client History --></label>
+        <name>Client_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Relationships --></label>
+        <name>Client_Relationships__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name Title --></label>
+        <name>Contact_Name_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+        <relationshipLabel><!-- Target Account Selling --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Dental Carrier --></label>
+        <name>CurrentDentalCarrier__c</name>
+        <relationshipLabel><!-- Target Account Selling (Current Dental Carrier) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Medical Carrier 1 --></label>
+        <name>CurrentMedicalCarrier1__c</name>
+        <relationshipLabel><!-- Target Account Selling (Current Medical Carrier 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Medical Carrier 2 --></label>
+        <name>CurrentMedicalCarrier2__c</name>
+        <relationshipLabel><!-- Target Account Selling (Current Medical Carrier 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Medical Carrier 3 --></label>
+        <name>CurrentMedicalCarrier3__c</name>
+        <relationshipLabel><!-- Target Account Selling (Current Medical Carrier 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Pharmacy Carrier --></label>
+        <name>CurrentPharmacyCarrier__c</name>
+        <relationshipLabel><!-- Target Account Selling (Current Pharmacy Carrier) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Vision Carrier --></label>
+        <name>CurrentVisionCarrier__c</name>
+        <relationshipLabel><!-- Target Account Selling (Current Vision Carrier) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Expected date of next RFP --></help>
+        <label><!-- Date RFP Expected --></label>
+        <name>Date_RFP_Expected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Members --></label>
+        <name>Dental_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental --></label>
+        <name>Dental__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EAP --></label>
+        <name>EAP__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estimated CoC Coverage --></label>
+        <name>Estimated_CoC_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange --></label>
+        <name>Exchange__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Group Retiree Solutions --></help>
+        <label><!-- GRS --></label>
+        <name>GRS__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HMO --></label>
+        <name>HMO__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Health &amp; Wellness --></label>
+        <name>Health_Wellness__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Integrated Health Model --></label>
+        <name>Integrated_Health_Model__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Contact Date --></label>
+        <name>Last_Contact_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meets ANA Criteria --></label>
+        <name>Meets_ANA_Criteria__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mercer Health Advantage --></label>
+        <name>Mercer_Health_Advantage__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mobile Health Consumer --></label>
+        <name>Mobile_Health_Consumer__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NCN --></label>
+        <name>NCN__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- National Sales Ranking --></label>
+        <name>National_Sales_Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- PPO --></label>
+        <name>PPO__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pharmacy Members --></label>
+        <name>Pharmacy_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pharmacy --></label>
+        <name>Pharmacy__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Comments --></label>
+        <name>Product_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prospect - Recent Contact (within the past year) 
+Prospect - No recent contact - (within the past year) --></help>
+        <label><!-- Prospect Status --></label>
+        <name>Prospect_Status__c</name>
+        <picklistValues>
+            <masterLabel>Company No Longer Exists</masterLabel>
+            <translation><!-- Company No Longer Exists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HQ Relocated</masterLabel>
+            <translation><!-- HQ Relocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect - RFP expected</masterLabel>
+            <translation><!-- Prospect - RFP expected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect - Recent Contact No Interest</masterLabel>
+            <translation><!-- Prospect - Recent Contact No Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect- No recent contact</masterLabel>
+            <translation><!-- Prospect- No recent contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect- Recent Contact Interest</masterLabel>
+            <translation><!-- Prospect- Recent Contact Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect: Does not meet ANA criteria</masterLabel>
+            <translation><!-- Prospect: Does not meet ANA criteria --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Regional Sales Ranking --></label>
+        <name>Regional_Sales_Ranking__c</name>
+    </fields>
+    <fields>
+        <help><!-- Internal/External contact that has relationship with prospect --></help>
+        <label><!-- Relationship Contact Name --></label>
+        <name>Relationship_Contact_Name__c</name>
+        <relationshipLabel><!-- Target Account Selling (Relationship Contact Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Internal/External contacts relationship with prospect --></help>
+        <label><!-- Relationship status --></label>
+        <name>Relationship_status__c</name>
+        <picklistValues>
+            <masterLabel>Affiliation</masterLabel>
+            <translation><!-- Affiliation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation><!-- Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board of Directors</masterLabel>
+            <translation><!-- Board of Directors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charity</masterLabel>
+            <translation><!-- Charity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation><!-- Personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prior Business</masterLabel>
+            <translation><!-- Prior Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prior Employment</masterLabel>
+            <translation><!-- Prior Employment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ranking is based on prospect Situs State --></help>
+        <label><!-- Situs State Sales Ranking --></label>
+        <name>Situs_State_Sales_Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stop Loss --></label>
+        <name>Stop_Loss__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Target Year --></label>
+        <name>Target_Year__c</name>
+        <picklistValues>
+            <masterLabel>2017</masterLabel>
+            <translation><!-- 2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018</masterLabel>
+            <translation><!-- 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021</masterLabel>
+            <translation><!-- 2021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2022</masterLabel>
+            <translation><!-- 2022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2023</masterLabel>
+            <translation><!-- 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2024</masterLabel>
+            <translation><!-- 2024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2025</masterLabel>
+            <translation><!-- 2025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2026</masterLabel>
+            <translation><!-- 2026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2027</masterLabel>
+            <translation><!-- 2027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2028</masterLabel>
+            <translation><!-- 2028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2029</masterLabel>
+            <translation><!-- 2029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2030</masterLabel>
+            <translation><!-- 2030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2031</masterLabel>
+            <translation><!-- 2031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2032</masterLabel>
+            <translation><!-- 2032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2033</masterLabel>
+            <translation><!-- 2033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2034</masterLabel>
+            <translation><!-- 2034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2035</masterLabel>
+            <translation><!-- 2035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2036</masterLabel>
+            <translation><!-- 2036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2037</masterLabel>
+            <translation><!-- 2037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2038</masterLabel>
+            <translation><!-- 2038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2039</masterLabel>
+            <translation><!-- 2039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2040</masterLabel>
+            <translation><!-- 2040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2041</masterLabel>
+            <translation><!-- 2041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2042</masterLabel>
+            <translation><!-- 2042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2043</masterLabel>
+            <translation><!-- 2043 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2044</masterLabel>
+            <translation><!-- 2044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2045</masterLabel>
+            <translation><!-- 2045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2046</masterLabel>
+            <translation><!-- 2046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2047</masterLabel>
+            <translation><!-- 2047 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2048</masterLabel>
+            <translation><!-- 2048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2049</masterLabel>
+            <translation><!-- 2049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2050</masterLabel>
+            <translation><!-- 2050 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Contracts --></label>
+        <name>Total_Contracts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Membership --></label>
+        <name>Total_Membership__c</name>
+    </fields>
+    <fields>
+        <label><!-- Towers CCMU --></label>
+        <name>Towers_CCMU__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Utilization Management/Case Management --></label>
+        <name>Utilization_Management_Case_Management__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vision Members --></label>
+        <name>Vision_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision --></label>
+        <name>Vision__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- If Selecting That an ANA Leader is Engaged Please Enter Here --></errorMessage>
+        <name>ANA_VR_TAS01_ANALeaderReq</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Ceding Plan Is Required If Answering Yes to Cede Required. --></errorMessage>
+        <name>ANA_VR_TAS02_RequireCedingPlan</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Negative Number Isn&apos;t Allowed Here --></errorMessage>
+        <name>ANA_VR_TAS03_PostitiveMembershipOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Negative Number Isn&apos;t Allowed Here --></errorMessage>
+        <name>ANA_VR_TAS04_PositiveContractsOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expected RFP Date Must Be In The Future --></errorMessage>
+        <name>ANA_VR_TAS05_DateRFPExpected</name>
+    </validationRules>
+</CustomObjectTranslation>

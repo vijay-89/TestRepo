@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>BestPractice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>BestPractice</value>
+    </caseValues>
+    <fields>
+        <label><!-- PIcklist 1 --></label>
+        <name>PIcklist_1__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PIcklist 2 --></label>
+        <name>PIcklist_2__c</name>
+        <picklistValues>
+            <masterLabel>a</masterLabel>
+            <translation><!-- a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>b</masterLabel>
+            <translation><!-- b --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c</masterLabel>
+            <translation><!-- c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>e</masterLabel>
+            <translation><!-- e --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>f</masterLabel>
+            <translation><!-- f --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- REcordtype Beta --></label>
+        <name>REcordtype_Beta</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordtypeAlpha --></label>
+        <name>RecordtypeAlpha</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

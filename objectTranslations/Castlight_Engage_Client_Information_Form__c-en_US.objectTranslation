@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Castlight Engage Client Information Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Castlight Engage Client Information Form</value>
+    </caseValues>
+    <fields>
+        <help><!-- EXAMPLES: entire group, package codes ABC, LMN, contract codes 123, 678 --></help>
+        <label><!-- Anthem Dental Eligible Population --></label>
+        <name>Anthem_Dental_Eligible_Population__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Dental Integration Requirements --></label>
+        <name>Anthem_Dental_Integration_Requirements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Dental --></label>
+        <name>Anthem_Dental__c</name>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Castlight Behavioral Health Buy up --></label>
+        <name>Castlight_Behavioral_Health_Buy_up__c</name>
+        <picklistValues>
+            <masterLabel>BH Carve in and EAP Carve in (EE)</masterLabel>
+            <translation><!-- BH Carve in and EAP Carve in (EE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Carve in and EAP Carve out (E3)</masterLabel>
+            <translation><!-- BH Carve in and EAP Carve out (E3) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Carve out and EAP Carve out (E2)</masterLabel>
+            <translation><!-- BH Carve out and EAP Carve out (E2) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BH Carve out and EAP Carve out (E4)</masterLabel>
+            <translation><!-- BH Carve out and EAP Carve out (E4) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <help><!-- Care And Cost Finder --></help>
+        <label><!-- Client Currently Using CCF (Plus) --></label>
+        <name>Client_Currently_Using_CCF_Plus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Care and Cost Finder --></help>
+        <label><!-- Client Currently Using CCF --></label>
+        <name>Client_Currently_Using_CCF__c</name>
+    </fields>
+    <fields>
+        <help><!-- Estimate Your Cost &amp; Find A Doctor --></help>
+        <label><!-- Client Currently Using EYC &amp; FAD (Plus) --></label>
+        <name>Client_Currently_Using_EYC_FAD_Plus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Estimate Your Cost &amp; Find A Doctor --></help>
+        <label><!-- Client Currently Using EYC and FAD --></label>
+        <name>Client_Currently_Using_EYC_and_FAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Name --></label>
+        <name>Client_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Termination Effective Date --></label>
+        <name>Client_Termination_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Termination --></label>
+        <name>Client_Termination__c</name>
+    </fields>
+    <fields>
+        <help><!-- Account Team: selecting this option acts as confirmation that the account satisfies the Dental Integration Reqs below. Accounts NOT meeting these reqs should not have this option selected. --></help>
+        <label><!-- Client With QUALIFIED Anthem Dental --></label>
+        <name>Client_With_QUALIFIED_Anthem_Dental__c</name>
+    </fields>
+    <fields>
+        <help><!-- (ESI Notification Required) --></help>
+        <label><!-- Client with Anthem RX (Elite Plus) --></label>
+        <name>Client_with_Anthem_RX_Elite_Plus__c</name>
+    </fields>
+    <fields>
+        <help><!-- (ESI notification required) --></help>
+        <label><!-- Client with Anthem RX --></label>
+        <name>Client_with_Anthem_RX__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Name --></label>
+        <name>Display_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- EXAMPLES: entire group, package codes ABC, LMN, contract codes 123, 678 --></help>
+        <label><!-- Engage Elevate Eligible Population --></label>
+        <name>Engage_Elevate_Eligible_Population__c</name>
+    </fields>
+    <fields>
+        <help><!-- Elevate is a fully integrated Behavioral Health buy up solution offered through Castlight Health.  Elevate makes it easier for employees to access the personalized care they need while driving down costly behavioral health expenses. --></help>
+        <label><!-- Engage Elevate --></label>
+        <name>Engage_Elevate__c</name>
+    </fields>
+    <fields>
+        <help><!-- EXAMPLES: entire group, package codes ABC, LMN, contract codes 123, 678 --></help>
+        <label><!-- Engage Elite Eligible Population --></label>
+        <name>Engage_Elite_Eligible_Population__c</name>
+    </fields>
+    <fields>
+        <help><!-- EXAMPLES: Entire Group, Package Codes ABC, LMN, Contract Codes 123, 678 --></help>
+        <label><!-- Engage Elite Plus Eligible Population --></label>
+        <name>Engage_Elite_Plus_Eligible_Population__c</name>
+    </fields>
+    <fields>
+        <help><!-- Include Medical And RX (If Applicable) --></help>
+        <label><!-- Engage Elite Plus --></label>
+        <name>Engage_Elite_Plus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Include medical and RX (if applicable) --></help>
+        <label><!-- Engage Elite --></label>
+        <name>Engage_Elite__c</name>
+    </fields>
+    <fields>
+        <help><!-- EXAMPLES: entire group, package codes ABC, LMN, contract codes 123, 678 --></help>
+        <label><!-- Engage Essentials Eligible Population --></label>
+        <name>Engage_Essential_Eligible_Population__c</name>
+    </fields>
+    <fields>
+        <help><!-- Essential is not offered as a standalone product.  Client must have Engage Elite to be eligible for Essential. For Essential, please clarify client’s current transparency experience --></help>
+        <label><!-- Engage Essentials --></label>
+        <name>Engage_Essential__c</name>
+    </fields>
+    <fields>
+        <help><!-- EXAMPLES: Entire Group, Package Codes ABC, LMN, Contract Codes 123, 678 --></help>
+        <label><!-- Engage Essentials Plus Elig Population --></label>
+        <name>Engage_Essentials_Plus_Elig_Population__c</name>
+    </fields>
+    <fields>
+        <help><!-- Essentials Plus Is Not Offered As A Standalone Product. Client Must Have Engage Elite To Be Eligible For Essentials. --></help>
+        <label><!-- Engage Essentials Plus --></label>
+        <name>Engage_Essentials_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Client Effective Date --></label>
+        <name>Existing_Client_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Client Implementation --></label>
+        <name>Existing_Client_Implementation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- EXAMPLES: entire group, package codes ABC, LMN, contract codes 123, 678 --></help>
+        <label><!-- Medical Buy Up Eligible Population --></label>
+        <name>Medical_Buy_Up_Eligible_Population__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Client Effective Date --></label>
+        <name>New_Client_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Client Implementation --></label>
+        <name>New_Client_Implementation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Name --></label>
+        <name>Quote_Name__c</name>
+        <relationshipLabel><!-- Castlight Engage Client Information Form --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- EXAMPLES: entire group, package codes ABC, LMN, contract codes 123, 678 --></help>
+        <label><!-- RBB Eligible Population --></label>
+        <name>RBB_Eligible_Population__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please also complete RBB selection worksheet.  Only available for current RBB clients --></help>
+        <label><!-- Reference Based Benefits --></label>
+        <name>Reference_Based_Benefits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terming Castlight Legacy For Engage --></label>
+        <name>Terming_Castlight_Legacy_For_Engage__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Legacy Castlight is only offered to non Engage clients on legacy platform. All WGS clients should be quoted for Engage. --></help>
+        <label><!-- Traditional/Legacy Medical Buy Up --></label>
+        <name>Traditional_Legacy_Medical_Buy_Up__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

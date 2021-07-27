@@ -1,0 +1,78 @@
+.comparePlan {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 0 0 0 3px;
+}
+
+.plan-title-fix{
+  text-align: left;
+  white-space: normal !important;
+  min-height: 70px;
+  overflow: hidden;
+  max-height: 70px;
+  text-overflow: ellipsis;
+}
+
+.benefitBackground {
+  background-color: #F4F4F4;
+}
+
+.benefitBackground.topRow-planName {
+  padding: 0;
+}
+
+.benefitBackground > .plan-title-fix {
+  min-height: 120px;
+  max-height: 120px;
+  padding: 0 10px;
+}
+
+.benefitBackground > .custom_remove_link {
+  padding-left: 10px;
+  padding-bottom: 12px;
+  padding: 0 0 12px 10px;
+}
+
+.select-button {
+  font-size: 0.7em;
+  margin: 10px 0;
+  font-weight: 400;
+}
+.slds-button {
+  font-size: 0.8rem;
+}
+.slds-button_success, .slds-button_success:hover, .slds-button_success:focus {
+  background-color: #c9c7c5;
+  color: white;
+  border: 1px solid #c9c7c5;
+}
+.topRow-planName {
+  font-size: 1rem;
+  padding: 34px 10px 12px 10px;
+  color: #080707;
+}
+
+.custom_remove_link{
+  color: #706E6B;
+  font-style: italic;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.heading-bold {
+  padding: 7px 5px;
+  color: #514f4d;
+  font-weight: 600;
+  background-color: #d8d8d8;
+}
+
+.plan-title-fix{
+  text-align: left;
+  white-space: normal !important;
+  min-height: 70px;
+  overflow: hidden;
+  max-height: 70px;
+  text-overflow: ellipsis;
+}

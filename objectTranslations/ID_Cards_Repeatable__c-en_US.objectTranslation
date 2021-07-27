@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ID Cards Repeatable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ID Cards Repeatable</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date ID Card Requirements Approved --></label>
+        <name>Date_ID_Card_Requirements_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date ID Card Requirements Sent To IC --></label>
+        <name>Date_ID_Card_Requirements_Sent_To_IC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Implementations Notified Of Sale --></label>
+        <name>Date_Implementations_Notified_Of_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Peer Mockup Audit Requested --></label>
+        <name>Date_Mockup_Audit_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Mockups Approved --></label>
+        <name>Date_Mockups_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Peer Mockup Audit Completed --></label>
+        <name>Date_Peer_Mockup_Audit_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days From Assignment --></label>
+        <name>Days_From_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Card Overall Status --></label>
+        <name>ID_Card_Overall_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Cards Tracking ID --></label>
+        <name>ID_Cards_Tracking_ID__c</name>
+        <relationshipLabel><!-- ID Cards Repeatable --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Name --></label>
+        <name>Implementation_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effective Date --></label>
+        <name>Implementation_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Tracking ID --></label>
+        <name>Implementation_Tracking_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Type --></label>
+        <name>Implementation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is ID Card Req Gathering Applicable --></label>
+        <name>Is_ID_Card_Req_Gathering_Applicable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mockups Revision Details --></label>
+        <name>Mockups_Revision_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mockups Sent For Approval --></label>
+        <name>Mockups_Sent_For_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date --></label>
+        <name>Production_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- National NASCO and WGS --></label>
+        <name>National_NASCO_and_WGS</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

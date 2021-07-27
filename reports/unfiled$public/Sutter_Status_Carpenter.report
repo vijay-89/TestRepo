@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <columns>
+        <field>Account.Active_Renewal_Date__c</field>
+    </columns>
+    <columns>
+        <field>Sutter_Status__c.Is_client_impacted_by_Sutter_contract__c</field>
+    </columns>
+    <columns>
+        <field>Sutter_Status__c.IfYeshasrequestbeensenttoSutter__c</field>
+    </columns>
+    <columns>
+        <field>Sutter_Status__c.What_action_did_your_client_take__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Sutter Status - Carpenter</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$Sutter_Status__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.Active_Renewal_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

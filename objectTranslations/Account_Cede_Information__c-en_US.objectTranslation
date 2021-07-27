@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Cede Information</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Cede Information</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Action --></label>
+        <name>Account_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Account Cede Information --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Anthem InterPlan Contact --></label>
+        <name>Anthem_InterPlan_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved Cede Products --></label>
+        <name>ApprovedProducts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker/Consultant --></label>
+        <name>Broker_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cede Arrangement --></label>
+        <name>Cede_Arrangement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cede Contracts --></label>
+        <name>Cede_Contracts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cede ID --></label>
+        <name>Cede_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cede Locations --></label>
+        <name>Cede_Locations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cede Record Status --></label>
+        <name>Cede_Record_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cede Type --></label>
+        <name>Cede_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Headquarters Plan --></label>
+        <name>Headquarters_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intra-Anthem --></label>
+        <name>Intra_Anthem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market --></label>
+        <name>Market__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Cede Date --></label>
+        <name>Original_Cede_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Requesting Cede --></label>
+        <name>Plan_Requesting_Cede__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal --></label>
+        <name>Renewal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for data load, the CIP, and Open Enrollment processes that need to be maintained in the old Commercial ORG. --></help>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Status --></label>
+        <name>Sales_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subgroup --></label>
+        <name>Subgroup__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Automated Case Response</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Actwise Broker Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>actwisebrokersupport.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Admin Team</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>administrative.team.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Amendment UW</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>amendment.uw.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Audits West</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>auditswest.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Central Region</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>centralregion.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Compass I</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>compassicustomersupport.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - East Region</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>eastregion.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention NY</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>empirelgretention.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Extras</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>extras.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention GA</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>galgretention.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - GA Local Large ID</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>galocallargeidcardinquiries.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Greater Georgia</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>greatergeorgialife.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - LD Contract Inquiries</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>l&amp;dcontractinquiries.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - LD Conversion</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>l&amp;dconversion.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention ANA</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionana.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention CAGN</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionca.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention CAGLA</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentioncagla.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention CAGS</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentioncags.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention CO</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionco.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention IN</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionin.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention CT</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretention.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention KY</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionky.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention ME</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionme.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention MO</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionmo.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention NH</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionnh.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention NV</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionnv.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention OH</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionoh.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention VA</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionva.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Retention WI</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>lgretentionwi.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - My Payment</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>mypayment.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Service Assist</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>serviceassist.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - SMB Compass Audits</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>smbcompassaudits.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Specialty Audit</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>specialtyaudit.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - True Blue</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>trueblue.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - West Region</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>westregion.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - L&amp;D VSH UW LG East</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>anthemlduw_lgeast.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - L&amp;D VSH UW LG West</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>anthemlduw_lgwest.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - L&amp;D VSH UW Central West</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>anthemlduw_centralwest.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - L&amp;D VSH UW Quick Connect East</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>quickconnecteast.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - L&amp;D VSH UW Quick Connect West</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>quickconnectwest.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - L&amp;D VSH UW Life Rate Match</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>liferatematch.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - L&amp;D VSH UW Renewals</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>anthemlife&amp;disuw_renewals.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - L&amp;D VSH UW Mercer</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>anthemlduw_mercer.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - NY LG Broker Services</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>nylgbrokerservices.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - CO SM BUS</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>cosmallgroupbus.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Anthem Acct Inquiries</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>anthem.accountinquiries.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - NY Concierge Services</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>newyorkconciergeservices.reply@anthem.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - LG Midwest Unicare</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>largegroup.midwesternregion.reply@unicare.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - LG Membership Unicare</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>largegroup.membership.reply@unicare.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - LG Southwest Unicare</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>largegroup.southwesternregion.rely@unicare.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - LG Eastern Unicare</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>largegroup.easternregion.reply@unicare.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Indiv Member Unicare</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>individual.membership.reply@unicare.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Small Group Member Unicare</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>smallgroup.membership.reply@unicare.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - New Case Unicare</value>
+            </criteriaItems>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <senderEmail>newcase.reply@unicare.com</senderEmail>
+            <senderName>Anthem Support</senderName>
+            <template>unfiled$public/New_Case_Creation_Response</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

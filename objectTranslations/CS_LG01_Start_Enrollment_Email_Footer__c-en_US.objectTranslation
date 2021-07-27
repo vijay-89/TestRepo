@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CS_LG01 Start Enrollment Email Footer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CS_LG01 Start Enrollment Email Footer</value>
+    </caseValues>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branding --></label>
+        <name>Branding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer 1st line --></label>
+        <name>Footer_1st_line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer part 1 --></label>
+        <name>Footer_part_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer part 2 --></label>
+        <name>Footer_part_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situs State --></label>
+        <name>Situs_State__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

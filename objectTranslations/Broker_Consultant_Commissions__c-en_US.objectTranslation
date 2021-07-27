@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Broker/Consultant Commissions</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Broker/Consultant Commissions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Broker/Consultant Commissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Does this apply only to a portion of the group number indicated above? --></help>
+        <label><!-- Applies to only a portion of group #? --></label>
+        <name>Applies_to_only_a_portion_of_group__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BCContactRealtionshipID --></label>
+        <name>BCContactRealtionshipID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Do not make any consultant changes using this field. Please click Cancel and select the appropriate consultant from the drop-down. --></help>
+        <label><!-- Brokerage/Consultant --></label>
+        <name>BrokerageAndConsultant__c</name>
+        <relationshipLabel><!-- Broker/Consultant Commissions (Brokerage and Consultant) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Commission Dollar Amount --></label>
+        <name>Commission_Dollar_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission End Date --></label>
+        <name>Commission_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Percentage --></label>
+        <name>Commission_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Start Date --></label>
+        <name>Commission_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Name --></label>
+        <name>Consultant_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant --></label>
+        <name>Contact_Relationship__c</name>
+        <relationshipLabel><!-- Broker/Consultant Commissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding Type --></label>
+        <name>Funding_Type__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- List Group Numbers Applicable To This Commission (Please separate numbers with a comma). Actual group information must be entered. Do not enter &apos;All&apos; or only a portion of the information. If applicable to only group numbers, enter all group numbers. --></help>
+        <label><!-- Group Numbers --></label>
+        <name>Group_Numbers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line of Business --></label>
+        <name>Line_of_Business__c</name>
+        <picklistValues>
+            <masterLabel>AIM</masterLabel>
+            <translation><!-- AIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem Health Guide</masterLabel>
+            <translation><!-- Anthem Health Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem Health Rewards: Direct Package</masterLabel>
+            <translation><!-- Anthem Health Rewards: Direct Package --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOLD</masterLabel>
+            <translation><!-- BOLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Behavioral Health Solution</masterLabel>
+            <translation><!-- Behavioral Health Solution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits Admin</masterLabel>
+            <translation><!-- Benefits Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EAP</masterLabel>
+            <translation><!-- EAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expatriate</masterLabel>
+            <translation><!-- Expatriate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health and Wellness</masterLabel>
+            <translation><!-- Health and Wellness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrated Health Model</masterLabel>
+            <translation><!-- Integrated Health Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life</masterLabel>
+            <translation><!-- Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical-CDHP</masterLabel>
+            <translation><!-- Medical-CDHP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation><!-- Medicare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Based (BDTC)</masterLabel>
+            <translation><!-- Network Based (BDTC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stop Loss</masterLabel>
+            <translation><!-- Stop Loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weight Management Solution</masterLabel>
+            <translation><!-- Weight Management Solution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellness Solution</masterLabel>
+            <translation><!-- Wellness Solution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>% of Premium</masterLabel>
+            <translation><!-- % of Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10BV05</masterLabel>
+            <translation><!-- 10BV05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Dollar-Annual</masterLabel>
+            <translation><!-- Flat Dollar-Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Dollar-Monthly</masterLabel>
+            <translation><!-- Flat Dollar-Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCPM</masterLabel>
+            <translation><!-- PCPM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMPM</masterLabel>
+            <translation><!-- PMPM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used for data load, the CIP, and Open Enrollment processes that need to be maintained in the old Commercial ORG. --></help>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <help><!-- If yes above, list Sub-Groups, Contract Codes, or Package Code Applicable To This Commission (Please separate numbers with a comma). Actual group information must be entered. Do not enter &apos;All&apos; or only a portion of the information. --></help>
+        <label><!-- Sub-Groups/ Contract Codes/ Package Code --></label>
+        <name>Sub_Groups_Contract_Codes_Package_Code__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Invalid Account selection --></errorMessage>
+        <name>ANA_VR_BROKCC01_AccountChangeRule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please input additional information when this only applies to a portion of the Group #s --></errorMessage>
+        <name>ANA_VR_BROKCC02_AppliesToPortion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You have answered No to &apos;Applies to only a portion of group #?&apos;. Please review your response. --></errorMessage>
+        <name>ANA_VR_BROKCC03_AppliesToPortionV2</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Brokerage_Commission --></label>
+        <name>New_Brokerage_Commission</name>
+    </webLinks>
+</CustomObjectTranslation>

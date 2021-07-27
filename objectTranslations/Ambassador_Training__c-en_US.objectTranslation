@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ambassador Training</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ambassador Training</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ambassador --></label>
+        <name>Contact_Domain_ID__c</name>
+        <relationshipLabel><!-- Ambassador Training --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Courses - Date Marked Complete --></label>
+        <name>Course_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offering - Title --></label>
+        <name>Offering_Title__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

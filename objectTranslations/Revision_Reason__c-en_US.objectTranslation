@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Revision Reason</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Revision Reason</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Revision Impacts Benefit Booklets You MUST Revisit The Benefit Booklet Questions And Detail Change In The Description Of Revision. --></help>
+        <label><!-- Does Change Impact Benefit Booklets --></label>
+        <name>Does_Change_Impact_Benefit_Booklets__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Revision Impacts SBC You MUST Revisit The SBC Questions And Detail Change In The Description Of Revision. --></help>
+        <label><!-- Does Change Impact SBCs --></label>
+        <name>Does_Change_Impact_SBCs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Pkgs/Suffixes/Sections/CCodes --></label>
+        <name>Impacted_Packages_Suffixes_Sections__c</name>
+    </fields>
+    <fields>
+        <label><!-- PreWork Type --></label>
+        <name>PreWork_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision Reason --></label>
+        <name>Revision_Reasons__c</name>
+        <picklistValues>
+            <masterLabel>Account Setup Form Revised</masterLabel>
+            <translation><!-- Account Setup Form Revised --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefit Change</masterLabel>
+            <translation><!-- Benefit Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic Partner Change</masterLabel>
+            <translation><!-- Domestic Partner Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Effective Date Change</masterLabel>
+            <translation><!-- Effective Date Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HPCC Code Incorrect In Sales Tool</masterLabel>
+            <translation><!-- HPCC Code Incorrect In Sales Tool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Attachments</masterLabel>
+            <translation><!-- Other Attachments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project</masterLabel>
+            <translation><!-- Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Change</masterLabel>
+            <translation><!-- Rate Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selections Report Attached</masterLabel>
+            <translation><!-- Selections Report Attached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selections Report Revised</masterLabel>
+            <translation><!-- Selections Report Revised --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WGS Rate Sheet Attached</masterLabel>
+            <translation><!-- WGS Rate Sheet Attached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WGS Rate Sheet Revised</masterLabel>
+            <translation><!-- WGS Rate Sheet Revised --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting Period Change</masterLabel>
+            <translation><!-- Waiting Period Change --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Revision Type --></label>
+        <name>Revision_Type__c</name>
+        <picklistValues>
+            <masterLabel>Benefit Discrepancy</masterLabel>
+            <translation><!-- Benefit Discrepancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits Not Coded Per BPD</masterLabel>
+            <translation><!-- Benefits Not Coded Per BPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clarification Based On Discovery Call</masterLabel>
+            <translation><!-- Clarification Based On Discovery Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Request Change After Original Intake</masterLabel>
+            <translation><!-- Client Request Change After Original Intake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documents Attached</masterLabel>
+            <translation><!-- Documents Attached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBA Interpretation</masterLabel>
+            <translation><!-- EBA Interpretation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Change Request</masterLabel>
+            <translation><!-- Internal Change Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late Client Decision</masterLabel>
+            <translation><!-- Late Client Decision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Renewal to Finalized Renewal</masterLabel>
+            <translation><!-- Pre-Renewal to Finalized Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project</masterLabel>
+            <translation><!-- Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal Changes On Migration</masterLabel>
+            <translation><!-- Renewal Changes On Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revision to Finalized Renewal</masterLabel>
+            <translation><!-- Revision to Finalized Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revision to Pre-Renewal</masterLabel>
+            <translation><!-- Revision to Pre-Renewal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Revision --></label>
+        <name>Revision__c</name>
+        <relationshipLabel><!-- Revision Reason --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Reason LockAll --></label>
+        <name>Reason_LockAll</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reason ReadOnly --></label>
+        <name>Reason_ReadOnly</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Revision Reason --></label>
+        <name>Revision_Reason_Renewal_CROC</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Revision Reason Sales --></label>
+        <name>Revision_Reason_Sales</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

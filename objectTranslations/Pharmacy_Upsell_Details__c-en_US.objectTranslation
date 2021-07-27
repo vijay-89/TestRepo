@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pharmacy Benefit Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pharmacy Benefit Details</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Pharmacy Benefit Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proxy ID --></label>
+        <name>BPL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Include Step Therap, Prior Authorization, Dose Optimization &amp; Quantity &amp; Safety on all Rx, EXCEPT Specialty --></help>
+        <label><!-- Basic AKA Standard DUR --></label>
+        <name>Basic_AKA_Standard_DUR__c</name>
+        <picklistValues>
+            <masterLabel>Applies</masterLabel>
+            <translation><!-- Applies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does not apply</masterLabel>
+            <translation><!-- Does not apply --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Benefit Contract Count --></label>
+        <name>Benefit_Contract_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Member Count --></label>
+        <name>Benefit_Member_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Status --></label>
+        <name>Benefit_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termed</masterLabel>
+            <translation><!-- Termed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Includes Basic &amp; Moderate above + Clinically Equivalent Rx &amp; Preferred Generics (Member &amp; Provider) - edits include Step Therapy, Prior Authorization, Dose Optimization &amp; Quantity &amp; Safety on all Rx EXCEPT Specialty. --></help>
+        <label><!-- Comprehensive Only --></label>
+        <name>Comprehensive_Only__c</name>
+        <picklistValues>
+            <masterLabel>Applies</masterLabel>
+            <translation><!-- Applies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does not apply</masterLabel>
+            <translation><!-- Does not apply --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Coverage Code --></label>
+        <name>Coverage_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Exclusive Specialty Implemented --></label>
+        <name>Date_Exclusive_Specialty_Implemented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Exclusive Specialty Recommended --></label>
+        <name>Date_Exclusive_Specialty_Recommended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Medical Lockout Implemented --></label>
+        <name>Date_Medical_Lockout_Implemented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Medical Lockout Recommended --></label>
+        <name>Date_Medical_Lockout_Recommended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Prior Authorization Implemented --></label>
+        <name>Date_Prior_Authorization_Implemented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Prior Authorization Recommended --></label>
+        <name>Date_Prior_Authorization_Recommended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Split-fill benefit Implemented --></label>
+        <name>Date_Split_fill_benefit_Implemented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Step Therapy Implemented --></label>
+        <name>Date_Step_Therapy_Implemented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Step Therapy Recommended --></label>
+        <name>Date_Step_Therapy_Recommended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclusive Specialty Reason for Denial --></label>
+        <name>Exclusive_Specialty_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los savings</masterLabel>
+            <translation><!-- Los savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Home Delivery Current Benefit --></label>
+        <name>Home_Delivery_Current_Benefit__c</name>
+        <picklistValues>
+            <masterLabel>Choice</masterLabel>
+            <translation><!-- Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred</masterLabel>
+            <translation><!-- Preferred --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Home Delivery Reason for Denial --></label>
+        <name>Home_Delivery_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low savings</masterLabel>
+            <translation><!-- Low savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Home Delivery Recommended --></label>
+        <name>Home_Delivery_Recommended__c</name>
+        <picklistValues>
+            <masterLabel>Choice</masterLabel>
+            <translation><!-- Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred</masterLabel>
+            <translation><!-- Preferred --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mail Member Contribution Type --></label>
+        <name>Mail_Member_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Coinsurance</masterLabel>
+            <translation><!-- Coinsurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat</masterLabel>
+            <translation><!-- Flat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiered</masterLabel>
+            <translation><!-- Tiered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Medical Lockout Current Benefit --></label>
+        <name>Medical_Lockout_Current_Benefit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Lockout Reason for Denial --></label>
+        <name>Medical_Lockout_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low savings</masterLabel>
+            <translation><!-- Low savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Moderate Edits Current Benefit --></label>
+        <name>Moderate_Edits_Current_Benefit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable for National Accounts Only. --></help>
+        <label><!-- Moderate Edits Implementation Date --></label>
+        <name>Moderate_Edits_Implementation_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable for National Accounts Only. --></help>
+        <label><!-- Moderate Edits Reason for Denial Comment --></label>
+        <name>Moderate_Edits_Reason_for_Denial_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable for National Accounts Only. --></help>
+        <label><!-- Moderate Edits Reason for Denial --></label>
+        <name>Moderate_Edits_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low savings</masterLabel>
+            <translation><!-- Low savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Applicable for National Accounts Only. --></help>
+        <label><!-- Moderate Edits Recommended Date --></label>
+        <name>Moderate_Edits_Recommended_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Moderate Edits Recommended --></label>
+        <name>Moderate_Edits_Recommended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Pharmacy Benefit Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Package Reason for Denial Comments --></label>
+        <name>Package_Reason_for_Denial_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable for National Accounts Only. --></help>
+        <label><!-- Package Reason for Denial --></label>
+        <name>Package_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Savings</masterLabel>
+            <translation><!-- Low Savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Applicable for National Accounts Only. --></help>
+        <label><!-- Package Recommended Date --></label>
+        <name>Package_Recommended_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable for National Accounts Only. --></help>
+        <label><!-- Package Recommended --></label>
+        <name>Package_Recommended__c</name>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation><!-- Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comprehensive</masterLabel>
+            <translation><!-- Comprehensive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If a preventive drug list does apply ($  copay bypass deductible is standard), SELECT ALL options that will apply to the application of that drug list if non-standard. --></help>
+        <label><!-- Preventive Drug List (Select Applicable) --></label>
+        <name>Preventive_Drug_List_Select_Applicable__c</name>
+        <picklistValues>
+            <masterLabel>Apply Deductive for Preventive RX</masterLabel>
+            <translation><!-- Apply Deductive for Preventive RX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation><!-- Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic Plus</masterLabel>
+            <translation><!-- Basic Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copay Applies</masterLabel>
+            <translation><!-- Copay Applies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copay does not Apply</masterLabel>
+            <translation><!-- Copay does not Apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does not apply</masterLabel>
+            <translation><!-- Does not apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expanded</masterLabel>
+            <translation><!-- Expanded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Expanded (Empire ONLY)</masterLabel>
+            <translation><!-- Preventive Expanded (Empire ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Expanded + Asthma (ACES ONLY)</masterLabel>
+            <translation><!-- Preventive Expanded + Asthma (ACES ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Rx Plus</masterLabel>
+            <translation><!-- Preventive Rx Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waive Deductible for Preventive RX</masterLabel>
+            <translation><!-- Waive Deductible for Preventive RX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rx Preventive List --></label>
+        <name>Preventive_List__c</name>
+        <picklistValues>
+            <masterLabel>Apply Deductive for Peventive RX</masterLabel>
+            <translation><!-- Apply Deductive for Peventive RX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation><!-- Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic Plus</masterLabel>
+            <translation><!-- Basic Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copay Applies</masterLabel>
+            <translation><!-- Copay Applies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copay does not Apply</masterLabel>
+            <translation><!-- Copay does not Apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does not apply</masterLabel>
+            <translation><!-- Does not apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expanded</masterLabel>
+            <translation><!-- Expanded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Expanded (Empire ONLY)</masterLabel>
+            <translation><!-- Preventive Expanded (Empire ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Expanded + Asthma (ACES ONLY)</masterLabel>
+            <translation><!-- Preventive Expanded + Asthma (ACES ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Rx Plus</masterLabel>
+            <translation><!-- Preventive Rx Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waive Deductible for Preventive RX</masterLabel>
+            <translation><!-- Waive Deductible for Preventive RX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Prior Authorization Current Benefit --></label>
+        <name>Prior_Authorization_Current_Benefit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior Authorization Reason for Denial --></label>
+        <name>Prior_Authorization_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low savings</masterLabel>
+            <translation><!-- Low savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- LIST OF DRUGS THAT ARE COVERED BY THE BENEFIT --></help>
+        <label><!-- RX Formulary --></label>
+        <name>RX_Formulary__c</name>
+        <picklistValues>
+            <masterLabel>Essential</masterLabel>
+            <translation><!-- Essential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generic Only</masterLabel>
+            <translation><!-- Generic Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generic Premium</masterLabel>
+            <translation><!-- Generic Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National - Plus</masterLabel>
+            <translation><!-- National - Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National - Traditional</masterLabel>
+            <translation><!-- National - Traditional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select</masterLabel>
+            <translation><!-- Select --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select both options if both apply. --></help>
+        <label><!-- Retail Member Contribution Type --></label>
+        <name>Retail_Member_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Coinsurance</masterLabel>
+            <translation><!-- Coinsurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat</masterLabel>
+            <translation><!-- Flat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiered</masterLabel>
+            <translation><!-- Tiered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rx Benefit Tiers --></label>
+        <name>Rx_Benefit_Tiers__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;4</masterLabel>
+            <translation><!-- &gt;4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rx Benefit Type --></label>
+        <name>Rx_Benefit_Type__c</name>
+        <picklistValues>
+            <masterLabel>CDHP-HIA</masterLabel>
+            <translation><!-- CDHP-HIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDHP-HRA</masterLabel>
+            <translation><!-- CDHP-HRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDHP-HSA</masterLabel>
+            <translation><!-- CDHP-HSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med D</masterLabel>
+            <translation><!-- Med D --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rx DIV/CAG --></label>
+        <name>Rx_DIV__c</name>
+        <picklistValues>
+            <masterLabel>WFH</masterLabel>
+            <translation><!-- WFH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WL2</masterLabel>
+            <translation><!-- WL2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WL3</masterLabel>
+            <translation><!-- WL3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WL4</masterLabel>
+            <translation><!-- WL4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WL5</masterLabel>
+            <translation><!-- WL5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WL6</masterLabel>
+            <translation><!-- WL6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WL7</masterLabel>
+            <translation><!-- WL7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WL8</masterLabel>
+            <translation><!-- WL8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WL9</masterLabel>
+            <translation><!-- WL9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WLA</masterLabel>
+            <translation><!-- WLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WLB</masterLabel>
+            <translation><!-- WLB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WLD</masterLabel>
+            <translation><!-- WLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WLE</masterLabel>
+            <translation><!-- WLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WLF</masterLabel>
+            <translation><!-- WLF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WLH</masterLabel>
+            <translation><!-- WLH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WVE</masterLabel>
+            <translation><!-- WVE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rx Network Current --></label>
+        <name>Rx_Network_Current__c</name>
+        <picklistValues>
+            <masterLabel>Home Delivery Choice</masterLabel>
+            <translation><!-- Home Delivery Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Delivery Complete</masterLabel>
+            <translation><!-- Home Delivery Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail90</masterLabel>
+            <translation><!-- Retail90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rx Choice Tiered</masterLabel>
+            <translation><!-- Rx Choice Tiered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rx Maintenance90</masterLabel>
+            <translation><!-- Rx Maintenance90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rx Network Reason for Denial --></label>
+        <name>Rx_Network_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low savings</masterLabel>
+            <translation><!-- Low savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rx Network Recommended --></label>
+        <name>Rx_Network_Recommended__c</name>
+        <picklistValues>
+            <masterLabel>R90</masterLabel>
+            <translation><!-- R90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rx Tiered Choice</masterLabel>
+            <translation><!-- Rx Tiered Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S90</masterLabel>
+            <translation><!-- S90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Applicable for National Accounts Only. --></help>
+        <label><!-- Rx Options Current Package --></label>
+        <name>Rx_Options_Current_Package__c</name>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation><!-- Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comprehensive</masterLabel>
+            <translation><!-- Comprehensive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Applicable for National Accounts Only. --></help>
+        <label><!-- Rx Options Package Implementation Date --></label>
+        <name>Rx_Options_Package_Implementation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specialty Member Contribution Type --></label>
+        <name>Specialty_Member_Contribution_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only active when Rx Options Current Package selected --></help>
+        <label><!-- Specialty Package Current Benefit --></label>
+        <name>Specialty_Package_Current_Benefit__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Specialty Package Reason for Denial --></label>
+        <name>Specialty_Package_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low savings</masterLabel>
+            <translation><!-- Low savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Only active when package recommended --></help>
+        <label><!-- Specialty Package Recommended --></label>
+        <name>Specialty_Package_Recommended__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Specialty Rx Current Benefit --></label>
+        <name>Specialty_Rx_Current_Benefit__c</name>
+        <picklistValues>
+            <masterLabel>Exclusive</masterLabel>
+            <translation><!-- Exclusive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voluntary</masterLabel>
+            <translation><!-- Voluntary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Specialty Rx Reason for Denial --></label>
+        <name>Specialty_Rx_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low savings</masterLabel>
+            <translation><!-- Low savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Specialty Rx Recommended --></label>
+        <name>Specialty_Rx_Recommended__c</name>
+        <picklistValues>
+            <masterLabel>Exclusive</masterLabel>
+            <translation><!-- Exclusive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voluntary</masterLabel>
+            <translation><!-- Voluntary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Split-fill  Benefit Reason for Denial --></label>
+        <name>Split_fill_Benefit_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low savings</masterLabel>
+            <translation><!-- Low savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Split-fill  Benefit Recommended --></label>
+        <name>Split_fill_Benefit_Recommended__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Split-fill Current Benefit --></label>
+        <name>Split_fill_Current_Benefit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Therapy Current Benefit --></label>
+        <name>Step_Therapy_Current_Benefit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Therapy Reason for Denial --></label>
+        <name>Step_Therapy_Reason_for_Denial__c</name>
+        <picklistValues>
+            <masterLabel>Had program and removed</masterLabel>
+            <translation><!-- Had program and removed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low savings</masterLabel>
+            <translation><!-- Low savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a cultural fit</masterLabel>
+            <translation><!-- Not a cultural fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not allowed to present</masterLabel>
+            <translation><!-- Not allowed to present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union group</masterLabel>
+            <translation><!-- Union group --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

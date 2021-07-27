@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Question Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Question Log</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Close Date --></label>
+        <name>Actual_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer --></label>
+        <name>Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Question Log (Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Capability --></label>
+        <name>Capability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Reported --></label>
+        <name>Date_Reported__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Resolved --></label>
+        <name>Date_Resolved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domain --></label>
+        <name>Domain__c</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assets/Install Base</masterLabel>
+            <translation><!-- Assets/Install Base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campaign Management</masterLabel>
+            <translation><!-- Campaign Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Management</masterLabel>
+            <translation><!-- Case Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chatter</masterLabel>
+            <translation><!-- Chatter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications Media and Technologies</masterLabel>
+            <translation><!-- Communications Media and Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Currency Management</masterLabel>
+            <translation><!-- Currency Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forecasting</masterLabel>
+            <translation><!-- Forecasting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Management</masterLabel>
+            <translation><!-- Lead Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Sciences</masterLabel>
+            <translation><!-- Life Sciences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Management</masterLabel>
+            <translation><!-- Opportunity Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outlook</masterLabel>
+            <translation><!-- Outlook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Management</masterLabel>
+            <translation><!-- Product Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Products</masterLabel>
+            <translation><!-- Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports and Dashboards</masterLabel>
+            <translation><!-- Reports and Dashboards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Marketing</masterLabel>
+            <translation><!-- Retail Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search Marketing</masterLabel>
+            <translation><!-- Search Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tasks and Activities</masterLabel>
+            <translation><!-- Tasks and Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Management</masterLabel>
+            <translation><!-- User Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Integration</masterLabel>
+            <translation><!-- Website Integration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expected Close Date --></label>
+        <name>Expected_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+        <picklistValues>
+            <masterLabel>Communications, Media and Technology</masterLabel>
+            <translation><!-- Communications, Media and Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross-Industry</masterLabel>
+            <translation><!-- Cross-Industry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health &amp; Public Services</masterLabel>
+            <translation><!-- Health &amp; Public Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Products</masterLabel>
+            <translation><!-- Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resources</masterLabel>
+            <translation><!-- Resources --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Value Delivery Question --></label>
+        <name>Is_Value_Delivery_Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request --></label>
+        <name>Request__c</name>
+        <relationshipLabel><!-- Question Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Requested Date --></label>
+        <name>Requested_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution/Comments --></label>
+        <name>Resolution_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phase --></label>
+        <name>Scope__c</name>
+        <picklistValues>
+            <masterLabel>Build</masterLabel>
+            <translation><!-- Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy</masterLabel>
+            <translation><!-- Deploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiate and Confirm</masterLabel>
+            <translation><!-- Initiate and Confirm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan and Analyze</masterLabel>
+            <translation><!-- Plan and Analyze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scope</masterLabel>
+            <translation><!-- Scope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status Indicator --></label>
+        <name>Status_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Clarification Provided</masterLabel>
+            <translation><!-- Clarification Provided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clarification Requested</masterLabel>
+            <translation><!-- Clarification Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub-Capability --></label>
+        <name>Sub_Capability__c</name>
+        <picklistValues>
+            <masterLabel>Access</masterLabel>
+            <translation><!-- Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Hierarchy</masterLabel>
+            <translation><!-- Account Hierarchy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Maintenance</masterLabel>
+            <translation><!-- Account Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Ownership and Assignment</masterLabel>
+            <translation><!-- Account Ownership and Assignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Solutions</masterLabel>
+            <translation><!-- Case Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collaboration</masterLabel>
+            <translation><!-- Collaboration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Reports</masterLabel>
+            <translation><!-- Custom Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dashboards</masterLabel>
+            <translation><!-- Dashboards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Management</masterLabel>
+            <translation><!-- Data Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Definition</masterLabel>
+            <translation><!-- Definition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Marketing</masterLabel>
+            <translation><!-- Email Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fields</masterLabel>
+            <translation><!-- Fields --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Files and Attachments</masterLabel>
+            <translation><!-- Files and Attachments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knowledge Articles</masterLabel>
+            <translation><!-- Knowledge Articles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Assignment</masterLabel>
+            <translation><!-- Lead Assignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Conversion</masterLabel>
+            <translation><!-- Lead Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Creation</masterLabel>
+            <translation><!-- Lead Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Qualification</masterLabel>
+            <translation><!-- Lead Qualification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Source</masterLabel>
+            <translation><!-- Lead Source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Workflow Process</masterLabel>
+            <translation><!-- Lead Workflow Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Managing Multiple Currencies</masterLabel>
+            <translation><!-- Managing Multiple Currencies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ownership</masterLabel>
+            <translation><!-- Ownership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Page Layouts</masterLabel>
+            <translation><!-- Page Layouts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permissions</masterLabel>
+            <translation><!-- Permissions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing Book</masterLabel>
+            <translation><!-- Pricing Book --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Catalog</masterLabel>
+            <translation><!-- Product Catalog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quotas</masterLabel>
+            <translation><!-- Quotas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports</masterLabel>
+            <translation><!-- Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validations</masterLabel>
+            <translation><!-- Validations --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submitter --></label>
+        <name>Submitter__c</name>
+        <relationshipLabel><!-- Question Log (Submitter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tips and Comments --></label>
+        <name>Tips_and_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Track --></label>
+        <name>Track__c</name>
+        <picklistValues>
+            <masterLabel>Track 1</masterLabel>
+            <translation><!-- Track 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Track 2</masterLabel>
+            <translation><!-- Track 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Use Case --></label>
+        <name>Use_Case__c</name>
+        <relationshipLabel><!-- Question Log --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- PMO Question --></label>
+        <name>SaaS_Delivery_Question_Log</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Value Delivery Question --></label>
+        <name>Value_Delivery_Question_Log</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Convert_To_Request --></label>
+        <name>Convert_To_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Question_Log --></label>
+        <name>New_Question_Log</name>
+    </webLinks>
+</CustomObjectTranslation>

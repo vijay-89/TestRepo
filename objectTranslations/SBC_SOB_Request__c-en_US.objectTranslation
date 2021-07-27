@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom SBC/SOB Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom SBC/SOB Request</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account ERISA Qualified --></label>
+        <name>Account_ERISA_Qualified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Executive --></label>
+        <name>Account_Executive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Group Number --></label>
+        <name>Account_Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Account_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Renewal Date --></label>
+        <name>Account_Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Situs State --></label>
+        <name>Account_Situs_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual SBC Completion Date BD --></label>
+        <name>Actual_SBC_Completion_Date_BD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual SBC Completion Date --></label>
+        <name>Actual_SBC_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CEP Approval Formula --></label>
+        <name>CEP_Approval_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- CEP Approval? --></label>
+        <name>CEP_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Contract Code --></label>
+        <name>Contract_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Contract Code --></label>
+        <name>Custom_Contract_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom SBC Requested --></label>
+        <name>Custom_SBC_Requested__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Custom SOB Requested --></label>
+        <name>Custom_SOB_Requested__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date SBC Requested BD --></label>
+        <name>Date_SBC_Requested_BD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date SBC Requested --></label>
+        <name>Date_SBC_Requested__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enhanced Privacy ID --></help>
+        <label><!-- EPIC --></label>
+        <name>EPIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Subject --></label>
+        <name>Email_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated SBC Completion Date --></label>
+        <name>Estimated_SBC_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding Type --></label>
+        <name>Funding_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Size --></label>
+        <name>Group_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- HPCC Code --></label>
+        <name>HPCC_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Essential Coverage (MEC) --></label>
+        <name>MEC__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Minimum Value Standards (MV) --></label>
+        <name>MV__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity ICR ID&apos;s --></label>
+        <name>Opportunity_ICR_ID_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Record Type --></label>
+        <name>Opportunity_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Custom SBC/SOB Request --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Plan Type --></label>
+        <name>Plan_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Post-Sale</masterLabel>
+            <translation><!-- Post-Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Sale</masterLabel>
+            <translation><!-- Pre-Sale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Revision --></label>
+        <name>Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Turnaround Time --></label>
+        <name>Turnaround_Time__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Actual SBC Completion Date cannot be before Date SBC Requested --></errorMessage>
+        <name>Actual_SBC_Completion_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This request has been completed and cannot be updated --></errorMessage>
+        <name>Lock_Record_Once_SBC_Completed</name>
+    </validationRules>
+</CustomObjectTranslation>

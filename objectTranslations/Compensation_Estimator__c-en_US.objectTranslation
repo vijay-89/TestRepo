@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compensation Estimator</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compensation Estimations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Persistency --></label>
+        <name>Actual_Persistency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select to include Dental in the estimate --></help>
+        <label><!-- Dental --></label>
+        <name>Dental_Included__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disability --></label>
+        <name>Disability_Included__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disclaimers --></label>
+        <name>Disclaimers__c</name>
+        <picklistValues>
+            <masterLabel>Select HERE to review New Business &amp; Renewal Notes (then expand the arrow to the left)</masterLabel>
+            <translation><!-- Select HERE to review New Business &amp; Renewal Notes (then expand the arrow to the left) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select HERE to review the Year-End Persistency Bonus Payout Table</masterLabel>
+            <translation><!-- Select HERE to review the Year-End Persistency Bonus Payout Table --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Life --></label>
+        <name>Life_Included__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select to include Medical in the estimate --></help>
+        <label><!-- Medical --></label>
+        <name>Medical_Included__c</name>
+    </fields>
+    <fields>
+        <help><!-- Your target persistency bonus payout is 20% of Medical Renewals commissions.  Your ACTUAL payout is a percentage of your target times your persistency.  See the table above for the ranges. --></help>
+        <label><!-- Medical Renewals at Risk --></label>
+        <name>Medical_Renewals_at_Risk__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Dental  Goal Eligible Amount --></label>
+        <name>New_Bus_Dental_Goal_Eligible_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Disability Goal Eligible Amount --></label>
+        <name>New_Bus_Disability_Goal_Eligible_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Life Goal Eligible Amount --></label>
+        <name>New_Bus_Life_Goal_Eligible_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Medical Goal Eligible Amount --></label>
+        <name>New_Bus_Medical_Goal_Eligible_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Supplemental Goal Eligibl Amount --></label>
+        <name>New_Bus_Supplemental_Goal_Eligibl_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Total Dental Commissions --></label>
+        <name>New_Bus_Total_Dental_Commissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Total Disability Commissions --></label>
+        <name>New_Bus_Total_Disability_Commissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Total Life Commissions --></label>
+        <name>New_Bus_Total_Life_Commissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Total Medical Commissions --></label>
+        <name>New_Bus_Total_Medical_Commissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Total Supplemental Commissions --></label>
+        <name>New_Bus_Total_Supplemental_Commissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Total Vision Commissions --></label>
+        <name>New_Bus_Total_Vision_Commissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Bus Vision Goal Eligible Amount --></label>
+        <name>New_Bus_Vision_Goal_Eligible_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Dental Base Payment --></label>
+        <name>New_Business_Dental_Base_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Dental GTA --></label>
+        <name>New_Business_Dental_GTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Goal --></label>
+        <name>New_Business_Dental_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Dental Kicker --></label>
+        <name>New_Business_Dental_Kicker__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Disability Base Payment --></label>
+        <name>New_Business_Disability_Base_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Disability GTA --></label>
+        <name>New_Business_Disability_GTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disability Goal --></label>
+        <name>New_Business_Disability_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Disability Kicker --></label>
+        <name>New_Business_Disability_Kicker__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Life Base Payment --></label>
+        <name>New_Business_Life_Base_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Life GTA --></label>
+        <name>New_Business_Life_GTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Life Goal --></label>
+        <name>New_Business_Life_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Life Kicker --></label>
+        <name>New_Business_Life_Kicker__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Medical Base Payment --></label>
+        <name>New_Business_Medical_Base_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Medical GTA --></label>
+        <name>New_Business_Medical_GTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Goal --></label>
+        <name>New_Business_Medical_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Medical Kicker --></label>
+        <name>New_Business_Medical_Kicker__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Supplemental Base Payment --></label>
+        <name>New_Business_Supplemental_Base_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Supplemental GTA --></label>
+        <name>New_Business_Supplemental_GTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplemental Goal --></label>
+        <name>New_Business_Supplemental_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Supplemental Kicker --></label>
+        <name>New_Business_Supplemental_Kicker__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Vision Base Payment --></label>
+        <name>New_Business_Vision_Base_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Vision GTA --></label>
+        <name>New_Business_Vision_GTA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Goal --></label>
+        <name>New_Business_Vision_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business Vision Kicker --></label>
+        <name>New_Business_Vision_Kicker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persistency Above/Below Goal --></label>
+        <name>Persistency_Above_Below_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persistency Annual Cancellations --></label>
+        <name>Persistency_Annual_Cancellations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persistency Annual Renewals --></label>
+        <name>Persistency_Annual_Renewals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year End Persistency Bonus --></label>
+        <name>Persistency_Bonus_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persistency Goal --></label>
+        <name>Persistency_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refresh YTD Sold And Prorated Goal? --></label>
+        <name>Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Dental Commission --></label>
+        <name>Renewal_Dental_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Disability Commission --></label>
+        <name>Renewal_Disability_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Life Commission --></label>
+        <name>Renewal_Life_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Medical Commission --></label>
+        <name>Renewal_Medical_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Supplemental Commission --></label>
+        <name>Renewal_Supplemental_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Vision Commission --></label>
+        <name>Renewal_Vision_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplemental --></label>
+        <name>Supplemental_Included__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays the total commissions in a single field --></help>
+        <label><!-- Total Commissions --></label>
+        <name>Total_Commissions_Single_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Commissions --></label>
+        <name>Total_Commissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Dental Commission --></label>
+        <name>Total_Dental_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Disability Commission --></label>
+        <name>Total_Disability_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Kicker --></label>
+        <name>Total_Kicker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Life Commission --></label>
+        <name>Total_Life_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Medical Commission --></label>
+        <name>Total_Medical_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Specialty Commission --></label>
+        <name>Total_Specialty_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Supplemental Commission --></label>
+        <name>Total_Supplemental_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Vision Commission --></label>
+        <name>Total_Vision_Commission__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select to include Vision in the estimate --></help>
+        <label><!-- Vision --></label>
+        <name>Vision_Included__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZZZ_DELETE_New Business Dental Goal --></label>
+        <name>ZZZ_DELETE_New_Business_Dental_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZZZ DELETE New Business Medical Goal --></label>
+        <name>ZZZ_DELETE_New_Business_Medical_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZZZ DELETE New Business Vision Goal --></label>
+        <name>ZZZ_DELETE_New_Business_Vision_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZZZ DELETE Total Commission --></label>
+        <name>ZZZ_DELETE_Total_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZZZ DELETE Total Specialty Commission --></label>
+        <name>ZZZ_DELETE_Total_Specialty_Commission__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Compensation Estimator --></label>
+        <name>Compensation_Estimator</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You must select at least one Line of Business - -  Medical, Dental, Vision, Life, Disability, or Supplemental --></errorMessage>
+        <name>Line_of_Business_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

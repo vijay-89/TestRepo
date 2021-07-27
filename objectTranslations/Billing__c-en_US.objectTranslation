@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Billing Entity (WGS Only)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Billing Entity (WGS Only)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+        <relationshipLabel><!-- Billing Entity (WGS Only) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Copies --></label>
+        <name>Bill_Copies__c</name>
+        <picklistValues>
+            <masterLabel>0 - No Bill</masterLabel>
+            <translation><!-- 0 - No Bill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Copy</masterLabel>
+            <translation><!-- 1 - Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Copies</masterLabel>
+            <translation><!-- 2 - Copies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Copies</masterLabel>
+            <translation><!-- 3 - Copies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Copies</masterLabel>
+            <translation><!-- 4 - Copies --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please Provide The Billing Entity Number. --></help>
+        <label><!-- Bill Entity # --></label>
+        <name>Bill_Entity__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is The Frequency In Which Your Invoice Is Generated. Monthly (1) Is Most Commonly Used. --></help>
+        <label><!-- Bill Frequency --></label>
+        <name>Bill_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>0 NON COMP HOUSED</masterLabel>
+            <translation><!-- 0 NON COMP HOUSED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 = most common</masterLabel>
+            <translation><!-- 1 = most common --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 MONTHLY</masterLabel>
+            <translation><!-- 1 MONTHLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 ANNUAL</masterLabel>
+            <translation><!-- 2 ANNUAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 SEMI-ANNUAL</masterLabel>
+            <translation><!-- 3 SEMI-ANNUAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 QUARTERLY</masterLabel>
+            <translation><!-- 4 QUARTERLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 BI-WEEKLY</masterLabel>
+            <translation><!-- 5 BI-WEEKLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 10 MONTH/SCHOOL</masterLabel>
+            <translation><!-- 6 10 MONTH/SCHOOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D DAILY</masterLabel>
+            <translation><!-- D DAILY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W WEEKLY</masterLabel>
+            <translation><!-- W WEEKLY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This Is The Order In Which Your Invoice Is Sorted. Last Name (1) Is Most Commonly Used. --></help>
+        <label><!-- Bill Sequence --></label>
+        <name>Bill_Sequence__c</name>
+        <picklistValues>
+            <masterLabel>0 NOT APPLICABLE</masterLabel>
+            <translation><!-- 0 NOT APPLICABLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 = most common</masterLabel>
+            <translation><!-- 1 = most common --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 LAST NAME</masterLabel>
+            <translation><!-- 1 LAST NAME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 ALPHA/W/EMP NUM</masterLabel>
+            <translation><!-- 2 ALPHA/W/EMP NUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 ALPHA/W/DEPT NO</masterLabel>
+            <translation><!-- 3 ALPHA/W/DEPT NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 CERTIFICATE NUM</masterLabel>
+            <translation><!-- 4 CERTIFICATE NUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 CERT/W/DEPT NO</masterLabel>
+            <translation><!-- 5 CERT/W/DEPT NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 EMPLOYEE NUMBER</masterLabel>
+            <translation><!-- 6 EMPLOYEE NUMBER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 EMP/NO/W/DEPT</masterLabel>
+            <translation><!-- 7 EMP/NO/W/DEPT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 HOME ADDRESS</masterLabel>
+            <translation><!-- 8 HOME ADDRESS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 ALIAS NO SEQ</masterLabel>
+            <translation><!-- 9 ALIAS NO SEQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A ALPHA/W/EMP NUM</masterLabel>
+            <translation><!-- A ALPHA/W/EMP NUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B ALPHA/W/DEPT ST</masterLabel>
+            <translation><!-- B ALPHA/W/DEPT ST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C CERT/W/DEPT ST</masterLabel>
+            <translation><!-- C CERT/W/DEPT ST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D CERT/W/EMP NUM</masterLabel>
+            <translation><!-- D CERT/W/EMP NUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E EMP/W/DEPT ST</masterLabel>
+            <translation><!-- E EMP/W/DEPT ST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F NAME/W/GROUP</masterLabel>
+            <translation><!-- F NAME/W/GROUP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This Represents The Type Of Billing. --></help>
+        <label><!-- Bill Source --></label>
+        <name>Bill_Source__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium/List</masterLabel>
+            <translation><!-- Premium/List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self</masterLabel>
+            <translation><!-- Self --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- There Must Be A Contact Record In The System For This Search. If You Cannot Find The Name You May Need To First Create A New Contact By Clicking &apos;Contact&apos; Tab Across Top And Creating A Record. --></help>
+        <label><!-- Billing Contact Name --></label>
+        <name>Billing_Contact_Name__c</name>
+        <relationshipLabel><!-- Billing Entity (WGS Only) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing Specifics --></label>
+        <name>Billing_Specifics__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Code Represents The Day Of The Month That Your Invoice Will Generate. --></help>
+        <label><!-- Cycle Code --></label>
+        <name>Cycle_Code__c</name>
+        <picklistValues>
+            <masterLabel>00 NO REGULAR CYCLE BILL - OAD WILL RUN ON THE TENTH</masterLabel>
+            <translation><!-- 00 NO REGULAR CYCLE BILL - OAD WILL RUN ON THE TENTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>01 MONTHLY CYCLE ON THE FIRST OF THE MONTH</masterLabel>
+            <translation><!-- 01 MONTHLY CYCLE ON THE FIRST OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 MONTHLY CYCLE ON THE SECOND OF THE MONTH</masterLabel>
+            <translation><!-- 02 MONTHLY CYCLE ON THE SECOND OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 MONTHLY CYCLE ON THE THIRD OF THE MONTH</masterLabel>
+            <translation><!-- 03 MONTHLY CYCLE ON THE THIRD OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 MONTHLY CYCLE ON THE FOURTH OF THE MONTH</masterLabel>
+            <translation><!-- 04 MONTHLY CYCLE ON THE FOURTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 MONTHLY CYCLE ON THE FIFTH OF THE MONTH</masterLabel>
+            <translation><!-- 05 MONTHLY CYCLE ON THE FIFTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06 MONTHLY CYCLE ON THE SIXTH OF THE MONTH</masterLabel>
+            <translation><!-- 06 MONTHLY CYCLE ON THE SIXTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07 MONTHLY CYCLE ON THE SEVENTH OF THE MONTH</masterLabel>
+            <translation><!-- 07 MONTHLY CYCLE ON THE SEVENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08 MONTHLY CYCLE ON THE EIGHTH OF THE MONTH</masterLabel>
+            <translation><!-- 08 MONTHLY CYCLE ON THE EIGHTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09 MONTHLY CYCLE ON THE NINTH OF THE MONTH</masterLabel>
+            <translation><!-- 09 MONTHLY CYCLE ON THE NINTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 MONTHLY CYCLE ON THE TENTH OF THE MONTH</masterLabel>
+            <translation><!-- 10 MONTHLY CYCLE ON THE TENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 MONTHLY CYCLE ON THE ELEVENTH OF THE MONTH</masterLabel>
+            <translation><!-- 11 MONTHLY CYCLE ON THE ELEVENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 MONTHLY CYCLE ON THE TWELVETH OF THE MONTH</masterLabel>
+            <translation><!-- 12 MONTHLY CYCLE ON THE TWELVETH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 MONTHLY CYCLE ON THE THIRTEENTH OF THE MONTH</masterLabel>
+            <translation><!-- 13 MONTHLY CYCLE ON THE THIRTEENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 MONTHLY CYCLE ON THE FOURTEENTH OF THE MONTH</masterLabel>
+            <translation><!-- 14 MONTHLY CYCLE ON THE FOURTEENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 MONTHLY CYCLE ON THE FIFTEENTH OF THE MONTH</masterLabel>
+            <translation><!-- 15 MONTHLY CYCLE ON THE FIFTEENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 MONTHLY CYCLE ON THE SIXTEENTH OF THE MONTH</masterLabel>
+            <translation><!-- 16 MONTHLY CYCLE ON THE SIXTEENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17 MONTHLY CYCLE ON THE SEVENTEENTH OF THE MONTH</masterLabel>
+            <translation><!-- 17 MONTHLY CYCLE ON THE SEVENTEENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 MONTHLY CYCLE ON THE EIGHTEENTH OF THE MONTH</masterLabel>
+            <translation><!-- 18 MONTHLY CYCLE ON THE EIGHTEENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19 MONTHLY CYCLE ON THE NINETEENTH OF THE MONTH</masterLabel>
+            <translation><!-- 19 MONTHLY CYCLE ON THE NINETEENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 MONTHLY CYCLE ON THE TWENTIETH OF THE MONTH</masterLabel>
+            <translation><!-- 20 MONTHLY CYCLE ON THE TWENTIETH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 MONTHLY CYCLE ON THE TWENTY FIRST OF THE MONTH</masterLabel>
+            <translation><!-- 21 MONTHLY CYCLE ON THE TWENTY FIRST OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22 MONTHLY CYCLE ON THE TWENTY SECOND OF THE MONTH</masterLabel>
+            <translation><!-- 22 MONTHLY CYCLE ON THE TWENTY SECOND OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23 MONTHLY CYCLE ON THE TWENTY THIRD OF THE MONTH</masterLabel>
+            <translation><!-- 23 MONTHLY CYCLE ON THE TWENTY THIRD OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 MONTHLY CYCLE ON THE TWENTY FOURTH OF THE MONTH</masterLabel>
+            <translation><!-- 24 MONTHLY CYCLE ON THE TWENTY FOURTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 MONTHLY CYCLE ON THE TWENTY FIFTH OF THE MONTH</masterLabel>
+            <translation><!-- 25 MONTHLY CYCLE ON THE TWENTY FIFTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26 MONTHLY CYCLE ON THE TWENTY SIXTH OF THE MONTH</masterLabel>
+            <translation><!-- 26 MONTHLY CYCLE ON THE TWENTY SIXTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27 MONTHLY CYCLE ON THE TWENTY SEVENTH OF THE MONTH</masterLabel>
+            <translation><!-- 27 MONTHLY CYCLE ON THE TWENTY SEVENTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28 MONTHLY CYCLE ON THE TWENTY EIGHTH OF THE MONTH</masterLabel>
+            <translation><!-- 28 MONTHLY CYCLE ON THE TWENTY EIGHTH OF THE MONTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>51 BI WEEKLY CYCLE ON SUNDAY AND MONDAY</masterLabel>
+            <translation><!-- 51 BI WEEKLY CYCLE ON SUNDAY AND MONDAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>52 BI WEEKLY CYCLE ON TUESDAY</masterLabel>
+            <translation><!-- 52 BI WEEKLY CYCLE ON TUESDAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>53 BI WEEKLY CYCLE ON WEDNESDAY</masterLabel>
+            <translation><!-- 53 BI WEEKLY CYCLE ON WEDNESDAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>54 BI WEEKLY CYCLE ON THURSDAY</masterLabel>
+            <translation><!-- 54 BI WEEKLY CYCLE ON THURSDAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55 BI WEEKLY CYCLE ON FRIDAY</masterLabel>
+            <translation><!-- 55 BI WEEKLY CYCLE ON FRIDAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>56 BI WEEKLY CYCLE ON SATURDAY</masterLabel>
+            <translation><!-- 56 BI WEEKLY CYCLE ON SATURDAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80 NO REGULAR CYCLE BILL - OAD WILL RUN ON THE TENTH</masterLabel>
+            <translation><!-- 80 NO REGULAR CYCLE BILL - OAD WILL RUN ON THE TENTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>99 DAILY BILLING CYCLE</masterLabel>
+            <translation><!-- 99 DAILY BILLING CYCLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EAST TYPICALLY USES CODE 28</masterLabel>
+            <translation><!-- EAST TYPICALLY USES CODE 28 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity Type --></label>
+        <name>Entity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Consolidated</masterLabel>
+            <translation><!-- Consolidated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suffix</masterLabel>
+            <translation><!-- Suffix --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- For The Following Suffixes --></label>
+        <name>For_the_following_suffixes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding --></label>
+        <name>Funding_Master__c</name>
+        <relationshipLabel><!-- Billing Entity (WGS Only) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This Code Represents The Type Of Funding Arrangement. --></help>
+        <label><!-- Funding Type Code --></label>
+        <name>Funding_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>*Use 9 if Fedex.This is the only new group where approval has been given to write checks on group&apos;s account</masterLabel>
+            <translation><!-- *Use 9 if Fedex.This is the only new group where approval has been given to write checks on group&apos;s account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>*Use H for all new groups all states except for Fedex. H means that checks will be written on Anthem account.</masterLabel>
+            <translation><!-- *Use H for all new groups all states except for Fedex. H means that checks will be written on Anthem account. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 -- FI: non-refunding, regulated by DMHC</masterLabel>
+            <translation><!-- 1 - -  FI: non-refunding, regulated by DMHC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 -- FI: refunding, regulated by DMHC</masterLabel>
+            <translation><!-- 2 - -  FI: refunding, regulated by DMHC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 -- N/A, unless existing client w/this fund type in use, previously used for FI.</masterLabel>
+            <translation><!-- 3 - -  N/A, unless existing client w/this fund type in use, previously used for FI. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 -- N/A, unless existing client w/this fund type in use, previously used for Minimum Premium.</masterLabel>
+            <translation><!-- 4 - -  N/A, unless existing client w/this fund type in use, previously used for Minimum Premium. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 -- N/A for National Accts</masterLabel>
+            <translation><!-- 5 - -  N/A for National Accts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 -- Minimum Premium: New/Existing clients</masterLabel>
+            <translation><!-- 7 - -  Minimum Premium: New/Existing clients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 -- ASO: MCS clients or existing ASO clients already set up w/ this funding</masterLabel>
+            <translation><!-- 9 - -  ASO: MCS clients or existing ASO clients already set up w/ this funding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A -- FI: non-refunding, regulated by DOI</masterLabel>
+            <translation><!-- A - -  FI: non-refunding, regulated by DOI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B -- FI: refunding, regulated by DOI</masterLabel>
+            <translation><!-- B - -  FI: refunding, regulated by DOI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H -- ASO/ASC: New/Existing clients with Admin Svc Contract (most common)</masterLabel>
+            <translation><!-- H - -  ASO/ASC: New/Existing clients with Admin Svc Contract (most common) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K -- JAA: New/existing clients</masterLabel>
+            <translation><!-- K - -  JAA: New/existing clients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W – Anthem Balanced Funding</masterLabel>
+            <translation><!-- W – Anthem Balanced Funding --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- # Of Days Before A Bill Entity Becomes Delinquent. Claims Will Not Pay If The Service Date Is After The Group&apos;s Paid To Date Plus Grace Days. Typically Ranges From 30 – 90 Days. --></help>
+        <label><!-- Grace Days --></label>
+        <name>Grace_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <relationshipLabel><!-- Billing Entity (WGS Only) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Name --></label>
+        <name>Implementation_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Record ID --></label>
+        <name>Implementation_Record_ID__c</name>
+        <relationshipLabel><!-- Billing Entity (WGS Only) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This Represents How The Premium Is Received At Anthem. --></help>
+        <label><!-- Pay Type Code --></label>
+        <name>Pay_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>Cash/Checks</masterLabel>
+            <translation><!-- Cash/Checks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lock Box</masterLabel>
+            <translation><!-- Lock Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wire Transfer</masterLabel>
+            <translation><!-- Wire Transfer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- If All Plans Have The Same Billing Values, Indicate &quot;ALL&quot; And Just Complete Entity 1. --></help>
+        <label><!-- Plan Name --></label>
+        <name>Plan_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- If ASO, Use 1 For All States.
+
+If CA, CO &amp; NV And Financial Arrangement Is Other Than ASO, Assign Applicable Code Based On Financial Arrangement. --></help>
+        <label><!-- Rate Method Code (RMC) --></label>
+        <name>Rate_Method_Code_RMC__c</name>
+        <picklistValues>
+            <masterLabel>1 -- ASO BUSINESS</masterLabel>
+            <translation><!-- 1 - -  ASO BUSINESS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 -- STOP-LOSS BUSN</masterLabel>
+            <translation><!-- 2 - -  STOP-LOSS BUSN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 -- MINIMUM PREMIUM</masterLabel>
+            <translation><!-- 3 - -  MINIMUM PREMIUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 -- MASTERLINE</masterLabel>
+            <translation><!-- 4 - -  MASTERLINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 -- RESERVED</masterLabel>
+            <translation><!-- 5 - -  RESERVED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 -- HMO</masterLabel>
+            <translation><!-- 7 - -  HMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 -- HMO</masterLabel>
+            <translation><!-- 8 - -  HMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 -- HMO</masterLabel>
+            <translation><!-- 9 - -  HMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A -- NON-GROUP</masterLabel>
+            <translation><!-- A - -  NON-GROUP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B -- POOL RTD EXCEPT</masterLabel>
+            <translation><!-- B - -  POOL RTD EXCEPT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C -- POOL RTD 5-9</masterLabel>
+            <translation><!-- C - -  POOL RTD 5-9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D -- POOL RTD 10-49</masterLabel>
+            <translation><!-- D - -  POOL RTD 10-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E -- POOLED PLUS EXP</masterLabel>
+            <translation><!-- E - -  POOLED PLUS EXP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F -- EXP RTD NONREF</masterLabel>
+            <translation><!-- F - -  EXP RTD NONREF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G -- EXP RTD NONREF</masterLabel>
+            <translation><!-- G - -  EXP RTD NONREF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H -- EXP RTD FROZEN</masterLabel>
+            <translation><!-- H - -  EXP RTD FROZEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I -- STIP. RATE COST</masterLabel>
+            <translation><!-- I - -  STIP. RATE COST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J -- EXP RTD NONREF</masterLabel>
+            <translation><!-- J - -  EXP RTD NONREF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K -- EXP RTD NONREF</masterLabel>
+            <translation><!-- K - -  EXP RTD NONREF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L -- EXP RTD REFUND</masterLabel>
+            <translation><!-- L - -  EXP RTD REFUND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M -- DIST XI MUTUAL</masterLabel>
+            <translation><!-- M - -  DIST XI MUTUAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N -- NATIONAL EQUAL</masterLabel>
+            <translation><!-- N - -  NATIONAL EQUAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P -- COST PLUS</masterLabel>
+            <translation><!-- P - -  COST PLUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R -- OTHR. SPEC RTD</masterLabel>
+            <translation><!-- R - -  OTHR. SPEC RTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S -- SCHOOL POOL</masterLabel>
+            <translation><!-- S - -  SCHOOL POOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T -- MINIMUM PREMIUM</masterLabel>
+            <translation><!-- T - -  MINIMUM PREMIUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U -- ALT HEALTH PLAN</masterLabel>
+            <translation><!-- U - -  ALT HEALTH PLAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V -- MASTERLINE FROZ</masterLabel>
+            <translation><!-- V - -  MASTERLINE FROZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W -- ALT HEALTH PLAN</masterLabel>
+            <translation><!-- W - -  ALT HEALTH PLAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y -- UNITECH</masterLabel>
+            <translation><!-- Y - -  UNITECH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z -- FREE STD. DENT</masterLabel>
+            <translation><!-- Z - -  FREE STD. DENT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This Represents How Far Back Retro activity Can Be Processed. Varies By Region. West And SE Region, Typically 60-90 Days Central Region Typically Uses 365. --></help>
+        <label><!-- Retro Days --></label>
+        <name>Retro_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Address --></label>
+        <name>Street_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title_Billing_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is The Minimum Percent Payment Of An Invoice Required Before The Paid To Date Is Advanced. Minimum Percent Is 80%. --></help>
+        <label><!-- Tolerance Level % --></label>
+        <name>Tolerance_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Washout Code = 16 --></label>
+        <name>Washout_Code_16__c</name>
+    </fields>
+    <fields>
+        <label><!-- Washout Code = 1 --></label>
+        <name>Washout_Code_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Washout Code = 2 --></label>
+        <name>Washout_Code_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Washout Code = 31 --></label>
+        <name>Washout_Code_31__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Code Determines When The First Charge For A Member Is Billed Or If A Full Credit Is Generated When The Member Cancels. The System Automatically Creates Adjustments For Additions, Terminations And Contract Type Changes. --></help>
+        <label><!-- Washout Code --></label>
+        <name>Washout_Code__c</name>
+        <picklistValues>
+            <masterLabel>Code 01</masterLabel>
+            <translation><!-- Code 01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 02</masterLabel>
+            <translation><!-- Code 02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 16</masterLabel>
+            <translation><!-- Code 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 31</masterLabel>
+            <translation><!-- Code 31 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>Zip_Code__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Billing FI --></label>
+        <name>Billing</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BillingASO --></label>
+        <name>BillingASO</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ICR History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ICR History</value>
+    </caseValues>
+    <fields>
+        <label><!-- AR UWApproved --></label>
+        <name>AR_UWApproved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check if ASO --></label>
+        <name>ASO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Demo --></label>
+        <name>Account_Demo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner --></label>
+        <name>Account_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- ICR History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accum Date Loaded --></label>
+        <name>Accum_Date_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accum Date Received --></label>
+        <name>Accum_Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accumulator History Load --></label>
+        <name>Accumulator_History_Load__c</name>
+    </fields>
+    <fields>
+        <label><!-- Add Products --></label>
+        <name>Add_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Entity --></label>
+        <name>Anthem_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Team --></label>
+        <name>Assigned_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned to UW to Approved --></label>
+        <name>Assigned_to_UW_to_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Requested --></label>
+        <name>Bill_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booklets Per Product --></label>
+        <name>Booklets_Per_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Change Only --></label>
+        <name>Broker_Change_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bypass ID Cards --></label>
+        <name>Bypass_ID_Cards__c</name>
+    </fields>
+    <fields>
+        <label><!-- CalCobra Dept --></label>
+        <name>CalCobra_Dept__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Description CA --></label>
+        <name>Change_Description_CA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Description CO NV --></label>
+        <name>Change_Description_CO_NV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completion Email Sent --></label>
+        <name>Completion_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Creator Team --></label>
+        <name>Creator_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Form --></label>
+        <name>Custom_Form__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Numbers --></label>
+        <name>Customer_Service_Numbers__c</name>
+    </fields>
+    <fields>
+        <label><!-- DDS Enrollment Load Date --></label>
+        <name>DDS_Enrollment_Load_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DDS Group Load Date --></label>
+        <name>DDS_Group_Load_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOH Required --></label>
+        <name>DOH_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Assigned to RX PCE Coder --></label>
+        <name>Date_Assigned_to_RX_PCE_Coder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Assigned to RX PCE Queue --></label>
+        <name>Date_Assigned_to_RX_PCE_Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Assigned to UW --></label>
+        <name>Date_Assigned_to_UW__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Assigned to UW queue --></label>
+        <name>Date_Assigned_to_UW_queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date EBA Logged --></label>
+        <name>Date_EBA_Logged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Pending Correction --></label>
+        <name>Date_Pending_Correction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Prepared --></label>
+        <name>Date_Prepared__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date UW Approved --></label>
+        <name>Date_UW_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Over --></label>
+        <name>Days_Over__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental First Impression Wellpoint --></label>
+        <name>Dental_First_Impression_Wellpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Group Number --></label>
+        <name>Dental_Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disability Group Number --></label>
+        <name>Disability_Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display on Form --></label>
+        <name>Display_on_Form__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Storage System --></label>
+        <name>Doc_Storage_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domestic Partnership --></label>
+        <name>Domestic_Partnership__c</name>
+    </fields>
+    <fields>
+        <label><!-- EAP Group Number --></label>
+        <name>EAP_Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- EA Contact Sheet Completed --></label>
+        <name>EA_Contact_Sheet_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- EA Loaded Date --></label>
+        <name>EA_Loaded_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- EA Notified --></label>
+        <name>EA_Notified__c</name>
+    </fields>
+    <fields>
+        <label><!-- EA Requested --></label>
+        <name>EA_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- EA Welcome Letters Sent --></label>
+        <name>EA_Welcome_Letters_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clarification(s) --></label>
+        <name>EBA_Clarifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- EBA Logged By --></label>
+        <name>EBA_Logged_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- EOC Send Hard Copy To --></label>
+        <name>EOC_Send_Hard_Copy_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- EOC Sent --></label>
+        <name>EOC_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date of Change --></label>
+        <name>Effective_Date_of_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electronic Copy Only --></label>
+        <name>Electronic_Copy_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligibility Completed --></label>
+        <name>Eligibility_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligibility Loaded --></label>
+        <name>Eligibility_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligibility MIS --></label>
+        <name>Eligibility_MIS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligibility Sent --></label>
+        <name>Eligibility_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- E &amp; B Completed --></label>
+        <name>Enrollment_Billing_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- E &amp; B Sent --></label>
+        <name>Enrollment_and_Billing_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Report Sent Date --></label>
+        <name>Error_Report_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Complete Date --></label>
+        <name>Expected_Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Associate --></label>
+        <name>External_Associate__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Impression Wellpoint-SM --></label>
+        <name>First_Impression_Wellpoint_SM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Former Source ID --></label>
+        <name>Former_Source_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Print Quantities --></label>
+        <name>Full_Print_Quantities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grandfathered List --></label>
+        <name>Grandfathered_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Accepted Company Changes --></label>
+        <name>Group_Accepted_Company_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group/Division Name --></label>
+        <name>Group_Division_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Loaded --></label>
+        <name>Group_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- HPCC Requested --></label>
+        <name>HPCC_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- IC Pending Reason --></label>
+        <name>IC_Pending_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Card Requested --></label>
+        <name>ID_Card_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID --></label>
+        <name>ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISNLT --></label>
+        <name>ISNLT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Call --></label>
+        <name>Implementation_Call__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Control Updated WGS --></label>
+        <name>Issue_Control_Updated_WGS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Change Type --></label>
+        <name>Labor_Change_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Life Change Only --></label>
+        <name>Life_Change_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Life Group Number --></label>
+        <name>Life_Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locked --></label>
+        <name>Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Carry In Date Loaded --></label>
+        <name>Max_Carry_In_Date_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Carry In Date Received --></label>
+        <name>Max_Carry_In_Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Carry In --></label>
+        <name>Max_Carry_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Fund Type --></label>
+        <name>Medical_Fund_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Group Number --></label>
+        <name>Medical_Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical UW Approved --></label>
+        <name>Medical_UW_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Supply Quantity --></label>
+        <name>Minimum_Supply_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- NP EOC Sales Office Email --></label>
+        <name>NP_EOC_Sales_Office_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- NP EOC Sales Office --></label>
+        <name>NP_EOC_Sales_Office__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Account Executive AE --></label>
+        <name>New_Account_Executive_AE__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Account Executive Rep ID --></label>
+        <name>New_Account_Executive_Rep_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Account Manager --></label>
+        <name>New_Account_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Acct Mgr Rep ID Code --></label>
+        <name>New_Acct_Mgr_Rep_ID_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Broker Name --></label>
+        <name>New_Broker_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Brokerage --></label>
+        <name>New_Brokerage__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Business/Renewal --></label>
+        <name>New_Business_Renewal__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Dept. Code --></label>
+        <name>New_Dept_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Sales Account Rep - Acct Mgmt Rep ID --></label>
+        <name>New_Sales_Account_Rep_Acct_Mgmt_Rep_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Sales Account Rep - Acct Mgmt --></label>
+        <name>New_Sales_Account_Rep_Acct_Mgmt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes Change Request --></label>
+        <name>Notes_Change_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Errors --></label>
+        <name>Number_of_Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of ICR Owner Changes --></label>
+        <name>Number_of_ICR_Owner_Changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Non Standard Books --></label>
+        <name>Number_of_Non_Standard_Books__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Standard Books --></label>
+        <name>Number_of_Standard_Books__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAD Requirements --></label>
+        <name>OAD_Requirements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity 18 ID --></label>
+        <name>Opportunity_18_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Effective Date --></label>
+        <name>Opportunity_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Implementer --></label>
+        <name>Opportunity_Implementer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Customer Service Numbers --></label>
+        <name>Other_Customer_Service_Numbers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Special Instructions --></label>
+        <name>Other_Special_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paperwork Completed --></label>
+        <name>Paperwork_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partial Rates Loaded --></label>
+        <name>Partial_Rates_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending --></label>
+        <name>Pending__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pooled EOC Not Ordered Due to Delay --></label>
+        <name>Pooled_EOC_Not_Ordered_Due_to_Delay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pooled EOC Ordered --></label>
+        <name>Pooled_EOC_Ordered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pooled/Non-Pooled --></label>
+        <name>Pooled_Non_Pooled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Account Executive --></label>
+        <name>Previous_Account_Executive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Account Manager --></label>
+        <name>Previous_Account_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Broker --></label>
+        <name>Previous_Broker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Brokerage --></label>
+        <name>Previous_Brokerage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Sales Account Rep - Acct Mgmt. --></label>
+        <name>Previous_Sales_Account_Rep_Acct_Mgmt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prime and Complete Dental Change Include --></label>
+        <name>Prime_and_Complete_Dental_Change_Include__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probationary Period --></label>
+        <name>Probationary_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose of Change CA --></label>
+        <name>Purpose_of_Change_CA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose of Change CO NV --></label>
+        <name>Purpose_of_Change_CO_NV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose of Request --></label>
+        <name>Purpose_of_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Completed for Off-Shore Associates --></label>
+        <name>QA_Completed_for_Off_Shore_Associates__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Completed for OnShore Associates --></label>
+        <name>QA_Completed_for_OnShore_Associates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue --></label>
+        <name>Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rates Loaded --></label>
+        <name>Rates_Loaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received Date --></label>
+        <name>Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rerate Month --></label>
+        <name>Rerate_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rush Urgent Approved By --></label>
+        <name>Rush_Urgent_Approved_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rush Urgent --></label>
+        <name>Rush_Urgent__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy Account ID --></label>
+        <name>SFDC_Legacy_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy Opportunity ID --></label>
+        <name>SFDC_Legacy_Opportunity_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy Parentage --></label>
+        <name>SFDC_Legacy_Parentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Office --></label>
+        <name>Sales_Office__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Rates to Off-Shore --></label>
+        <name>Sent_Rates_to_Off_Shore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold Products --></label>
+        <name>Sold_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spanish EOCs Date Completed --></label>
+        <name>Spanish_EOCs_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spanish EOCs Date Received --></label>
+        <name>Spanish_EOCs_Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spanish EOCs Date Started --></label>
+        <name>Spanish_EOCs_Date_Started__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spanish Translation Required --></label>
+        <name>Spanish_Translation_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submits Eligibility Via --></label>
+        <name>Submits_Eligibility_Via__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted to Queue to Assigned to UW --></label>
+        <name>Submitted_to_Queue_to_Assigned_to_UW__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suffix Count --></label>
+        <name>Suffix_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support Docs Saved --></label>
+        <name>Support_Docs_Saved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Days --></label>
+        <name>Target_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target --></label>
+        <name>Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Enrollments Submitted --></label>
+        <name>Total_Enrollments_Submitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transfer Members --></label>
+        <name>Transfer_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Assistance --></label>
+        <name>Transition_Assistance__c</name>
+    </fields>
+    <fields>
+        <label><!-- US Network ID --></label>
+        <name>US_Network_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriter Type --></label>
+        <name>Underwriter_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Support Approved By --></label>
+        <name>Underwriting_Support_Approved_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Support Approved --></label>
+        <name>Underwriting_Support_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Type --></label>
+        <name>Work_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Open Approval Requests --></label>
+        <name>of_Open_Approval_Requests__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Open Pending Corrections --></label>
+        <name>of_Open_Pending_Corrections__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sutter Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sutter Status</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Sutter Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- For “No” Response to this question: Submit a CIP with tiered network information to obtain Sutter’s response on participation. If Sutter is to be in a lower tier they must be made aware and approve it before any pricing set up begins for the Client. --></help>
+        <label><!-- Action Required --></label>
+        <name>ActionRequired__c</name>
+        <picklistValues>
+            <masterLabel>If No, submit CIP w/ tiered network info</masterLabel>
+            <translation><!-- If No, submit CIP w/ tiered network info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>If Yes, capture Sutter’s approval in CIP</masterLabel>
+            <translation><!-- If Yes, capture Sutter’s approval in CIP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Effective Date --></label>
+        <name>Contract_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Yes, has request been sent to Sutter? --></label>
+        <name>IfYeshasrequestbeensenttoSutter__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is client impacted by Sutter contract? --></label>
+        <name>Is_client_impacted_by_Sutter_contract__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Tiering requests most commonly occur when a client is also a provider and they want to encourage their employees to use their own facility vs. Sutter or BDC. If Yes, obtain approval from John Pickett. Attach approval to CIP related to Sutter status. --></help>
+        <label><!-- Requesting tiered network w/ Sutter --></label>
+        <name>Requesting_tiered_network_w_Sutter__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, attach approval to CIP</masterLabel>
+            <translation><!-- Yes, attach approval to CIP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date in which current Sutter status changed. --></help>
+        <label><!-- Term Date --></label>
+        <name>Term_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If client Attests Sutter Contract but strongly disputes the Sutter Prompt Pay fee, the UW RVP may be contacted to request an exception to have Anthem incur the penalty fee. Only avail for WGS clients on RMB billing and not available to any NASCO client. --></help>
+        <label><!-- WGS Exception granted by UW RVP? --></label>
+        <name>WGS_Exception_granted_by_UW_RVP__c</name>
+        <picklistValues>
+            <masterLabel>NASCO – N/A</masterLabel>
+            <translation><!-- NASCO – N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, Attach UW approval to CIP</masterLabel>
+            <translation><!-- Yes, Attach UW approval to CIP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- What action did your client take? --></label>
+        <name>What_action_did_your_client_take__c</name>
+        <picklistValues>
+            <masterLabel>Agreed to ASO Amendment</masterLabel>
+            <translation><!-- Agreed to ASO Amendment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agreed to Sutter Amendment</masterLabel>
+            <translation><!-- Agreed to Sutter Amendment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repudiation</masterLabel>
+            <translation><!-- Repudiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed the Sutter Attestation</masterLabel>
+            <translation><!-- Signed the Sutter Attestation --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

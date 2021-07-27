@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CIP History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CIP History</value>
+    </caseValues>
+    <fields>
+        <label><!-- ACCOUNT CASESAFEID Formula --></label>
+        <name>ACCOUNT_CASESAFEID_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACCOUNT CASESAFEID --></label>
+        <name>ACCOUNT_CASESAFEID__c</name>
+    </fields>
+    <fields>
+        <label><!-- AE AM No UWR --></label>
+        <name>AE_AM_No_UWR__c</name>
+    </fields>
+    <fields>
+        <label><!-- APW/AHG --></label>
+        <name>APW_AHG__c</name>
+    </fields>
+    <fields>
+        <label><!-- ASF QueryString1 --></label>
+        <name>ASF_QueryString1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ASF QueryString2 --></label>
+        <name>ASF_QueryString2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ASF QueryString3 --></label>
+        <name>ASF_QueryString3__c</name>
+    </fields>
+    <fields>
+        <label><!-- FMHP ASO --></label>
+        <name>ASO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account DBA Name --></label>
+        <name>Account_DBA_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Executive --></label>
+        <name>Account_Executive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account ID  for Conga --></label>
+        <name>Account_ID_for_Conga__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Account_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- CIP History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Added plans or plans changed HCR Status --></label>
+        <name>Added_plans_or_plans_changed_HCR_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age in System --></label>
+        <name>Age_in_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Any of your plans changed HCR status --></label>
+        <name>Any_of_your_plans_changed_HCR_status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apply Claims Stop --></label>
+        <name>Apply_Claims_Stop__c</name>
+    </fields>
+    <fields>
+        <label><!-- Are there changes to Group Structure --></label>
+        <name>Are_there_changes_to_Group_Structure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Implementer --></label>
+        <name>Assigned_Implementer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attention ASF NB --></label>
+        <name>Attention_ASF_NB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attention --></label>
+        <name>Attention__c</name>
+    </fields>
+    <fields>
+        <label><!-- BH_Vendor --></label>
+        <name>BH_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Renewal Anniversary Date --></label>
+        <name>Benefit_Renewal_Anniversary_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Renewal Anniversary --></label>
+        <name>Benefit_Renewal_Anniversary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefits --></label>
+        <name>Benefits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Commissions --></label>
+        <name>Broker_Commissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Approval Process --></label>
+        <name>CIP_Approval_Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Audit End Date --></label>
+        <name>CIP_Audit_End_Date1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Audit Start Date --></label>
+        <name>CIP_Audit_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Audit Weekday Counter --></label>
+        <name>CIP_Audit_Weekday_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Auto Number --></label>
+        <name>CIP_Auto_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Detail Count --></label>
+        <name>CIP_Detail_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Effective Date --></label>
+        <name>CIP_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Effective Month --></label>
+        <name>CIP_Effective_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Effective Year --></label>
+        <name>CIP_Effective_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Exists --></label>
+        <name>CIP_Exists__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIP Topic --></label>
+        <name>CIP_Topic__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIPs --></label>
+        <name>CIPs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commingle Behavioral Health --></label>
+        <name>Commingle_Behavioral_Health__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commingle Rx Vendor --></label>
+        <name>Commingle_Rx_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conga Template ID --></label>
+        <name>Conga_Template_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covered Members --></label>
+        <name>Covered_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By Name --></label>
+        <name>Created_By_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date Time --></label>
+        <name>Created_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Group Number --></label>
+        <name>Custom_Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Pre-Cert Details --></label>
+        <name>Custom_Pre__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIf yes, please explain the changes made --></label>
+        <name>DIf_yes_please_explain_the_changes_made__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIf yes, please explain updates made --></label>
+        <name>DIf_yes_please_explain_those_updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Interface --></label>
+        <name>Data_Interface__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date CIP Status to SME --></label>
+        <name>Date_CIP_Status_to_SME__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days to Scheduled Discovery Call --></label>
+        <name>Days_to_Scheduled_Discovery_Call__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental --></label>
+        <name>Dental__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discovery Call Held: --></label>
+        <name>Discovery_Call_Held__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discovery call Desired? --></label>
+        <name>Discovery_call_Desired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Alert --></label>
+        <name>Display_Alert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division Name --></label>
+        <name>Division_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Want the SBC created by the SBC team? --></label>
+        <name>Do_you_want_the_SBC_created_by_the_SBC_t__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does Anthem Produce Benefit Booklets? --></label>
+        <name>Does_Anthem_Produce_Benefit_Booklets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does Anthem produce SBC&apos;s? --></label>
+        <name>Does_Anthem_produce_SBC_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does client have FSA? --></label>
+        <name>Does_client_have_FSA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does this request impact DIT? --></label>
+        <name>Does_this_request_impact_DIT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does this request require a new SBC? --></label>
+        <name>Does_this_request_require_a_new_SBC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does this require a new Benefit Booklet? --></label>
+        <name>Does_this_require_a_new_Benefit_Booklet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edit DIT --></label>
+        <name>Edit_DIT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligibility sent to 3rd party vendor? --></label>
+        <name>Eligibility_to_be_sent_to_3rd_party_vend__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Party Eligibility Vendor --></label>
+        <name>Eligible_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equity Health Integration --></label>
+        <name>Equity_Health_Integration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchanges --></label>
+        <name>Exchanges__c</name>
+    </fields>
+    <fields>
+        <label><!-- FMHP FI/Min Prem --></label>
+        <name>FI_Min_Prem__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSA Vendor --></label>
+        <name>FSA_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Federal Mental Health Parity UW Review? --></label>
+        <name>Federal_Mental_Health_Parity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fiduciary Services Sold? --></label>
+        <name>Fiduciary_Services_Sold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Pre-Certification Rules --></label>
+        <name>Final_Pre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finalized Flow --></label>
+        <name>Finalized_Flow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding Type --></label>
+        <name>Funding_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- GS Last Modified by Name --></label>
+        <name>GS_Last_Modified_by_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- GS SME Status --></label>
+        <name>GS_SME_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group NumberId --></label>
+        <name>Group_NumberId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Services Last Modified by Email --></label>
+        <name>Group_Services_Last_Modified_by_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- HCR Contact --></label>
+        <name>HCR_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- HCR Form --></label>
+        <name>HCR_Form__c</name>
+    </fields>
+    <fields>
+        <label><!-- HCR form included in prior submission? --></label>
+        <name>HCR_form_included__c</name>
+    </fields>
+    <fields>
+        <label><!-- History conv needed from prior carrier? --></label>
+        <name>History_conv_needed_from_carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Effective Date is Retro --></label>
+        <name>If_Effective_Date_is_Retro__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Migration, System Being Migrated From --></label>
+        <name>If_Migration_System_Being_Migrated_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- If so, please list UWR # --></label>
+        <name>If_so_please_list_UWR__c</name>
+    </fields>
+    <fields>
+        <label><!-- If yes, please explain the changes made --></label>
+        <name>If_yes_please_explain_the_changes_made_l__c</name>
+    </fields>
+    <fields>
+        <label><!-- If yes, please explain updates made --></label>
+        <name>If_yes_please_explain_updates_made_l__c</name>
+    </fields>
+    <fields>
+        <label><!-- If yes, indicate pkgs/CC changing --></label>
+        <name>If_yes_please_indicate_pkges_contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Codes/Packages &amp; Customization --></label>
+        <name>Impacted_Contract_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is the Client intent attached? --></label>
+        <name>Is_the_Client_intent_attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is this CIP intake for a client renewal? --></label>
+        <name>Is_this_CIP_intake_for_a_client_renewal__c</name>
+    </fields>
+    <fields>
+        <label><!-- JAA Group --></label>
+        <name>JAA_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- JAA Groupnew --></label>
+        <name>JAA_Groupnew__c</name>
+    </fields>
+    <fields>
+        <label><!-- JAA --></label>
+        <name>JAA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modified Date Capture --></label>
+        <name>Last_Modified_Date_Capture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modifier --></label>
+        <name>Last_Modifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mandatory legislative updates for Group? --></label>
+        <name>Mandatory_legislative_updates_for_group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Management --></label>
+        <name>Medical_Management__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration CIP --></label>
+        <name>Migration_CIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modification to an existing SBC --></label>
+        <name>Modification_to_an_existing_SBC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modification to existing benefit booklet --></label>
+        <name>Modification_to_existing_benefit_booklet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modification to existing booklet --></label>
+        <name>Modification_to_existing_booklet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modified Date Time --></label>
+        <name>Modified_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Multiple Vendors apply, list here: --></label>
+        <name>Multiple_3rd_Party_Eligibility_Vendors__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Multiple RX Vendors apply, list here: --></label>
+        <name>Multiple_Rx_Vendors__c</name>
+    </fields>
+    <fields>
+        <label><!-- National Account Quote Id --></label>
+        <name>National_Account_Quote_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- New NASCO HEQ? --></label>
+        <name>New_NASCO_HEQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- OPPTY CASESAFEID --></label>
+        <name>OPPTY_CASESAFEID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other 3rd Party Vendor --></label>
+        <name>Other_3rd_Party_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other BH Vendor --></label>
+        <name>Other_BH_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other FSA Vendor --></label>
+        <name>Other_FSA_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Rx Vendor --></label>
+        <name>Other_Rx_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Name Combined --></label>
+        <name>Owner_Name_Combined__c</name>
+    </fields>
+    <fields>
+        <label><!-- PEX --></label>
+        <name>PEX__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packages/suffixes/sections impacted --></label>
+        <name>Packages_suffixes_sections_impacted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Innovation Initiatives Exception --></label>
+        <name>Payment_Innovation_Initiatives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending AE AM Action Workflow --></label>
+        <name>Pending_AE_AM_Action_Workflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performance Guarantee Apply? --></label>
+        <name>Performance_Guarantee_Apply__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pharmacy/Rx --></label>
+        <name>Pharmacy_Rx__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan End Date --></label>
+        <name>Plan_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Start Date --></label>
+        <name>Plan_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Year Type --></label>
+        <name>Plan_Year_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plasm CR Number --></label>
+        <name>Plasm_CR_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre Implementation Audit --></label>
+        <name>Pre_Implementation_Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior SME MB Strings Value --></label>
+        <name>Prior_SME_MB_Strings_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior SME SP Strings Value --></label>
+        <name>Prior_SME_SP_Strings_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior Carrier --></label>
+        <name>Prior_Vendor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date --></label>
+        <name>Production_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEP Impacted Contract Codes / Packages --></label>
+        <name>Q3_Impacted_Contract_Codes_Packages__c</name>
+    </fields>
+    <fields>
+        <label><!-- QHE/MIA --></label>
+        <name>QHE_MIA__c</name>
+    </fields>
+    <fields>
+        <label><!-- RBB Castlight --></label>
+        <name>RBB_Castlight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Retro --></label>
+        <name>Reason_for_Retro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommended Next Steps --></label>
+        <name>Recommended_Next_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region AM --></label>
+        <name>Region_AM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reject Reasons --></label>
+        <name>Reject_Reasons__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Finalized Date --></label>
+        <name>Renewal_Finalized_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Notification Period --></label>
+        <name>Renewal_Notification_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>Request_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retro Status End --></label>
+        <name>Retro_Status_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retro Status Start --></label>
+        <name>Retro_Status_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retro Status Weekday Counter --></label>
+        <name>Retro_Status_Weekday_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision Description of Request --></label>
+        <name>Revision_Description_of_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision --></label>
+        <name>Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revison Notes and Attachments --></label>
+        <name>Revison_Notes_and_Attachments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rx Vendor --></label>
+        <name>Rx_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- SBC Due Back to Account Team --></label>
+        <name>SBC_Due_Back_to_Account_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy Group Number --></label>
+        <name>SFDC_Legacy_Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy LOB ID --></label>
+        <name>SFDC_Legacy_LOB_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy OGNID --></label>
+        <name>SFDC_Legacy_OGNID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Legacy Opportunity ID for Conga --></label>
+        <name>SFDC_Legacy_Opportunity_ID_for_Conga__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME MB Last Modified By --></label>
+        <name>SME_MB_Last_Modified_by__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME MB Strings Value --></label>
+        <name>SME_MB_Strings_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME SP Last Modified By --></label>
+        <name>SME_SP_Last_Modified_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- SME SP Strings Value --></label>
+        <name>SME_SP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situs State Lookup --></label>
+        <name>Situs_State_Lookup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System --></label>
+        <name>Source_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status change date --></label>
+        <name>Status_change_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student Max Age Limit Type --></label>
+        <name>Student_Max_Age_Limit_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student Max Age Limit --></label>
+        <name>Student_Max_Age_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject to ERISA? --></label>
+        <name>Subject_to_ERISA__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Platform --></label>
+        <name>System_Platform__c</name>
+    </fields>
+    <fields>
+        <label><!-- UWR No --></label>
+        <name>UWR_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has UWR --></label>
+        <name>UWR_Yes__c</name>
+    </fields>
+    <fields>
+        <label><!-- UWR # --></label>
+        <name>UWR__c</name>
+    </fields>
+    <fields>
+        <label><!-- VP --></label>
+        <name>VP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision --></label>
+        <name>Vision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Waiting Period for New Hires? --></label>
+        <name>Waiting_Period_for_New_Hires__c</name>
+    </fields>
+    <fields>
+        <label><!-- Was Discovery Call Held --></label>
+        <name>Was_Discovery_Call_Held__c</name>
+    </fields>
+    <fields>
+        <label><!-- Will Claims be referred to NCN? --></label>
+        <name>Will_Claims_be_referred_to_NCN__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Members Affected --></label>
+        <name>of_Members_Affected__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

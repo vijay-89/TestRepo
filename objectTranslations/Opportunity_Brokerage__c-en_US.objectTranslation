@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity Brokerage</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity Brokerages</value>
+    </caseValues>
+    <fields>
+        <help><!-- Associated brokerage accounts. --></help>
+        <label><!-- Brokerage Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- Please select an account of type brokerage. --></errorMessage>
+            <informationalMessage><!-- Please select an account of type brokerage. --></informationalMessage>
+        </lookupFilter>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Opportunity Brokerages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consultant --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Opportunity Brokerages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Brokerage Name --></label>
+        <name>Opportunity_Brokerage__c</name>
+    </fields>
+    <fields>
+        <help><!-- related opportunity --></help>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Opportunity Brokerages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Role --></label>
+        <name>Source_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Role --></label>
+        <name>Target_Role__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Medical Benefits</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Medical Benefits</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Demo --></label>
+        <name>Account_Demo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Entity --></label>
+        <name>Anthem_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved_Date_Completed --></label>
+        <name>Approved_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actual completion date for adjudication (WGS only) --></help>
+        <label><!-- Auto Adjudication ACD --></label>
+        <name>Auto_Adjudication_ACD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expected completion date for adjudication (WGS only) --></help>
+        <label><!-- Auto Adjudication ECD --></label>
+        <name>Auto_Adjudication_ECD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Adjudication Required --></label>
+        <name>Auto_Adjudication_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- BPD ACD --></label>
+        <name>BPD_ACD__c</name>
+    </fields>
+    <fields>
+        <label><!-- BPD Completion ECD --></label>
+        <name>BPD_Completion_ECD__c</name>
+    </fields>
+    <fields>
+        <label><!-- BPD Sent For Approval --></label>
+        <name>BPD_Sent_For_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- BPD Start Date --></label>
+        <name>BPD_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Analyst Assigned --></label>
+        <name>Benefit_Analyst_Assigned__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actual completion date for coding --></help>
+        <label><!-- Benefit Coding ACD --></label>
+        <name>Benefit_Coding_ACD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expected completion date for coding --></help>
+        <label><!-- Benefit Coding ECD --></label>
+        <name>Benefit_Coding_ECD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Coding Percent Completed --></label>
+        <name>Benefit_Coding_Precert_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Start date for coding --></help>
+        <label><!-- Benefit Coding Start Date --></label>
+        <name>Benefit_Coding_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Testing ACD --></label>
+        <name>Benefit_Testing_ACD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Testing Start Date --></label>
+        <name>Benefit_Testing_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blue Exchange Production Date --></label>
+        <name>Blue_Exchange_Production_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clean Paperwork --></label>
+        <name>Clean_Paperwork__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME Queue time --></label>
+        <name>Current_SME_Queue_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME time --></label>
+        <name>Current_SME_time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expected completion date --></help>
+        <label><!-- EBA Request ECD --></label>
+        <name>EBA_Request_ECD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actual completion date --></help>
+        <label><!-- EBA Requested ACD --></label>
+        <name>EBA_Requested_ACD__c</name>
+    </fields>
+    <fields>
+        <label><!-- EPID Product Config Approval Date --></label>
+        <name>EPID_Product_Config_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- EPID Product Config Submission Date --></label>
+        <name>EPID_Product_Config_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- EPID#s Assigned --></label>
+        <name>EPID_s_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Size --></label>
+        <name>Group_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- HPCC Association MBCC Completion --></label>
+        <name>HPCC_Association_MBCC_Completion__c</name>
+    </fields>
+    <fields>
+        <label><!-- HPCC Association MBCC Submission --></label>
+        <name>HPCC_Association_MBCC_Submission__c</name>
+    </fields>
+    <fields>
+        <label><!-- HQ State --></label>
+        <name>HQ_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Number --></label>
+        <name>Implementation_Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Start Date --></label>
+        <name>Implementation_Case_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effective Date --></label>
+        <name>Implementation_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Tracking ID --></label>
+        <name>Implementation_Tracking_ID__c</name>
+        <relationshipLabel><!-- Medical Benefits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation Type --></label>
+        <name>Implementation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- In_Progress_Date_Completed --></label>
+        <name>In_Progress_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- JAA Group --></label>
+        <name>JAA_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- Equivalent to EWM Record ID --></help>
+        <label><!-- JIRA Request ID --></label>
+        <name>JIRA_Request_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoggedinProfile --></label>
+        <name>LoggedinProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- MCS Group --></label>
+        <name>MCS_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- MedicalBenefits Check --></label>
+        <name>MedicalBenefits_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not_Started_Date_Completed --></label>
+        <name>Not_Started_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Status --></label>
+        <name>Overall_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- PendingCorrectionAction --></label>
+        <name>PendingCorrectionAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Creator --></label>
+        <name>Pending_Correction_Creator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Time --></label>
+        <name>Pending_Correction_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Corrections Stage --></label>
+        <name>Pending_Corrections_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date --></label>
+        <name>Production_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date when EBA receives request --></help>
+        <label><!-- Receipt Date --></label>
+        <name>Receipt_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situs State --></label>
+        <name>Situs_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>01 Not Started</masterLabel>
+            <translation><!-- 01 Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 In Progress</masterLabel>
+            <translation><!-- 02 In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction</masterLabel>
+            <translation><!-- 03 Pending Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction Returned</masterLabel>
+            <translation><!-- 03 Pending Correction Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 Approved</masterLabel>
+            <translation><!-- 04 Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 Declined</masterLabel>
+            <translation><!-- 05 Declined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status at EBA Request Level --></label>
+        <name>Status_at_EBA_Request_Level__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter total number of contract/package codes --></help>
+        <label><!-- Sub-Tasks --></label>
+        <name>Sub_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tech Support Medical Benefits --></label>
+        <name>Tech_Support_Medical_Benefits__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Medical Benefit --></label>
+        <name>Medical_Benefit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Medical Benefit_Local --></label>
+        <name>Medical_Benefit_Local</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

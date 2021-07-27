@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plan of Attack</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plans of Attack</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Plan --></label>
+        <name>Account_Plan__c</name>
+        <relationshipLabel><!-- Plans of Attack --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Plans of Attack --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Action 1 --></label>
+        <name>Action_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action 2 --></label>
+        <name>Action_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action 3 --></label>
+        <name>Action_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action 4 --></label>
+        <name>Action_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action 5 --></label>
+        <name>Action_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action A --></label>
+        <name>Action_A__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action B --></label>
+        <name>Action_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action C --></label>
+        <name>Action_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action D --></label>
+        <name>Action_D__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action E --></label>
+        <name>Action_E__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Plan --></label>
+        <name>Action_Plan__c</name>
+        <relationshipLabel><!-- Plans of Attack --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Benefit Objective --></label>
+        <name>Benefit_Objective__c</name>
+        <relationshipLabel><!-- Plans of Attack --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- By When 1 --></label>
+        <name>By_When_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- By When 2 --></label>
+        <name>By_When_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- By When 3 --></label>
+        <name>By_When_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- By When 4 --></label>
+        <name>By_When_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- By When 5 --></label>
+        <name>By_When_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- By When A --></label>
+        <name>By_When_A__c</name>
+    </fields>
+    <fields>
+        <label><!-- By When B --></label>
+        <name>By_When_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- By When C --></label>
+        <name>By_When_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- By When D --></label>
+        <name>By_When_D__c</name>
+    </fields>
+    <fields>
+        <label><!-- By When E --></label>
+        <name>By_When_E__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed 1 --></label>
+        <name>Completed_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed 2 --></label>
+        <name>Completed_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed 3 --></label>
+        <name>Completed_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed 4 --></label>
+        <name>Completed_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed 5 --></label>
+        <name>Completed_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed A --></label>
+        <name>Completed_A__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed B --></label>
+        <name>Completed_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed C --></label>
+        <name>Completed_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed D --></label>
+        <name>Completed_D__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed E --></label>
+        <name>Completed_E__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date 1 --></label>
+        <name>Execution_Date_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date 2 --></label>
+        <name>Execution_Date_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date 3 --></label>
+        <name>Execution_Date_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date 4 --></label>
+        <name>Execution_Date_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date 5 --></label>
+        <name>Execution_Date_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date A --></label>
+        <name>Execution_Date_A__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date B --></label>
+        <name>Execution_Date_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date C --></label>
+        <name>Execution_Date_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date D --></label>
+        <name>Execution_Date_D__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date E --></label>
+        <name>Execution_Date_E__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Resource A --></label>
+        <name>Other_Resource_A__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Resource B --></label>
+        <name>Other_Resource_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Resource C --></label>
+        <name>Other_Resource_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Resource D --></label>
+        <name>Other_Resource_D__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Resource E --></label>
+        <name>Other_Resource_E__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resources 1 --></label>
+        <name>Resources_1__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources 2 --></label>
+        <name>Resources_2__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources 3 --></label>
+        <name>Resources_3__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources 4 --></label>
+        <name>Resources_4__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources 5 --></label>
+        <name>Resources_5__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources A --></label>
+        <name>Resources_A__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources B --></label>
+        <name>Resources_B__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources C --></label>
+        <name>Resources_C__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources D --></label>
+        <name>Resources_D__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resources E --></label>
+        <name>Resources_E__c</name>
+        <picklistValues>
+            <masterLabel>Data Analytics</masterLabel>
+            <translation><!-- Data Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Experience</masterLabel>
+            <translation><!-- Member Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Leadership</masterLabel>
+            <translation><!-- Senior Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Who 1 --></label>
+        <name>Who_1__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Who 2 --></label>
+        <name>Who_2__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Who 3 --></label>
+        <name>Who_3__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Who 4 --></label>
+        <name>Who_4__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Who 5 --></label>
+        <name>Who_5__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Who A --></label>
+        <name>Who_A__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who A) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Who B --></label>
+        <name>Who_B__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who B) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Who C --></label>
+        <name>Who_C__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who C) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Who D --></label>
+        <name>Who_D__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who D) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Who E --></label>
+        <name>Who_E__c</name>
+        <relationshipLabel><!-- Plans of Attack (Who E) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+        <picklistValues>
+            <masterLabel>2017</masterLabel>
+            <translation><!-- 2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018</masterLabel>
+            <translation><!-- 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021</masterLabel>
+            <translation><!-- 2021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2022</masterLabel>
+            <translation><!-- 2022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2023</masterLabel>
+            <translation><!-- 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2024</masterLabel>
+            <translation><!-- 2024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2025</masterLabel>
+            <translation><!-- 2025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2026</masterLabel>
+            <translation><!-- 2026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2027</masterLabel>
+            <translation><!-- 2027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2028</masterLabel>
+            <translation><!-- 2028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2029</masterLabel>
+            <translation><!-- 2029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2030</masterLabel>
+            <translation><!-- 2030 --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

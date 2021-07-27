@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Enrollment_and_Billing__c.Account_Legal_Name__c</field>
+    </columns>
+    <columns>
+        <field>Enrollment_and_Billing__c.Stage__c</field>
+    </columns>
+    <columns>
+        <field>Enrollment_and_Billing__c.Sub_Stage__c</field>
+    </columns>
+    <columns>
+        <field>Enrollment_and_Billing__c.Initial_Enrollment_Submission_Type__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Enrollment_and_Billing__c.Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>04 Approved,05 Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Enrollment_and_Billing__c.Initial_Enrollment_Submission_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Employer Access,OME (Online Member Enrollment)</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Enrollment_and_Billing__c.Situs_State__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>New Membership Report - EA</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Enrollment_and_Billing__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Enrollment_and_Billing__c.Approved_Date_Completed__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

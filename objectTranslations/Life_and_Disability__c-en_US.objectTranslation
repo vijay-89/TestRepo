@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Life and Disability</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Life and Disabilities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Legal Name --></label>
+        <name>Account_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Entity --></label>
+        <name>Anthem_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval or Declined Time --></label>
+        <name>Approval_or_Declined_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved_Date_Completed --></label>
+        <name>Approved_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved or Declined Date --></label>
+        <name>Approved_or_Declined_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Implementer --></label>
+        <name>Assigned_Implementer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Complete Date --></label>
+        <name>Audit_Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Owner --></label>
+        <name>Audit_Owner__c</name>
+        <relationshipLabel><!-- Life and Disabilities (Audit Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Review Date --></label>
+        <name>Bill_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bravo Indicator --></label>
+        <name>Bravo_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- COMPLETE PAPERWORK RECEIVED IN IMPL --></label>
+        <name>COMPLETE_PAPERWORK_RECEIVED_IN_IMPL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Install Comments --></label>
+        <name>Case_Install_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Install Complete --></label>
+        <name>Case_Install_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Install Owner --></label>
+        <name>Case_Install_Owner__c</name>
+        <relationshipLabel><!-- Life and Disabilities (Case Install Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case Install Received date --></label>
+        <name>Case_Install_Received_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cert Complete --></label>
+        <name>Cert_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cert Sent Date --></label>
+        <name>Cert_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cert Start Date --></label>
+        <name>Cert_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cert Team Received Date --></label>
+        <name>Cert_Team_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim System --></label>
+        <name>Claim_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- CompassI Complete --></label>
+        <name>CompassI_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- CompassI Enrollment --></label>
+        <name>CompassI_Enrollment__c</name>
+    </fields>
+    <fields>
+        <label><!-- CompassI Received --></label>
+        <name>CompassI_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Code --></label>
+        <name>Contract_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Owner --></label>
+        <name>Contract_Owner__c</name>
+        <relationshipLabel><!-- Life and Disabilities (Contract Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Status --></label>
+        <name>Contract_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corrections</masterLabel>
+            <translation><!-- Corrections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Request</masterLabel>
+            <translation><!-- New Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Audit</masterLabel>
+            <translation><!-- Pending Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Compliance</masterLabel>
+            <translation><!-- Pending Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending L&amp;D Implementation</masterLabel>
+            <translation><!-- Pending L&amp;D Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work in Progress</masterLabel>
+            <translation><!-- Work in Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contracts Audit Complete Date --></label>
+        <name>Contracts_Audit_Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contracts Audit Owner --></label>
+        <name>Contracts_Audit_Owner__c</name>
+        <relationshipLabel><!-- Life and Disabilities (Contracts Audit Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contracts Audit Received Date --></label>
+        <name>Contracts_Audit_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contracts Corrections Complete --></label>
+        <name>Contracts_Corrections_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion Setup Complete --></label>
+        <name>Conversion_Setup_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correction Complete Date --></label>
+        <name>Correction_Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current SME time --></label>
+        <name>Current_SME_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Language Indicator --></label>
+        <name>Custom_Language_Indicator__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Custom Language --></label>
+        <name>Custom_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Master Account --></label>
+        <name>Customer_Master_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- DDS Enrollment Load Date --></label>
+        <name>DDS_Enrollment_Load_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DDS Group Load Date --></label>
+        <name>DDS_Group_Load_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Approved --></label>
+        <name>Date_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Implementations Notified Of Sale --></label>
+        <name>Date_Implementations_Notified_Of_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days From Assignment --></label>
+        <name>Days_From_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDI Comments --></label>
+        <name>EDI_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDI Owner --></label>
+        <name>EDI_Owner__c</name>
+        <relationshipLabel><!-- Life and Disabilities (EDI Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- EDI Processing Time --></label>
+        <name>EDI_Processing_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDI Received Date --></label>
+        <name>EDI_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- EDI Status --></label>
+        <name>EDI_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- First Impressions Needed --></label>
+        <name>First_Impressions_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Test File Received --></label>
+        <name>First_Test_File_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Size --></label>
+        <name>Group_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Products --></label>
+        <name>Impacted_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Name --></label>
+        <name>Implementation_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Start Date --></label>
+        <name>Implementation_Case_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Case Status --></label>
+        <name>Implementation_Case_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effective Date --></label>
+        <name>Implementation_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Tracking ID --></label>
+        <name>Implementation_Tracking_ID__c</name>
+        <relationshipLabel><!-- Life and Disabilities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation Type --></label>
+        <name>Implementation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- In_Progress_Date_Completed --></label>
+        <name>In_Progress_Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial L&amp;D Enrollment Type --></label>
+        <name>Initial_L_D_Enrollment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Applications</masterLabel>
+            <translation><!-- Applications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Census</masterLabel>
+            <translation><!-- Census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CompassI</masterLabel>
+            <translation><!-- CompassI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDI</masterLabel>
+            <translation><!-- EDI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Intake Type Migration --></label>
+        <name>Intake_Type_Migration__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsOwnerQueue --></label>
+        <name>IsOwnerQueue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Case Install Owner Logged In --></label>
+        <name>Is_Case_Install_Owner_Logged_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Contract Owner Logged In --></label>
+        <name>Is_Contract_Owner_Logged_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is EDI Owner Logged In --></label>
+        <name>Is_EDI_Owner_Logged_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is L&amp;D Audit Owner Logged In --></label>
+        <name>Is_L_D_Audit_Owner_Logged_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is L&amp;D DDS Detail Applicable --></label>
+        <name>Is_L_D_DDS_Detail_Applicable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Membership Owner Logged In --></label>
+        <name>Is_Membership_Owner_Logged_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Owner the Logged in user --></label>
+        <name>Is_Owner_the_Logged_in_users__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pending Correction Record Present --></label>
+        <name>Is_Pending_Correction_Record_Present__c</name>
+    </fields>
+    <fields>
+        <label><!-- JAA Group --></label>
+        <name>JAA_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Assigned --></label>
+        <name>LG_Date_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Case Install Status --></label>
+        <name>L_D_Case_Install_Status__c</name>
+        <picklistValues>
+            <masterLabel>Audit Complete</masterLabel>
+            <translation><!-- Audit Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Await Census</masterLabel>
+            <translation><!-- Await Census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Request</masterLabel>
+            <translation><!-- Bill Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Review</masterLabel>
+            <translation><!-- Bill Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corrections</masterLabel>
+            <translation><!-- Corrections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Audit</masterLabel>
+            <translation><!-- In Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Load Members</masterLabel>
+            <translation><!-- Load Members --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MASS LD</masterLabel>
+            <translation><!-- MASS LD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEU Review</masterLabel>
+            <translation><!-- MEU Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Members</masterLabel>
+            <translation><!-- Manual Members --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSR Assigned</masterLabel>
+            <translation><!-- PSR Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending back to Implementation</masterLabel>
+            <translation><!-- Pending back to Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup Started</masterLabel>
+            <translation><!-- Setup Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Case Number --></label>
+        <name>L_D_Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Check Date --></label>
+        <name>L_D_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Check --></label>
+        <name>L_D_Check__c</name>
+    </fields>
+    <fields>
+        <help><!-- To be used by Contracts, E&amp;B, etc. --></help>
+        <label><!-- L&amp;D Operations Comments --></label>
+        <name>L_D_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Complete --></label>
+        <name>L_D_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Enrollment and Billing Source System --></label>
+        <name>L_D_Enrollment_and_Billing_Source_System__c</name>
+        <picklistValues>
+            <masterLabel>COMPASS</masterLabel>
+            <translation><!-- COMPASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FACETS</masterLabel>
+            <translation><!-- FACETS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WGS</masterLabel>
+            <translation><!-- WGS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D File Type --></label>
+        <name>L_D_File_Type__c</name>
+        <picklistValues>
+            <masterLabel>834</masterLabel>
+            <translation><!-- 834 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass PF</masterLabel>
+            <translation><!-- Compass PF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass PF/AHW</masterLabel>
+            <translation><!-- Compass PF/AHW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LDex</masterLabel>
+            <translation><!-- LDex --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Membership Status --></label>
+        <name>L_D_Membership_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enrolling</masterLabel>
+            <translation><!-- Enrolling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pend In</masterLabel>
+            <translation><!-- Pend In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pend Out – Missing info</masterLabel>
+            <translation><!-- Pend Out – Missing info --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Product Sold --></label>
+        <name>L_D_Product_Sold__c</name>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Product Type --></label>
+        <name>L_D_Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Basic BCBS Build Only</masterLabel>
+            <translation><!-- Basic BCBS Build Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic BCBS with Complex L/D GGL Build</masterLabel>
+            <translation><!-- Basic BCBS with Complex L/D GGL Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L/D (Complex) GGL Build Only</masterLabel>
+            <translation><!-- L/D (Complex) GGL Build Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Received --></label>
+        <name>L_D_Received__c</name>
+    </fields>
+    <fields>
+        <help><!-- To be used by L&amp;D IC. --></help>
+        <label><!-- L&amp;D IC Comments --></label>
+        <name>L_D_SME_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D SME --></label>
+        <name>L_D_SME__c</name>
+        <relationshipLabel><!-- Life and Disabilities (L&amp;D SME) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Stage --></label>
+        <name>L_D_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiated</masterLabel>
+            <translation><!-- Initiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Captures Date When The Dental_Complete Check Field Is True --></help>
+        <label><!-- Life and Disability Check Date --></label>
+        <name>Life_and_Disability_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Life and Disability Original Check Date --></label>
+        <name>Life_and_Disability_Original_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Life and Disability Original Date Check --></label>
+        <name>Life_and_Disability_Original_Date_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoggedinProfile --></label>
+        <name>LoggedinProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- MCS Group --></label>
+        <name>MCS_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Membership Comments --></label>
+        <name>Membership_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Membership Complete --></label>
+        <name>Membership_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Membership Owner --></label>
+        <name>Membership_Owner__c</name>
+        <relationshipLabel><!-- Life and Disabilities (Membership Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Membership Received --></label>
+        <name>Membership_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Membership Start --></label>
+        <name>Membership_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Moved to Prod --></label>
+        <name>Moved_to_Prod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Started Date --></label>
+        <name>Not_Started_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type --></label>
+        <name>Opportunity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Date Captured --></label>
+        <name>Original_Date_Captured__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original L&amp;D Complete Date --></label>
+        <name>Original_L_D_Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Status --></label>
+        <name>Overall_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pend Date In --></label>
+        <name>Pend_Date_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pend Date Out --></label>
+        <name>Pend_Date_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- PendingCorrectionAction --></label>
+        <name>PendingCorrectionAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Date --></label>
+        <name>Pending_Correction_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Corrections Stage --></label>
+        <name>Pending_Correction_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction Time --></label>
+        <name>Pending_Correction_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction to Approved/Declined --></label>
+        <name>Pending_Correction_to_Approved_Declined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Correction to Not Started --></label>
+        <name>Pending_Correction_to_Not_Started__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending SME Review Initiated --></label>
+        <name>Pending_SME_Review_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Time --></label>
+        <name>Pending_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Families --></label>
+        <name>Product_Families__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Code --></label>
+        <name>Product_Line_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date --></label>
+        <name>Production_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quote ID(s) from SRQ to be sent to Customer Master. --></help>
+        <label><!-- Quote ID --></label>
+        <name>Quote_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Name --></label>
+        <name>Quote_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready for Cert --></label>
+        <name>Ready_for_Cert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Form Received --></label>
+        <name>Registration_Form_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Form Sent --></label>
+        <name>Registration_Form_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Time --></label>
+        <name>Registration_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reissue Certificates? --></label>
+        <name>Reissue_Certificates__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SME Approvals --></label>
+        <name>SME_Approvals__c</name>
+        <relationshipLabel><!-- Life and Disabilities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sent to Audit --></label>
+        <name>Sent_to_Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situs State --></label>
+        <name>Situs_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specialty Implementation Type --></label>
+        <name>Specialty_Implementation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>01 Not Started</masterLabel>
+            <translation><!-- 01 Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 Work In Progress</masterLabel>
+            <translation><!-- 02 Work In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction</masterLabel>
+            <translation><!-- 03 Pending Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Pending Correction Returned</masterLabel>
+            <translation><!-- 03 Pending Correction Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 Approved</masterLabel>
+            <translation><!-- 04 Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 Declined</masterLabel>
+            <translation><!-- 05 Declined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Structure Sent --></label>
+        <name>Structure_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Structure Time --></label>
+        <name>Structure_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Stage --></label>
+        <name>Sub_Stage__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Enrollment</masterLabel>
+            <translation><!-- Pending Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Guarantee - no action needed</masterLabel>
+            <translation><!-- Rate Guarantee - no action needed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tech Support L&amp;D --></label>
+        <name>Tech_Support_L_D__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is How Long It Took The SME Department To Approve/Deny A SME Record --></help>
+        <label><!-- Time To Approve/Deny --></label>
+        <name>Time_To_Approve_Deny__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Is How Long It Took A SME Department To Submit A Pending Correction --></help>
+        <label><!-- Time To Pend --></label>
+        <name>Time_To_Pend__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum Of Time To Pend And Time To Approve/Deny --></help>
+        <label><!-- Time in SME Dept --></label>
+        <name>Time_in_SME_Dept__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time in Testing --></label>
+        <name>Time_in_Testing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Processing Time --></label>
+        <name>Total_Processing_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Time SME Record Was In The SME Department And The Sales Support/Implementations Department --></help>
+        <label><!-- Total Time --></label>
+        <name>Total_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell --></label>
+        <name>Upsell__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor Name --></label>
+        <name>Vendor_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cert Sent Date cannot be before Cert Team Received Date --></errorMessage>
+        <name>Cert_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Custom Language is Required if “Custom Language Indicator” is marked as “Yes” --></errorMessage>
+        <name>Custom_Language_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

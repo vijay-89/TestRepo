@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NLP EndPoint Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NLP_EndPoint_Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- ApiKey --></label>
+        <name>ApiKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Point --></label>
+        <name>End_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsSandbox --></label>
+        <name>IsSandbox__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

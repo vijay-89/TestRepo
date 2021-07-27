@@ -1,0 +1,2659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Acceptance Criteria --></label>
+        <name>Acceptance_Criteria__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days estimated for Adaptation and Ongoing Support. --></help>
+        <label><!-- Adapt &amp; Ongoing Support --></label>
+        <name>Adapt__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days estimated to complete Build and Unit Test phase. --></help>
+        <label><!-- Build --></label>
+        <name>BUT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build Total --></label>
+        <name>Build_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value is calculated by the selection of the Business Benefit field: 
+High = 3 
+Medium = 2 
+Low = 1 --></help>
+        <label><!-- Business Benefit Value --></label>
+        <name>Business_Benefit_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Low: Does Not Drive Revenue or Reduce Costs 
+Medium: Drives Revenue or Reduces Costs (quantify amount, if possible) 
+High: Drives Revenue and Reduces Costs (quantify amount for both, if possible) --></help>
+        <label><!-- Business Benefit --></label>
+        <name>Business_Benefit__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is a Required Field for scoping.  Includes the details of why this request would be implemented, and the expected business value --></help>
+        <label><!-- Business Value Details --></label>
+        <name>Business_Value_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capability MVP --></label>
+        <name>Capability_MVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capability --></label>
+        <lookupFilter>
+            <errorMessage><!-- Please choose a sub-capability. --></errorMessage>
+        </lookupFilter>
+        <name>Capability__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Emergency: A known error in existing functionality 
+Feature/Function: Enhancement or modification to an existing functionality 
+New Capability: New functionality to support process 
+Ongoing Maintenance: Activities that need to be performed regularly --></help>
+        <label><!-- Capacity Type --></label>
+        <name>Capacity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Emergency</masterLabel>
+            <translation><!-- Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature/Function</masterLabel>
+            <translation><!-- Feature/Function --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Capability</masterLabel>
+            <translation><!-- New Capability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ongoing Maintenance</masterLabel>
+            <translation><!-- Ongoing Maintenance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Capture Mode --></label>
+        <name>Capture_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Offline</masterLabel>
+            <translation><!-- Offline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation><!-- Implementation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client Request ID --></label>
+        <name>Client_Request_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Closed/Deferred --></label>
+        <name>Closed_Deferred__c</name>
+        <picklistValues>
+            <masterLabel>Closed: Architecturally Not Recommended</masterLabel>
+            <translation><!-- Closed: Architecturally Not Recommended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed: Canceled by Business</masterLabel>
+            <translation><!-- Closed: Canceled by Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed: Duplicate</masterLabel>
+            <translation><!-- Closed: Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed: Existing Functionality</masterLabel>
+            <translation><!-- Closed: Existing Functionality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed: Satisfied Through Business Process Change</masterLabel>
+            <translation><!-- Closed: Satisfied Through Business Process Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed: Technically Not Feasible</masterLabel>
+            <translation><!-- Closed: Technically Not Feasible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deferred: Aligned to Future State Capabilities</masterLabel>
+            <translation><!-- Deferred: Aligned to Future State Capabilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deferred: Product Enhancement Request</masterLabel>
+            <translation><!-- Deferred: Product Enhancement Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deferred: Waiting Approval</masterLabel>
+            <translation><!-- Deferred: Waiting Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deferred: Waiting Architecture Availabiity</masterLabel>
+            <translation><!-- Deferred: Waiting Architecture Availabiity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason Closed/Deferred Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complexity --></label>
+        <name>Complexity__c</name>
+        <picklistValues>
+            <masterLabel>Complex</masterLabel>
+            <translation><!-- Complex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple</masterLabel>
+            <translation><!-- Simple --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Overall Contingency allowed in percentage. --></help>
+        <label><!-- Overall Contingency(%) --></label>
+        <name>Cont__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan</masterLabel>
+            <translation><!-- Afghanistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aland Islands</masterLabel>
+            <translation><!-- Aland Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albania</masterLabel>
+            <translation><!-- Albania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Algeria</masterLabel>
+            <translation><!-- Algeria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angola</masterLabel>
+            <translation><!-- Angola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anguilla</masterLabel>
+            <translation><!-- Anguilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antarctica</masterLabel>
+            <translation><!-- Antarctica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antigua and Barbuda</masterLabel>
+            <translation><!-- Antigua and Barbuda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armenia</masterLabel>
+            <translation><!-- Armenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aruba</masterLabel>
+            <translation><!-- Aruba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azerbaijan</masterLabel>
+            <translation><!-- Azerbaijan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahamas</masterLabel>
+            <translation><!-- Bahamas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahrain</masterLabel>
+            <translation><!-- Bahrain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangladesh</masterLabel>
+            <translation><!-- Bangladesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbados</masterLabel>
+            <translation><!-- Barbados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belarus</masterLabel>
+            <translation><!-- Belarus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation><!-- Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize</masterLabel>
+            <translation><!-- Belize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benin</masterLabel>
+            <translation><!-- Benin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bermuda</masterLabel>
+            <translation><!-- Bermuda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bhutan</masterLabel>
+            <translation><!-- Bhutan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolivia, Plurinational State of</masterLabel>
+            <translation><!-- Bolivia, Plurinational State of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonaire, Sint Eustatius and Saba</masterLabel>
+            <translation><!-- Bonaire, Sint Eustatius and Saba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia and Herzegovina</masterLabel>
+            <translation><!-- Bosnia and Herzegovina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation><!-- Botswana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bouvet Island</masterLabel>
+            <translation><!-- Bouvet Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>British Indian Ocean Territory</masterLabel>
+            <translation><!-- British Indian Ocean Territory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brunei Darussalam</masterLabel>
+            <translation><!-- Brunei Darussalam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation><!-- Bulgaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burkina Faso</masterLabel>
+            <translation><!-- Burkina Faso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burundi</masterLabel>
+            <translation><!-- Burundi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambodia</masterLabel>
+            <translation><!-- Cambodia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cameroon</masterLabel>
+            <translation><!-- Cameroon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Verde</masterLabel>
+            <translation><!-- Cape Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cayman Islands</masterLabel>
+            <translation><!-- Cayman Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central African Republic</masterLabel>
+            <translation><!-- Central African Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chad</masterLabel>
+            <translation><!-- Chad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christmas Island</masterLabel>
+            <translation><!-- Christmas Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cocos (Keeling) Islands</masterLabel>
+            <translation><!-- Cocos (Keeling) Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia</masterLabel>
+            <translation><!-- Colombia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comoros</masterLabel>
+            <translation><!-- Comoros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo</masterLabel>
+            <translation><!-- Congo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo, the Democratic Republic of the</masterLabel>
+            <translation><!-- Congo, the Democratic Republic of the --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cook Islands</masterLabel>
+            <translation><!-- Cook Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation><!-- Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cote d&apos;Ivoire</masterLabel>
+            <translation><!-- Cote d&apos;Ivoire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation><!-- Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuba</masterLabel>
+            <translation><!-- Cuba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curaçao</masterLabel>
+            <translation><!-- Curaçao --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus</masterLabel>
+            <translation><!-- Cyprus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation><!-- Czech Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation><!-- Denmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djibouti</masterLabel>
+            <translation><!-- Djibouti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominica</masterLabel>
+            <translation><!-- Dominica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Republic</masterLabel>
+            <translation><!-- Dominican Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador</masterLabel>
+            <translation><!-- Ecuador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt</masterLabel>
+            <translation><!-- Egypt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador</masterLabel>
+            <translation><!-- El Salvador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equatorial Guinea</masterLabel>
+            <translation><!-- Equatorial Guinea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eritrea</masterLabel>
+            <translation><!-- Eritrea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation><!-- Estonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethiopia</masterLabel>
+            <translation><!-- Ethiopia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falkland Islands (Malvinas)</masterLabel>
+            <translation><!-- Falkland Islands (Malvinas) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faroe Islands</masterLabel>
+            <translation><!-- Faroe Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiji</masterLabel>
+            <translation><!-- Fiji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation><!-- Finland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Guiana</masterLabel>
+            <translation><!-- French Guiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Polynesia</masterLabel>
+            <translation><!-- French Polynesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Southern Territories</masterLabel>
+            <translation><!-- French Southern Territories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabon</masterLabel>
+            <translation><!-- Gabon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gambia</masterLabel>
+            <translation><!-- Gambia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana</masterLabel>
+            <translation><!-- Ghana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gibraltar</masterLabel>
+            <translation><!-- Gibraltar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation><!-- Greece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenland</masterLabel>
+            <translation><!-- Greenland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grenada</masterLabel>
+            <translation><!-- Grenada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadeloupe</masterLabel>
+            <translation><!-- Guadeloupe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala</masterLabel>
+            <translation><!-- Guatemala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guernsey</masterLabel>
+            <translation><!-- Guernsey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea</masterLabel>
+            <translation><!-- Guinea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea-Bissau</masterLabel>
+            <translation><!-- Guinea-Bissau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guyana</masterLabel>
+            <translation><!-- Guyana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haiti</masterLabel>
+            <translation><!-- Haiti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heard Island and McDonald Islands</masterLabel>
+            <translation><!-- Heard Island and McDonald Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holy See (Vatican City State)</masterLabel>
+            <translation><!-- Holy See (Vatican City State) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras</masterLabel>
+            <translation><!-- Honduras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation><!-- Hungary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation><!-- Iceland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation><!-- Indonesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iran, Islamic Republic of</masterLabel>
+            <translation><!-- Iran, Islamic Republic of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iraq</masterLabel>
+            <translation><!-- Iraq --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation><!-- Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isle of Man</masterLabel>
+            <translation><!-- Isle of Man --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel</masterLabel>
+            <translation><!-- Israel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamaica</masterLabel>
+            <translation><!-- Jamaica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jersey</masterLabel>
+            <translation><!-- Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan</masterLabel>
+            <translation><!-- Jordan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kazakhstan</masterLabel>
+            <translation><!-- Kazakhstan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya</masterLabel>
+            <translation><!-- Kenya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiribati</masterLabel>
+            <translation><!-- Kiribati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, Democratic People&apos;s Republic of</masterLabel>
+            <translation><!-- Korea, Democratic People&apos;s Republic of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, Republic of</masterLabel>
+            <translation><!-- Korea, Republic of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwait</masterLabel>
+            <translation><!-- Kuwait --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kyrgyzstan</masterLabel>
+            <translation><!-- Kyrgyzstan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lao People&apos;s Democratic Republic</masterLabel>
+            <translation><!-- Lao People&apos;s Democratic Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation><!-- Latvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebanon</masterLabel>
+            <translation><!-- Lebanon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lesotho</masterLabel>
+            <translation><!-- Lesotho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia</masterLabel>
+            <translation><!-- Liberia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libya</masterLabel>
+            <translation><!-- Libya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein</masterLabel>
+            <translation><!-- Liechtenstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation><!-- Lithuania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation><!-- Luxembourg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macao</masterLabel>
+            <translation><!-- Macao --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macedonia, the former Yugoslav Republic of</masterLabel>
+            <translation><!-- Macedonia, the former Yugoslav Republic of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madagascar</masterLabel>
+            <translation><!-- Madagascar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malawi</masterLabel>
+            <translation><!-- Malawi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation><!-- Malaysia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maldives</masterLabel>
+            <translation><!-- Maldives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mali</masterLabel>
+            <translation><!-- Mali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation><!-- Malta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinique</masterLabel>
+            <translation><!-- Martinique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritania</masterLabel>
+            <translation><!-- Mauritania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritius</masterLabel>
+            <translation><!-- Mauritius --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayotte</masterLabel>
+            <translation><!-- Mayotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldova, Republic of</masterLabel>
+            <translation><!-- Moldova, Republic of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monaco</masterLabel>
+            <translation><!-- Monaco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mongolia</masterLabel>
+            <translation><!-- Mongolia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montenegro</masterLabel>
+            <translation><!-- Montenegro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morocco</masterLabel>
+            <translation><!-- Morocco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation><!-- Mozambique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myanmar</masterLabel>
+            <translation><!-- Myanmar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation><!-- Namibia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauru</masterLabel>
+            <translation><!-- Nauru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepal</masterLabel>
+            <translation><!-- Nepal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Caledonia</masterLabel>
+            <translation><!-- New Caledonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua</masterLabel>
+            <translation><!-- Nicaragua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niger</masterLabel>
+            <translation><!-- Niger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria</masterLabel>
+            <translation><!-- Nigeria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niue</masterLabel>
+            <translation><!-- Niue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norfolk Island</masterLabel>
+            <translation><!-- Norfolk Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation><!-- Norway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oman</masterLabel>
+            <translation><!-- Oman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan</masterLabel>
+            <translation><!-- Pakistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palestine</masterLabel>
+            <translation><!-- Palestine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama</masterLabel>
+            <translation><!-- Panama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papua New Guinea</masterLabel>
+            <translation><!-- Papua New Guinea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraguay</masterLabel>
+            <translation><!-- Paraguay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation><!-- Peru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pitcairn</masterLabel>
+            <translation><!-- Pitcairn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qatar</masterLabel>
+            <translation><!-- Qatar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reunion</masterLabel>
+            <translation><!-- Reunion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation><!-- Romania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian Federation</masterLabel>
+            <translation><!-- Russian Federation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda</masterLabel>
+            <translation><!-- Rwanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Barthélemy</masterLabel>
+            <translation><!-- Saint Barthélemy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Helena, Ascension and Tristan da Cunha</masterLabel>
+            <translation><!-- Saint Helena, Ascension and Tristan da Cunha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Kitts and Nevis</masterLabel>
+            <translation><!-- Saint Kitts and Nevis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Lucia</masterLabel>
+            <translation><!-- Saint Lucia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Martin (French part)</masterLabel>
+            <translation><!-- Saint Martin (French part) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Pierre and Miquelon</masterLabel>
+            <translation><!-- Saint Pierre and Miquelon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Vincent and the Grenadines</masterLabel>
+            <translation><!-- Saint Vincent and the Grenadines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoa</masterLabel>
+            <translation><!-- Samoa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Marino</masterLabel>
+            <translation><!-- San Marino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sao Tome and Principe</masterLabel>
+            <translation><!-- Sao Tome and Principe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saudi Arabia</masterLabel>
+            <translation><!-- Saudi Arabia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senegal</masterLabel>
+            <translation><!-- Senegal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia</masterLabel>
+            <translation><!-- Serbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seychelles</masterLabel>
+            <translation><!-- Seychelles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Leone</masterLabel>
+            <translation><!-- Sierra Leone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sint Maarten (Dutch part)</masterLabel>
+            <translation><!-- Sint Maarten (Dutch part) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation><!-- Slovakia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation><!-- Slovenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solomon Islands</masterLabel>
+            <translation><!-- Solomon Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somalia</masterLabel>
+            <translation><!-- Somalia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Georgia and the South Sandwich Islands</masterLabel>
+            <translation><!-- South Georgia and the South Sandwich Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Sudan</masterLabel>
+            <translation><!-- South Sudan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka</masterLabel>
+            <translation><!-- Sri Lanka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sudan</masterLabel>
+            <translation><!-- Sudan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suriname</masterLabel>
+            <translation><!-- Suriname --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Svalbard and Jan Mayen</masterLabel>
+            <translation><!-- Svalbard and Jan Mayen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swaziland</masterLabel>
+            <translation><!-- Swaziland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation><!-- Sweden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syrian Arab Republic</masterLabel>
+            <translation><!-- Syrian Arab Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation><!-- Taiwan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tajikistan</masterLabel>
+            <translation><!-- Tajikistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania, United Republic of</masterLabel>
+            <translation><!-- Tanzania, United Republic of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation><!-- Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timor-Leste</masterLabel>
+            <translation><!-- Timor-Leste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Togo</masterLabel>
+            <translation><!-- Togo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tokelau</masterLabel>
+            <translation><!-- Tokelau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonga</masterLabel>
+            <translation><!-- Tonga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trinidad and Tobago</masterLabel>
+            <translation><!-- Trinidad and Tobago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tunisia</masterLabel>
+            <translation><!-- Tunisia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkmenistan</masterLabel>
+            <translation><!-- Turkmenistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turks and Caicos Islands</masterLabel>
+            <translation><!-- Turks and Caicos Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuvalu</masterLabel>
+            <translation><!-- Tuvalu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda</masterLabel>
+            <translation><!-- Uganda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukraine</masterLabel>
+            <translation><!-- Ukraine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Arab Emirates</masterLabel>
+            <translation><!-- United Arab Emirates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation><!-- United Kingdom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States</masterLabel>
+            <translation><!-- United States --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation><!-- Uruguay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uzbekistan</masterLabel>
+            <translation><!-- Uzbekistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanuatu</masterLabel>
+            <translation><!-- Vanuatu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venezuela, Bolivarian Republic of</masterLabel>
+            <translation><!-- Venezuela, Bolivarian Republic of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viet Nam</masterLabel>
+            <translation><!-- Viet Nam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virgin Islands, British</masterLabel>
+            <translation><!-- Virgin Islands, British --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallis and Futuna</masterLabel>
+            <translation><!-- Wallis and Futuna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Sahara</masterLabel>
+            <translation><!-- Western Sahara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yemen</masterLabel>
+            <translation><!-- Yemen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia</masterLabel>
+            <translation><!-- Zambia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe</masterLabel>
+            <translation><!-- Zimbabwe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Criticality --></label>
+        <name>Criticality__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approve: Approved to Deploy --></label>
+        <name>Days_On_Approve_Approved_to_Deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days On Approved Emergency Release --></label>
+        <name>Days_On_Approved_Emergency_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close: Deployed --></label>
+        <name>Days_On_Close_Deployed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close: Duplicate --></label>
+        <name>Days_On_Close_Duplicate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close: Rejected --></label>
+        <name>Days_On_Close_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consolidate: Approve to Estimate --></label>
+        <name>Days_On_Consolidate_Approve_to_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days On Identify: Change Request --></label>
+        <name>Days_On_Identify_Change_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identify: Deferred --></label>
+        <name>Days_On_Identify_Deferred__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days On Identify: Emergency Request --></label>
+        <name>Days_On_Identify_Emergency_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identify: New Requirement --></label>
+        <name>Days_On_Identify_New_Requirement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level of Effort Complete --></label>
+        <name>Days_On_Level_of_Effort_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release: Build Production --></label>
+        <name>Days_On_Release_Build_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release: Build --></label>
+        <name>Days_On_Release_Build__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release: Design --></label>
+        <name>Days_On_Release_Design__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days On Release: No Build Req --></label>
+        <name>Days_On_Release_No_Build_Req__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release: SIT --></label>
+        <name>Days_On_Release_SIT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release: Test Production --></label>
+        <name>Days_On_Release_Test_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release: Test --></label>
+        <name>Days_On_Release_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release: UAT --></label>
+        <name>Days_On_Release_UAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submit for Business Review --></label>
+        <name>Days_On_Submit_for_Business_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Status --></label>
+        <name>Demo_Status__c</name>
+        <picklistValues>
+            <masterLabel>Can Demo</masterLabel>
+            <translation><!-- Can Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo Complete</masterLabel>
+            <translation><!-- Demo Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redo Demo</masterLabel>
+            <translation><!-- Redo Demo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Number of days estimated for the Design phase. --></help>
+        <label><!-- Design --></label>
+        <name>Des__c</name>
+    </fields>
+    <fields>
+        <label><!-- Design Total --></label>
+        <name>Design_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Developer Assigned --></label>
+        <name>DeveloperAssigned__c</name>
+        <relationshipLabel><!-- Requests (Developer Assigned) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Estimate Assumption --></label>
+        <name>Estimate_Assumption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimate Notes --></label>
+        <name>Estimate_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exists in Current Salesforce --></label>
+        <name>Exists_in_Current_Salesforce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fit/Gap Status --></label>
+        <name>Fit_Gap_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>For Review</masterLabel>
+            <translation><!-- For Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fit/Gap? --></label>
+        <name>Fit_or_Gap__c</name>
+        <picklistValues>
+            <masterLabel>Fit</masterLabel>
+            <translation><!-- Fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gap</masterLabel>
+            <translation><!-- Gap --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Include information about the impacts the functionality will have to the end user. Specifically, what they will see on the interface, how often the data will be updated, etc. --></help>
+        <label><!-- Functional Description --></label>
+        <name>Functional_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gap Difficulty? --></label>
+        <name>Gap_Difficulty__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gap Area? --></label>
+        <name>Gap_Object__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation><!-- Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current System Configuration</masterLabel>
+            <translation><!-- Current System Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhancement</masterLabel>
+            <translation><!-- Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Form</masterLabel>
+            <translation><!-- Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interface</masterLabel>
+            <translation><!-- Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting</masterLabel>
+            <translation><!-- Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC Configuration</masterLabel>
+            <translation><!-- SFDC Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflows</masterLabel>
+            <translation><!-- Workflows --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gap Priority? --></label>
+        <name>Gap_Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must Have</masterLabel>
+            <translation><!-- Must Have --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Outcome from Initial Assessment. --></help>
+        <label><!-- Initial Assessment --></label>
+        <name>Initial_Assessment__c</name>
+        <picklistValues>
+            <masterLabel>No current solution or workaround available.</masterLabel>
+            <translation><!-- No current solution or workaround available. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution available</masterLabel>
+            <translation><!-- Solution available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workaround available</masterLabel>
+            <translation><!-- Workaround available --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Level 3 Process --></label>
+        <name>Level_3_Process__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value is calculated by the Level of Effort formula field. 
+High = 1 
+Medium = 2 
+Low = 3 --></help>
+        <label><!-- Level of Effort Value --></label>
+        <name>Level_of_Effort_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Low: Requires Less Than 8 Days of Work Effort 
+Medium: Requires 8.01 - 20 Days of Work Effort 
+High: Requires More Than 20.01 Days of Work Effort --></help>
+        <label><!-- Level of Effort --></label>
+        <name>Level_of_Effort__c</name>
+    </fields>
+    <fields>
+        <label><!-- MVP --></label>
+        <name>MVP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Milestone --></label>
+        <name>Milestone__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- # of Units --></label>
+        <name>Number_of_Units__c</name>
+    </fields>
+    <fields>
+        <help><!-- In days --></help>
+        <label><!-- On-Shore Estimate --></label>
+        <name>On_Shore_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Gap Area? --></label>
+        <name>Other_Gap_Area__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value is calculated based on the value in the Total Priority Ranking field: 
+High = Any value greater than or equal to 2.50 
+Medium = Any value between 1.50 and 2.49 
+Low = Any value less than 1.50 --></help>
+        <label><!-- Overall Priority --></label>
+        <name>Overall_Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Request Title --></label>
+        <name>Parent_Request_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Track Parent / Child Requirement relationships. Also use to relate a Duplicate with the Open Request. --></help>
+        <label><!-- Parent Request --></label>
+        <name>Parent_Request__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Percentage Build Complete --></label>
+        <name>Percentage_Build_Complete__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the suggested release in which the requirement should be deployed. --></help>
+        <label><!-- Planned Release --></label>
+        <name>Planned_Release__c</name>
+        <relationshipLabel><!-- Requests (Planned Release) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Flow Step --></label>
+        <name>Process_Flow_Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Feature --></label>
+        <name>Product_Feature__c</name>
+        <picklistValues>
+            <masterLabel>DocuSign</masterLabel>
+            <translation><!-- DocuSign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC Automation</masterLabel>
+            <translation><!-- SFDC Automation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC Platform</masterLabel>
+            <translation><!-- SFDC Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC Shield</masterLabel>
+            <translation><!-- SFDC Shield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vlocity Benefits Onboarding</masterLabel>
+            <translation><!-- Vlocity Benefits Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vlocity CLM</masterLabel>
+            <translation><!-- Vlocity CLM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vlocity Cards</masterLabel>
+            <translation><!-- Vlocity Cards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vlocity OmniScript</masterLabel>
+            <translation><!-- Vlocity OmniScript --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Promoted to Environment --></label>
+        <name>Promoted_to_Environment__c</name>
+        <picklistValues>
+            <masterLabel>Config</masterLabel>
+            <translation><!-- Config --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prod</masterLabel>
+            <translation><!-- Prod --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proto</masterLabel>
+            <translation><!-- Proto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smoke</masterLabel>
+            <translation><!-- Smoke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staging</masterLabel>
+            <translation><!-- Staging --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- A request can only be a quick hit if the IT level of effort is “low”, Business priority is “high”, the urgency of having the request is immediate, and the request can be implemented without impacting integration. --></help>
+        <label><!-- Quick Hit --></label>
+        <name>Quick_Hit__c</name>
+    </fields>
+    <fields>
+        <label><!-- RICEFW Complexity --></label>
+        <name>RICEFW_Complexity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Release + RICEFW Object + RICEFW # --></help>
+        <label><!-- RICEFW ID --></label>
+        <name>RICEFW_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose a RICEFW Inventory record to fill the gap. You may need to create a RICEFW Inventory record if the applicable one does not yet exist. --></help>
+        <label><!-- RICEFW Inventory Name --></label>
+        <name>RICEFW_Inventory_Name__c</name>
+        <relationshipLabel><!-- Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RICEFW New / Modified --></label>
+        <name>RICEFW_New_Modified__c</name>
+    </fields>
+    <fields>
+        <label><!-- RICEFW Object --></label>
+        <name>RICEFW_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- RICEFW Priority --></label>
+        <name>RICEFW_Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- RICEFW System Impacted --></label>
+        <name>RICEFW_System_Impacted__c</name>
+    </fields>
+    <fields>
+        <label><!-- RICEFW Type --></label>
+        <name>RICEFW_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready for Business Review --></label>
+        <name>Ready_for_Business_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Re-estimate --></label>
+        <name>Reestimate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Regions that get impacted due to this requirement. --></help>
+        <label><!-- Regions Impacted --></label>
+        <name>Regions_Impacted__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Pacific</masterLabel>
+            <translation><!-- Asia Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America</masterLabel>
+            <translation><!-- Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Regions Requesting --></label>
+        <name>Regions_Requesting__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Pacific</masterLabel>
+            <translation><!-- Asia Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America</masterLabel>
+            <translation><!-- Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Related Archived Request --></label>
+        <name>Related_Archived_Request__c</name>
+        <relationshipLabel><!-- Requests (Related Archived Request) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Request --></label>
+        <name>Related_Request__c</name>
+        <relationshipLabel><!-- Requests (Related Request) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The release in which the request will actually be deployed. If the requirement has not been approved for a release, there should not be a value in this field. --></help>
+        <label><!-- Committed Release --></label>
+        <name>Release__c</name>
+        <relationshipLabel><!-- Requests (Committed Release) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Removed From Release --></label>
+        <name>Removed_From_Release__c</name>
+        <relationshipLabel><!-- Requests (Removed From Release) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicate that a Request was removed from a Release only if it is removed after Design is complete. --></help>
+        <label><!-- Removed from Release --></label>
+        <name>Removed_Release__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days estimated for Requirement Gathering. --></help>
+        <label><!-- Plan --></label>
+        <name>Req__c</name>
+    </fields>
+    <fields>
+        <help><!-- Detailed Summary* 
+Screen(s) Impacted* 
+Field Name(s) &amp; Type(s)* 
+Picklist Values 
+Calculation 
+Dependency 
+Workflow/Approval Rules 
+Interfacing System Updates 
+Interface Frequency 
+Data Volumes 
+*Indicates information required for all requests! --></help>
+        <label><!-- Request Description --></label>
+        <name>Request_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Owner --></label>
+        <name>Request_Owner__c</name>
+        <relationshipLabel><!-- Requests (Request Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Captures the requirement title --></help>
+        <label><!-- Request Title --></label>
+        <name>Request_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you are unsure of the type of request you are submitting, please select Unknown. --></help>
+        <label><!-- Request Type --></label>
+        <name>Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Out of the Box</masterLabel>
+            <translation><!-- Out of the Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Configuration</masterLabel>
+            <translation><!-- Salesforce Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Custom Code</masterLabel>
+            <translation><!-- Salesforce Custom Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vlocity Configuration</masterLabel>
+            <translation><!-- Vlocity Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vlocity Custom Code</masterLabel>
+            <translation><!-- Vlocity Custom Code --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Name of the person originally submitting the request. --></help>
+        <label><!-- Requestor --></label>
+        <name>Requestor__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Requirement Type --></label>
+        <name>Requirement_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defect</masterLabel>
+            <translation><!-- Defect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detailed Business Requirement</masterLabel>
+            <translation><!-- Detailed Business Requirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhancement</masterLabel>
+            <translation><!-- Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Level Business Requirement</masterLabel>
+            <translation><!-- High Level Business Requirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical</masterLabel>
+            <translation><!-- Technical --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Review with Business --></label>
+        <name>Review_with_Business__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days estimated for completing SIT. --></help>
+        <label><!-- Test --></label>
+        <name>SIT__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOURCE ID --></label>
+        <name>SOURCE_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution Notes --></label>
+        <name>Solution_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime Approve to Estimate --></label>
+        <name>StartTime_Approve_to_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Approved Emergency Release --></label>
+        <name>StartTime_Approved_Emergency_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Approved to Deploy --></label>
+        <name>StartTime_Approved_to_Deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Build Production --></label>
+        <name>StartTime_Build_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Build --></label>
+        <name>StartTime_Build__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Deferred --></label>
+        <name>StartTime_Deferred__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Deployed --></label>
+        <name>StartTime_Deployed__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Design --></label>
+        <name>StartTime_Design__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Duplicate --></label>
+        <name>StartTime_Duplicate__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_ Emergency Request --></label>
+        <name>StartTime_Emergency_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Identify: Change Request --></label>
+        <name>StartTime_Identify_Change_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Identify: New Requirement --></label>
+        <name>StartTime_Identify_New_Requirement__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Identify_OnHoldWaitingonClient --></label>
+        <name>StartTime_Identify_OnHoldWaitingonClient__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Identify: Submit for Business --></label>
+        <name>StartTime_Identify_Submit_for_Business__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Level of Effort Complete --></label>
+        <name>StartTime_Level_of_Effort_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_No Build Req --></label>
+        <name>StartTime_No_Build_Req__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Rejected --></label>
+        <name>StartTime_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_SIT --></label>
+        <name>StartTime_SIT__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Test Production --></label>
+        <name>StartTime_Test_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_Test --></label>
+        <name>StartTime_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartTime_UAT --></label>
+        <name>StartTime_UAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approve: Approved to Deploy</masterLabel>
+            <translation><!-- Approve: Approved to Deploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close: Deployed</masterLabel>
+            <translation><!-- Close: Deployed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close: Duplicate</masterLabel>
+            <translation><!-- Close: Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close: Rejected</masterLabel>
+            <translation><!-- Close: Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consolidate: Approve to Estimate</masterLabel>
+            <translation><!-- Consolidate: Approve to Estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consolidate: Level of Effort Complete</masterLabel>
+            <translation><!-- Consolidate: Level of Effort Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identify: Deferred</masterLabel>
+            <translation><!-- Identify: Deferred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identify: New Requirement</masterLabel>
+            <translation><!-- Identify: New Requirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identify: RFQ</masterLabel>
+            <translation><!-- Identify: RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identify: Submit for Business Review</masterLabel>
+            <translation><!-- Identify: Submit for Business Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identify: Validated by Business</masterLabel>
+            <translation><!-- Identify: Validated by Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release: Build</masterLabel>
+            <translation><!-- Release: Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release: Build Production</masterLabel>
+            <translation><!-- Release: Build Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release: Design</masterLabel>
+            <translation><!-- Release: Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release: SIT</masterLabel>
+            <translation><!-- Release: SIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release: Test</masterLabel>
+            <translation><!-- Release: Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release: Test Production</masterLabel>
+            <translation><!-- Release: Test Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release: UAT</masterLabel>
+            <translation><!-- Release: UAT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Approve to Estimate --></label>
+        <name>StopTime_Approve_to_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Approved Emergency Release --></label>
+        <name>StopTime_Approved_Emergency_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Approved to Deploy --></label>
+        <name>StopTime_Approved_to_Deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Build Production --></label>
+        <name>StopTime_Build_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Build --></label>
+        <name>StopTime_Build__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Deferred --></label>
+        <name>StopTime_Deferred__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Deployed --></label>
+        <name>StopTime_Deployed__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Design --></label>
+        <name>StopTime_Design__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Duplicate --></label>
+        <name>StopTime_Duplicate__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_ Emergency Request --></label>
+        <name>StopTime_Emergency_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Identify: Change Request --></label>
+        <name>StopTime_Identify_Change_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Identify: New Requirement --></label>
+        <name>StopTime_Identify_New_Requirement__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Identify_OnHoldWaitingonClient_ --></label>
+        <name>StopTime_Identify_OnHoldWaitingonClient__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Identify: Submit for Business --></label>
+        <name>StopTime_Identify_Submit_for_Business__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Level of Effort Complete --></label>
+        <name>StopTime_Level_of_Effort_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_No Build Req --></label>
+        <name>StopTime_No_Build_Req__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Rejected --></label>
+        <name>StopTime_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_SIT --></label>
+        <name>StopTime_SIT__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Test Production --></label>
+        <name>StopTime_Test_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_Test --></label>
+        <name>StopTime_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- StopTime_UAT --></label>
+        <name>StopTime_UAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Capability --></label>
+        <name>Sub_Capability__c</name>
+        <picklistValues>
+            <masterLabel>AE Task Management</masterLabel>
+            <translation><!-- AE Task Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Competitors</masterLabel>
+            <translation><!-- Account Competitors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Action Request Form Creation</masterLabel>
+            <translation><!-- Action Request Form Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Task Creation</masterLabel>
+            <translation><!-- Auto Task Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automated SME Notifications</masterLabel>
+            <translation><!-- Automated SME Notifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brokerage &amp; Consultants</masterLabel>
+            <translation><!-- Brokerage &amp; Consultants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brokerage and Consultants</masterLabel>
+            <translation><!-- Brokerage and Consultants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIF Automation</masterLabel>
+            <translation><!-- CIF Automation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIF Consistency</masterLabel>
+            <translation><!-- CIF Consistency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CII Integration?</masterLabel>
+            <translation><!-- CII Integration? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIP Approval</masterLabel>
+            <translation><!-- CIP Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIP Form Locking</masterLabel>
+            <translation><!-- CIP Form Locking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIP Management</masterLabel>
+            <translation><!-- CIP Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIP Stage based Access</masterLabel>
+            <translation><!-- CIP Stage based Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLM Components: Booklets/SBCs</masterLabel>
+            <translation><!-- CLM Components: Booklets/SBCs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castlight/Alegeus Vendor Process</masterLabel>
+            <translation><!-- Castlight/Alegeus Vendor Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client/Vendor Dashboards</masterLabel>
+            <translation><!-- Client/Vendor Dashboards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completion Markers</masterLabel>
+            <translation><!-- Completion Markers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacts</masterLabel>
+            <translation><!-- Contacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Context based attachments</masterLabel>
+            <translation><!-- Context based attachments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract, PG Document Generation</masterLabel>
+            <translation><!-- Contract, PG Document Generation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creation of HPCC (Clinical Products)</masterLabel>
+            <translation><!-- Creation of HPCC (Clinical Products) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department based Tasks filtering</masterLabel>
+            <translation><!-- Department based Tasks filtering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Locking</masterLabel>
+            <translation><!-- Document Locking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Storage</masterLabel>
+            <translation><!-- Document Storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document/Product Change Notification</masterLabel>
+            <translation><!-- Document/Product Change Notification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynamic Visibility (SMEs)</masterLabel>
+            <translation><!-- Dynamic Visibility (SMEs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-Signature</masterLabel>
+            <translation><!-- E-Signature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhanced AE Checklist</masterLabel>
+            <translation><!-- Enhanced AE Checklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Str. Generation &amp; Locking</masterLabel>
+            <translation><!-- Group Str. Generation &amp; Locking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Structure Creation</masterLabel>
+            <translation><!-- Group Structure Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Structure Revision Tracking</masterLabel>
+            <translation><!-- Group Structure Revision Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group to Opportunity Plan Roll Up</masterLabel>
+            <translation><!-- Group to Opportunity Plan Roll Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GroupWise Implementation Reporting</masterLabel>
+            <translation><!-- GroupWise Implementation Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Card Reporting</masterLabel>
+            <translation><!-- ID Card Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Id Card Generation</masterLabel>
+            <translation><!-- Id Card Generation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation Data Streamlining</masterLabel>
+            <translation><!-- Implementation Data Streamlining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementer/SME Access Mgt.</masterLabel>
+            <translation><!-- Implementer/SME Access Mgt. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mass Task Delete/Update</masterLabel>
+            <translation><!-- Mass Task Delete/Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mass Task Reassignment</masterLabel>
+            <translation><!-- Mass Task Reassignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milestone based Notifications</masterLabel>
+            <translation><!-- Milestone based Notifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Account Creation</masterLabel>
+            <translation><!-- New Account Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business Opportunity Creation</masterLabel>
+            <translation><!-- New Business Opportunity Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Opportunity Creation</masterLabel>
+            <translation><!-- New Opportunity Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity &amp; Product Stage Alignment</masterLabel>
+            <translation><!-- Opportunity &amp; Product Stage Alignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Cloning</masterLabel>
+            <translation><!-- Opportunity Cloning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Type Guidance</masterLabel>
+            <translation><!-- Opportunity Type Guidance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other key Implementation Reports</masterLabel>
+            <translation><!-- Other key Implementation Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Template Association</masterLabel>
+            <translation><!-- Plan Template Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Approval</masterLabel>
+            <translation><!-- Product Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Playbook Access</masterLabel>
+            <translation><!-- Product Playbook Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Selection Guidance</masterLabel>
+            <translation><!-- Product Selection Guidance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profile Based Field Visibility</masterLabel>
+            <translation><!-- Profile Based Field Visibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Status/% age Comp. Tracking</masterLabel>
+            <translation><!-- Project Status/% age Comp. Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revision Identification</masterLabel>
+            <translation><!-- Revision Identification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revision Status Tracking</masterLabel>
+            <translation><!-- Revision Status Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Management/Escalation</masterLabel>
+            <translation><!-- Risk Management/Escalation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Role-Specific Dashboards</masterLabel>
+            <translation><!-- Role-Specific Dashboards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rule based Revision Routing</masterLabel>
+            <translation><!-- Rule based Revision Routing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rx Document Generation</masterLabel>
+            <translation><!-- Rx Document Generation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Approvals</masterLabel>
+            <translation><!-- SME Approvals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Notification/Approval Management</masterLabel>
+            <translation><!-- SME Notification/Approval Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Revision Routing</masterLabel>
+            <translation><!-- SME Revision Routing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME Task Routing</masterLabel>
+            <translation><!-- SME Task Routing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select Executive Reports</masterLabel>
+            <translation><!-- Select Executive Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Change/Reassignment Notifications</masterLabel>
+            <translation><!-- Task Change/Reassignment Notifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UWR Creation</masterLabel>
+            <translation><!-- UWR Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriter Task Management</masterLabel>
+            <translation><!-- Underwriter Task Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Plan Association</masterLabel>
+            <translation><!-- Vendor Plan Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Specific Document Generation</masterLabel>
+            <translation><!-- Vendor Specific Document Generation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wizard Driven UI Workflow</masterLabel>
+            <translation><!-- Wizard Driven UI Workflow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad Interface to gather data</masterLabel>
+            <translation><!-- iPad Interface to gather data --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Systems that get impacted due to this requirement. --></help>
+        <label><!-- Systems Impacted --></label>
+        <name>System_Impacted__c</name>
+        <picklistValues>
+            <masterLabel>Business Objects</masterLabel>
+            <translation><!-- Business Objects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Master Database (CMD)</masterLabel>
+            <translation><!-- Customer Master Database (CMD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Data Warehouse (EDW)</masterLabel>
+            <translation><!-- Enterprise Data Warehouse (EDW) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Systems Impacted</masterLabel>
+            <translation><!-- No Systems Impacted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outlook</masterLabel>
+            <translation><!-- Outlook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STARS</masterLabel>
+            <translation><!-- STARS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Technical Description --></label>
+        <name>Technical_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Case --></label>
+        <name>Test_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Total --></label>
+        <name>Test_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approve to Estimate --></label>
+        <name>TimeSpentOn_Approve_to_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- TimeSpentOn_Approved Emergency Release --></label>
+        <name>TimeSpentOn_Approved_Emergency_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved to Deploy --></label>
+        <name>TimeSpentOn_Approved_to_Deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build Production --></label>
+        <name>TimeSpentOn_Build_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build --></label>
+        <name>TimeSpentOn_Build__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deferred --></label>
+        <name>TimeSpentOn_Deferred__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployed --></label>
+        <name>TimeSpentOn_Deployed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Design --></label>
+        <name>TimeSpentOn_Design__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate --></label>
+        <name>TimeSpentOn_Duplicate__c</name>
+    </fields>
+    <fields>
+        <label><!-- TimeSpentOn_Emergency Request --></label>
+        <name>TimeSpentOn_Emergency_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- TimeSpentOn_Identify Change Request --></label>
+        <name>TimeSpentOn_Identify_Change_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identify: New Requirement --></label>
+        <name>TimeSpentOn_Identify_New_Requirement__c</name>
+    </fields>
+    <fields>
+        <label><!-- TimeSpentOn_Identify_OnHoldWaitingonClie --></label>
+        <name>TimeSpentOn_Identify_OnHoldWaitingonClie__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level of Effort Complete --></label>
+        <name>TimeSpentOn_Level_of_Effort_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- TimeSpentOn_No Build Req --></label>
+        <name>TimeSpentOn_No_Build_Req__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected --></label>
+        <name>TimeSpentOn_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIT --></label>
+        <name>TimeSpentOn_SIT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submit for Business Review --></label>
+        <name>TimeSpentOn_Submit_for_Business_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Production --></label>
+        <name>TimeSpentOn_Test_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>TimeSpentOn_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- UAT --></label>
+        <name>TimeSpentOn_UAT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total estimated value. --></help>
+        <label><!-- Total Estimate (Bottom Up) --></label>
+        <name>TotEst__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Actual Level of Effort --></label>
+        <name>Total_Actual_Level_of_Effort__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Effort Variance --></label>
+        <name>Total_Effort_Variance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Solution Capacity Estimate --></label>
+        <name>Total_Estimate_Bottom_Up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Priority Ranking --></label>
+        <name>Total_Priority_Ranking__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total number of days estimated. --></help>
+        <label><!-- Total --></label>
+        <name>Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days estimated for Training and Deploying. --></help>
+        <label><!-- Deploy --></label>
+        <name>TrnDep__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days estimated to complete UAT. --></help>
+        <label><!-- UAT --></label>
+        <name>UAT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value is calculated by the selection of the Urgency of Request field: 
+High = 3 
+Medium = 2 
+Low = 1 --></help>
+        <label><!-- Urgency of Request Value --></label>
+        <name>Urgency_of_Request_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Low: Not required within the next 90 days to enable a business process 
+Medium: Required within the next 46 – 90 days to enable a business process 
+High: Required within the next 30 – 45 days to enable a business process --></help>
+        <label><!-- Urgency of Request --></label>
+        <name>Urgency_of_Request__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Use Case --></label>
+        <name>Use_Case__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Value is calculated by the User Impact of Change field: 
+High = 1 
+Medium = 2 
+Low = 3 --></help>
+        <label><!-- User Impact of Change Value --></label>
+        <name>User_Impact_of_Change_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Low: Will Significantly Impact Users (high degree of adoption with significant effort) 
+Medium: Will Moderately Impact Users (high degree of adoption with moderate effort) 
+High: Will Minimally Impact Users (high degree of adoption with minimal effort) --></help>
+        <label><!-- User Impact of Change --></label>
+        <name>User_Impact_of_Change__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Story --></label>
+        <name>User_Story__c</name>
+        <relationshipLabel><!-- Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Value Driver --></label>
+        <name>Value_Driver__c</name>
+        <picklistValues>
+            <masterLabel>1. Eliminate Redundancies</masterLabel>
+            <translation><!-- 1. Eliminate Redundancies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Improve Data Quality</masterLabel>
+            <translation><!-- 2. Improve Data Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Automate AM &amp; Impl. Steps</masterLabel>
+            <translation><!-- 3. Automate AM &amp; Impl. Steps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4. Improve Coordination</masterLabel>
+            <translation><!-- 4. Improve Coordination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5. Intuitive Workflows</masterLabel>
+            <translation><!-- 5. Intuitive Workflows --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6. Streamline Document Management</masterLabel>
+            <translation><!-- 6. Streamline Document Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7. Improve Downstream Visibility</masterLabel>
+            <translation><!-- 7. Improve Downstream Visibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8. Increase Internal Partners on ICE</masterLabel>
+            <translation><!-- 8. Increase Internal Partners on ICE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vlocity Fit Confirmed --></label>
+        <name>Vlocity_Fit_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vlocity Reviewed --></label>
+        <name>Vlocity_Reviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Package --></label>
+        <name>Work_Package__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Stream --></label>
+        <name>Work_Stream__c</name>
+        <picklistValues>
+            <masterLabel>Org Migration</masterLabel>
+            <translation><!-- Org Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vlocity</masterLabel>
+            <translation><!-- Vlocity --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- Default Record Type --></description>
+        <label><!-- Default Record Type --></label>
+        <name>Default_Record_Type</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You must pick a value for the Closed/Deferred Reason. --></errorMessage>
+        <name>ClosedDeferredReasonRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Must Enter Related Request Value --></errorMessage>
+        <name>ClosedDuplicateRelateRequest</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a value greater than 0 for fields under Total Level of Effort. --></errorMessage>
+        <name>Positive_Effort</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are unable to make modifications to this request since the status is in &quot;Release: Test&quot; --></errorMessage>
+        <name>Prevent_Update_after_Release_Test</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide the release that the request was removed from. --></errorMessage>
+        <name>RemovedFromRelease</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide Related Request Value --></errorMessage>
+        <name>StatusClosedDuplicate</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New --></label>
+        <name>New</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Requests_by_User_story --></label>
+        <name>View_Requests_by_User_story</name>
+    </webLinks>
+</CustomObjectTranslation>

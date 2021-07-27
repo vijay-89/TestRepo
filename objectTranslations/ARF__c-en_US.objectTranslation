@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Action Request Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Action Request Forms</value>
+    </caseValues>
+    <fields>
+        <label><!-- ACES --></label>
+        <name>ACES__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANA - 5,000+ eligible employees --></label>
+        <name>ANA5000EligibleEmployees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Executive --></label>
+        <name>AccountExecutive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>AccountManager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Service Rep --></label>
+        <name>AccountServiceRep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- ARFs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ACO (CA ONLY) --></label>
+        <name>AcoCaOnlyMedical__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem/Alegeus (WGS ONLY) --></label>
+        <name>AnthemAlegeusWGSOnlyFSA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem Health Guide (standalone) --></label>
+        <name>AnthemHealthGuidestandAlone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anthem/HealthLink --></label>
+        <name>AnthemHealthLink__c</name>
+        <picklistValues>
+            <masterLabel>Anthem UM/CM</masterLabel>
+            <translation><!-- Anthem UM/CM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthLink UM/CM</masterLabel>
+            <translation><!-- HealthLink UM/CM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anthem Health Rewards --></label>
+        <name>AnthemHealthRewards__c</name>
+    </fields>
+    <fields>
+        <help><!-- Do we have performance guarantees in-force? --></help>
+        <label><!-- Any  performance guarantees in-force? --></label>
+        <name>AnyPerformanceGuaranteesInForce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Basic Life/AD&amp;D --></label>
+        <name>BasicLifeAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Behavioral Health Re-Pricing --></label>
+        <name>BehavioralHealthRePricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Behavioral Health Resource --></label>
+        <name>BehavioralHealthResource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Behavioral Health (Std Med Mgmt.) --></label>
+        <name>BehavioralHealthStdMedMgmt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Behavioral Health --></label>
+        <name>BehavioralHealth__c</name>
+    </fields>
+    <fields>
+        <label><!-- BlueCard PPO --></label>
+        <name>BlueCardPPO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blue Priority (WI ONLY) --></label>
+        <name>BluePriorityWIOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blue Priority (WI, NY ONLY) --></label>
+        <name>BluePriorityWiNyOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blue View Vision --></label>
+        <name>BlueViewVision__c</name>
+    </fields>
+    <fields>
+        <label><!-- BlueView --></label>
+        <name>BlueView__c</name>
+    </fields>
+    <fields>
+        <label><!-- CCMU --></label>
+        <name>CCMU__c</name>
+    </fields>
+    <fields>
+        <label><!-- CDHP --></label>
+        <name>CDHP__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHIPS --></label>
+        <name>CHIPS__c</name>
+    </fields>
+    <fields>
+        <label><!-- COBRA: --></label>
+        <name>COBRA__c</name>
+    </fields>
+    <fields>
+        <label><!-- CONEXIS --></label>
+        <name>CONEXIS1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CONEXIS --></label>
+        <name>CONEXIS2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CONEXIS --></label>
+        <name>CONEXIS3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CS90 --></label>
+        <name>CS90__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA SDI --></label>
+        <name>CaSDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA - Select PPO --></label>
+        <name>CaSelectPPO1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA - Select PPO --></label>
+        <name>CaSelectPPO2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Status --></label>
+        <name>CaseStatus__c</name>
+        <picklistValues>
+            <masterLabel>Expansion (No Renewal)</masterLabel>
+            <translation><!-- Expansion (No Renewal) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew + New</masterLabel>
+            <translation><!-- Renew + New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Castlight Elevate --></label>
+        <name>CastlightElevate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Castlight Engage --></label>
+        <name>CastlightEngage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Castlight Standard --></label>
+        <name>CastlightStandard__c</name>
+    </fields>
+    <fields>
+        <label><!-- CDT Code Analysis (Dental) --></label>
+        <name>CdtCodeAnalysisDental__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cede Approved --></label>
+        <name>CedeApproved__c</name>
+    </fields>
+    <fields>
+        <label><!-- City and State --></label>
+        <name>CityandState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Headquarters --></label>
+        <name>ClientHeadquarters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Name --></label>
+        <name>ClientName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commercial --></label>
+        <name>Commercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commissions --></label>
+        <name>Commissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compass (L&amp;D Only) --></label>
+        <name>CompassLDOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complete/GRID+ --></label>
+        <name>CompleteGRID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComplexCare --></label>
+        <name>ComplexCare__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConditionCare (Core) --></label>
+        <name>ConditionCareCore__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConditionCare Support --></label>
+        <name>ConditionCareSupport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant/Brokerage Firm --></label>
+        <name>ConsultantBrokerageFirm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Name --></label>
+        <name>ConsultantName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Required for National GeoAccess and Disruption Analysis reporting --></help>
+        <label><!-- Cost Center: --></label>
+        <name>CostCenter__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPT/Discount Analysis --></label>
+        <name>CptDiscountAnalysis__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you’ve selected any AltNets, do you need a custom blended analysis or standalone reports? 
+*Additional reports may incur additional cost from outside vendors. --></help>
+        <label><!-- Custom blended analysis needed? --></label>
+        <name>CustomBlendedAnalysisNeeded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom GeoAcccess Parameters --></label>
+        <name>CustomGeoAcccessParameters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Center Location --></label>
+        <name>CustomerServiceCenterLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC - BlueChoice --></label>
+        <name>DcBlueChoice1__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC - BlueChoice --></label>
+        <name>DcBlueChoice2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Method/Instructions --></label>
+        <name>DeliveryMethodInstructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Blue 100 (IN, OH, KY, MO) --></label>
+        <name>DentalBlue100__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Blue 200 (IN, OH, KY, MO) --></label>
+        <name>DentalBlue200__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Blue 300 (IN, OH, KY, MO) --></label>
+        <name>DentalBlue300__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Blue Complete --></label>
+        <name>DentalBlueComplete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Disruption Analysis --></label>
+        <name>DentalDisruptionAnalysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental HMO (CA &amp; WI ONLY) --></label>
+        <name>DentalHmoCaWiOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Incumbent --></label>
+        <name>DentalIncumbent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Indemnity (IN, OH, WI) --></label>
+        <name>DentalIndemnityInOhWi__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental PPO --></label>
+        <name>DentalPPO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental PPO DeCare Complete --></label>
+        <name>DentalPp0DeCareComplete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental PPO DeCare Prime --></label>
+        <name>DentalPpoDeCarePrime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Re-Pricing --></label>
+        <name>DentalRePricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental --></label>
+        <name>Dental__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dentecare Primary (WI &amp; CA) --></label>
+        <name>DentecarePrimaryWiCa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dentecare Standard (WI &amp; CA) --></label>
+        <name>DentecareStandardWiCa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Bill --></label>
+        <name>DirectBill__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do they have special ad-hoc reports? --></label>
+        <name>DoTheyHaveSpecialAdhocReports__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do we have any issues with this client? --></label>
+        <name>DoWeHaveAnyIssuesWithThisClient__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does request include Health&amp;Wellness --></label>
+        <name>DoesRequestIncludeHealthWellness__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does request include Life Disability? --></label>
+        <name>DoesRequestIncludeLifeDisability__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Due to Consultant/Broker --></label>
+        <name>DueToConsultantBroker__c</name>
+    </fields>
+    <fields>
+        <label><!-- EAPMedical --></label>
+        <name>EAPMedical__c</name>
+    </fields>
+    <fields>
+        <label><!-- EAP --></label>
+        <name>EAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGR Incumbent: --></label>
+        <name>EGRIncumbent__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGR Request --></label>
+        <name>EGRRequest__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If you checked an EGR product(s) above, please ALSO indicate the following --></help>
+        <label><!-- EGR Sales/Account Mgr: --></label>
+        <name>EGRSalesAccountMgr__c</name>
+    </fields>
+    <fields>
+        <label><!-- EPO --></label>
+        <name>EPO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electronic Copies --></label>
+        <name>ElectronicCopies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Type PPO CDHP --></label>
+        <name>ExpenseTypePpoCdhp__c</name>
+        <picklistValues>
+            <masterLabel>HIA</masterLabel>
+            <translation><!-- HIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRA</masterLabel>
+            <translation><!-- HRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HSA</masterLabel>
+            <translation><!-- HSA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expense Type: --></label>
+        <name>ExpenseType__c</name>
+        <picklistValues>
+            <masterLabel>HIA</masterLabel>
+            <translation><!-- HIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRA</masterLabel>
+            <translation><!-- HRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HSA</masterLabel>
+            <translation><!-- HSA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- FSA: --></label>
+        <name>FSA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facets --></label>
+        <name>Facets__c</name>
+    </fields>
+    <fields>
+        <label><!-- FL - NetworkBlue --></label>
+        <name>FlNetworkBlue1__c</name>
+    </fields>
+    <fields>
+        <label><!-- FL - NetworkBlue --></label>
+        <name>FlNetworkBlue2__c</name>
+    </fields>
+    <fields>
+        <label><!-- FMLA/Absence Mgmt --></label>
+        <name>FmlaAbsenceMgmt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding Type ADD --></label>
+        <name>FundingTypeADD__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type Basic Life --></label>
+        <name>FundingTypeBasicLife__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type Blue Priority --></label>
+        <name>FundingTypeBluePriority__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type Blue View --></label>
+        <name>FundingTypeBlueView__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type CASDI --></label>
+        <name>FundingTypeCASDI__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type DeCare Complete --></label>
+        <name>FundingTypeDeCareComplete__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type Dental HMO --></label>
+        <name>FundingTypeDentalHMO__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type Dental PPO --></label>
+        <name>FundingTypeDentalPPO__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type EPO --></label>
+        <name>FundingTypeEPO__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type FMLA --></label>
+        <name>FundingTypeFMLA__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type HMOSlice --></label>
+        <name>FundingTypeHMOSlice__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type HMO --></label>
+        <name>FundingTypeHMO__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type Indemnity --></label>
+        <name>FundingTypeIndemnity__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type LTD --></label>
+        <name>FundingTypeLTD__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type MSG --></label>
+        <name>FundingTypeMSG__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type OptLife --></label>
+        <name>FundingTypeOptLife__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type POSCDHPWIOnly --></label>
+        <name>FundingTypePOSCDHPWIOnly__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type POS --></label>
+        <name>FundingTypePOS__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type PPO CDHP --></label>
+        <name>FundingTypePPOCDHP__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type PPO Decare --></label>
+        <name>FundingTypePPODecare__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type PPO --></label>
+        <name>FundingTypePPO__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type Pharma --></label>
+        <name>FundingTypePharma__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type ProdSol --></label>
+        <name>FundingTypeProdSol__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Note: GroupMed Adv plans are typically FI --></help>
+        <label><!-- Funding Type SR Group --></label>
+        <name>FundingTypeSRGroup__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type SR Rx --></label>
+        <name>FundingTypeSRRx__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type STD --></label>
+        <name>FundingTypeSTD__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type UniView --></label>
+        <name>FundingTypeUniView__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type VolADD --></label>
+        <name>FundingTypeVolADD__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type VolLTD --></label>
+        <name>FundingTypeVolLTD__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type VolSTD --></label>
+        <name>FundingTypeVolSTD__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type WellPriorityCDHPWIOnly --></label>
+        <name>FundingTypeWellPriorityCDHPWIOnly__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Funding Type WellPriorityWIOnly --></label>
+        <name>FundingTypeWellPriorityWIOnly__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Future Moms --></label>
+        <name>FutureMoms__c</name>
+    </fields>
+    <fields>
+        <label><!-- GA - Blue Open Access POS --></label>
+        <name>GABlueOpenAccessPOS01__c</name>
+    </fields>
+    <fields>
+        <label><!-- GA - Blue Open Access POS --></label>
+        <name>GABlueOpenAccessPOS02__c</name>
+    </fields>
+    <fields>
+        <label><!-- GeoAccess Comments --></label>
+        <name>GeoAccessComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- GeoAccess (census w/ zip codes required) --></label>
+        <name>GeoAccesscensuswzipcodesrequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- GeoBlue --></label>
+        <name>GeoBlue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group # for existing account --></label>
+        <name>Groupforexistingaccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- HMO Advantage --></label>
+        <name>HMOAdvantage__c</name>
+    </fields>
+    <fields>
+        <label><!-- HMO Medical --></label>
+        <name>HMOMedical__c</name>
+    </fields>
+    <fields>
+        <label><!-- HMO SR Group Medicare Advantage --></label>
+        <name>HMOSRGroupMedicareAdvantage__c</name>
+    </fields>
+    <fields>
+        <label><!-- HMO SR Group Medicare Adv wRx --></label>
+        <name>HMOSRGroupMedicareAdvwRx__c</name>
+    </fields>
+    <fields>
+        <label><!-- HMO SR Indic Medicare Adv --></label>
+        <name>HMOSRIndicMedicareAdv__c</name>
+    </fields>
+    <fields>
+        <label><!-- HMO SR Indv Medicare Adv wRx --></label>
+        <name>HMOSRIndvMedicareAdvwRx__c</name>
+    </fields>
+    <fields>
+        <label><!-- HMO Slice (ANA) --></label>
+        <name>HMOSliceANA__c</name>
+    </fields>
+    <fields>
+        <label><!-- HMO --></label>
+        <name>HMO__c</name>
+    </fields>
+    <fields>
+        <label><!-- HRA Banking --></label>
+        <name>HRABanking__c</name>
+        <picklistValues>
+            <masterLabel>Anthem/Alegeus (WGS ONLY)</masterLabel>
+            <translation><!-- Anthem/Alegeus (WGS ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthem/LITES</masterLabel>
+            <translation><!-- Anthem/LITES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthEquity (WGS and NASCO ONLY)</masterLabel>
+            <translation><!-- HealthEquity (WGS and NASCO ONLY) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HSA Banking --></label>
+        <name>HSABanking__c</name>
+        <picklistValues>
+            <masterLabel>Anthem/Alegeus (WGS ONLY)</masterLabel>
+            <translation><!-- Anthem/Alegeus (WGS ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BenefitWallet</masterLabel>
+            <translation><!-- BenefitWallet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HealthEquity (WGS and NASCO ONLY)</masterLabel>
+            <translation><!-- HealthEquity (WGS and NASCO ONLY) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If you checked a H&amp;W product(s) please specify the following --></help>
+        <label><!-- HWS Account Executive --></label>
+        <name>HWSAccountExecutive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Have we bid on this case previously? --></label>
+        <name>Havewebidonthiscasepreviously__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HealthEquity (WGS and NASCO ONLY) --></label>
+        <name>HealthEquityWGSandNASCOONLY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health &amp; Wellness --></label>
+        <name>HealthWellness__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Healthy Lifestyles --></label>
+        <name>HealthyLifestyles__c</name>
+    </fields>
+    <fields>
+        <label><!-- High Performance (Select PPO) --></label>
+        <name>HighPerformanceSelectPPO__c</name>
+    </fields>
+    <fields>
+        <label><!-- IL - Blue Choice Options PPO --></label>
+        <name>ILBlueChoiceOptionsPPO1__c</name>
+    </fields>
+    <fields>
+        <label><!-- IL – Blue Choice Options PPO --></label>
+        <name>IL_Blue_Choice_Options_PPO__c</name>
+    </fields>
+    <fields>
+        <help><!-- Individual Retiree (via Private Exchange Solution) --></help>
+        <label><!-- IR Incumbent --></label>
+        <name>IRIncumbent__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Yes, why didn&apos;t we win? --></label>
+        <name>IfYeswhydidntwewin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incumbent Carrier --></label>
+        <name>IncumbentCarrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incumbent --></label>
+        <name>Incumbent__c</name>
+    </fields>
+    <fields>
+        <help><!-- (MSA, 3-digit ZIP, or provider-specific methodology) --></help>
+        <label><!-- Indicate level of detail being requested --></label>
+        <name>Indicatelevelofdetailbeingrequested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Informed Treatment Options --></label>
+        <name>InformedTreatmentOptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insight Vision --></label>
+        <name>InsightVision__c</name>
+    </fields>
+    <fields>
+        <help><!-- (requires CEP exception submission) --></help>
+        <label><!-- Integrated Health Model (IHM) - Local --></label>
+        <name>IntegratedHealthModelIHMLocal__c</name>
+    </fields>
+    <fields>
+        <help><!-- (requires CIP exception submission) --></help>
+        <label><!-- Integrated Health Model (IHM) - National --></label>
+        <name>IntegratedHealthModelIHMNational__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Medicine Re-Pricing --></label>
+        <name>InternalMedicineRePricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internet (Online) Program --></label>
+        <name>InternetOnlineProgram__c</name>
+    </fields>
+    <fields>
+        <help><!-- (WGS or NASCO ONLY) --></help>
+        <label><!-- Is this a Medical in-force client? --></label>
+        <name>IsthisaMedicalinforceclient__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is this a Network Analysis ONLY request? --></label>
+        <name>IsthisaNetworkAnalysisONLYrequest__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- *Anything less than seven business days may incur additional fees --></help>
+        <label><!-- Is this a rush request? --></label>
+        <name>Isthisarushrequest__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- JAA or MCS? --></label>
+        <name>JAAorMCS__c</name>
+        <picklistValues>
+            <masterLabel>JAA</masterLabel>
+            <translation><!-- JAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCS</masterLabel>
+            <translation><!-- MCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- L&amp;D Incumbent: --></label>
+        <name>LDIncumbent__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you checked a L&amp;D product(s) above, please ALSO indicate the following --></help>
+        <label><!-- L&amp;D Sales/Account Mgr --></label>
+        <name>LDSalesAccountMgr__c</name>
+    </fields>
+    <fields>
+        <label><!-- LPPO SR Group Medicare Advantage --></label>
+        <name>LPPOSRGroupMedicareAdvantage__c</name>
+    </fields>
+    <fields>
+        <label><!-- LPPO SR Group Medicare Adv wRx --></label>
+        <name>LPPOSRGroupMedicareAdvwRx__c</name>
+    </fields>
+    <fields>
+        <label><!-- LPPO SR Indic Medicare Adv --></label>
+        <name>LPPOSRIndicMedicareAdv__c</name>
+    </fields>
+    <fields>
+        <label><!-- LPPO SR Indv Medicare Adv wRx --></label>
+        <name>LPPOSRIndvMedicareAdvwRx__c</name>
+    </fields>
+    <fields>
+        <label><!-- LTD --></label>
+        <name>LTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Life &amp; Disability --></label>
+        <name>LifeDisability__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Note: This will require appropriate levels of approval. Please contact your Provider Data Analyst for more detail. --></help>
+        <label><!-- Line item detailed results required? --></label>
+        <name>Lineitemdetailedresultsrequired__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Local Group --></label>
+        <name>LocalGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Labor/Trust --></label>
+        <name>LocalLaborTrust__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local PPO --></label>
+        <name>LocalPPO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Public Entities --></label>
+        <name>LocalPublicEntities__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN - Group Value Network --></label>
+        <name>MNGroupValueNetwork1__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN - Group Value Network --></label>
+        <name>MNGroupValueNetwork2__c</name>
+    </fields>
+    <fields>
+        <label><!-- MO - Blue Access Choice PPO (St.Louis) --></label>
+        <name>MOBlueAccessChoicePPOStLouis1__c</name>
+    </fields>
+    <fields>
+        <label><!-- MO - Blue Access Choice PPO (St.Louis) --></label>
+        <name>MOBlueAccessChoicePPOStLouis2__c</name>
+    </fields>
+    <fields>
+        <label><!-- MO - Blue Preferred POS --></label>
+        <name>MOBluePreferredPOS1__c</name>
+    </fields>
+    <fields>
+        <label><!-- MO - Blue Preferred POS --></label>
+        <name>MOBluePreferredPOS2__c</name>
+    </fields>
+    <fields>
+        <label><!-- MO - Preferred-Care Blue PPO (KC) --></label>
+        <name>MOPreferredCareBluePPOKC1__c</name>
+    </fields>
+    <fields>
+        <label><!-- MO - Preferred-Care Blue PPO (KC) --></label>
+        <name>MOPreferredCareBluePPOKC2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Med Part D --></label>
+        <name>MedPartD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Med Supp Group --></label>
+        <name>MedSuppGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Disruption Analysis --></label>
+        <name>MedicalDisruptionAanalysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Module --></label>
+        <name>MedicalModule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical --></label>
+        <name>Medical__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mercer Health Advantage (MHA) --></label>
+        <name>MercerHealthAdvantageMHA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Requires approval from Actuarial and Plan VP. --></help>
+        <label><!-- Milliman (add&apos;l cost) --></label>
+        <name>Millimanaddlcost__c</name>
+    </fields>
+    <fields>
+        <label><!-- MyHealth Advantage --></label>
+        <name>MyHealthAdvantage__c</name>
+    </fields>
+    <fields>
+        <label><!-- MyHealth Coach --></label>
+        <name>MyHealthCoach__c</name>
+    </fields>
+    <fields>
+        <label><!-- NASCO --></label>
+        <name>NASCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- NH - BlueChoice Open Access POS --></label>
+        <name>NHBlueChoiceOpenAccessPOS1__c</name>
+    </fields>
+    <fields>
+        <label><!-- NH - BlueChoice Open Access POS --></label>
+        <name>NHBlueChoiceOpenAccessPOS2__c</name>
+    </fields>
+    <fields>
+        <label><!-- NY - Empire POS --></label>
+        <name>NYEmpirePOS1__c</name>
+    </fields>
+    <fields>
+        <label><!-- NY - Empire POS --></label>
+        <name>NYEmpirePOS2__c</name>
+    </fields>
+    <fields>
+        <label><!-- National PPO/PPO+ --></label>
+        <name>NationalPPOPPODental__c</name>
+    </fields>
+    <fields>
+        <label><!-- Network Analysis Due Date: --></label>
+        <name>NetworkAnalysisDueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Network Analysis --></label>
+        <name>NetworkAnalysis__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If New Rx: must attach detailed Rx utilization file or confirm one has been requested from consultant/group
+If Renewing Rx: provide group matrix or list of active group numbers --></help>
+        <label><!-- New or Renewing? --></label>
+        <name>NewOrRenewing__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewing</masterLabel>
+            <translation><!-- Renewing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 24/7 Nurseline --></label>
+        <name>Nurseline247__c</name>
+    </fields>
+    <fields>
+        <label><!-- CDT OON%: --></label>
+        <name>OON__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Eligible Subs per State --></label>
+        <name>OfEligibleSubsPerState__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Eligible Subscribers --></label>
+        <name>OfEligibleSubscribers__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Geoaccess --></label>
+        <name>OfGeoaccess__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Life/AD&amp;D --></label>
+        <name>OptLifeAdD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Do we have any other relationships with this company? Are they a supplier /vendor for us? --></help>
+        <label><!-- Other relationships with this company? --></label>
+        <name>OtherRelationshipsWithThisCompany__c</name>
+    </fields>
+    <fields>
+        <label><!-- POS Tier 1 --></label>
+        <name>POSTier1Medical__c</name>
+    </fields>
+    <fields>
+        <label><!-- POS Tier 2 --></label>
+        <name>POSTier2Medical__c</name>
+    </fields>
+    <fields>
+        <label><!-- POS --></label>
+        <name>POS__c</name>
+    </fields>
+    <fields>
+        <label><!-- PPO CDHP --></label>
+        <name>PPOCDHP__c</name>
+    </fields>
+    <fields>
+        <label><!-- PPO --></label>
+        <name>PPO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password (for census file) --></label>
+        <name>PasswordForCensusFile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pharmacy Formulary Disruption Analysis --></label>
+        <name>PharmacyFormularyDisruptionAnalysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pharmacy Full File Claims Re-Pricing --></label>
+        <name>PharmacyFullFileClaimsRePricing__c</name>
+    </fields>
+    <fields>
+        <help><!-- (requires 12 months of claim data) --></help>
+        <label><!-- Pharmacy Generic Dispensing Rate --></label>
+        <name>PharmacyGenericDispensingRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pharmacy Network Disruption Analysis --></label>
+        <name>PharmacyNetworkDisruptionAnalysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pharmacy --></label>
+        <name>Pharmacy__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- POS CDHP (WI Only) --></label>
+        <name>PosCdhpWiOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prime/GRID --></label>
+        <name>PrimeGrid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority Select HMO (CA ONLY) --></label>
+        <name>PrioritySelectHmoCaOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Private Exchange Solution --></label>
+        <name>PrivateExchangeSolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Solutions --></label>
+        <name>ProductivitySolutions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider Counts --></label>
+        <name>ProviderCounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider List --></label>
+        <name>ProviderList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>RequestType__c</name>
+        <picklistValues>
+            <masterLabel>Audit, Survey</masterLabel>
+            <translation><!-- Audit, Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Binders Only</masterLabel>
+            <translation><!-- Binders Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow-up Questions</masterLabel>
+            <translation><!-- Follow-up Questions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InterPlan</masterLabel>
+            <translation><!-- InterPlan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Analysis Only</masterLabel>
+            <translation><!-- Network Analysis Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFI</masterLabel>
+            <translation><!-- RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP</masterLabel>
+            <translation><!-- RFP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requestor Name --></label>
+        <name>RequestorName__c</name>
+    </fields>
+    <fields>
+        <help><!-- If quoting Rx; Please copy InternalRxRFP@wellpoint.com on the request and provide both the current and proposed Rx benefit design/copay information. --></help>
+        <label><!-- Rx Incumbent --></label>
+        <name>RxIncumbent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for data load, the CIP, and Open Enrollment processes that need to be maintained in the old Commercial ORG. --></help>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SR Group Medicare Advantage --></label>
+        <name>SRGroupMedicareAdvantage__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD --></label>
+        <name>STD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Select HMO Plus --></label>
+        <name>SelectHmoPlus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Select HMO --></label>
+        <name>SelectHmo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Select Vision --></label>
+        <name>SelectVision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions --></label>
+        <name>SpecialInstructions1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions --></label>
+        <name>SpecialInstructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Notes --></label>
+        <name>SpecialNotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specialty Sales Contact --></label>
+        <name>SpecialtySalesContact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specify Plan Blue Priority --></label>
+        <name>SpecifyPlanBluePriority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specify Plan HMOSlice --></label>
+        <name>SpecifyPlanHMOSlice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specify Plan HMO --></label>
+        <name>SpecifyPlanHMO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specify Plan POS --></label>
+        <name>SpecifyPlanPOS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specify Plan PPO --></label>
+        <name>SpecifyPlanPPO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specify Plan Pharma --></label>
+        <name>SpecifyPlansPharma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specify Plan(s) --></label>
+        <name>SpecifyPlans__c</name>
+    </fields>
+    <fields>
+        <label><!-- SR Group Medicare Adv w/ Rx --></label>
+        <name>SrGroupMedicareAdvWRx__c</name>
+    </fields>
+    <fields>
+        <label><!-- SR Group Part D - Rx Only --></label>
+        <name>SrGroupPartDRxOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Note: All individual plans are FI. --></help>
+        <label><!-- SR- Indiv Med Supp --></label>
+        <name>SrIndivMedSupp__c</name>
+    </fields>
+    <fields>
+        <help><!-- Note: All individual plans are FI. --></help>
+        <label><!-- SR- Indiv Medicare Adv w/Rx --></label>
+        <name>SrIndivMedicareAdv2WRx__c</name>
+    </fields>
+    <fields>
+        <help><!-- Note: All individual plans are FI. --></help>
+        <label><!-- SR- Indiv Medicare Adv --></label>
+        <name>SrIndivMedicareAdv__c</name>
+    </fields>
+    <fields>
+        <label><!-- SR-Indiv Part D - Rx Only --></label>
+        <name>SrIndivPartDRxOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard GeoAccess Parameters --></label>
+        <name>StandardGeoAccessParameters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stop-Loss --></label>
+        <name>StopLoss__c</name>
+    </fields>
+    <fields>
+        <help><!-- Are requirements or commitments regarding Supplier Diversity included as part of this proposal? --></help>
+        <label><!-- SupplierDiversityReqs --></label>
+        <name>SupplierDiversityReqs__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SupplierDiversityRisk --></label>
+        <name>SupplierDiversityRisk__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Today&apos;s Date --></label>
+        <name>TodayDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total # of Binders/CDs/Copies --></label>
+        <name>TotalOfBindersCdsCopies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transit: --></label>
+        <name>Transit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Plan --></label>
+        <name>TypeOfPlan__c</name>
+        <picklistValues>
+            <masterLabel>Employer Sponsored</masterLabel>
+            <translation><!-- Employer Sponsored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EyeMed Collaboration (Renewals Only)</masterLabel>
+            <translation><!-- EyeMed Collaboration (Renewals Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voluntary</masterLabel>
+            <translation><!-- Voluntary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type of Plan --></label>
+        <name>TypeofPlan1__c</name>
+        <picklistValues>
+            <masterLabel>Employer Sponsored</masterLabel>
+            <translation><!-- Employer Sponsored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voluntary</masterLabel>
+            <translation><!-- Voluntary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Underwriter --></label>
+        <name>Underwriter__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniView --></label>
+        <name>UniView__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniAccount --></label>
+        <name>Uniaccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniView Vision --></label>
+        <name>UniviewVision__c</name>
+    </fields>
+    <fields>
+        <help><!-- General Dentists (2 within 10 miles U/S; 1 within 25 miles R)
+Dental Specialists (2 within 10 miles U/S; 1 within 30 miles R) --></help>
+        <label><!-- Use Standard Dental Access --></label>
+        <name>UseStandardDentalAccess__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1 within 10 miles U; 1 within 20 miles S; 1 within 45 miles R --></help>
+        <label><!-- Use Standard EAP Access --></label>
+        <name>UseStandardEapAccess__c</name>
+    </fields>
+    <fields>
+        <help><!-- Medical Physicians (2 within 8 miles)
+Acute Care Hospitals (1 within 15 miles) --></help>
+        <label><!-- Use Standard Medical Access --></label>
+        <name>UseStandardMedicalAccess__c</name>
+    </fields>
+    <fields>
+        <help><!-- 2 within 8 miles U --></help>
+        <label><!-- Use Standard Pharmacy Access --></label>
+        <name>UseStandardPharmacyAccess__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1 within 10 miles U/S; 1 within 20 miles R --></help>
+        <label><!-- Use Standard Vision Access --></label>
+        <name>UseStandardVisionAccess__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1 within 3 miles U; 1 within 5 miles S; 1 within 10 miles R --></help>
+        <label><!-- Use U/S/R Pharmacy Access --></label>
+        <name>UseUSRPharmacyAccess__c</name>
+    </fields>
+    <fields>
+        <label><!-- User ID/Password --></label>
+        <name>UserIdPassword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Disruption Analysis --></label>
+        <name>VisionDisruptionAnalysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Incumbent --></label>
+        <name>VisionIncumbent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision --></label>
+        <name>Vision__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vivity (CA ONLY) --></label>
+        <name>VivityCaOnlyMedical__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vol AD&amp;D --></label>
+        <name>VolAdAndD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vol LTD --></label>
+        <name>VolLTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vol Life/AD&amp;D --></label>
+        <name>VolLifeAdAndD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vol STD --></label>
+        <name>VolSTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- WGS --></label>
+        <name>WGS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Well Priority (WI Only) --></label>
+        <name>WellPriorityWiOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Well Priority CDHP (WI Only) --></label>
+        <name>WellpriorityCdhpWiOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- What are our strengths /weaknesses (perceived or otherwise) versus the in-force and other bidding carriers? --></help>
+        <label><!-- What are our strengths/weaknesses? --></label>
+        <name>WhatAreOurStrengthsWeaknesses__c</name>
+    </fields>
+    <fields>
+        <label><!-- What is NCN percent? --></label>
+        <name>WhatIsNcnPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- What is their COB? --></label>
+        <name>WhatIsTheirCob__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is your strategy for winning this case? --></help>
+        <label><!-- What is your strategy for this case? --></label>
+        <name>WhatIsYourStrategyForThisCase__c</name>
+    </fields>
+    <fields>
+        <help><!-- What method (email, tape, hardcopy, file transfer) does the customer use for eligibility files? --></help>
+        <label><!-- What method does the customer use? --></label>
+        <name>WhatMethodDoesTheCustomerUse__c</name>
+    </fields>
+    <fields>
+        <help><!-- What service center and claims office handle this account? --></help>
+        <label><!-- What service center and claims office? --></label>
+        <name>WhatServiceCenterAndClaimsOffice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Which clinical/wellness programs does this client have in place? --></help>
+        <label><!-- Which programs does the client have? --></label>
+        <name>WhichProgramsDoesTheClientHave__c</name>
+    </fields>
+    <fields>
+        <label><!-- WI - Blue Preferred POS --></label>
+        <name>WiBluePreferredPos1__c</name>
+    </fields>
+    <fields>
+        <label><!-- WI - Blue Preferred POS --></label>
+        <name>WiBluePreferredPos__c</name>
+    </fields>
+    <fields>
+        <label><!-- WI - Blue Priority --></label>
+        <name>WiBluePriority2__c</name>
+    </fields>
+    <fields>
+        <label><!-- WI - Blue Priority --></label>
+        <name>WiBluePriority__c</name>
+    </fields>
+    <fields>
+        <label><!-- WIN Fertility --></label>
+        <name>WinFertility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Worksite Wellness --></label>
+        <name>WorksiteWellnessCheckbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip Code Service Area --></label>
+        <name>ZipCodeServiceArea__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Generate_ARF --></label>
+        <name>Generate_ARF</name>
+    </webLinks>
+</CustomObjectTranslation>

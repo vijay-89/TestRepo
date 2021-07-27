@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>State mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>State mappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Jira Sales Market --></label>
+        <name>Jira_Sales_Market__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC AnthemEntity --></label>
+        <name>SFDC_AnthemEntity__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC ClaimSystem --></label>
+        <name>SFDC_ClaimSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC JAAIndicator --></label>
+        <name>SFDC_JAAIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Region --></label>
+        <name>SFDC_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC SitusState --></label>
+        <name>SFDC_SitusState__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

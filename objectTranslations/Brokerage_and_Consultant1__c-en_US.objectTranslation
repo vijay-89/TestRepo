@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Brokerage and Consultant</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Brokerage and Consultant</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account City --></label>
+        <name>Account_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account State --></label>
+        <name>Account_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Brokerage and Consultant (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BrokName --></label>
+        <name>BrokName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Role --></label>
+        <name>Broker_Role__c</name>
+        <picklistValues>
+            <masterLabel>Account Exec</masterLabel>
+            <translation><!-- Account Exec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Manager</masterLabel>
+            <translation><!-- Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analyst</masterLabel>
+            <translation><!-- Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assistant</masterLabel>
+            <translation><!-- Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker of Record</masterLabel>
+            <translation><!-- Broker of Record --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co Broker</masterLabel>
+            <translation><!-- Co Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct</masterLabel>
+            <translation><!-- Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former Broker</masterLabel>
+            <translation><!-- Former Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Agent</masterLabel>
+            <translation><!-- General Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Manager</masterLabel>
+            <translation><!-- Marketing Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Rep</masterLabel>
+            <translation><!-- Service Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soliciting Broker</masterLabel>
+            <translation><!-- Soliciting Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Writing Agent</masterLabel>
+            <translation><!-- Writing Agent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Broker Tax ID --></label>
+        <name>Broker_Tax_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brokerage/Consultant --></label>
+        <name>BrokerageAndConsultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brokerage Address --></label>
+        <name>Brokerage_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brokerage City --></label>
+        <name>Brokerage_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brokerage&amp;Consultant --></label>
+        <name>Brokerage_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brokerage Effective Date --></label>
+        <name>Brokerage_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brokerage End Date --></label>
+        <name>Brokerage_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brokerage Role --></label>
+        <name>Brokerage_Role__c</name>
+        <picklistValues>
+            <masterLabel>Broker of Record</masterLabel>
+            <translation><!-- Broker of Record --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brokerage</masterLabel>
+            <translation><!-- Brokerage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Broker</masterLabel>
+            <translation><!-- Co-Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultancy</masterLabel>
+            <translation><!-- Consultancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct</masterLabel>
+            <translation><!-- Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former Broker</masterLabel>
+            <translation><!-- Former Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Agency</masterLabel>
+            <translation><!-- General Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Producer</masterLabel>
+            <translation><!-- Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soliciting Broker</masterLabel>
+            <translation><!-- Soliciting Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TPA</masterLabel>
+            <translation><!-- TPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trustee</masterLabel>
+            <translation><!-- Trustee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Brokerage State --></label>
+        <name>Brokerage_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brokerage Zip Code --></label>
+        <name>Brokerage_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brokerage --></label>
+        <name>Brokerage__c</name>
+        <relationshipLabel><!-- Brokerage and Consultant (Brokerage) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is the Brokerage of Record for this Account --></help>
+        <label><!-- BOR --></label>
+        <name>Brokerage_of_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commissions Paid to Agent or Agency --></label>
+        <name>Commissions_Paid_to_Agent_or_Agency__c</name>
+        <picklistValues>
+            <masterLabel>Agency</masterLabel>
+            <translation><!-- Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent</masterLabel>
+            <translation><!-- Agent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Consultant Effective Date --></label>
+        <name>ConsultantEffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant End Date --></label>
+        <name>ConsultantEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Effective Date --></label>
+        <name>Consultant_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Email --></label>
+        <name>Consultant_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant End Date --></label>
+        <name>Consultant_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Inactive --></label>
+        <name>Consultant_Inactive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Consultant of Record for the Account --></help>
+        <label><!-- Consultant Name --></label>
+        <name>Consultant_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Phone --></label>
+        <name>Consultant_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant Title --></label>
+        <name>Consultant_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Consultant must be a Contact on the selected Brokerage. --></help>
+        <label><!-- Consultant --></label>
+        <lookupFilter>
+            <errorMessage><!-- Please select an Active Consultant from the specified Brokerage Account. --></errorMessage>
+        </lookupFilter>
+        <name>Consultant__c</name>
+        <relationshipLabel><!-- Brokerage and Consultant --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Consultant of Record for the Account --></help>
+        <label><!-- COR --></label>
+        <name>Consultant_of_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>Created_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Specialty Group Ranking --></label>
+        <name>Current_Specialty_Group_Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- ELBAC --></label>
+        <name>ELBAC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modified By --></label>
+        <name>Last_Modified_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line of Business --></label>
+        <name>Line_of_Business__c</name>
+        <picklistValues>
+            <masterLabel>AIM</masterLabel>
+            <translation><!-- AIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits Admin</masterLabel>
+            <translation><!-- Benefits Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expatriate</masterLabel>
+            <translation><!-- Expatriate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMLA</masterLabel>
+            <translation><!-- FMLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health &amp; Wellness</masterLabel>
+            <translation><!-- Health &amp; Wellness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD</masterLabel>
+            <translation><!-- LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life</masterLabel>
+            <translation><!-- Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation><!-- Medicare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STD</masterLabel>
+            <translation><!-- STD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stop Loss</masterLabel>
+            <translation><!-- Stop Loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Line of Business --></label>
+        <name>LineofBusiness__c</name>
+        <relationshipLabel><!-- Brokerage and Consultant --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Medical Brokerage Ranking --></label>
+        <name>Medical_Brokerage_Ranking__c</name>
+        <picklistValues>
+            <masterLabel>Tier 1</masterLabel>
+            <translation><!-- Tier 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 2</masterLabel>
+            <translation><!-- Tier 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 3</masterLabel>
+            <translation><!-- Tier 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NPN Number --></label>
+        <name>NPN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name Of Consultant --></label>
+        <name>Name_Of_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of Brokerage --></label>
+        <name>Name_of_Brokerage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Brokerage and Consultant --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used for data load, the CIP, and Open Enrollment processes that need to be maintained in the old Commercial ORG. --></help>
+        <label><!-- SFDCLegacyID --></label>
+        <name>SFDCLegacyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send EOC --></label>
+        <name>Send_EOC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specialty Broker Program --></label>
+        <name>Specialty_Broker_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax ID For Commission Payment --></label>
+        <name>Tax_ID_For_Commission_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax ID --></label>
+        <name>Tax_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- WGS Broker Number --></label>
+        <name>WGS_Broker_Number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The Consultant cannot be modified due to an associated Brokerage/Consultant Commission --></errorMessage>
+        <name>ANA_VR_BRKConsultant01NameChangeError</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please use the same Account that the Opportunity is related to. --></errorMessage>
+        <name>BRKConsultant_DifferentAccountError</name>
+    </validationRules>
+</CustomObjectTranslation>

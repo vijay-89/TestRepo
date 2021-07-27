@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Employee Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Employee Status</value>
+    </caseValues>
+    <fields>
+        <help><!-- Employee Status Description --></help>
+        <label><!-- Byte 3 Descirption --></label>
+        <name>Byte_3_Descirption__c</name>
+    </fields>
+    <fields>
+        <help><!-- Employee Status Byte --></help>
+        <label><!-- Byte 3 --></label>
+        <name>Byte_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Number --></label>
+        <name>Group_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <relationshipLabel><!-- Employee Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <relationshipLabel><!-- Employee Status --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
