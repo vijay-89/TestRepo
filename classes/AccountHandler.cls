@@ -1,4 +1,4 @@
-//Modified by Vijay-30th July 2021.
+//Modified by 30th July 2021.
 public class AccountHandler {
 public static Account insertNewAccount()
 {
