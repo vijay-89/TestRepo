@@ -1,6 +1,0 @@
-Dear {!Internal_Commission__c.Director_Sales_AM__c},
-
-The Incentive Comp Request for {!Internal_Commission__c.Account_Legal_Name__c} Account has been in stage  {!Internal_Commission__c.Commissions_Approval_Status__c} for 48 hours.
-
-Please click the following link to view details :
-{!Internal_Commission__c.Link}

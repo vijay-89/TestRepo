@@ -1,1 +1,0 @@
-<apex:page standardController="Opportunity" rendered="{!Opportunity.CloseDate=TODAY()}"><script type="text/javascript"> { window.alert ("Effective Date is today. Please confirm this choice"); } </script> </apex:page>

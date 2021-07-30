@@ -1,3 +1,0 @@
-<aura:component access="global" implements="force:lightningQuickAction,force:hasRecordId,flexipage:availableForAllPageTypes" >
-	<ui:button label="Send Case Email" press="{!c.openActionWindow}"/>
-</aura:component>

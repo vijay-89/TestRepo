@@ -1,3 +1,0 @@
-<p>
-Hello.  Please be advised that National Account {!Implementation_Coordinator__c.AccountLegalNameForWF1__c} is currently undergoing an Off Cycle Change under Implementation Case {!Implementation_Coordinator__c.Implementation_Record_ID__c} in which the Group Structure has been changed and may impact incentive setups.  This change is effective {!Implementation_Coordinator__c.Implementation_Effective_Date__c}. Please review the updated version of the Group Structure, which is located on the National Implementation Center SharePoint site.  Thank you.
-</p>

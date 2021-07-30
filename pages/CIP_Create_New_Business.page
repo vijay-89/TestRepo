@@ -1,3 +1,0 @@
-<apex:page standardController="Quote" extensions="CIP_UI_Event_Handler" action="{!NavigateToCIP}" >
-<apex:pageMessages ></apex:pageMessages>
-</apex:page>

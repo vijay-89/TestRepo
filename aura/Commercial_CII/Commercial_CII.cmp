@@ -1,3 +1,0 @@
-<aura:component implements="force:lightningQuickAction,force:appHostable,flexipage:availableForAllPageTypes">
-	<ui:button label="Launch CII Discover" press="{!c.openActionWindow}"/>
-</aura:component>
