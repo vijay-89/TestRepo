@@ -1,0 +1,44 @@
+<apex:page id="thePage" standardcontroller="Student__c" extensions="MarksUpdate">
+ <apex:form >
+     
+    <apex:tabPanel switchType="client" selectedTab="name2" id="theTabPanel">
+        
+        
+      <apex:tab label="Student" id="tabOne">
+        <apex:pageBlock >
+        
+        <apex:pageBlockSection >        
+        <apex:pageBlockTable value="{!StudentTable}" var="ST" title="STudent Records" id="PBTable">
+        <apex:column value="{!ST.Name }"/> 
+        <apex:inlineEditSupport event="ondblClick" showOnEdit="saveButton,cancelButton" hideOnEdit="editButton" />      
+        </apex:pageBlockTable>
+        </apex:pageBlockSection>
+        
+        
+        <apex:pageBlockSection title="New Student" id="PBTable1">
+        Name<apex:inputField value="{!stu.name}" required="true"/>
+        S1<apex:Inputtext value="{!marks1}"/>
+        S2<apex:Inputtext value="{!marks2}"/>  
+        </apex:pageBlockSection>
+        
+        <apex:pageblockButtons >
+              <apex:commandButton value="Save" action="{!SaveAccount}" rerender="PBTable1,PBTable,PBTable2"/>
+          </apex:pageblockButtons>
+       
+        
+        </apex:pageBlock>
+      </apex:tab>
+     <apex:messages title="enter name"/>   
+        
+     <apex:tab label="Marks" id="tabTwo">
+        <apex:pageBlock >
+        <apex:pageBlockTable value="{!MarkTable}" var="MT" title="STudent Records" id="PBTable2">
+        <apex:column value="{!MT.StudentName__c }"/>
+        <apex:column value="{!MT.Result__c}"/>
+        </apex:pageBlockTable>
+        </apex:pageBlock>
+     </apex:tab>
+        
+    </apex:tabPanel>
+ </apex:form>
+</apex:page>

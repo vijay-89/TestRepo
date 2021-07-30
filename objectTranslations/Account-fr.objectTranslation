@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Count --></label>
+        <name>Contact_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Match Billing Address --></label>
+        <name>Match_Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pan Number --></label>
+        <name>Pan_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Of Salesforce Environments --></label>
+        <name>Picklist_Value_1__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If checked, this account is flagged for Privacy Law regulations. --></help>
+        <label><!-- Is Privacy Law Enabled --></label>
+        <name>QIDC__OK_MDM_Is_Privacy_Law_Enabled_IMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- OneKeyId --></label>
+        <name>QIDC__OneKeyId_IMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent OneKey ID --></label>
+        <name>QIDC__ParentOneKeyID_IMS__c</name>
+    </fields>
+    <fields>
+        <help><!-- WeChat OpenId --></help>
+        <label><!-- WeChat OpenId --></label>
+        <name>QIDC__WeChat_OpenId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Field 2 --></label>
+        <name>Test_Field_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Field --></label>
+        <name>Test_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Contacts --></label>
+        <name>Total_Contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account (Marketing) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Sales) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- RecordType1 --></label>
+        <name>RecordType1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordType2 --></label>
+        <name>RecordType2</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+</CustomObjectTranslation>

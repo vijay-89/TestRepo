@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mark</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Marks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Result --></label>
+        <name>Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student --></label>
+        <name>StudentName__c</name>
+        <relationshipLabel><!-- Marks --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

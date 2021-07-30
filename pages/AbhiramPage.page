@@ -1,0 +1,17 @@
+<apex:page standardController="Account" sidebar="false">
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Accounts" columns="1" collapsible="true">
+            <apex:detail relatedList="false"/>
+            <apex:pageBlockTable value="{!Account}" var="a">
+                <apex:column value="{!a.Name}"/>
+              
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>        
+        <apex:pageBlockSection title="Contacts" columns="3" collapsible="false">
+            <apex:relatedList list="contacts"/>
+            <apex:relatedList list="cases"/>
+            <apex:relatedList list="opportunities"/>
+  
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

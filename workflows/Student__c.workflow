@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>testing</fullName>
+        <description>testing</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>insightssecurity@00d280000018ywmeau.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>integration@00d280000018ywmeau.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>kumar.k495@yahoo.in</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>user11111@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>user222222@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>user2233322@email.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/MarketingProductInquiryResponse</template>
+    </alerts>
+</Workflow>

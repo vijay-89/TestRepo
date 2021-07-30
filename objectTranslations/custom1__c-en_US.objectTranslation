@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>custom1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>custom1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- License Number --></label>
+        <name>License_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pan Number --></label>
+        <name>Pan_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trail --></label>
+        <name>Trail__c</name>
+        <relationshipLabel><!-- custom1s --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
