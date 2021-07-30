@@ -1,5 +1,5 @@
 public class AccountList {
-
+//modified 30th july
      public List<Account> accList {get;set;}
     public Account acc{get;set;}
     
